@@ -218,5 +218,27 @@
     "raw_snippet": "OpenAI rolled out updated versions of the Box, Notion, Linear, and Dropbox apps within ChatGPT, adding new write capabilities and improved integration experiences. These enterprise-focused app updates expand ChatGPT's ability to directly create and modify content in connected business tools beyond read-only access.",
     "confidence": "medium",
     "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Adds Plugins Directory to Codex for Packaged Workflows with Skills, Apps, and MCP Servers",
+    "date": "2026-03-26",
+    "url": "https://developers.openai.com/codex/plugins/",
+    "source_name": "OpenAI Developers",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI launched a plugins directory for Codex that bundles reusable workflows combining skills, app integrations (GitHub, Slack, Google Drive), and MCP servers. Users can browse and install plugins through the Codex app or CLI, invoking them via natural language or the @ symbol. The plugin ecosystem formalizes a distribution model for OpenAI's coding agent product.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "gap_check_sourced": true
+  },
+  {
+    "headline": "Legacy GPT-4 API Preview Snapshots Reach Shutdown Date as OpenAI Pushes Developers to GPT-5",
+    "date": "2026-03-26",
+    "url": "https://developers.openai.com/api/docs/deprecations",
+    "source_name": "OpenAI Developers",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "Three legacy GPT-4 model snapshots — gpt-4-0314, gpt-4-1106-preview, and gpt-4-0125-preview (including gpt-4-turbo-preview aliases) — were shut down on March 26. OpenAI directed developers to migrate to gpt-5 or gpt-4.1 variants, marking the final end of original GPT-4 preview-era API access.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "gap_check_sourced": true
   }
 ]

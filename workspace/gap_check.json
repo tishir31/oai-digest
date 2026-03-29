@@ -1,0 +1,47 @@
+[
+  {
+    "headline": "ChatGPT updates Box, Notion, Linear, and Dropbox apps with new actions including write capabilities",
+    "date": "2026-03-27",
+    "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+    "source_name": "OpenAI Help Center",
+    "category": "Product Launches & Updates",
+    "why_missed": "This is a same-week official product rollout that materially expands ChatGPT's enterprise app integration layer, including write actions for supported apps, and it is not reflected elsewhere in the digest.",
+    "confidence": "high"
+  },
+  {
+    "headline": "OpenAI adds a plugins directory to Codex for packaged workflows built from skills, apps, and MCP servers",
+    "date": "2026-03-26",
+    "url": "https://developers.openai.com/codex/plugins/",
+    "source_name": "OpenAI Developers",
+    "category": "Product Launches & Updates",
+    "why_missed": "The digest covers consumer ChatGPT changes but misses this official Codex distribution update, which matters because it formalizes a reusable plugin ecosystem for OpenAI's coding agent product.",
+    "confidence": "high"
+  },
+  {
+    "headline": "ChatGPT unifies Google Docs, Sheets, and Slides connectors under a single Google Drive app",
+    "date": "2026-03-25",
+    "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+    "source_name": "OpenAI Help Center",
+    "category": "Product Launches & Updates",
+    "why_missed": "This is a same-week integration change that simplifies enterprise file workflows in ChatGPT and likely slipped through because it appeared only in release notes rather than mainstream press coverage.",
+    "confidence": "high"
+  },
+  {
+    "headline": "ChatGPT begins converting long pasted text into attachments for paid users",
+    "date": "2026-03-25",
+    "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+    "source_name": "OpenAI Help Center",
+    "category": "Product Launches & Updates",
+    "why_missed": "This is a smaller but real same-week product change affecting context management and document workflows for Plus, Pro, and Business users, and it is absent from the digest.",
+    "confidence": "medium"
+  },
+  {
+    "headline": "Legacy GPT-4 API preview snapshots reach shutdown date as OpenAI pushes developers to GPT-5 and GPT-4.1",
+    "date": "2026-03-26",
+    "url": "https://developers.openai.com/api/docs/deprecations",
+    "source_name": "OpenAI Developers",
+    "category": "Technical Research / Model Releases",
+    "why_missed": "The digest includes Sora shutdown coverage but misses this same-week API model lifecycle event, which is relevant to developers and enterprise users relying on older GPT-4 preview snapshots.",
+    "confidence": "medium"
+  }
+]

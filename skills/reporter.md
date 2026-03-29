@@ -46,8 +46,50 @@ Write results to workspace/raw_items.json as a JSON array. Each item:
   "gmail_sourced": false
 }
 
+## Gmail Safety Net Pass (Final Step)
+
+After completing ALL web searches above, perform one final check using Gmail:
+
+1. Search Gmail for emails from the past week mentioning "OpenAI"
+2. When reviewing emails from these sources, ONLY extract factual news items, NOT their analysis or commentary:
+   - Stratechery / Ben Thompson — often contains news mixed with analysis. Extract the news facts, ignore the "what this means" sections.
+   - Platformer / Casey Newton — same approach, news facts only
+   - The Information — has breaking scoops worth capturing, but skip their analysis paragraphs
+   - Any newsletter that mixes news reporting with opinion
+3. EXCLUDE entirely:
+   - Marketing emails or promotional content
+   - Automated alerts with no editorial content
+   - Emails that are purely opinion with no new factual information
+4. For each email that contains genuine OpenAI NEWS:
+   - Check if the story is already in raw_items.json
+   - If NOT already captured, find the ORIGINAL source (not the email itself)
+   - Add to raw_items.json with gmail_sourced: true and link to the original source
+5. If Gmail surfaces nothing new, that's fine — it means web search was thorough
+
+Gmail is a SAFETY NET. Never start here. Never get lazy and pull everything from email. The web search pass must be exhaustive first.
+
 ## Quality Notes
 - Include everything notable — let the Curator cut
 - When in doubt about whether something is OpenAI-specific, include it
 - Prefer the most authoritative source for each story
 - If you find the same story from multiple sources, include only the best one at this stage (Curator will handle remaining dedup)
+
+## Retry Mode
+
+When invoked in Retry Mode, you are fixing items that failed fact-checking — NOT doing a fresh search.
+
+### Input
+- Read `workspace/retry_items.json` — these are items with broken URLs or content mismatches
+- Each item includes `rejection_reason` explaining what went wrong
+
+### Instructions
+1. For each item in retry_items.json:
+   - If `rejection_reason` contains "HTTP 404": the URL is dead. Search for the same story from another authoritative source. Replace the `url` and `source_name` fields.
+   - If `rejection_reason` contains "Content does not match headline": the URL exists but doesn't cover the story described. Find the correct URL for this specific story, or find an alternative source.
+2. Verify each replacement URL is live before including it (use WebFetch).
+3. Update the item in `workspace/raw_items.json` with the corrected URL and source.
+4. Do NOT add new items, remove items, or change headlines/dates/categories — only fix URLs.
+
+### Output
+- Update `workspace/raw_items.json` in place with corrected URLs
+- Print a summary of what was fixed and what could not be resolved
