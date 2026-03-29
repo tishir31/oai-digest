@@ -1,0 +1,23 @@
+[
+  {
+    "headline": "OpenAI Removes Legacy Deep Research Mode from ChatGPT",
+    "date": "2026-03-26",
+    "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+    "source_name": "OpenAI Help Center",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI deprecated the legacy deep research mode, the original o3-based version launched in February 2025 that could browse the web for 5-30 minutes and scan hundreds of sources. The current deep research experience running on GPT-5.2, upgraded in February 2026, remains unchanged. Historical conversations and results stay accessible.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "curated": true,
+    "rank_within_category": null,
+    "staleness_flag": false,
+    "curator_notes": "Solid IB relevance.",
+    "cut_reason": null,
+    "verified": false,
+    "url_status": 403,
+    "freshness_status": "new",
+    "historical_match": null,
+    "verification_notes": "URL returned 403 \u2014 likely bot protection, manual verification recommended",
+    "rejection_reason": "Duplicate URL"
+  }
+]
