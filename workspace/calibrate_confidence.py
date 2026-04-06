@@ -82,6 +82,7 @@ def main():
 
     # Check calibration quality
     high = confidence_stats["high"]
+    medium = confidence_stats["medium"]
     low = confidence_stats["low"]
     well_calibrated = True
 
@@ -94,8 +95,23 @@ def main():
             well_calibrated = False
         else:
             print("✅ Confidence scores are directionally correct (high > low survival rate).")
-    elif high["total"] > 0 and low["total"] == 0:
-        print("ℹ️  No low-confidence items to compare against. Can't fully assess calibration.")
+    elif high["total"] > 0 and medium["total"] > 0 and low["total"] == 0:
+        high_survival = high["survived_verification"] / high["total"]
+        medium_survival = medium["survived_verification"] / medium["total"]
+        if high_survival < medium_survival:
+            print("⚠️  MISCALIBRATED: Medium-confidence items survive better than high-confidence.")
+            print("    The Reporter's confidence scoring needs tuning.")
+            well_calibrated = False
+        else:
+            print("ℹ️  No low-confidence items. Limited calibration check (high vs medium only).")
+            if high["total"] / len(raw) > 0.85:
+                print(f"⚠️  OVERCONFIDENT: {high['total']}/{len(raw)} items rated high ({high['total']/len(raw)*100:.0f}%).")
+                print("    Reporter should use the full high/medium/low range for useful discrimination.")
+                well_calibrated = False
+    elif high["total"] > 0 and medium["total"] == 0 and low["total"] == 0:
+        print("⚠️  NO SPREAD: All items rated high. Confidence field is useless.")
+        print("    Reporter should use medium for single-source items, low for unconfirmed.")
+        well_calibrated = False
 
     # Save to calibration log
     log_path = "workspace/calibration_log.json"

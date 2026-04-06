@@ -1,0 +1,106 @@
+[
+  {
+    "run_id": "2026-W13_mar22-28",
+    "week": "2026-03-22 to 2026-03-28",
+    "run_date": "2026-03-29",
+    "steps": {
+      "reporter": {
+        "engine": "Claude Code",
+        "items_produced": 17,
+        "source_types_used": ["official_blog", "tech_press", "wire_service", "developer_docs"],
+        "gmail_sourced_count": 0
+      },
+      "curator": {
+        "engine": "Gemini 3.1 Pro (Antigravity)",
+        "items_in": 17,
+        "items_kept": 17,
+        "items_cut": 0,
+        "cut_reasons": {}
+      },
+      "fact_checker": {
+        "engine": "Python scripts",
+        "items_in": 17,
+        "items_verified": 17,
+        "items_rejected": 0,
+        "url_200_count": 11,
+        "url_403_count": 6,
+        "url_other_count": 0
+      },
+      "editor_in_chief": {
+        "engine": "Gemini 3.1 Pro (Antigravity)",
+        "items_in_digest": 17,
+        "historical_dedup_annotations": 0,
+        "categories_covered": 6
+      },
+      "gap_checker": {
+        "engine": null,
+        "status": "not_run"
+      },
+      "confidence_calibration": {
+        "status": "not_run"
+      }
+    },
+    "notes": "First pipeline run. No historical log existed yet so no dedup was possible."
+  },
+  {
+    "run_id": "2026-W14_mar31-apr05",
+    "week": "2026-03-31 to 2026-04-05",
+    "run_date": "2026-04-06",
+    "steps": {
+      "reporter": {
+        "engine": "Claude Code",
+        "items_produced": 17,
+        "confidence_breakdown": {"high": 16, "medium": 1, "low": 0},
+        "source_types_used": ["official_blog", "tech_press", "wire_service", "developer_docs"],
+        "source_type_counts": {"official_blog": 5, "tech_press": 8, "wire_service": 3, "developer_docs": 1},
+        "gmail_sourced_count": 0
+      },
+      "curator": {
+        "engine": "Gemini 3.1 Pro (Antigravity)",
+        "items_in": 17,
+        "items_kept": 11,
+        "items_cut": 6,
+        "cut_reasons": {"clustered_with_primary": 6},
+        "clusters_formed": 3,
+        "source_diversity_warning": null,
+        "items_with_corroboration_2plus": 3
+      },
+      "fact_checker": {
+        "engine": "Python scripts (fact_check_urls.py + post_checks.py)",
+        "items_in": 11,
+        "items_verified": 11,
+        "items_rejected": 0,
+        "rejection_reasons": {},
+        "url_200_count": 6,
+        "url_403_count": 5,
+        "url_other_count": 0,
+        "retry_cycles": 0
+      },
+      "editor_in_chief": {
+        "engine": "Gemini 3.1 Pro (Antigravity)",
+        "items_in_digest": 11,
+        "historical_dedup_annotations": 2,
+        "widely_reported_tags": 2,
+        "categories_covered": 6
+      },
+      "gap_checker": {
+        "engine": null,
+        "status": "skipped",
+        "reason": "Antigravity orchestrator did not trigger this step"
+      },
+      "confidence_calibration": {
+        "status": "ran_manually",
+        "well_calibrated": false,
+        "issue": "16/17 items rated high (94%). Medium items survived better than high."
+      }
+    },
+    "fixes_applied": [
+      "Moved source_diversity object out of curated_items array into source_diversity_report.json",
+      "Fixed Codex corroborating_urls self-reference",
+      "Fixed 'shot down' to 'rejected' in digest HTML",
+      "Fixed calibrate_confidence.py to detect overconfidence",
+      "Reordered digest categories: Financials first for IB audience"
+    ],
+    "notes": "First run with pipeline enhancements (source diversity, temporal clustering, historical dedup, confidence calibration). Gap Checker skipped — workflow file needs update."
+  }
+]

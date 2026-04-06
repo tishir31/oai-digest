@@ -1,0 +1,11 @@
+{
+  "run_week": "2026-03-31 to 2026-04-05",
+  "source_type_counts": {
+    "official_blog": 3,
+    "tech_press": 5,
+    "wire_service": 2,
+    "developer_docs": 1
+  },
+  "unique_outlets": 6,
+  "diversity_warning": null
+}

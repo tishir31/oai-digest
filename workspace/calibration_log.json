@@ -1,0 +1,74 @@
+[
+  {
+    "run_date": "2026-04-06T13:55:17.414996",
+    "raw_count": 17,
+    "curated_count": 11,
+    "verified_count": 11,
+    "confidence_stats": {
+      "high": {
+        "total": 16,
+        "survived_curation": 7,
+        "survived_verification": 7
+      },
+      "medium": {
+        "total": 1,
+        "survived_curation": 1,
+        "survived_verification": 1
+      },
+      "low": {
+        "total": 0,
+        "survived_curation": 0,
+        "survived_verification": 0
+      }
+    },
+    "well_calibrated": true
+  },
+  {
+    "run_date": "2026-04-06T14:49:10.147786",
+    "raw_count": 17,
+    "curated_count": 11,
+    "verified_count": 11,
+    "confidence_stats": {
+      "high": {
+        "total": 16,
+        "survived_curation": 7,
+        "survived_verification": 7
+      },
+      "medium": {
+        "total": 1,
+        "survived_curation": 1,
+        "survived_verification": 1
+      },
+      "low": {
+        "total": 0,
+        "survived_curation": 0,
+        "survived_verification": 0
+      }
+    },
+    "well_calibrated": true
+  },
+  {
+    "run_date": "2026-04-06T15:38:46.537297",
+    "raw_count": 17,
+    "curated_count": 11,
+    "verified_count": 11,
+    "confidence_stats": {
+      "high": {
+        "total": 16,
+        "survived_curation": 7,
+        "survived_verification": 7
+      },
+      "medium": {
+        "total": 1,
+        "survived_curation": 1,
+        "survived_verification": 1
+      },
+      "low": {
+        "total": 0,
+        "survived_curation": 0,
+        "survived_verification": 0
+      }
+    },
+    "well_calibrated": false
+  }
+]
