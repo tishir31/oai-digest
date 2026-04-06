@@ -1,0 +1,26 @@
+{
+  "verdict": "sufficient",
+  "curated_count": 11,
+  "coverage_floor": 7,
+  "categories_covered": 6,
+  "category_counts": {
+    "Earnings / Financials / Fundraising": 3,
+    "Partnerships & Deals": 1,
+    "Product Launches & Updates": 3,
+    "Technical Research / Model Releases": 1,
+    "Key Hires / Departures": 1,
+    "Regulatory & Policy": 2
+  },
+  "empty_categories": [],
+  "thin_categories": [
+    "Partnerships & Deals",
+    "Key Hires / Departures",
+    "Technical Research / Model Releases"
+  ],
+  "cut_summary": {
+    "clustering": 6,
+    "quality": 0,
+    "other": 0
+  },
+  "backfill_instructions": null
+}
