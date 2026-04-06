@@ -40,11 +40,24 @@ Write results to workspace/raw_items.json as a JSON array. Each item:
   "date": "YYYY-MM-DD (date the event happened, NOT publication date)",
   "url": "string (direct link to the source)",
   "source_name": "string (e.g. Reuters, TechCrunch)",
+  "source_type": "string (one of: official_blog, press_release, wire_service, tech_press, regulatory_filing, research_preprint, developer_docs, social_media, other)",
   "category": "string (one of the six categories)",
   "raw_snippet": "string (2-3 sentence excerpt from the source)",
   "confidence": "high | medium | low",
   "gmail_sourced": false
 }
+
+### Source Type Classification
+Assign exactly one source_type per item:
+- **official_blog**: Posts on openai.com/blog, openai.com/index, or official company pages
+- **press_release**: Formal press releases from OpenAI or partner companies
+- **wire_service**: Reuters, Bloomberg, AP, AFP
+- **tech_press**: TechCrunch, The Verge, Ars Technica, WSJ, NYT, The Information, etc.
+- **regulatory_filing**: SEC filings, FTC documents, court filings
+- **research_preprint**: arXiv papers, technical reports
+- **developer_docs**: GitHub releases, changelogs, API documentation updates
+- **social_media**: X/Twitter posts, LinkedIn announcements (use sparingly)
+- **other**: Anything that doesn't fit the above
 
 ## Gmail Safety Net Pass (Final Step)
 

@@ -37,8 +37,29 @@ Four agents with distinct roles, running across multiple models:
 - Editor-in-Chief is sole committer to output/ — all others propose, only Chief commits
 - Multi-model reduces correlated hallucinations (Reporter and Fact-Checker must use different model families)
 - Gmail is a SAFETY NET source for Reporter — search web first, check email last, exclude analysis newsletters, always link to original source
-- Historical log (workspace/historical_log.json) tracks past digests for stale news detection
+- Historical log (workspace/historical_log.json) tracks past digests — Editor-in-Chief MUST diff against last 4 weeks before including any item
 - Target: all notable items (no forced minimum, but exhaustive search)
+
+## Pipeline Enhancements (April 2026)
+
+### Source Diversity Scoring
+- Reporter tags each item with source_type (official_blog, press_release, wire_service, tech_press, regulatory_filing, research_preprint, developer_docs, social_media, other)
+- Curator checks source_type distribution and flags if >60% from one type or no official sources found
+
+### Temporal Clustering
+- Curator groups items covering the same event, keeps best source as primary
+- Adds corroboration_count and corroborating_urls to each primary item
+- Items with 3+ independent sources get a rank boost
+
+### Historical Dedup (Active)
+- Editor-in-Chief reads historical_log.json and rejects items that were already covered in prior 4 weeks
+- Genuinely new info about a previously covered topic gets historical_context annotation
+- This is the most important quality gate
+
+### Confidence Calibration
+- Run workspace/calibrate_confidence.py after each pipeline run
+- Tracks whether Reporter's confidence scores actually predict survival through the pipeline
+- Saves calibration data to workspace/calibration_log.json for trend tracking
 
 ## Categories (in display order)
 1. Product Launches & Updates
@@ -50,15 +71,14 @@ Four agents with distinct roles, running across multiple models:
 
 ## Current Status
 - Phase 1 (Scaffold): DONE
-- Phase 2 (Reporter): DONE — Claude Code with web search
-- Phase 3 (Curator): DONE — Gemini in Antigravity
+- Phase 2 (Reporter): DONE — Claude Code with web search + source_type tagging
+- Phase 3 (Curator): DONE — source diversity scoring + temporal clustering
 - Phase 4 (Fact-Checker): DONE — Python scripts for URL + post checks
-- Phase 5 (Editor-in-Chief): NOT STARTED
+- Phase 5 (Editor-in-Chief): DONE — with active historical dedup
+- Confidence calibration: DONE — workspace/calibrate_confidence.py
 - Phase 6 (Orchestration workflow): NOT STARTED
 - Phase 7 (Gmail integration): NOT STARTED
-- Phase 8 (Multi-model integration in Antigravity): NOT STARTED
-- Phase 9 (Email delivery via Gmail API): NOT STARTED
-- Phase 10 (Automation/scheduling): NOT STARTED
+- Phase 8 (Automation/scheduling): DEFERRED — reviewing token costs
 
 ## Not Yet Implemented
 - Access control enforcement (currently honor-system via skill files)
