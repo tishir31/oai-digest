@@ -7,7 +7,12 @@
       "reporter": {
         "engine": "Claude Code",
         "items_produced": 17,
-        "source_types_used": ["official_blog", "tech_press", "wire_service", "developer_docs"],
+        "source_types_used": [
+          "official_blog",
+          "tech_press",
+          "wire_service",
+          "developer_docs"
+        ],
         "gmail_sourced_count": 0
       },
       "curator": {
@@ -50,9 +55,23 @@
       "reporter": {
         "engine": "Claude Code",
         "items_produced": 17,
-        "confidence_breakdown": {"high": 16, "medium": 1, "low": 0},
-        "source_types_used": ["official_blog", "tech_press", "wire_service", "developer_docs"],
-        "source_type_counts": {"official_blog": 5, "tech_press": 8, "wire_service": 3, "developer_docs": 1},
+        "confidence_breakdown": {
+          "high": 16,
+          "medium": 1,
+          "low": 0
+        },
+        "source_types_used": [
+          "official_blog",
+          "tech_press",
+          "wire_service",
+          "developer_docs"
+        ],
+        "source_type_counts": {
+          "official_blog": 5,
+          "tech_press": 8,
+          "wire_service": 3,
+          "developer_docs": 1
+        },
         "gmail_sourced_count": 0
       },
       "curator": {
@@ -60,7 +79,9 @@
         "items_in": 17,
         "items_kept": 11,
         "items_cut": 6,
-        "cut_reasons": {"clustered_with_primary": 6},
+        "cut_reasons": {
+          "clustered_with_primary": 6
+        },
         "clusters_formed": 3,
         "source_diversity_warning": null,
         "items_with_corroboration_2plus": 3
@@ -101,6 +122,77 @@
       "Fixed calibrate_confidence.py to detect overconfidence",
       "Reordered digest categories: Financials first for IB audience"
     ],
-    "notes": "First run with pipeline enhancements (source diversity, temporal clustering, historical dedup, confidence calibration). Gap Checker skipped — workflow file needs update."
+    "notes": "First run with pipeline enhancements (source diversity, temporal clustering, historical dedup, confidence calibration). Gap Checker skipped \u2014 workflow file needs update."
+  },
+  {
+    "run_id": "run_20260407T100013",
+    "run_date": "2026-04-07T10:00:13.923677",
+    "steps": {
+      "reporter": {
+        "items_produced": 17,
+        "confidence_breakdown": {
+          "high": 16,
+          "medium": 1,
+          "low": 0
+        },
+        "source_type_counts": {
+          "official_blog": 5,
+          "tech_press": 8,
+          "wire_service": 3,
+          "developer_docs": 1
+        },
+        "gmail_sourced_count": 0
+      },
+      "curator": {
+        "items_in": 17,
+        "items_kept": 11,
+        "items_cut": 6,
+        "cut_reasons": {
+          "Clustered with primary funding item.": 3,
+          "Clustered with Codex pay-as-you-go.": 1,
+          "Clustered with major executive reshuffle.": 2
+        },
+        "source_diversity_warning": null,
+        "items_with_corroboration_2plus": 2
+      },
+      "coverage_auditor": {
+        "verdict": "sufficient",
+        "curated_count": 11,
+        "coverage_floor": 7,
+        "empty_categories": [],
+        "thin_categories": [
+          "Partnerships & Deals",
+          "Key Hires / Departures",
+          "Technical Research / Model Releases"
+        ]
+      },
+      "backfill_reporter": {
+        "ran": false,
+        "items_found": 0,
+        "backfill_sourced_count": 0
+      },
+      "fact_checker": {
+        "items_in": 11,
+        "items_verified": 11,
+        "items_rejected": 0,
+        "rejection_reasons": [],
+        "url_200_count": 6,
+        "url_403_count": 5,
+        "url_other_count": 0
+      },
+      "editor_in_chief": {
+        "items_in_digest": 11,
+        "historical_dedup_check_run": true
+      },
+      "gap_checker": {
+        "ran": true,
+        "items_found": 5
+      },
+      "confidence_calibration": {
+        "ran": true,
+        "well_calibrated": false,
+        "high_total": 16
+      }
+    }
   }
 ]

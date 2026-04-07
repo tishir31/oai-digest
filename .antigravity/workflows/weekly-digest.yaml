@@ -1,0 +1,105 @@
+name: weekly-digest
+description: |
+  Sequential pipeline that produces the weekly OpenAI news digest for IB managing directors.
+  Each step uses a specific model. Reporter and Backfill/Gap Checkers use different model
+  families to reduce correlated blind spots.
+
+inputs:
+  - name: target_week_start
+    type: string
+    description: Monday of the target week (ISO date)
+  - name: target_week_end
+    type: string
+    description: Sunday of the target week (ISO date)
+
+steps:
+  - id: report
+    agent: reporter
+    task: "Search the web for all notable OpenAI news from {{target_week_start}} to {{target_week_end}}"
+    inputs:
+      target_week_start: "{{target_week_start}}"
+      target_week_end: "{{target_week_end}}"
+    outputs:
+      raw_items: workspace/raw_items.json
+
+  - id: curate
+    agent: curator
+    task: "Filter, cluster, and rank the raw items"
+    depends_on: [report]
+    inputs:
+      raw_items_path: workspace/raw_items.json
+    outputs:
+      curated_items: workspace/curated_items.json
+      diversity_report: workspace/source_diversity_report.json
+
+  - id: coverage_check
+    agent: coverage_auditor
+    task: "Check if curated output meets the coverage floor"
+    depends_on: [curate]
+    inputs:
+      curated_items_path: workspace/curated_items.json
+    outputs:
+      coverage_report: workspace/coverage_report.json
+
+  - id: backfill
+    agent: backfill_reporter
+    task: "Targeted gap search using a different model family"
+    depends_on: [coverage_check]
+    condition: "{{coverage_check.outputs.coverage_report.verdict}} == 'needs_backfill'"
+    inputs:
+      coverage_report_path: workspace/coverage_report.json
+      existing_curated_path: workspace/curated_items.json
+    outputs:
+      backfill_items: workspace/backfill_items.json
+    on_complete:
+      - merge: workspace/backfill_items.json into workspace/raw_items.json
+      - rerun: curate
+      - rerun: coverage_check
+    max_iterations: 1
+
+  - id: fact_check
+    agent: fact_checker
+    task: "Verify URLs and run post-checks"
+    depends_on: [coverage_check]
+    inputs:
+      curated_items_path: workspace/curated_items.json
+    outputs:
+      verified_items: workspace/verified_items.json
+      rejections: workspace/rejections.json
+
+  - id: edit
+    agent: editor_in_chief
+    task: "Synthesize verified items into the final digest with historical dedup"
+    depends_on: [fact_check]
+    inputs:
+      verified_items_path: workspace/verified_items.json
+      historical_log_path: workspace/historical_log.json
+    outputs:
+      digest_draft: output/digest_draft.html
+      historical_log: workspace/historical_log.json
+
+  - id: gap_check
+    agent: gap_checker
+    task: "Independent second-opinion search using a different model family"
+    depends_on: [edit]
+    inputs:
+      digest_draft_path: output/digest_draft.html
+    outputs:
+      gap_check: workspace/gap_check.json
+    on_complete:
+      - if_items_found:
+          - rerun: fact_check
+          - rerun: edit
+
+  - id: calibrate
+    task: "Run post-pipeline confidence calibration"
+    depends_on: [edit]
+    command: python3 workspace/calibrate_confidence.py
+
+  - id: audit_log
+    task: "Append run summary to pipeline audit log"
+    depends_on: [calibrate, gap_check]
+    command: python3 workspace/log_pipeline_run.py
+
+post_workflow:
+  - description: "Manual: review output/digest_draft.html, then create Gmail draft and git push"
