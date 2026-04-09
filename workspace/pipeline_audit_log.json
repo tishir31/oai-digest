@@ -338,5 +338,82 @@
         "high_total": 15
       }
     }
+  },
+  {
+    "run_id": "run_20260409T154810",
+    "run_date": "2026-04-09T15:48:10.274836",
+    "steps": {
+      "reporter": {
+        "items_produced": 20,
+        "confidence_breakdown": {
+          "high": 15,
+          "medium": 5,
+          "low": 0
+        },
+        "source_type_counts": {
+          "official_blog": 5,
+          "tech_press": 9,
+          "developer_docs": 3,
+          "wire_service": 3
+        },
+        "gmail_sourced_count": 2
+      },
+      "curator": {
+        "items_in": 20,
+        "items_kept": 13,
+        "items_cut": 7,
+        "cut_reasons": {
+          "Clustered with $122B funding round (primary).": 1,
+          "Clustered with TBPN acquisition (primary).": 1,
+          "Clustered with Codex pay-as-you-go (primary).": 1,
+          "Clustered with Simo medical leave (primary executive reshuffle item).": 3,
+          "Interpretive context piece on a previous-week event (Sora shutdown). Not a new event.": 1
+        },
+        "source_diversity_warning": null,
+        "items_with_corroboration_2plus": 4
+      },
+      "coverage_auditor": {
+        "verdict": "sufficient",
+        "curated_count": 13,
+        "coverage_floor": 7,
+        "empty_categories": [],
+        "thin_categories": [
+          "Partnerships & Deals",
+          "Key Hires / Departures",
+          "Technical Research / Model Releases"
+        ]
+      },
+      "backfill_reporter": {
+        "ran": false,
+        "items_found": 0,
+        "backfill_sourced_count": 0
+      },
+      "fact_checker": {
+        "items_in": 13,
+        "items_verified": 22,
+        "items_rejected": 3,
+        "rejection_reasons": [
+          "Post-check: likely continuation of older story. Contains 'completes'; Contains 'completed'; Contains 'phased sunset'; Contains 'ending phased'; Contains 'closing out'; Contains 'full retirement'; Contains 'retirement of'; Origin date reference: 'began february 13'",
+          "Post-check: likely continuation of older story. Contains 'affirms'; Contains 'affirmed'",
+          "Post-check: blog post about a pre-existing framework, not a new event."
+        ],
+        "url_200_count": 11,
+        "url_403_count": 11,
+        "url_other_count": 0
+      },
+      "editor_in_chief": {
+        "items_in_digest": 22,
+        "historical_dedup_check_run": true
+      },
+      "gap_checker": {
+        "ran": false,
+        "items_found": 0
+      },
+      "confidence_calibration": {
+        "ran": true,
+        "well_calibrated": true,
+        "high_total": 15
+      }
+    }
   }
 ]

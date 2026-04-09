@@ -59,13 +59,27 @@ steps:
 
   - id: fact_check
     agent: fact_checker
-    task: "Verify URLs and run post-checks"
+    task: "Verify URLs via fact_check_urls.py"
     depends_on: [coverage_check]
     inputs:
       curated_items_path: workspace/curated_items.json
     outputs:
       verified_items: workspace/verified_items.json
       rejections: workspace/rejections.json
+
+  - id: post_check
+    task: "Run staleness and duplicate detection on verified items"
+    depends_on: [fact_check]
+    command: python3 workspace/post_checks.py
+
+  - id: coverage_recheck
+    task: "Re-check coverage after post_checks removed stale items"
+    depends_on: [post_check]
+    command: python3 workspace/coverage_check.py
+    on_complete:
+      - if_verdict_needs_backfill:
+          - rerun: backfill
+          - note: "Backfill Reporter searches for fresh items in empty categories"
 
   - id: edit
     agent: editor_in_chief
