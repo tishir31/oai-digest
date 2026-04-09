@@ -18,13 +18,18 @@ Reporter (Claude Code)
     ↓ raw_items.json
 Curator (Gemini 3.1 Pro / Antigravity)
     ↓ curated_items.json + source_diversity_report.json
-Coverage Auditor (Python script)
+Coverage Check₁ (Python: coverage_check.py)
     ↓ coverage_report.json
     ├─ if needs_backfill ─→ Backfill Reporter (Codex CLI) ─→ loop back to Curator (max 1 cycle)
     └─ if sufficient ─→
 Fact-Checker (Python: fact_check_urls.py)
     ↓ verified_items.json + rejections.json
     └─ if fixable rejections ─→ run_pipeline.py → retry loop (max 2 cycles)
+Post-Checks (Python: post_checks.py)
+    ↓ filters stale/continuation items + duplicate URLs from verified_items.json
+Coverage Check₂ (Python: coverage_check.py — RE-RUN after post_checks)
+    ├─ if post_checks hollowed out categories ─→ Backfill Reporter (max 1 cycle)
+    └─ if still sufficient ─→
 Editor-in-Chief (Gemini 3.1 Pro / Antigravity)
     ↓ digest_draft.html + historical_log.json (appended)
 Gap Checker (Codex CLI — different model family)
@@ -168,8 +173,16 @@ Each `skills/*.md` file follows this template:
 - Genuinely new info on previously covered topics gets a "Follow-up" annotation
 - This is the single most important quality gate
 
+### Post-Checks (Staleness Detection)
+- `post_checks.py` runs AFTER URL fact-checking, catches items that passed URL checks but have editorial problems
+- **Staleness detection**: catches items where the event date falls within the window but the underlying story is much older (e.g., "affirms" an old court order, "completes" a phased retirement begun months ago)
+- **Duplicate URL detection**: catches two items pointing to the same source
+- **Date verification gap** (known): the Reporter can claim a date that doesn't match the actual article publication date. Partial fix: extract dates from URLs that encode them (e.g., `/2026/03/21/`). Full fix requires HTML parsing.
+- False positives possible (e.g., "since January" in a growth metric). Script flags; human/Editor decides.
+
 ### Coverage Auditor + Backfill Reporter
-- Coverage Auditor runs after Curator: counts items, checks category distribution
+- Coverage Auditor runs **TWICE**: once after Curator (pre-filter), once after post_checks (post-filter)
+- The second run catches cases where staleness removals hollow out categories
 - If verdict is `needs_backfill`, Backfill Reporter (different model family) does a targeted gap search
 - Maximum 1 backfill cycle to prevent infinite loops
 
@@ -220,6 +233,15 @@ The temptation is to bolt new logic onto an existing agent ("the Curator should 
 ### Lesson 10: The non-determinism of Reporter runs
 Two runs of the same Reporter on the same week produce overlapping but not identical sets of items. This week: one run found CFO Friar/Model Spec/Visual Product Discovery; another found Secondary Market $765B/Standard Voice Mode/Dresser elevation as standalone. The fix is to **union** the results across runs and let the Curator dedup, not to treat any single Reporter output as canonical.
 
+### Lesson 11: "Within the date window" ≠ "new this week"
+The most important pipeline bug found during QA. Items like "GPT-4o retirement completes" (April 3) or "Judge affirms 20M logs order" (April 1) have dates within the target week — but the underlying stories began months earlier. These are milestones in old stories, not new events. An MD who read last month's news already knows. Fix: `post_checks.py` scans for staleness keywords ("affirms", "completes", "phased sunset", "closing out") and origin-date references ("began February 13"). This is the freshness gate that `fact_check_urls.py` (which only checks URL liveness) cannot provide.
+
+### Lesson 12: Reporter dates can't be trusted
+The Reporter assigned "March 22" to an article whose URL literally contained `/2026/03/21/`. The fact-checker verified the URL was live but never checked whether the claimed date matched the source. Partial fix: extract dates from URL paths. Full fix: parse article HTML for publication metadata. Until then, human QA on dates near window boundaries is essential.
+
+### Lesson 13: Coverage check must run after every filter step
+The coverage check originally ran only once (after Curator). When `post_checks.py` later removed 3 items and emptied 2 categories, nobody noticed until human review. Fix: coverage_check.py now runs twice — after Curator and after post_checks — with the second run able to trigger Backfill Reporter if categories were hollowed out.
+
 ---
 
 ## Open Issues / Not Yet Implemented
@@ -227,10 +249,10 @@ Two runs of the same Reporter on the same week produce overlapping but not ident
 | Issue | Impact | Priority |
 |-------|--------|----------|
 | Model enforcement is honor-system | Wrong model could run an agent without anyone noticing | Medium — fix in `pipeline_automated.py` |
-| `post_checks.py` is missing | Date/freshness/specificity checks aren't running, only URL checks | Medium — write the script |
+| Reporter date verification | Reporter claims dates that don't match article publication dates | High — add URL date extraction to `post_checks.py` |
 | Gap Checker hasn't been wired into a real run | Have skill file + agent YAML, no actual GPT/Codex execution yet | High — needs Antigravity Terminal allow-list configured |
+| `post_checks.py` false positives | Growth metrics like "since January" get flagged as staleness | Low — needs negation/context awareness |
 | Stale workspace files | Each agent should clear its output file at start of run | Low — manual archiving works for now |
-| Reporter overconfidence | 75% high this week, just at threshold; calibration script flags >85% | Low — fixed for next run via skill file update |
 | Antigravity YAML schema | Best-guess structure based on tutorials; may need adjustment | Medium — test on first real run |
 | Two workflow files | Old `.agents/workflows/weekly-digest.md` + new `.antigravity/workflows/weekly-digest.yaml` | Low — delete old after new is verified |
 
@@ -241,8 +263,10 @@ Two runs of the same Reporter on the same week produce overlapping but not ident
 | Week | Run Date | Reporter | Curator Kept | Verified | In Digest | Notes |
 |------|----------|----------|--------------|----------|-----------|-------|
 | 2026-03-22 to 03-28 | 2026-03-29 | 17 | 17 | 17 | 17 | First run, no historical dedup possible |
-| 2026-03-31 to 04-05 (v1) | 2026-04-06 | 17 | 11 | 11 | 11 | First run with enhancements; structural bugs found and fixed in audit |
-| 2026-03-31 to 04-05 (v2) | 2026-04-08 | 20 | 13 | 13 | 13 | Fresh re-run after Antigravity test; supplemented missing items |
+| 2026-03-31 to 04-05 (v1) | 2026-04-06 | 17 | 11 | 11 | 11 | First run with enhancements; structural bugs found |
+| 2026-03-31 to 04-05 (v2) | 2026-04-08 | 20 | 13 | 13 | 13 | Fresh re-run; supplemented missing items |
+| 2026-03-31 to 04-05 (v3) | 2026-04-09 | 20 | 13 | 10 | 10 | post_checks.py built; 3 stale items rejected |
+| Combined: 03-22 to 04-05 | 2026-04-09 | 27 (merged) | 22 | 20 | 20 | Two-week catch-up; 2 cross-week merges, 5 rejected (3 stale, 2 pre-window dates) |
 
 ---
 
@@ -253,13 +277,17 @@ Two runs of the same Reporter on the same week produce overlapping but not ident
 cd ~/Documents/OAI_News
 # Step 1: Reporter — run Claude Code with skills/reporter.md as the prompt
 # Step 2: Curator — run Gemini in Antigravity with skills/curator.md
-# Step 3: Coverage check
+# Step 3: Coverage check (first pass)
 python3 workspace/coverage_check.py
-# Step 4: Fact check
+# Step 4: Fact check URLs
 python3 workspace/fact_check_urls.py
-# Step 5: Editor-in-Chief — run Gemini in Antigravity with skills/editor_in_chief.md
-# Step 6: Gap check (when enabled) — run Codex CLI with skills/gap_checker.md
-# Step 7: Calibration
+# Step 5: Post-checks (staleness, date verification, duplicate URLs)
+python3 workspace/post_checks.py
+# Step 6: Coverage check (second pass — after post_checks may have removed items)
+python3 workspace/coverage_check.py
+# Step 7: Editor-in-Chief — run Gemini in Antigravity with skills/editor_in_chief.md
+# Step 8: Gap check (when enabled) — run Codex CLI with skills/gap_checker.md
+# Step 9: Calibration
 python3 workspace/calibrate_confidence.py
 # Step 8: Audit log
 python3 workspace/log_pipeline_run.py
