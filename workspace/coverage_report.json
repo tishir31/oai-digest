@@ -1,12 +1,12 @@
 {
   "verdict": "sufficient",
-  "curated_count": 11,
+  "curated_count": 13,
   "coverage_floor": 7,
   "categories_covered": 6,
   "category_counts": {
-    "Earnings / Financials / Fundraising": 3,
+    "Earnings / Financials / Fundraising": 4,
     "Partnerships & Deals": 1,
-    "Product Launches & Updates": 3,
+    "Product Launches & Updates": 4,
     "Technical Research / Model Releases": 1,
     "Key Hires / Departures": 1,
     "Regulatory & Policy": 2
@@ -20,7 +20,7 @@
   "cut_summary": {
     "clustering": 6,
     "quality": 0,
-    "other": 0
+    "other": 1
   },
   "backfill_instructions": null
 }

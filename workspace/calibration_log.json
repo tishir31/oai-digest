@@ -70,5 +70,29 @@
       }
     },
     "well_calibrated": false
+  },
+  {
+    "run_date": "2026-04-08T18:21:23.531497",
+    "raw_count": 20,
+    "curated_count": 13,
+    "verified_count": 13,
+    "confidence_stats": {
+      "high": {
+        "total": 15,
+        "survived_curation": 11,
+        "survived_verification": 11
+      },
+      "medium": {
+        "total": 5,
+        "survived_curation": 2,
+        "survived_verification": 2
+      },
+      "low": {
+        "total": 0,
+        "survived_curation": 0,
+        "survived_verification": 0
+      }
+    },
+    "well_calibrated": true
   }
 ]

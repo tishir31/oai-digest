@@ -47,6 +47,18 @@ Write results to workspace/raw_items.json as a JSON array. Each item:
   "gmail_sourced": false
 }
 
+### Confidence Scoring (STRICT — use the full range)
+The confidence field must discriminate. If you rate everything "high", the field is useless and downstream calibration will flag the run as miscalibrated.
+
+- **high** — One or more of:
+  - Confirmed by an official OpenAI source (openai.com blog, press release, OpenAI exec on the record)
+  - Reported by 2+ independent reputable outlets (e.g., Reuters + Bloomberg, TechCrunch + WSJ)
+  - SEC filing, court document, or other primary source
+- **medium** — Single tech press source without official confirmation, breaking story still developing, or facts dependent on a single named insider
+- **low** — Anonymous sources only, social media rumor, single unconfirmed leak, or newsletter mention without primary source
+
+**Self-check**: If more than ~70% of your items are rated "high", review the rubric. Most weeks should produce a mix — official OpenAI announcements are "high" but most secondary reports start as "medium".
+
 ### Source Type Classification
 Assign exactly one source_type per item:
 - **official_blog**: Posts on openai.com/blog, openai.com/index, or official company pages

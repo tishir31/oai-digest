@@ -194,5 +194,149 @@
         "high_total": 16
       }
     }
+  },
+  {
+    "run_id": "run_20260408T180648",
+    "run_date": "2026-04-08T18:06:48.859711",
+    "steps": {
+      "reporter": {
+        "items_produced": 16,
+        "confidence_breakdown": {
+          "high": 12,
+          "medium": 4,
+          "low": 0
+        },
+        "source_type_counts": {
+          "official_blog": 3,
+          "tech_press": 8,
+          "developer_docs": 3,
+          "wire_service": 2
+        },
+        "gmail_sourced_count": 2
+      },
+      "curator": {
+        "items_in": 16,
+        "items_kept": 11,
+        "items_cut": 6,
+        "cut_reasons": {
+          "Clustered with primary funding item.": 3,
+          "Clustered with Codex pay-as-you-go.": 1,
+          "Clustered with major executive reshuffle.": 2
+        },
+        "source_diversity_warning": null,
+        "items_with_corroboration_2plus": 2
+      },
+      "coverage_auditor": {
+        "verdict": "sufficient",
+        "curated_count": 11,
+        "coverage_floor": 7,
+        "empty_categories": [],
+        "thin_categories": [
+          "Partnerships & Deals",
+          "Key Hires / Departures",
+          "Technical Research / Model Releases"
+        ]
+      },
+      "backfill_reporter": {
+        "ran": false,
+        "items_found": 0,
+        "backfill_sourced_count": 0
+      },
+      "fact_checker": {
+        "items_in": 11,
+        "items_verified": 11,
+        "items_rejected": 0,
+        "rejection_reasons": [],
+        "url_200_count": 6,
+        "url_403_count": 5,
+        "url_other_count": 0
+      },
+      "editor_in_chief": {
+        "items_in_digest": 11,
+        "historical_dedup_check_run": true
+      },
+      "gap_checker": {
+        "ran": true,
+        "items_found": 5
+      },
+      "confidence_calibration": {
+        "ran": true,
+        "well_calibrated": false,
+        "high_total": 16
+      }
+    }
+  },
+  {
+    "run_id": "run_20260408T182123",
+    "run_date": "2026-04-08T18:21:23.569036",
+    "steps": {
+      "reporter": {
+        "items_produced": 20,
+        "confidence_breakdown": {
+          "high": 15,
+          "medium": 5,
+          "low": 0
+        },
+        "source_type_counts": {
+          "official_blog": 5,
+          "tech_press": 9,
+          "developer_docs": 3,
+          "wire_service": 3
+        },
+        "gmail_sourced_count": 2
+      },
+      "curator": {
+        "items_in": 20,
+        "items_kept": 13,
+        "items_cut": 7,
+        "cut_reasons": {
+          "Clustered with $122B funding round (primary).": 1,
+          "Clustered with TBPN acquisition (primary).": 1,
+          "Clustered with Codex pay-as-you-go (primary).": 1,
+          "Clustered with Simo medical leave (primary executive reshuffle item).": 3,
+          "Interpretive context piece on a previous-week event (Sora shutdown). Not a new event.": 1
+        },
+        "source_diversity_warning": null,
+        "items_with_corroboration_2plus": 4
+      },
+      "coverage_auditor": {
+        "verdict": "sufficient",
+        "curated_count": 13,
+        "coverage_floor": 7,
+        "empty_categories": [],
+        "thin_categories": [
+          "Partnerships & Deals",
+          "Key Hires / Departures",
+          "Technical Research / Model Releases"
+        ]
+      },
+      "backfill_reporter": {
+        "ran": false,
+        "items_found": 0,
+        "backfill_sourced_count": 0
+      },
+      "fact_checker": {
+        "items_in": 13,
+        "items_verified": 13,
+        "items_rejected": 0,
+        "rejection_reasons": [],
+        "url_200_count": 4,
+        "url_403_count": 9,
+        "url_other_count": 0
+      },
+      "editor_in_chief": {
+        "items_in_digest": 13,
+        "historical_dedup_check_run": true
+      },
+      "gap_checker": {
+        "ran": false,
+        "items_found": 0
+      },
+      "confidence_calibration": {
+        "ran": true,
+        "well_calibrated": true,
+        "high_total": 15
+      }
+    }
   }
 ]
