@@ -47,6 +47,10 @@ GAP_CHECK = WORKSPACE / "gap_check.json"
 DIGEST_DRAFT = OUTPUT / "digest_draft.html"
 CALIBRATION_SCRIPT = WORKSPACE / "calibrate_confidence.py"
 FACT_CHECK_SCRIPT = WORKSPACE / "fact_check_urls.py"
+POST_CHECK_SCRIPT = WORKSPACE / "post_checks.py"
+COVERAGE_CHECK_SCRIPT = WORKSPACE / "coverage_check.py"
+COVERAGE_REPORT = WORKSPACE / "coverage_report.json"
+AUDIT_LOG_SCRIPT = WORKSPACE / "log_pipeline_run.py"
 
 MAX_RETRIES = 2
 
@@ -335,6 +339,71 @@ def step_fact_checker():
     rejected = load_json(REJECTIONS)
     log.info(f"Verified: {len(verified)}, Rejected: {len(rejected)}")
     return verified, rejected
+
+
+def step_post_checks():
+    """Step 3b: Post-Checks — staleness, date verification, duplicate URLs."""
+    log.info("=" * 60)
+    log.info("STEP 3b: POST-CHECKS (staleness/dates)")
+    log.info("=" * 60)
+
+    if not POST_CHECK_SCRIPT.exists():
+        log.warning(f"Post-check script not found: {POST_CHECK_SCRIPT}. Skipping.")
+        return
+
+    result = subprocess.run(
+        [sys.executable, str(POST_CHECK_SCRIPT)],
+        capture_output=True,
+        text=True,
+    )
+
+    log.info(result.stdout.strip() if result.stdout else "No output")
+    if result.returncode != 0:
+        log.warning(f"Post-checks stderr: {result.stderr}")
+
+    verified = load_json(VERIFIED_ITEMS)
+    rejected = load_json(REJECTIONS)
+    log.info(f"After post-checks: {len(verified)} verified, {len(rejected)} rejected")
+
+
+def step_coverage_check(label=""):
+    """Run coverage check and return verdict."""
+    suffix = f" ({label})" if label else ""
+    log.info(f"COVERAGE CHECK{suffix}")
+
+    if not COVERAGE_CHECK_SCRIPT.exists():
+        log.warning(f"Coverage check script not found: {COVERAGE_CHECK_SCRIPT}. Skipping.")
+        return "sufficient"
+
+    result = subprocess.run(
+        [sys.executable, str(COVERAGE_CHECK_SCRIPT)],
+        capture_output=True,
+        text=True,
+    )
+
+    log.info(result.stdout.strip() if result.stdout else "No output")
+
+    report = load_json(COVERAGE_REPORT) if COVERAGE_REPORT.exists() else {}
+    verdict = report.get("verdict", "sufficient") if isinstance(report, dict) else "sufficient"
+    log.info(f"Coverage verdict: {verdict}")
+    return verdict
+
+
+def step_audit_log():
+    """Run pipeline audit log."""
+    log.info("AUDIT LOG")
+
+    if not AUDIT_LOG_SCRIPT.exists():
+        log.warning(f"Audit log script not found: {AUDIT_LOG_SCRIPT}. Skipping.")
+        return
+
+    result = subprocess.run(
+        [sys.executable, str(AUDIT_LOG_SCRIPT)],
+        capture_output=True,
+        text=True,
+    )
+
+    log.info(result.stdout.strip() if result.stdout else "No output")
 
 
 def step_feedback_loop(week_start, week_end):
@@ -652,45 +721,62 @@ def main():
     log.info(f"Target week: {week_start} to {week_end}")
     log.info("=" * 60)
     
-    # Step 1: Reporter
+    # Step 1: Reporter (Claude — web search)
     step_reporter(week_start, week_end)
-    
-    # Step 2: Curator
+
+    # Step 2: Curator (Claude — editorial)
     step_curator()
-    
-    # Step 3: Fact-Checker
+
+    # Step 3a: Coverage Check₁ (after Curator)
+    verdict = step_coverage_check("after Curator")
+    if verdict == "needs_backfill":
+        log.info("Coverage insufficient — backfill would run here (not yet wired)")
+        # TODO: step_backfill_reporter() → step_curator() → step_coverage_check()
+
+    # Step 3b: Fact-Check URLs
     step_fact_checker()
-    
-    # Step 4: Feedback Loop
+
+    # Step 3c: Post-Checks (staleness, date verification)
+    step_post_checks()
+
+    # Step 3d: Coverage Check₂ (after post_checks may have removed items)
+    verdict = step_coverage_check("after post-checks")
+    if verdict == "needs_backfill":
+        log.info("Coverage dropped below floor after post-checks — backfill would run here")
+
+    # Step 4: Feedback Loop (retry fixable rejections)
     step_feedback_loop(week_start, week_end)
-    
-    # Step 5: Editor-in-Chief
+
+    # Step 5: Editor-in-Chief (Claude — write digest)
     step_editor_in_chief(week_start, week_end)
-    
-    # Step 6: Gap Checker (optional)
+
+    # Step 6: Gap Checker (OpenAI — different model family)
     if not args.skip_gap_checker:
         step_gap_checker(week_start, week_end)
     else:
         log.info("Skipping Gap Checker (--skip-gap-checker)")
-    
+
     # Step 7: Confidence Calibration
     step_calibration()
-    
-    # Step 8: Gmail Draft (optional)
+
+    # Step 8: Audit Log
+    step_audit_log()
+
+    # Step 9: Gmail Draft (optional)
     if not args.skip_gmail:
         step_gmail_draft(week_start, week_end)
     else:
         log.info("Skipping Gmail draft (--skip-gmail)")
-    
-    # Step 9: Git Commit (optional)
+
+    # Step 10: Git Commit (optional)
     if not args.skip_git:
         step_git_commit(week_start, week_end)
     else:
         log.info("Skipping git commit (--skip-git)")
-    
+
     # Summary
     print_summary(week_start, week_end)
-    
+
     log.info(f"\nPipeline completed at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
 
