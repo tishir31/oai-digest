@@ -14,8 +14,14 @@ A multi-agent pipeline producing a weekly OpenAI news digest for senior investme
 ## Architecture
 
 ```
-Reporter (Claude Code)
-    ↓ raw_items.json
+Reporter Pass 1 (Claude — web broad)
+    ↓ raw_items_pass1.json
+Reporter Pass 2 (Claude — web independent, regulatory/external lead)
+    ↓ raw_items_pass2.json
+Reporter Pass 3 (Claude — Gmail active source)
+    ↓ raw_items_pass3.json
+Union step
+    ↓ raw_items.json (deduped on URL)
 Curator (Gemini 3.1 Pro / Antigravity)
     ↓ curated_items.json + source_diversity_report.json
 Coverage Check₁ (Python: coverage_check.py)
@@ -32,7 +38,7 @@ Coverage Check₂ (Python: coverage_check.py — RE-RUN after post_checks)
     └─ if still sufficient ─→
 Editor-in-Chief (Gemini 3.1 Pro / Antigravity)
     ↓ digest_draft.html + historical_log.json (appended)
-Gap Checker (Codex CLI — different model family)
+Gap Checker (GPT via Vercel proxy in cloud / Codex CLI locally)
     ↓ gap_check.json
     └─ if items found ─→ Fact-Checker → Editor-in-Chief
 Confidence Calibration (Python: calibrate_confidence.py)
@@ -50,13 +56,15 @@ Two execution modes exist. The cloud routine handles all steps autonomously:
 
 | Agent | Model | Notes |
 |-------|-------|-------|
-| Reporter | Claude Opus 4.6 | Web search via cloud session |
+| Reporter Pass 1 | Claude Opus 4.6 | Web broad search |
+| Reporter Pass 2 | Claude Opus 4.6 | Independent web pass — regulatory/external lead, no read of Pass 1 |
+| Reporter Pass 3 | Claude Opus 4.6 + Gmail MCP | Active Gmail pass (The Information, Axios, direct emails) |
 | Curator | Claude Opus 4.6 | Same session, different prompt |
 | Coverage Auditor | Python | Runs in cloud environment |
 | Fact-Checker | Python | Runs in cloud environment |
 | Post-Checks | Python | Runs in cloud environment |
 | Editor-in-Chief | Claude Opus 4.6 | Same session |
-| Gap Checker | Claude Opus 4.6 | Uses different analytical approach, not different model |
+| **Gap Checker** | **GPT-4o via Vercel proxy** | **Different model family — proxy at `ai-map-cyan.vercel.app/api/gap-check` holds OPENAI_API_KEY since routine UI does not expose env vars** |
 | Gmail Draft | Claude + Gmail MCP | Connected via MCP connector |
 
 **Local (Antigravity — for max quality with multi-model diversity):**
@@ -69,7 +77,7 @@ Two execution modes exist. The cloud routine handles all steps autonomously:
 | Editor-in-Chief | Gemini 3.1 Pro | Free via Antigravity |
 | Gap Checker | Codex CLI | Different model family |
 
-**Why multi-model matters**: Same model has correlated blind spots. Multi-model diversity is most valuable for Gap Checker and Backfill Reporter (the "second opinion" steps). The cloud routine handles this by using a different analytical approach instead of a different model — acceptable trade-off for automation convenience.
+**Why multi-model matters**: Same model has correlated blind spots. Multi-model diversity is most valuable for Gap Checker and Backfill Reporter (the "second opinion" steps). Cloud routine achieves this via the Vercel proxy pattern (cloud Claude → Vercel function holding OpenAI key → GPT) — preserves true cross-family uncorrelation while keeping the OpenAI key out of the routine prompt.
 
 ---
 
@@ -269,14 +277,23 @@ Claude Code routines generate a bearer token (`sk-ant-oat01-...`) that is scoped
 ### Lesson 17: Vercel env vars require redeployment
 Adding a new environment variable in Vercel doesn't take effect until the project redeploys. Either push a new commit (triggers auto-deploy) or manually redeploy from the Deployments tab.
 
+### Lesson 18: When the agent runtime UI doesn't expose env vars, proxy through a service that does
+Anthropic's routine UI has no env var fields. Putting `OPENAI_API_KEY` in the routine prompt is unsafe (leaks in logs and transcripts). Solution: a Vercel serverless function (`api/gap-check.js`) holds the OpenAI key in Vercel env, exposes a single bounded operation (gap-check), and authenticates the routine via a low-sensitivity `GAP_CHECK_TOKEN` that CAN sit in the prompt. Same pattern works for any external API the cloud routine needs but can't safely hold credentials for.
+
+### Lesson 19: Coverage gates check shape, not content
+Coverage Auditor as originally written checks (a) item count and (b) empty categories. Both are shape signals — they pass even when the actual news universe of the week is poorly covered. The May 4 run had 15 items across 5 categories (passed shape) but missed Tumbler Ridge, Pentagon classified deals, and PwC partnership (failed content). Fix: compare against a fresh news pass for the week, not just internal shape.
+
+### Lesson 20: Single-pass Reporter cannot be trusted as canonical (architectural)
+Lesson 10 documented Reporter non-determinism but did not enforce a fix. Architecture now runs THREE Reporter passes (web broad, web independent, Gmail active source) and unions the results. Each pass writes to its own `raw_items_passN.json` file; orchestrator unions before Curator. This is the structural fix that ensures a single weekly run is exhaustive.
+
 ---
 
 ## Open Issues / Not Yet Implemented
 
 | Issue | Impact | Priority |
 |-------|--------|----------|
-| Cloud git push not working | Routine completes but can't push results to GitHub | High — add deploy key or PAT to cloud environment |
-| OpenAI API key not in cloud env | Gap Checker can't call GPT in cloud; uses Claude second-pass instead | Medium — add OPENAI_API_KEY to routine environment when UI supports it |
+| ~~Cloud git push not working~~ | RESOLVED — Permissions toggle "Allow unrestricted git push" enabled in routine config | ✅ Done |
+| ~~OpenAI API key not in cloud env~~ | RESOLVED — Vercel proxy pattern (`api/gap-check.js`) holds the key; routine sends `GAP_CHECK_TOKEN` to proxy. Routine UI still does not support env vars but no longer blocks Gap Checker. | ✅ Done |
 | Reporter date verification | Reporter claims dates that don't match article publication dates | High — add URL date extraction to `post_checks.py` |
 | QC summary email | Want a separate email with rejection reasons, coverage stats, calibration | Medium — add as Step 11b in routine |
 | `post_checks.py` false positives | Growth metrics like "since January" get flagged as staleness | Low — needs negation/context awareness |

@@ -1,51 +1,82 @@
 # Gap Checker Agent Skill
 
 ## Role
-You are a second-opinion editor using a DIFFERENT model than the Reporter. Your job is to review the completed digest draft and search for notable OpenAI stories that were missed. You catch blind spots that come from any single model's training data or search patterns.
+A second-opinion editor running on a DIFFERENT model family than the Reporter. Reviews the completed digest draft and surfaces notable OpenAI stories that were missed. Catches blind spots that come from any single model's training data and search patterns.
+
+## Engine
+- **Local / Antigravity runs**: Codex CLI (GPT) directly
+- **Cloud routine runs**: HTTPS POST to the Vercel proxy at `https://ai-map-cyan.vercel.app/api/gap-check` (the routine cannot hold `OPENAI_API_KEY` itself; the proxy holds it). The proxy authenticates with `GAP_CHECK_TOKEN` and calls GPT on the routine's behalf.
+
+## Why this matters
+A second pass with the same model finds the same things it found the first time. Multi-model uncorrelation is the entire point. Without a different model family here, the architecture cannot catch what Reporter missed (Lesson 1).
 
 ## Input
-- Read output/digest_draft.html (the current draft)
-- Access to web search
+- `output/digest_draft.html` (the current draft)
+- Target week dates
 
 ## Output
-Write to workspace/gap_check.json
+- `workspace/gap_check.json` — array of items found
 
-## Tasks
+## Tasks (Cloud routine path)
 
-### 1. Review Current Coverage
-Read the digest draft and note what topics, categories, and sources are already covered.
+1. Read `output/digest_draft.html` and the target week dates.
 
-### 2. Search for Gaps
-Search the web for OpenAI news from the target week that is NOT in the digest. Focus on:
-- OpenAI's official release notes and changelog
-- Developer documentation updates
-- Regulatory filings or court documents
-- Research papers on arXiv
-- Industry-specific press that mainstream tech press might miss
-- Social media signals from OpenAI employees
+2. POST to the Vercel proxy:
+```
+POST https://ai-map-cyan.vercel.app/api/gap-check
+Authorization: Bearer <GAP_CHECK_TOKEN>
+Content-Type: application/json
 
-### 3. Evaluate Significance
-For each potential gap, assess whether it's genuinely notable for an IB audience or just noise. Only include items that a managing director should know about.
+{
+  "draft_html": "<contents of output/digest_draft.html>",
+  "week_start": "YYYY-MM-DD",
+  "week_end": "YYYY-MM-DD"
+}
+```
 
-### 4. Output Schema
+3. Response shape:
+```
+{
+  "success": true,
+  "gap_count": 2,
+  "gaps": [ { "headline": "...", "url": "...", "date": "...", "category": "...", "why_missed": "...", "confidence": "high|medium|low", "gap_check_sourced": true }, ... ]
+}
+```
+
+4. Write the `gaps` array to `workspace/gap_check.json`.
+
+5. Each gap item must still pass the Fact-Checker before reaching the final draft — never insert directly into the digest.
+
+## Tasks (Local / Antigravity path)
+
+Same logic, executed by Codex CLI directly:
+1. Read `output/digest_draft.html`
+2. Run `codex` with the gap-check system prompt (same as the proxy uses) and the draft as input
+3. Parse the JSON response and write to `workspace/gap_check.json`
+4. Items pass through Fact-Checker before inclusion
+
+## Output Schema (per gap item)
+```
 {
   "headline": "string",
   "date": "YYYY-MM-DD",
   "url": "string",
   "source_name": "string",
   "category": "one of the six categories",
-  "why_missed": "string — why this should be included",
+  "why_missed": "string — one sentence",
   "confidence": "high | medium | low",
   "gap_check_sourced": true
 }
+```
 
-## Integration Rules
-- Items found here must still pass through the Fact-Checker before inclusion
-- If multiple items share the same URL, combine into one item or keep only the most significant
-- This agent runs AFTER the Editor-in-Chief draft, BEFORE final delivery
-- Must use a DIFFERENT model family than the Reporter (e.g., if Reporter is Claude, Gap Checker should be GPT/Codex)
+## Quality Rules
+- Finding zero gaps is a valid outcome. Never fabricate items.
+- 2-3 genuine catches per week is a great result.
+- Skip product micro-updates and opinion pieces — the bar is "an MD should know about this."
+- Items inserted by Gap Checker MUST flow through Fact-Checker before reaching the digest.
+- Local and cloud paths use the same system prompt — keep them in sync if updating.
 
-## Quality Notes
-- Finding zero gaps is a valid outcome — don't manufacture items
-- 2-3 genuine catches is a great result
-- Focus on things mainstream press missed (release notes, dev docs, filings)
+## What This Agent Does NOT Do
+- Does not edit the draft directly
+- Does not duplicate items already in the draft
+- Does not produce items that share URLs with already-included items
