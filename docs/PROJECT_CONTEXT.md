@@ -42,19 +42,34 @@ Pipeline Audit Log (Python: log_pipeline_run.py)
 Delivery: Gmail draft + git push
 ```
 
-### Model Assignments (ENFORCED via skill files; not yet via code)
+### Model Assignments
 
-| Agent | Model | Why |
-|-------|-------|-----|
-| Reporter | Claude Code (Anthropic Max) | Best web search + Gmail MCP |
-| Curator | Gemini 3.1 Pro (Antigravity) | Editorial judgment, no web needed, free |
-| Coverage Auditor | Python | No model needed |
-| Backfill Reporter | Codex CLI (OpenAI sub) | DIFFERENT family from Reporter — catches blind spots |
-| Fact-Checker | Python | HTTP requests + keyword matching |
-| Editor-in-Chief | Gemini 3.1 Pro (Antigravity) | Strong writer, free |
-| Gap Checker | Codex CLI (OpenAI sub) | DIFFERENT family from Reporter |
+Two execution modes exist. The cloud routine handles all steps autonomously:
 
-**Why multi-model**: Same model has correlated blind spots — using different families (Claude + Codex) catches stories one model alone would miss.
+**Cloud (Remote Routine — current production mode):**
+
+| Agent | Model | Notes |
+|-------|-------|-------|
+| Reporter | Claude Opus 4.6 | Web search via cloud session |
+| Curator | Claude Opus 4.6 | Same session, different prompt |
+| Coverage Auditor | Python | Runs in cloud environment |
+| Fact-Checker | Python | Runs in cloud environment |
+| Post-Checks | Python | Runs in cloud environment |
+| Editor-in-Chief | Claude Opus 4.6 | Same session |
+| Gap Checker | Claude Opus 4.6 | Uses different analytical approach, not different model |
+| Gmail Draft | Claude + Gmail MCP | Connected via MCP connector |
+
+**Local (Antigravity — for max quality with multi-model diversity):**
+
+| Agent | Model | Notes |
+|-------|-------|-------|
+| Reporter | Claude Code CLI | Your Anthropic Max subscription |
+| Curator | Gemini 3.1 Pro | Free via Antigravity |
+| Backfill Reporter | Codex CLI | Different model family |
+| Editor-in-Chief | Gemini 3.1 Pro | Free via Antigravity |
+| Gap Checker | Codex CLI | Different model family |
+
+**Why multi-model matters**: Same model has correlated blind spots. Multi-model diversity is most valuable for Gap Checker and Backfill Reporter (the "second opinion" steps). The cloud routine handles this by using a different analytical approach instead of a different model — acceptable trade-off for automation convenience.
 
 ---
 
@@ -116,7 +131,7 @@ Delivery: Gmail draft + git push
 ├── output/
 │   └── digest_draft.html               # Final email body
 ├── run_pipeline.py                     # Feedback loop handler
-└── pipeline_automated.py               # Future: full automation entry point
+└── pipeline_automated.py               # Full pipeline via API (post_checks + coverage checks included)
 ```
 
 ---
@@ -242,18 +257,31 @@ The Reporter assigned "March 22" to an article whose URL literally contained `/2
 ### Lesson 13: Coverage check must run after every filter step
 The coverage check originally ran only once (after Curator). When `post_checks.py` later removed 3 items and emptied 2 categories, nobody noticed until human review. Fix: coverage_check.py now runs twice — after Curator and after post_checks — with the second run able to trigger Backfill Reporter if categories were hollowed out.
 
+### Lesson 14: Local vs. cloud is not either/or
+Antigravity (local) gives full multi-model orchestration with Claude + Gemini + Codex, but requires your laptop to be on. Cloud routines (Claude Code remote triggers) run autonomously from anywhere but only have Claude. The right answer is both: cloud handles the weekly Monday run automatically; local is for when you want max quality or are debugging. The two paths coexist.
+
+### Lesson 15: Cloud routines can't push to git without explicit setup
+The first cloud routine run completed all pipeline steps but the git push failed silently — the cloud environment didn't have write access to the GitHub repo. Git push permissions need explicit configuration (deploy key or PAT) in the cloud environment.
+
+### Lesson 16: Per-routine API tokens are scoped and safe
+Claude Code routines generate a bearer token (`sk-ant-oat01-...`) that is scoped to a single routine. It can only fire that one routine — no access to account data, other routines, or Claude Code settings. Safe to store in Vercel env vars. Don't confuse with OpenAI API keys (`sk-proj-...`) — mixing these up causes 401 errors.
+
+### Lesson 17: Vercel env vars require redeployment
+Adding a new environment variable in Vercel doesn't take effect until the project redeploys. Either push a new commit (triggers auto-deploy) or manually redeploy from the Deployments tab.
+
 ---
 
 ## Open Issues / Not Yet Implemented
 
 | Issue | Impact | Priority |
 |-------|--------|----------|
-| Model enforcement is honor-system | Wrong model could run an agent without anyone noticing | Medium — fix in `pipeline_automated.py` |
+| Cloud git push not working | Routine completes but can't push results to GitHub | High — add deploy key or PAT to cloud environment |
+| OpenAI API key not in cloud env | Gap Checker can't call GPT in cloud; uses Claude second-pass instead | Medium — add OPENAI_API_KEY to routine environment when UI supports it |
 | Reporter date verification | Reporter claims dates that don't match article publication dates | High — add URL date extraction to `post_checks.py` |
-| Gap Checker hasn't been wired into a real run | Have skill file + agent YAML, no actual GPT/Codex execution yet | High — needs Antigravity Terminal allow-list configured |
+| QC summary email | Want a separate email with rejection reasons, coverage stats, calibration | Medium — add as Step 11b in routine |
 | `post_checks.py` false positives | Growth metrics like "since January" get flagged as staleness | Low — needs negation/context awareness |
 | Stale workspace files | Each agent should clear its output file at start of run | Low — manual archiving works for now |
-| Antigravity YAML schema | Best-guess structure based on tutorials; may need adjustment | Medium — test on first real run |
+| Antigravity YAML schema not tested | Best-guess structure based on tutorials; may need adjustment | Medium — test on first real Antigravity run |
 | Two workflow files | Old `.agents/workflows/weekly-digest.md` + new `.antigravity/workflows/weekly-digest.yaml` | Low — delete old after new is verified |
 
 ---
@@ -266,7 +294,8 @@ The coverage check originally ran only once (after Curator). When `post_checks.p
 | 2026-03-31 to 04-05 (v1) | 2026-04-06 | 17 | 11 | 11 | 11 | First run with enhancements; structural bugs found |
 | 2026-03-31 to 04-05 (v2) | 2026-04-08 | 20 | 13 | 13 | 13 | Fresh re-run; supplemented missing items |
 | 2026-03-31 to 04-05 (v3) | 2026-04-09 | 20 | 13 | 10 | 10 | post_checks.py built; 3 stale items rejected |
-| Combined: 03-22 to 04-05 | 2026-04-09 | 27 (merged) | 22 | 20 | 20 | Two-week catch-up; 2 cross-week merges, 5 rejected (3 stale, 2 pre-window dates) |
+| Combined: 03-22 to 04-05 | 2026-04-09 | 27 (merged) | 22 | 20 | 20 | Two-week catch-up; 2 cross-week merges, 5 rejected |
+| 04-28 to 05-04 (cloud) | 2026-05-04 | ? | ? | ? | ? | First cloud routine run; Gmail draft produced; git push failed |
 
 ---
 
@@ -295,19 +324,37 @@ python3 workspace/log_pipeline_run.py
 # Step 10: git add, commit, push
 ```
 
-### Automated (Path B — Antigravity wrapper, planned)
+### Automated — Cloud Routine (current production mode)
+- **Trigger ID**: `trig_01QPM9inh86qSpEvrj8spwoT`
+- **Schedule**: Every Monday 9am PT (4pm UTC)
+- **On-demand**: "Run OAI Digest" button on AI Maps website (ai-map-cyan.vercel.app)
+- **Environment**: "Mobile Agent" (`env_01DnXAizYUh9ePV5dWsXuFdc`)
+- **Repo**: `tishir31/oai-digest` (cloned fresh each run)
+- **Model**: Claude Opus 4.6 (1M context)
+- **Connectors**: Gmail MCP
+- **View/manage**: https://claude.ai/code/routines
+
+**How the button works:**
+AI Maps site → `api/run-digest.js` (Vercel serverless) → POST to Anthropic `/fire` endpoint with `ROUTINE_TOKEN` → spawns Claude Code cloud session → runs full 12-step pipeline → Gmail draft created
+
+**Vercel env vars needed:**
+- `ROUTINE_TOKEN` = per-routine bearer token (`sk-ant-oat01-...`)
+- `GEMINI_API_KEY` = already configured (for other AI Maps features)
+
+### Local — Antigravity (for multi-model quality runs)
 1. Open Antigravity → Cmd+Shift+M (Agent Manager)
 2. Run `weekly-digest.yaml` workflow with target_week_start and target_week_end inputs
-3. Antigravity orchestrates each agent step in sequence
-4. Each wrapper agent calls the appropriate CLI (`claude` for Reporter, `codex` for Backfill/Gap, etc.)
-5. Final digest appears in `output/digest_draft.html`; manual review then send
+3. Each wrapper agent calls the appropriate CLI (`claude` for Reporter, `codex` for Backfill/Gap, etc.)
+4. Requires Terminal Command Auto Execution allow-list: `claude`, `codex`, `python3 workspace/`
+5. **Not yet tested** — YAML schema may need adjustment on first run
 
 ---
 
 ## Future Direction
 
-1. **Generalize beyond OpenAI** — abstract "OpenAI" to a configurable target topic so the same pipeline can produce digests for other companies/themes
-2. **Full automation** — `pipeline_automated.py` becomes the orchestration entry point with hardcoded model assignments (true model enforcement)
-3. **Scheduling** — cron job or on-demand trigger from phone
-4. **Feedback loop** — capture which items the human reader actually engaged with, feed back into Curator ranking
-5. **Multi-week trend analysis** — read across `historical_log.json` to surface multi-week storylines
+1. **Fix cloud git push** — add deploy key or PAT so routine can push results back to repo
+2. **QC summary email** — separate Gmail with rejection reasons, coverage stats, calibration data
+3. **Add OpenAI key to cloud environment** — enables true multi-model Gap Checker in cloud
+4. **Generalize beyond OpenAI** — abstract "OpenAI" to a configurable target topic
+5. **Feedback loop** — capture which items the human reader actually engaged with, feed back into Curator ranking
+6. **Multi-week trend analysis** — read across `historical_log.json` to surface multi-week storylines
