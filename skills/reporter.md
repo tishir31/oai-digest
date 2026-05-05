@@ -18,7 +18,10 @@ Classify each item into exactly one:
 6. Technical Research / Model Releases
 
 ## Source Priority (search in this order)
-1. OpenAI's official blog and announcements
+1. **OpenAI's official blog and announcements — MANDATORY, NEVER SKIP**
+   - Search openai.com/blog AND openai.com/index for ALL posts from the target week
+   - Also check: help.openai.com release notes, developers.openai.com changelog
+   - Every official OpenAI post from the target week MUST appear in raw_items.json. Missing an official announcement is the single worst failure mode for this pipeline.
 2. News wires: Reuters, Bloomberg, AP
 3. Major tech press: TechCrunch, The Verge, Ars Technica, The Information, WSJ, NYT
 4. SEC filings and regulatory databases
