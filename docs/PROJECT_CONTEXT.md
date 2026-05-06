@@ -20,13 +20,17 @@ Reporter Pass 2 (Claude — web independent, regulatory/external lead)
     ↓ raw_items_pass2.json
 Reporter Pass 3 (Claude — Gmail active source)
     ↓ raw_items_pass3.json
-Union step
-    ↓ raw_items.json (deduped on URL)
+Union step (workspace/union_reporter_passes.py — deterministic, canonical-URL dedup)
+    ↓ raw_items.json + union_report.json
 Curator (Gemini 3.1 Pro / Antigravity)
     ↓ curated_items.json + source_diversity_report.json
-Coverage Check₁ (Python: coverage_check.py)
+Coverage Check₁ — Shape (Python: coverage_check.py)
     ↓ coverage_report.json
     ├─ if needs_backfill ─→ Backfill Reporter (Codex CLI) ─→ loop back to Curator (max 1 cycle)
+    └─ if sufficient ─→
+Coverage Check Content (Python: coverage_check_content.py — calls Vercel proxy / GPT)
+    ↓ content_coverage_report.json + content_gap_items.json
+    ├─ if content_gap_items present ─→ MANDATORY backfill: append, re-run Curator + Coverage₁
     └─ if sufficient ─→
 Fact-Checker (Python: fact_check_urls.py)
     ↓ verified_items.json + rejections.json
@@ -38,15 +42,19 @@ Coverage Check₂ (Python: coverage_check.py — RE-RUN after post_checks)
     └─ if still sufficient ─→
 Editor-in-Chief (Gemini 3.1 Pro / Antigravity)
     ↓ digest_draft.html + historical_log.json (appended)
-Gap Checker (GPT via Vercel proxy in cloud / Codex CLI locally)
+Gap Checker (GPT-4o + web_search via Vercel proxy in cloud / Codex CLI locally)
+    Sends current_items array → proxy server-side dedups by URL
     ↓ gap_check.json
     └─ if items found ─→ Fact-Checker → Editor-in-Chief
 Confidence Calibration (Python: calibrate_confidence.py)
     ↓ calibration_log.json
 Pipeline Audit Log (Python: log_pipeline_run.py)
     ↓ pipeline_audit_log.json
-Delivery: Gmail draft + git push
+Git Commit + Push (MANDATORY — workspace/git_push_log.txt captures full output)
+Gmail Draft (with collapsible Pipeline Diagnostics footer including git push status)
 ```
+
+The canonical routine prompt is in `docs/ROUTINE_PROMPT.md`.
 
 ### Model Assignments
 
@@ -285,6 +293,16 @@ Coverage Auditor as originally written checks (a) item count and (b) empty categ
 
 ### Lesson 20: Single-pass Reporter cannot be trusted as canonical (architectural)
 Lesson 10 documented Reporter non-determinism but did not enforce a fix. Architecture now runs THREE Reporter passes (web broad, web independent, Gmail active source) and unions the results. Each pass writes to its own `raw_items_passN.json` file; orchestrator unions before Curator. This is the structural fix that ensures a single weekly run is exhaustive.
+
+### Lesson 21: Three Reporter passes still produced regressions on first run
+First production run of the new architecture (May 5 evening) found 4 valuable new items (Brockman $50B compute, S&P 500 IPO rule, Microsoft AI revenue, GPT-5.5 default) but also REGRESSED on Tumbler Ridge — the original worst-miss case from May 4. Architecture is finding *different* things, not strictly *more* things.
+
+Variance across LLM-based passes is irreducible at the Reporter level. The fix is structural: a content-based Coverage Auditor (`coverage_check_content.py`) runs after Curator and calls the Vercel proxy (GPT-4o + web_search) with the curated item list as a "draft." Anything the proxy returns is mandatory backfill. This catches Tumbler-Ridge-class misses before the digest is written, not after.
+
+### Lesson 22: Cloud routine UI does not expose env vars OR PATs; toggle alone may not be sufficient for git push
+The "Allow unrestricted git push" Permissions toggle is the only push-related setting in the routine UI. First run after enabling it (May 5 evening) still did not push. Possibilities: toggle didn't actually save, toggle is necessary-but-not-sufficient, or cloud Claude reached Step 12 but failed silently.
+
+Mitigation: routine prompt now captures full git output to `workspace/git_push_log.txt` and surfaces the last 20 lines in a collapsible footer in the Gmail draft. Whether push works or not, the user can now see *why* in the email itself. If we ever see `git push: SUCCESS` in the footer with no actual commit on origin, that's a signal the toggle isn't actually granting credentials and we need PAT-based auth.
 
 ---
 

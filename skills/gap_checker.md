@@ -30,16 +30,27 @@ Content-Type: application/json
 {
   "draft_html": "<contents of output/digest_draft.html>",
   "week_start": "YYYY-MM-DD",
-  "week_end": "YYYY-MM-DD"
+  "week_end": "YYYY-MM-DD",
+  "current_items": [ ...verified_items.json contents... ]
 }
 ```
+
+The `current_items` field is OPTIONAL but RECOMMENDED. When sent, the proxy:
+- Includes a "do not return as gaps" block in the GPT prompt for cleaner event-level dedup
+- Server-side filters returned gaps whose URLs already match existing item URLs or corroborating_urls
 
 3. Response shape:
 ```
 {
   "success": true,
-  "gap_count": 2,
-  "gaps": [ { "headline": "...", "url": "...", "date": "...", "category": "...", "why_missed": "...", "confidence": "high|medium|low", "gap_check_sourced": true }, ... ]
+  "raw_gap_count": 5,         // before server-side dedup
+  "gap_count": 2,             // after server-side dedup
+  "gaps": [ ... ],            // post-dedup, send through Fact-Checker
+  "filtered_duplicates": [],  // for diagnostics
+  "web_search_called": true,
+  "web_search_call_count": 6, // how many distinct searches GPT actually fired
+  "model": "gpt-4o-...",
+  "usage": { ... }
 }
 ```
 

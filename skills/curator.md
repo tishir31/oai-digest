@@ -100,3 +100,12 @@ At the end of the JSON array, include a top-level `source_diversity` object (as 
 - But don't keep obvious noise — your value is editorial judgment
 - A week with 8 solid items is better than 15 items padded with fluff
 - Think like an IB analyst: what would you highlight in a morning meeting?
+
+## Downstream gates after Curator
+
+After your output is written, two coverage gates run before Editor:
+
+1. **`coverage_check.py`** — shape check (≥7 items, ≤1 empty category). If insufficient, triggers Backfill Reporter.
+2. **`coverage_check_content.py`** — content check (Coverage Auditor 2.0). Calls a Vercel proxy that runs GPT-4o + web_search against your curated list and returns any major OpenAI stories from the week that are missing. Anything returned is MANDATORY backfill — the routine appends those items to `curated_items.json` and re-runs the shape check.
+
+Implication for your work: do not over-prune. Items that look borderline-significant should be kept rather than cut. The content check will pull them back in if they were genuinely important, but the lower-friction path is to keep them on the first pass.
