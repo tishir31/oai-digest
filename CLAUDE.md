@@ -96,25 +96,23 @@ Seven agents with distinct roles, each doing ONE job, running across multiple mo
 6. Technical Research / Model Releases
 
 ## Current Status
-- Reporter: DONE — Claude Code with web search + source_type tagging
-- Curator: DONE — source diversity scoring + temporal clustering
-- Coverage Auditor: DONE — workspace/coverage_check.py (coverage floor + category gaps)
-- Backfill Reporter: DONE — skill file ready, triggered by Coverage Auditor
-- Fact-Checker: DONE — Python scripts for URL + post checks
-- Editor-in-Chief: DONE — with active historical dedup
-- Gap Checker: DONE — skill file ready, needs GPT/Codex CLI configured
-- Confidence calibration: DONE — workspace/calibrate_confidence.py
-- Pipeline audit log: DONE — workspace/pipeline_audit_log.json
-- Orchestration workflow: DONE — .agents/workflows/weekly-digest.md (11 phases)
-- Gmail integration: DONE — via Gmail MCP, draft created manually for now
-- Automation/scheduling: DEFERRED — reviewing token costs
+- Reporter: 3-pass (web broad, web independent, Gmail active) — see skills/reporter.md
+- Curator: source diversity scoring + temporal clustering
+- Coverage Auditor (shape): workspace/coverage_check.py — count/category gates
+- Coverage Auditor 2.0 (content): workspace/coverage_check_content.py — calls Vercel proxy with curated_items, returns mandatory backfill
+- Reporter union: workspace/union_reporter_passes.py — deterministic merge of the 3 passes
+- Backfill Reporter: triggered by either coverage gate
+- Fact-Checker: Python scripts for URL + post checks
+- Editor-in-Chief: with active historical dedup
+- Gap Checker: GPT-4o + web_search via Vercel proxy at ai-map-cyan.vercel.app/api/gap-check (cloud) or Codex CLI (local). Sends current_items for server-side dedup.
+- Cloud routine: prompt in docs/ROUTINE_PROMPT.md (paste into Anthropic routine UI)
+- Vercel deployment: api/gap-check.js holds OPENAI_API_KEY in env; routine authenticates via GAP_CHECK_TOKEN
+- Cloud git push: configured via Permissions toggle; status captured in workspace/git_push_log.txt and surfaced in Gmail diagnostics footer
 
-## Not Yet Implemented
-- Model enforcement in code (currently honor-system via skill files)
-- GPT/Codex CLI integration for Backfill Reporter and Gap Checker
-- Automated Gmail draft creation (currently manual via MCP)
-- Scheduled automation (cron/on-demand)
-- Generalization to arbitrary topics (OpenAI is currently hardcoded)
+## Known issues
+- Cloud routine git push toggle saves but pushes are not landing on origin/main as of May 5 evening run. Diagnostics footer added to next run will reveal cause.
+- Tumbler Ridge regression: 3-pass Reporter still drops some major stories in single runs. Coverage Auditor 2.0 is the structural fix; relies on Vercel proxy returning the missed items.
+- Gap Checker fuzzy dedup is imperfect (catches obvious dups, misses some event-paraphrases like "Pentagon Classified AI Deal" vs "Pentagon Announces AI Partnerships"). Editor's manual dedup catches most.
 
 ## Output Format
 Email subject: "OpenAI Weekly Digest — [Date Range]"
