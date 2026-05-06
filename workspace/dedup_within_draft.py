@@ -8,23 +8,34 @@ or The Information and Tom's Hardware both covering the Pentagon AI deal.
 Both items pass URL dedup but represent the same event.
 
 This script runs after Fact-Checker and post_checks but before Editor. It
-finds event-level duplicates by headline-token similarity + date proximity,
-keeps the higher-priority item per event group, and merges the rest into
-the keeper's corroborating_urls.
+finds event-level duplicates and merges them, keeping the higher-priority
+item per event group and pushing the rest's URLs into corroborating_urls.
+
+Two grouping strategies:
+  1. GPT-based (preferred): if GAP_CHECK_TOKEN is set, calls the Vercel
+     /api/event-dedup endpoint to have GPT-4o group items by event. This
+     handles paraphrases like "Pentagon Classified AI Deal" vs "Pentagon
+     AI Partnerships" that fuzzy matching misses.
+  2. Fuzzy fallback: headline-token Jaccard similarity + date window. Catches
+     obvious overlaps but misses paraphrases.
 
 Reads:  workspace/verified_items.json
 Writes: workspace/verified_items.json (dedup applied in-place)
         workspace/dedup_within_draft_report.json (audit trail)
 
 Usage:
-    python3 workspace/dedup_within_draft.py
+    GAP_CHECK_TOKEN=... python3 workspace/dedup_within_draft.py
 """
 
 import json
 import os
 import re
+import urllib.request
+import urllib.error
 from collections import defaultdict
 from datetime import datetime
+
+VERCEL_URL = "https://ai-map-cyan.vercel.app/api/event-dedup"
 
 VERIFIED_PATH = "workspace/verified_items.json"
 REPORT_PATH = "workspace/dedup_within_draft_report.json"
@@ -79,7 +90,7 @@ def item_priority(item):
     return (conf, stype, corrob)
 
 
-def find_event_groups(items):
+def find_event_groups_fuzzy(items):
     """Greedily group items by event using same heuristic as gap-check.js."""
     groups = []
     used = set()
@@ -105,6 +116,43 @@ def find_event_groups(items):
     return groups
 
 
+def find_event_groups_gpt(items, token):
+    """Group items via the Vercel /api/event-dedup proxy (GPT-4o).
+
+    Returns list of lists of indices, or raises on error.
+    """
+    body = json.dumps({"items": items}).encode()
+    req = urllib.request.Request(
+        VERCEL_URL,
+        data=body,
+        headers={
+            "Authorization": f"Bearer {token}",
+            "Content-Type": "application/json",
+        },
+    )
+    with urllib.request.urlopen(req, timeout=120) as resp:
+        data = json.loads(resp.read())
+    groups = []
+    for g in (data.get("groups") or []):
+        idx = g.get("member_indices") or []
+        if isinstance(idx, list) and idx:
+            groups.append(list(idx))
+    return groups, data
+
+
+def find_event_groups(items):
+    """Try GPT first; fall back to fuzzy if token absent or call fails."""
+    token = os.environ.get("GAP_CHECK_TOKEN")
+    if token and len(items) > 0:
+        try:
+            groups, _data = find_event_groups_gpt(items, token)
+            if groups:
+                return groups, "gpt"
+        except (urllib.error.URLError, urllib.error.HTTPError, json.JSONDecodeError, OSError) as e:
+            print(f"  WARN: GPT event-dedup failed ({e}), falling back to fuzzy")
+    return find_event_groups_fuzzy(items), "fuzzy"
+
+
 def main():
     if not os.path.exists(VERIFIED_PATH):
         print(f"Error: {VERIFIED_PATH} not found.")
@@ -124,7 +172,8 @@ def main():
     print("=" * 60)
     print(f"  Before: {len(items)} items")
 
-    groups = find_event_groups(items)
+    groups, mode = find_event_groups(items)
+    print(f"  Mode:   {mode}")
 
     kept = []
     audit_groups = []
@@ -170,6 +219,7 @@ def main():
     report = {
         "before": len(items),
         "after": len(kept),
+        "mode": mode,
         "merged_groups": audit_groups,
     }
     with open(REPORT_PATH, "w") as f:
