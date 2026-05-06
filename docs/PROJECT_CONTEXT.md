@@ -313,7 +313,16 @@ Same event from two outlets often shares only one strong token. Example: "Pentag
 
 Solution: GPT-based event grouping at `/api/event-dedup` (Vercel proxy). Sends item headlines+dates+sources+URLs to GPT-4o (no web_search needed) and gets back grouped indices. Cost: ~$0.001/run. Used by `dedup_within_draft.py` (primary path) and recommended for any future "is this the same event?" decision in the pipeline.
 
+`/api/gap-check` now also chains semantic dedup as a third stage (after URL dedup, after fuzzy similarity dedup) to catch any paraphrased duplicates that survived the cheaper filters.
+
 The cleaner architecture: keep fuzzy as a fallback for when the proxy is unreachable, but trust GPT for the actual editorial judgment. Same model family as Reporter (Claude vs Claude here would be Claude vs OpenAI vs different — for dedup specifically, single-model with structured task is fine; uncorrelation matters for *finding* gaps, not for *judging* duplicates).
+
+### Lesson 24: Sensitive/tragic news requires explicit search angles in BOTH Reporter and Gap Checker prompts
+The May 5 evening run dropped the Tumbler Ridge school-shooting lawsuit even with three Reporter passes. Adding mandatory sensitive-search angles to `skills/reporter.md` was insufficient — the cloud Gap Checker (a different prompt and model) also needed them.
+
+After updating both prompts (Reporter: mandatory search for "OpenAI lawsuit", "Sam Altman apology", "ChatGPT death/harm/shooter", "OpenAI investigation"; Gap Checker: mandatory searches #7 and #8 covering safety incidents and litigation), a synthetic test with the actual 18-item draft from the May 5 evening regression case correctly surfaced "Families Sue OpenAI Over Canadian Mass Shooter's Use of ChatGPT" as a gap.
+
+Architectural conclusion: any prompt that decides what stories matter must explicitly call out sensitive/tragic news as mandatory. Don't assume the model will treat "newsworthy" identically across topic categories — there's an implicit downweighting on uncomfortable content unless overridden.
 
 ---
 
