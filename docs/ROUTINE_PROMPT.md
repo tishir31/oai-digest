@@ -72,15 +72,17 @@ Run:
   python3 workspace/post_checks.py
 
 ============================================================
-STEP 7b — Event-level dedup within draft
+STEP 7b — Event-level dedup within draft (GPT-based)
 ============================================================
 Run:
-  python3 workspace/dedup_within_draft.py
+  GAP_CHECK_TOKEN='PASTE_TOKEN_HERE' python3 workspace/dedup_within_draft.py
 
-This catches cases where two outlets covered the same event with
-different URLs (Reuters and Bloomberg both filed Musk-settlement
-stories, etc). Loser items get merged into the winner's
-corroborating_urls.
+This calls /api/event-dedup (GPT-4o, no web search) to group items by
+underlying event. Catches paraphrases like "Pentagon Classified AI Deal"
+vs "Pentagon Announces AI Partnerships" that fuzzy URL/keyword matching
+misses. Higher-priority item per group wins; loser URLs go to
+corroborating_urls. Falls back to fuzzy heuristic if the proxy is
+unreachable.
 
 ============================================================
 STEP 8 — Coverage Audit (re-run after post_checks)
