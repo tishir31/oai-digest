@@ -1,0 +1,167 @@
+[
+  {
+    "headline": "Musk v. Altman Trial Opens in Oakland: Musk Testifies OpenAI 'Stole a Charity'",
+    "date": "2026-04-28",
+    "url": "https://www.npr.org/2026/04/28/nx-s1-5801438/musk-altman-openai-trial-opening-statements",
+    "source_name": "NPR",
+    "source_type": "wire_service",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "The Musk v. Altman trial opened April 28 in federal court in Oakland before Judge Yvonne Gonzalez Rogers with a nine-person jury. Musk alleges OpenAI, Altman and Brockman breached promises to keep the AI lab a nonprofit, seeking $150 billion in damages and the ouster of leadership. Musk testified over three days that he donated $38 million under the premise the organization would prioritize safe AI development.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Musk Admits Under Oath That xAI Distilled OpenAI Models to Train Grok",
+    "date": "2026-04-30",
+    "url": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
+    "source_name": "MIT Technology Review",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "During cross-examination on April 30, Elon Musk acknowledged it is 'partly' true that xAI used OpenAI models to train its own Grok AI through a process known as distillation. Musk downplayed the admission, calling it 'standard practice,' but the revelation undercuts his claim of being harmed by OpenAI's for-profit pivot while his own company benefited from their technology.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Musk Sought Settlement Two Days Before Trial; Sent Threatening Texts When Rebuffed",
+    "date": "2026-05-04",
+    "url": "https://www.cnn.com/2026/05/04/tech/musk-openai-trial-filing",
+    "source_name": "CNN",
+    "source_type": "wire_service",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "A Sunday court filing by OpenAI revealed that Musk texted Greg Brockman on April 25 to gauge settlement interest. When Brockman suggested both sides drop claims, Musk responded: 'By the end of this week, you and Sam will be the most hated men in America.' The filing suggests Musk was uncertain of his legal position days before testimony began.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI and Microsoft End Exclusive Cloud Partnership; AGI Clause Eliminated",
+    "date": "2026-04-28",
+    "url": "https://www.cnbc.com/2026/04/28/openai-brings-models-to-aws-after-ending-exclusivity-with-microsoft.html",
+    "source_name": "CNBC",
+    "source_type": "wire_service",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "Microsoft and OpenAI formally ended their exclusive cloud partnership on April 27, with the new terms taking effect April 28. Microsoft's license to OpenAI IP becomes non-exclusive (through 2032), the 'AGI clause' that would have terminated the license is gone, and OpenAI can now sell products on any cloud. Microsoft retains 20% revenue share through 2030, subject to an undisclosed cap.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Models Go Live on Amazon Bedrock Within 24 Hours of Microsoft Exclusivity Ending",
+    "date": "2026-04-28",
+    "url": "https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/",
+    "source_name": "TechCrunch",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "Within 24 hours of the Microsoft exclusivity ending, AWS launched OpenAI's GPT-5.5, GPT-5.4, Codex coding agent, and a new Bedrock Managed Agents category in limited preview. The launch is part of Amazon's up-to-$50 billion OpenAI investment announced in February, which includes OpenAI expanding its AWS commitment by $100 billion over eight years.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Finalizes $10 Billion 'Deployment Company' Joint Venture With PE Consortium",
+    "date": "2026-05-04",
+    "url": "https://www.bloomberg.com/news/articles/2026-05-04/openai-finalizes-10-billion-joint-venture-with-pe-firms-to-deploy-ai",
+    "source_name": "Bloomberg",
+    "source_type": "wire_service",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI finalized The Deployment Company, a $10 billion joint venture anchored by TPG with 18 other investors including Brookfield, Advent, Bain Capital, and SoftBank. The PE consortium contributes ~$4 billion; OpenAI puts in up to $1.5 billion and retains strategic control via super-voting shares. Unusually, the PE backers receive a guaranteed 17.5% annual return over five years.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Brockman Testifies OpenAI Will Spend $50 Billion on Computing in 2026",
+    "date": "2026-05-05",
+    "url": "https://finance.yahoo.com/sectors/technology/articles/openai-spend-50-billion-computing-191336356.html",
+    "source_name": "Yahoo Finance / Bloomberg",
+    "source_type": "wire_service",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI President Greg Brockman testified on the witness stand that the company expects to spend $50 billion on computing power in 2026 to support its AI software, up from roughly $30 million in 2017. The disclosure came during the Musk v. Altman trial and reflects the extraordinary capital intensity of frontier AI development. OpenAI has separately pledged ~$600 billion in spending through 2030.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Brockman Discloses Nearly $30 Billion OpenAI Stake and Financial Ties to Altman",
+    "date": "2026-05-04",
+    "url": "https://www.rappler.com/technology/openai-profit-seeking-trial-updates-may-4-2026/",
+    "source_name": "Rappler / Reuters",
+    "source_type": "wire_service",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "During trial testimony, Greg Brockman disclosed that his OpenAI equity stake is worth nearly $30 billion. He also revealed Altman granted him a stake in Altman's family office in 2017 worth $10 million at the time, plus holdings in Altman-backed companies Cerebras and Helion Energy. Musk's lawyers argue these ties compromised Brockman's independence as a fiduciary.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Sales Leader James Dyett Departs for Thrive Capital Operating Partner Role",
+    "date": "2026-05-04",
+    "url": "https://www.cnbc.com/2026/05/04/open-ai-executive-leaves-thrive-capital.html",
+    "source_name": "CNBC",
+    "source_type": "wire_service",
+    "category": "Key Hires / Departures",
+    "raw_snippet": "OpenAI's head of platform sales James Dyett announced his departure to join Thrive Capital as an Operator in Residence. Dyett, who joined OpenAI in 2023 during its ChatGPT-fueled growth, managed enterprise and API sales. Thrive is a longtime OpenAI investor run by Joshua Kushner, who is close to CEO Sam Altman. The departure continues a wave of senior executive exits that began in early 2026.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Brockman Testifies Musk Had OpenAI Employees Do Secret Work for Tesla Autopilot",
+    "date": "2026-05-05",
+    "url": "https://www.cnbc.com/2026/05/05/open-ai-altman-musk-trial-brockman-testimony.html",
+    "source_name": "CNBC",
+    "source_type": "wire_service",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Greg Brockman testified that Musk enlisted several OpenAI employees to do months of unpaid work for Tesla in 2017, helping overhaul the Autopilot self-driving team. Brockman said this was done without full organizational awareness, rebutting Musk's framing of selfless commitment to OpenAI's mission. Brockman also testified Musk wanted $80 billion from OpenAI to finance Mars colonization.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Launches Advanced Account Security With Yubico Partnership for High-Risk Users",
+    "date": "2026-04-30",
+    "url": "https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/",
+    "source_name": "TechCrunch",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI introduced Advanced Account Security, an opt-in mode that replaces password-based sign-in with passkeys or physical security keys (via Yubico partnership at $68 for two keys). The feature disables email/SMS recovery, shortens sessions, sends login alerts, and opts users out of model training. Targeted at journalists, researchers, and officials; mandatory for Trusted Access for Cyber users from June 1.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Rolls Out GPT-5.5 Instant as ChatGPT Default Model With Major Accuracy Gains",
+    "date": "2026-05-05",
+    "url": "https://9to5mac.com/2026/05/05/gpt-5-5-instant-makes-chatgpt-more-accurate-while-nixing-gratuitous-emojis/",
+    "source_name": "9to5Mac",
+    "source_type": "tech_press",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "OpenAI replaced its ChatGPT default model with GPT-5.5 Instant, succeeding GPT-5.3 Instant. Internal testing shows 52.5% fewer hallucinated claims on high-stakes medical, legal, and financial prompts, and 37.3% fewer inaccurate claims on previously flagged conversations. Responses use ~30% fewer words and cut back on emoji usage. Available to all ChatGPT users and via the API.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Washington Post: Musk's Trial Against OpenAI Centers on Billionaire Personality, Not AI Policy",
+    "date": "2026-05-02",
+    "url": "https://www.washingtonpost.com/technology/2026/05/02/musk-altman-openai-trial/",
+    "source_name": "The Washington Post",
+    "source_type": "other",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "The Washington Post's trial analysis notes that week one was dominated by Musk's combative testimony and personality rather than substantive AI governance questions. Musk clashed repeatedly with OpenAI lead counsel William Savitt, accusing him of lying and designing questions 'to trick' him. The judge's advisory-only jury structure means the final ruling rests with Judge Gonzalez Rogers, expected by mid-May.",
+    "confidence": "medium",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Anthropic Launches Rival PE Joint Venture With Blackstone, Goldman Sachs in Response to OpenAI",
+    "date": "2026-05-04",
+    "url": "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/",
+    "source_name": "TechCrunch",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "Within minutes of OpenAI announcing The Deployment Company, rival Anthropic announced its own PE-backed joint venture with Blackstone, Hellman & Friedman, and Goldman Sachs. The parallel launches signal a new competitive front in enterprise AI where frontier model makers embed engineers inside portfolio companies, following a forward-deployed model similar to Palantir.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Fortune Analysis: Musk-OpenAI Trial Producing 'More Heat Than Light' on AI Control Questions",
+    "date": "2026-05-05",
+    "url": "https://fortune.com/2026/05/05/musk-court-fight-openai/",
+    "source_name": "Fortune",
+    "source_type": "other",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Fortune's legal analysis argues the trial has so far failed to advance the public-interest question of who should control powerful AI systems. Instead, testimony has centered on interpersonal dynamics among billionaires. Judge Gonzalez Rogers split the trial into a liability phase (expected to conclude by May 21) and a remedy phase if liability is found.",
+    "confidence": "medium",
+    "gmail_sourced": false
+  }
+]

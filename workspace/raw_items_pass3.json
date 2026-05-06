@@ -1,0 +1,123 @@
+[
+  {
+    "headline": "OpenAI Signs Classified AI Deal with Pentagon for 'Any Lawful Operational Use'",
+    "date": "2026-05-02",
+    "url": "https://www.theinformation.com/briefings/pentagon-signs-classified-ai-deals-seven-companies-following-anthropic-spat",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "The U.S. Department of Defense signed deals with seven AI companies including OpenAI to use their technology on classified networks. OpenAI agreed to let the Pentagon use its AI software for any 'lawful operational use.' The announcement comes after Anthropic declined to grant similar broad license and was banned from Defense Department work.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Plans Massive Expansion of Cheaper ChatGPT Go Tier, Expects 112M Subscribers",
+    "date": "2026-04-29",
+    "url": "https://www.theinformation.com/articles/openai-sees-8-chatgpt-driving-consumer-subscribers-122-million-year",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI forecasts that subscribers to ChatGPT Go ($8/month in US, ~$5/month elsewhere) will surge 36x to 112 million this year, while ChatGPT Plus subscribers are projected to fall 80% to about 9 million. The company expects to offset revenue decline with advertising shown to ChatGPT Go users, projecting ad revenue per user to rise to $59 by 2030.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Models Launch on Amazon Web Services via Bedrock",
+    "date": "2026-04-28",
+    "url": "https://www.cnbc.com/2026/04/28/openai-brings-models-to-aws-after-ending-exclusivity-with-microsoft.html",
+    "source_name": "CNBC",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI's models will be available via Amazon Web Services in the next few weeks after ending exclusivity with Microsoft. AWS customers can experiment with OpenAI's models and its Codex agent through Amazon Bedrock. A new service called Amazon Bedrock Managed Agents powered by OpenAI will enable customers to build customized stateful agents.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Musk v. Altman Trial Begins; Musk Testifies OpenAI 'Looting' a Charity",
+    "date": "2026-04-28",
+    "url": "https://www.reuters.com/legal/litigation/openai-trial-pitting-elon-musk-against-sam-altman-kicks-off-2026-04-28/",
+    "source_name": "Reuters",
+    "source_type": "wire_service",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "The Musk v. Altman trial officially began on April 28. Elon Musk testified that OpenAI's pivot from a charity to a for-profit business is wrong and sets a concerning precedent. Musk claims the founders breached a charitable trust and unjustly enriched themselves. OpenAI's attorneys counter that the lawsuit is primarily an attempt to undermine a competitor to Musk's xAI.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Musk Messaged OpenAI President Brockman About Settlement Before Trial",
+    "date": "2026-05-04",
+    "url": "https://www.theinformation.com/briefings/musk-messaged-brockman-settlement",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Elon Musk messaged OpenAI president Greg Brockman to gauge interest in a possible settlement two days before trial began. Brockman responded that both sides could drop their legal claims. Musk replied: 'By the end of this week, you and Sam will be the most hated men in America. If you insist, so it will be.' OpenAI's lawyers filed the exchange with the court.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI-Linked Stocks Slump on Report Company Missed Key Internal Targets",
+    "date": "2026-04-28",
+    "url": "https://www.bloomberg.com/news/articles/2026-04-28/openai-linked-stocks-slump-on-report-of-startup-missing-targets",
+    "source_name": "Bloomberg",
+    "source_type": "wire_service",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "US stocks slipped from record highs on a slump in OpenAI-linked stocks following a Bloomberg report that the company missed key internal targets. The sell-off came ahead of crucial Big Tech earnings and a Fed rate decision.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Microsoft AI Revenue Tops $9.25B Quarterly, 123% YoY Growth; OpenAI a Key Azure Customer",
+    "date": "2026-04-30",
+    "url": "https://www.theinformation.com/briefings/microsoft-cloud-revenue-accelerates-office-365-copilot-sales-rise-33",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "Microsoft disclosed for the first time that its total AI revenue exceeded $9.25 billion in quarterly revenue, 123% higher year-over-year. This includes sales of specialized AI servers on Azure to OpenAI and other AI firms. Microsoft did not specify what percent of its $627B revenue backlog came from OpenAI, after saying last quarter that the startup accounted for 45%.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "S&P 500 Considers Rule Change That Could Fast-Track OpenAI IPO Index Entry",
+    "date": "2026-05-02",
+    "url": "https://www.theinformation.com/briefings/s-p-500-weigh-faster-entry-mega-ipos",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "S&P Dow Jones Indices is consulting on whether to let large stocks into indexes after just 6 months post-IPO (down from 12 months) and exempt mega-cap companies from profitability requirements. The rule change could boost demand for eventual IPO shares of OpenAI, Anthropic and SpaceX. Consultation period open until May 28.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "How ChatGPT Serves Ads: Technical Details of OpenAI's New Ad Platform Revealed",
+    "date": "2026-04-29",
+    "url": "https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/",
+    "source_name": "Buchodi",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI's ad platform has two halves: the ChatGPT back end injects structured objects into conversations while the model is responding, and on the merchant side a tracking SDK reports product views back to OpenAI. The two parts are tied together by Fernet-encrypted click tokens enabling full attribution.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Microsoft Shifts to Usage-Based Pricing for AI Products Powered by OpenAI",
+    "date": "2026-04-30",
+    "url": "https://www.theinformation.com/articles/microsoft-pushes-usage-based-pricing-ai-eats-cloud-margins",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "Microsoft CEO Nadella said any per-user business will become 'per-user and usage' as increased AI usage drags down cloud margins. GitHub Copilot (which relies in part on models powering OpenAI products) now charges usage-based fees. Microsoft's Azure gross profit margin fell 5 percentage points to 56% year-over-year partly due to AI usage growth.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Amazon Launches Stateful Bedrock Agents Powered by OpenAI Models",
+    "date": "2026-04-30",
+    "url": "https://www.theinformation.com/articles/microsoft-pushes-usage-based-pricing-ai-eats-cloud-margins",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "Amazon launched a preview of Amazon Bedrock Agents, a stateful AI product powered by OpenAI models. CEO Andy Jassy said stateful AI, which remembers past conversations and manages data access permissions, will give AWS an advantage. The service automates much of the customization work engineers currently do when building agents.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  }
+]

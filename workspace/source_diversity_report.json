@@ -1,11 +1,30 @@
 {
-  "run_week": "2026-03-31 to 2026-04-05",
+  "run_week": "2026-04-28 to 2026-05-04",
   "source_type_counts": {
-    "official_blog": 5,
-    "tech_press": 3,
-    "developer_docs": 3,
-    "wire_service": 2
+    "official_blog": 4,
+    "wire_service": 3,
+    "tech_press": 11,
+    "press_release": 0,
+    "regulatory_filing": 0,
+    "research_preprint": 0,
+    "developer_docs": 0,
+    "social_media": 0,
+    "other": 0
   },
-  "unique_outlets": 6,
-  "diversity_warning": null
+  "unique_outlets": 10,
+  "outlet_list": [
+    "OpenAI",
+    "CNBC",
+    "Bloomberg",
+    "The Information",
+    "NPR",
+    "MIT Technology Review",
+    "NBC News",
+    "CNN",
+    "9to5Mac",
+    "TechTimes"
+  ],
+  "diversity_warning": "tech_press at 61% (11/18 items) — marginally above 60% threshold. Mitigated by 10 unique outlets and 4 official sources present. No action needed.",
+  "curated_count": 18,
+  "gmail_sourced_count": 4
 }

@@ -1,0 +1,200 @@
+[
+  {
+    "headline": "OpenAI Models, Codex, and Managed Agents Launch on Amazon Bedrock",
+    "date": "2026-04-28",
+    "url": "https://openai.com/index/openai-on-aws/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "AWS and OpenAI expanded their partnership with three new offerings on Amazon Bedrock in limited preview: GPT-5.5 and GPT-5.4 models, Codex coding agent, and Amazon Bedrock Managed Agents powered by OpenAI. Usage can be applied toward existing AWS cloud commitments and inherits enterprise controls including IAM, PrivateLink, guardrails, and CloudTrail logging.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "WSJ: OpenAI Misses Revenue and User Growth Targets Ahead of Planned IPO",
+    "date": "2026-04-28",
+    "url": "https://www.cnbc.com/2026/04/28/openais-revenue-growth-estimates-fall-short-report.html",
+    "source_name": "CNBC",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "The Wall Street Journal reported that OpenAI missed internal targets for both user growth and revenue. The company fell short of its goal of 1 billion weekly active ChatGPT users (reaching 900M by Feb 2026) and missed multiple monthly revenue targets in early 2026, losing ground to Anthropic (which crossed $30B annualized revenue) and Google Gemini. CFO Sarah Friar warned that if revenue growth doesn't accelerate, the company could face difficulty funding future compute agreements.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "AI-Adjacent Stocks Plunge on OpenAI Revenue Miss: Oracle -7.7%, CoreWeave -7.4%, SoftBank -10%",
+    "date": "2026-04-28",
+    "url": "https://fortune.com/2026/04/28/markets-openai-revenue-oracle-softbank-coreweave-sam-altman-trial-elon-musk/",
+    "source_name": "Fortune",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "The WSJ report on OpenAI's missed targets triggered a significant selloff in AI infrastructure stocks. Oracle (which signed a $300B five-year partnership with OpenAI) dropped 7.7%, CoreWeave (with an $11.9B infrastructure contract) fell 7.4%, and SoftBank (a 13% OpenAI shareholder) sank nearly 10% in Tokyo trading. The report also revealed ChatGPT's share of generative AI web traffic dropped from 86.7% to 64.5% over the past year.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Musk v. OpenAI Trial Day 2: Musk Testifies He Founded OpenAI as Nonprofit to Counter Google",
+    "date": "2026-04-28",
+    "url": "https://www.cnbc.com/2026/04/28/openai-trial-elon-musk-sam-altman-live-updates.html",
+    "source_name": "CNBC",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "On Day 2 of the Musk v. OpenAI trial in Oakland federal court, Elon Musk testified he played a pivotal role in founding OpenAI and would not have contributed resources if the intent was to make a profit. He entered the 2015 founding charter as evidence, which declared OpenAI would seek to create 'open source technology for the public benefit' and was 'not organized for the private gain of any person.'",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "ChatGPT Adds Model Selection in Composer and Moves Thinking Effort Controls",
+    "date": "2026-04-28",
+    "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+    "source_name": "OpenAI Help Center",
+    "source_type": "developer_docs",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "ChatGPT added model selection in the composer, allowing users to find and switch models from the same place where they write their prompt. Thinking effort controls were moved into the model picker on web, so when choosing a Thinking or Pro model, users can select thinking effort directly from the model picker. Available on Plus, Pro, and Business plans.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Publishes 'Where the Goblins Came From' — Explains RLHF Bug That Spread Across Models",
+    "date": "2026-04-29",
+    "url": "https://openai.com/index/where-the-goblins-came-from/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "OpenAI published a technical blog explaining how starting with GPT-5.1, models developed a habit of increasingly mentioning goblins and gremlins in metaphors (usage up 175%). Root cause: the 'Nerdy personality' customization feature gave disproportionate RLHF rewards for creature metaphors, which then spread beyond the Nerdy condition due to reinforcement learning not staying scoped. The Codex CLI now explicitly instructs models never to mention goblins unless directly relevant.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Musk v. OpenAI Trial Day 3: Cross-Examination Gets Heated, Musk Testifies for 5 Hours",
+    "date": "2026-04-29",
+    "url": "https://www.cnbc.com/2026/04/29/musk-altman-live-updates-day-3-open-ai-trial.html",
+    "source_name": "CNBC",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "On Day 3 of the Musk v. OpenAI trial, Musk testified for roughly five hours with heated exchanges during cross-examination by OpenAI's lead attorney William Savitt. Musk emphasized he is not opposed to a for-profit subsidiary, but said he does not think it's acceptable for the for-profit arm to become the 'main event.'",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Musk v. OpenAI Trial Day 4: Brockman Arrives to Testify, Musk Concludes Testimony",
+    "date": "2026-04-30",
+    "url": "https://www.cnbc.com/2026/04/30/openai-trial-elon-musk-sam-altman-live-updates.html",
+    "source_name": "CNBC",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "On Day 4 of the trial, Elon Musk concluded his testimony and lawyers sparred over a second witness. OpenAI President Greg Brockman arrived at the U.S. District Court in Oakland ahead of his expected testimony. The jury would not reconvene until the following Monday.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI GPT OSS Models Available on Amazon Bedrock in AWS GovCloud (US)",
+    "date": "2026-04-28",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/openai-gpt-oss-nvidia-nemotron-govcloud/",
+    "source_name": "AWS",
+    "source_type": "press_release",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI's open-weight GPT OSS models (120B and 20B) are now available on Amazon Bedrock in AWS GovCloud (US) regions, powered by Mantle, a new distributed inference engine. These fully open models with open weights, datasets, and recipes are now accessible to government customers through AWS's secure government cloud environment.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Introduces Advanced Account Security with Passkeys and YubiKey Partnership",
+    "date": "2026-05-04",
+    "url": "https://openai.com/index/advanced-account-security/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI launched Advanced Account Security, an opt-in feature for ChatGPT accounts that requires passkeys or security keys, disables password/SMS/email sign-in, adds recovery keys, shortens sessions, and automatically excludes conversations from training data. Recommended for journalists, researchers, and political dissidents. OpenAI partnered with Yubico for preferred pricing on customized YubiKey bundles.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Publishes Technical Blog on Delivering Low-Latency Voice AI at Scale",
+    "date": "2026-05-04",
+    "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "OpenAI engineers Yi Zhang and William McDonald published a deep technical blog on how OpenAI rebuilt its WebRTC stack to power real-time voice AI. They describe a split relay plus transceiver architecture that preserves standard WebRTC behavior for clients while changing how packets are routed inside OpenAI's infrastructure to achieve low latency at global scale.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Finalizes $10B Joint Venture 'The Deployment Company' with PE Firms",
+    "date": "2026-05-04",
+    "url": "https://www.bloomberg.com/news/articles/2026-05-04/openai-finalizes-10-billion-joint-venture-with-pe-firms-to-deploy-ai",
+    "source_name": "Bloomberg",
+    "source_type": "wire_service",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI finalized a $10 billion joint venture called 'The Deployment Company' with 19 PE investors including TPG, Brookfield, Advent, Bain Capital, SoftBank, and Dragoneer. OpenAI commits up to $1.5B ($500M equity at close + $1B option). The venture embeds OpenAI engineers directly inside client organizations (similar to Palantir's forward-deployed model) across healthcare, logistics, manufacturing, and financial services. OpenAI retains control through super-voting shares with a 17.5% guaranteed annual return for investors over five years.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Musk Sought Settlement with OpenAI Two Days Before Trial, Filed Ominous Texts to Brockman",
+    "date": "2026-05-04",
+    "url": "https://www.cnn.com/2026/05/04/tech/musk-openai-trial-filing",
+    "source_name": "CNN",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "A court filing revealed that Elon Musk sent a message to OpenAI President Greg Brockman on April 25 'to gauge interest in settlement.' When Brockman suggested both sides drop their claims, Musk responded: 'By the end of this week, you and Sam will be the most hated men in America.' OpenAI claims these texts show Musk's motivations are personal, not about protecting the nonprofit mission.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI President Greg Brockman Discloses Nearly $30 Billion Stake at Trial",
+    "date": "2026-05-04",
+    "url": "https://www.nbcnews.com/tech/tech-news/musk-lawyer-hammers-openai-co-founder-30-billion-stake-rcna343518",
+    "source_name": "NBC News",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "OpenAI co-founder and President Greg Brockman disclosed during trial testimony that his stake in the firm is worth nearly $30 billion. When Musk's lawyer asked 'You just happen to be $30 billion richer?', Brockman responded 'Compensation was certainly secondary to the mission.' He testified the stake was granted in 2018, years before ChatGPT's release, by the OpenAI board without his participation in the vote.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Sales Leader James Dyett Departs for Operator in Residence Role at Thrive Capital",
+    "date": "2026-05-04",
+    "url": "https://www.cnbc.com/2026/05/04/open-ai-executive-leaves-thrive-capital.html",
+    "source_name": "CNBC",
+    "source_type": "tech_press",
+    "category": "Key Hires / Departures",
+    "raw_snippet": "OpenAI sales leader James Dyett announced he is leaving to become Operator in Residence at Thrive Capital, one of OpenAI's longterm backers whose founder Joshua Kushner has a close relationship with CEO Sam Altman. Dyett joined OpenAI in 2023 and led enterprise sales and API sales during a period of explosive growth following ChatGPT's launch.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI CFO Sarah Friar Pushes to Delay IPO to 2027; Altman Wants 2026 Listing",
+    "date": "2026-05-04",
+    "url": "https://www.techtimes.com/articles/316323/20260504/openai-ipo-delay-2027-sarah-friar-flags-600-billion-risk-sam-altman-pushes-2026-listing.htm",
+    "source_name": "TechTimes",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI CFO Sarah Friar is advocating to delay the company's IPO to 2027, citing $600 billion in accumulated infrastructure spending commitments and missed growth targets that could strain the company's finances when presenting to public investors. CEO Sam Altman is pushing for a Q4 2026 listing targeting a $1 trillion valuation. A 2027 listing would give time to close the gap between infrastructure commitments and revenue, satisfy reporting requirements, and resolve the Musk litigation.",
+    "confidence": "medium",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Microsoft-OpenAI Partnership Restructured: End of Azure Exclusivity, AGI Clause Removed",
+    "date": "2026-04-28",
+    "url": "https://openai.com/index/next-phase-of-microsoft-partnership/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI and Microsoft announced an amended partnership agreement on April 27 that ends Azure exclusivity (OpenAI can now serve products across any cloud provider), removes the AGI clause entirely, restructures revenue sharing (Microsoft no longer pays revenue share to OpenAI; OpenAI's payments to Microsoft continue through 2030 with a cap), and extends Microsoft's license to OpenAI IP through 2032. Microsoft remains primary cloud partner with products shipping first on Azure. Market reaction and implementation news dominated the following week.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Responds to Revenue Miss: 'Firing on All Cylinders'",
+    "date": "2026-04-28",
+    "url": "https://thenextweb.com/news/openai-growth-fears-firing-all-cylinders",
+    "source_name": "The Next Web",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI pushed back on the WSJ revenue miss report, calling it 'ridiculous' and stating 'We are totally aligned on buying as much compute as we can and working hard on it together every day.' The company said it is 'firing on all cylinders' despite the market panic. OpenAI's annualized revenue stands at approximately $25 billion, while Anthropic has crossed $30 billion, representing a reversal of their previous positions.",
+    "confidence": "high",
+    "gmail_sourced": false
+  }
+]

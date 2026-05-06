@@ -415,5 +415,83 @@
         "high_total": 15
       }
     }
+  },
+  {
+    "run_id": "run_20260506T031452",
+    "run_date": "2026-05-06T03:14:52.148283",
+    "steps": {
+      "reporter": {
+        "items_produced": 39,
+        "confidence_breakdown": {
+          "high": 31,
+          "medium": 8,
+          "low": 0
+        },
+        "source_type_counts": {
+          "official_blog": 5,
+          "tech_press": 22,
+          "developer_docs": 1,
+          "press_release": 1,
+          "wire_service": 8,
+          "other": 2
+        },
+        "gmail_sourced_count": 9
+      },
+      "curator": {
+        "items_in": 39,
+        "items_kept": 18,
+        "items_cut": 12,
+        "cut_reasons": {
+          "Clustered with revenue miss item \u2014 market reaction captured in corroborating_urls": 1,
+          "Clustered with revenue miss item \u2014 PR response, not independent news": 1,
+          "Clustered with trial summary item (NPR) \u2014 daily update subsumed": 3,
+          "Analysis/opinion piece, not news \u2014 excluded per filtering rules": 2,
+          "Trivially minor UX change \u2014 model picker relocation not MD-worthy": 1,
+          "Pure engineering blog \u2014 WebRTC infrastructure details not material for IB audience": 1,
+          "Obscure source, purely technical teardown of ad system \u2014 not news for IB audience": 1,
+          "Primarily about Microsoft pricing strategy \u2014 OpenAI mentioned only as inference cost driver": 1,
+          "Story about Anthropic, not OpenAI \u2014 competitive context captured in Deployment Company item": 1
+        },
+        "source_diversity_warning": "tech_press at 61% (11/18 items) \u2014 marginally above 60% threshold. Mitigated by 10 unique outlets and 4 official sources present. No action needed.",
+        "items_with_corroboration_2plus": 8
+      },
+      "coverage_auditor": {
+        "verdict": "sufficient",
+        "curated_count": 18,
+        "coverage_floor": 7,
+        "empty_categories": [],
+        "thin_categories": [
+          "Product Launches & Updates",
+          "Key Hires / Departures"
+        ]
+      },
+      "backfill_reporter": {
+        "ran": false,
+        "items_found": 0,
+        "backfill_sourced_count": 0
+      },
+      "fact_checker": {
+        "items_in": 18,
+        "items_verified": 18,
+        "items_rejected": 0,
+        "rejection_reasons": [],
+        "url_200_count": 0,
+        "url_403_count": 18,
+        "url_other_count": 0
+      },
+      "editor_in_chief": {
+        "items_in_digest": 18,
+        "historical_dedup_check_run": true
+      },
+      "gap_checker": {
+        "ran": true,
+        "items_found": 0
+      },
+      "confidence_calibration": {
+        "ran": true,
+        "well_calibrated": false,
+        "high_total": 31
+      }
+    }
   }
 ]
