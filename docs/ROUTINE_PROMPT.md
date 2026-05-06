@@ -72,6 +72,17 @@ Run:
   python3 workspace/post_checks.py
 
 ============================================================
+STEP 7b — Event-level dedup within draft
+============================================================
+Run:
+  python3 workspace/dedup_within_draft.py
+
+This catches cases where two outlets covered the same event with
+different URLs (Reuters and Bloomberg both filed Musk-settlement
+stories, etc). Loser items get merged into the winner's
+corroborating_urls.
+
+============================================================
 STEP 8 — Coverage Audit (re-run after post_checks)
 ============================================================
 Run:
