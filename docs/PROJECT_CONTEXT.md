@@ -40,10 +40,14 @@ Post-Checks (Python: post_checks.py)
 Coverage Check₂ (Python: coverage_check.py — RE-RUN after post_checks)
     ├─ if post_checks hollowed out categories ─→ Backfill Reporter (max 1 cycle)
     └─ if still sufficient ─→
+Dedup-Within-Draft (Python: dedup_within_draft.py)
+    Calls Vercel /api/event-dedup (GPT-4o) to group same-event items.
+    Higher-priority item per group wins; loser URLs → corroborating_urls.
+    ↓ verified_items.json (deduped) + dedup_within_draft_report.json
 Editor-in-Chief (Gemini 3.1 Pro / Antigravity)
     ↓ digest_draft.html + historical_log.json (appended)
 Gap Checker (GPT-4o + web_search via Vercel proxy in cloud / Codex CLI locally)
-    Sends current_items array → proxy server-side dedups by URL
+    Sends current_items array → proxy server-side dedups by URL + event
     ↓ gap_check.json
     └─ if items found ─→ Fact-Checker → Editor-in-Chief
 Confidence Calibration (Python: calibrate_confidence.py)
@@ -303,6 +307,13 @@ Variance across LLM-based passes is irreducible at the Reporter level. The fix i
 The "Allow unrestricted git push" Permissions toggle is the only push-related setting in the routine UI. First run after enabling it (May 5 evening) still did not push. Possibilities: toggle didn't actually save, toggle is necessary-but-not-sufficient, or cloud Claude reached Step 12 but failed silently.
 
 Mitigation: routine prompt now captures full git output to `workspace/git_push_log.txt` and surfaces the last 20 lines in a collapsible footer in the Gmail draft. Whether push works or not, the user can now see *why* in the email itself. If we ever see `git push: SUCCESS` in the footer with no actual commit on origin, that's a signal the toggle isn't actually granting credentials and we need PAT-based auth.
+
+### Lesson 23: Fuzzy headline-token similarity cannot dedup paraphrases
+Same event from two outlets often shares only one strong token. Example: "Pentagon Classified AI Deal" vs "Pentagon Announces AI Partnerships with Seven Companies" — Jaccard 0.10, both sub-threshold for any reasonable cutoff. Dropping the cutoff to catch these would falsely-merge unrelated items.
+
+Solution: GPT-based event grouping at `/api/event-dedup` (Vercel proxy). Sends item headlines+dates+sources+URLs to GPT-4o (no web_search needed) and gets back grouped indices. Cost: ~$0.001/run. Used by `dedup_within_draft.py` (primary path) and recommended for any future "is this the same event?" decision in the pipeline.
+
+The cleaner architecture: keep fuzzy as a fallback for when the proxy is unreachable, but trust GPT for the actual editorial judgment. Same model family as Reporter (Claude vs Claude here would be Claude vs OpenAI vs different — for dedup specifically, single-model with structured task is fine; uncorrelation matters for *finding* gaps, not for *judging* duplicates).
 
 ---
 
