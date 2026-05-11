@@ -1,11 +1,19 @@
 {
-  "run_week": "2026-03-31 to 2026-04-05",
+  "run_week": "2026-05-05 to 2026-05-11",
   "source_type_counts": {
-    "official_blog": 5,
-    "tech_press": 3,
-    "developer_docs": 3,
-    "wire_service": 2
+    "official_blog": 8,
+    "tech_press": 9,
+    "wire_service": 1,
+    "developer_docs": 1,
+    "social_media": 0
   },
-  "unique_outlets": 6,
-  "diversity_warning": null
+  "curated_source_type_counts": {
+    "official_blog": 8,
+    "tech_press": 10,
+    "wire_service": 1,
+    "developer_docs": 1
+  },
+  "unique_outlets": 14,
+  "diversity_warning": null,
+  "notes": "Good diversity across source types. Official blog (40%) and tech_press (50%) are well balanced. No single source type exceeds 60% threshold. Official sources well represented."
 }

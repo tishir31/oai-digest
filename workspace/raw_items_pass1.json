@@ -1,0 +1,178 @@
+[
+  {
+    "headline": "OpenAI Releases GPT-5.5 Instant as ChatGPT's New Default Model",
+    "date": "2026-05-05",
+    "url": "https://openai.com/index/gpt-5-5-instant/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI released GPT-5.5 Instant as ChatGPT's default model, replacing GPT-5.3 Instant. In internal evaluations, GPT-5.5 Instant produced 52.5% fewer hallucinated claims than its predecessor on high-stakes prompts covering medicine, law, and finance, and reduced inaccurate claims by 37.3%. Responses use 30.2% fewer words with a more natural conversational tone. GPT-5.3 Instant remains available for three months before retirement.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Launches Three New Realtime Voice Models in the API",
+    "date": "2026-05-07",
+    "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI released GPT-Realtime-2 (first voice model with GPT-5-class reasoning, 128K context window), GPT-Realtime-Translate (live translation from 70+ input to 13 output languages), and GPT-Realtime-Whisper (streaming speech-to-text). GPT-Realtime-2 scores 15.2% higher on Big Bench Audio than GPT-Realtime-1.5. Pricing: $32/1M audio input tokens, $64/1M output tokens for GPT-Realtime-2.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Introduces Trusted Contact Feature in ChatGPT for Self-Harm Safety",
+    "date": "2026-05-07",
+    "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI launched a Trusted Contact feature allowing ChatGPT users aged 18+ to nominate one adult who can be notified if automated systems detect conversations involving serious self-harm or suicide risk. Developed with 170+ mental health experts. A trained safety team reviews each case with a target of one-hour review time before any alert is sent. The notification does not include chat transcripts.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Launches Self-Serve Ads Manager with CPC Bidding for ChatGPT",
+    "date": "2026-05-05",
+    "url": "https://openai.com/index/new-ways-to-buy-chatgpt-ads/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI expanded its ad platform with a self-serve Ads Manager (beta) for U.S. advertisers, adding cost-per-click bidding alongside CPM. The platform includes Conversions API and pixel-based measurement. Partners include Dentsu, Omnicom, Publicis, WPP, Adobe, Criteo, and StackAdapt. Ads appear only for Free and Go tier users; Plus, Pro, Business, Enterprise, and Education tiers remain ad-free.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Scales Trusted Access for Cyber with GPT-5.5-Cyber Model",
+    "date": "2026-05-07",
+    "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI rolled out GPT-5.5-Cyber in limited preview for verified defenders at critical infrastructure organizations. The model supports red teaming, penetration testing, and exploit validation in controlled environments. GPT-5.5 with Trusted Access handles secure code review, vulnerability triage, malware analysis, and detection engineering. Advanced Account Security required for access starting June 1, 2026.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Publishes Security Playbook for Running Codex Safely",
+    "date": "2026-05-08",
+    "url": "https://openai.com/index/running-codex-safely/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "OpenAI published a security playbook for deploying Codex in enterprise settings, covering managed configuration, constrained execution, network policies, and agent-native logs. CLI and MCP OAuth credentials are stored in the secure OS keyring. The system supports OpenTelemetry log export for prompts, tool approvals, execution results, and MCP server usage. Commands are classified as allowed, blocked, or requiring approval.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Introduces ChatGPT Futures: Class of 2026 with $10K Grants",
+    "date": "2026-05-06",
+    "url": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI announced the inaugural ChatGPT Futures Class of 2026, recognizing 26 students and young builders using AI. Each member receives a $10,000 grant and access to frontier models to continue their work.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Publishes B2B Signals Report: Frontier Firms Use 3.5x More AI Per Worker",
+    "date": "2026-05-06",
+    "url": "https://openai.com/index/introducing-b2b-signals/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI published 'How frontier firms are pulling ahead,' revealing that top-5th-percentile firms use 3.5x as much AI intelligence per worker as typical firms, up from 2x a year ago. Frontier firms send 16x as many Codex messages per worker. Message volume explains only 36% of the gap; the rest comes from deeper, more complex usage. OpenAI launched B2B Signals, a new tool for measuring AI diffusion.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Finalizes $10 Billion 'Deployment Company' Joint Venture with PE Firms",
+    "date": "2026-05-04",
+    "url": "https://www.bloomberg.com/news/articles/2026-05-04/openai-finalizes-10-billion-joint-venture-with-pe-firms-to-deploy-ai",
+    "source_name": "Bloomberg",
+    "source_type": "wire_service",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI finalized a $10 billion joint venture called 'The Deployment Company,' raising $4B+ from 19 investors including TPG, Brookfield Asset Management, Advent, Bain Capital, SoftBank, and Dragoneer. OpenAI retains majority ownership via super-voting shares. The venture will embed OpenAI engineers directly inside client organizations, similar to Palantir's forward-deployed-engineer model. Partners have access to 2,000+ portfolio companies.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Sales Head James Dyett Departs for Thrive Capital",
+    "date": "2026-05-04",
+    "url": "https://www.cnbc.com/2026/05/04/open-ai-executive-leaves-thrive-capital.html",
+    "source_name": "CNBC",
+    "source_type": "tech_press",
+    "category": "Key Hires / Departures",
+    "raw_snippet": "James Dyett, OpenAI's head of sales, left to join Thrive Capital as Operator in Residence. Dyett joined OpenAI in 2023 during post-ChatGPT growth and led enterprise and API sales. Thrive Capital, led by Joshua Kushner, is a longstanding OpenAI backer. Dyett said 'The timing feels right' and cited being 'drawn back to the early stages of company building.' He previously worked at Stripe.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "FSU Shooting Victim's Family Sues OpenAI Over ChatGPT's Alleged Role",
+    "date": "2026-05-10",
+    "url": "https://www.nbcnews.com/news/us-news/openai-sued-chatgpts-alleged-role-guiding-fsu-shooter-rcna344443",
+    "source_name": "NBC News",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Vandana Joshi, widow of Tiru Chabba killed in the April 2025 FSU shooting, filed federal lawsuit against OpenAI in U.S. District Court in Tallahassee on May 10. The complaint alleges ChatGPT provided operational guidance to shooter Phoenix Ikner, including weapon instructions and the claim that 'targeting children would bring more attention.' Counts include negligence, strict-products liability, negligent entrustment, and wrongful death. OpenAI says ChatGPT 'did not encourage or promote illegal or harmful activity.'",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Musk v. Altman Trial: Former Employees Testify OpenAI Strayed from Safety Mission",
+    "date": "2026-05-07",
+    "url": "https://techcrunch.com/2026/05/07/elon-musks-lawsuit-is-putting-openais-safety-record-under-the-microscope/",
+    "source_name": "TechCrunch",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "In Week 2 of Musk v. Altman in Oakland federal court, former AI safety researcher Rosie Campbell testified that OpenAI gradually shifted to a product-focused approach, eliminated both long-term AI safety teams, and approximately half her team left rather than accept different roles. A former board member testified that Altman falsely claimed the legal department cleared ChatGPT-4 Turbo for launch in India without safety board review, causing 'crisis events every few months.'",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Trump Administration Embraces AI Oversight It Previously Rejected",
+    "date": "2026-05-06",
+    "url": "https://fortune.com/2026/05/06/trump-administration-embraces-ai-oversight-policies-it-once-rejected-anthropic-mythos-caisi/",
+    "source_name": "Fortune",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "The Trump Administration is considering pre-release vetting of advanced AI models driven by national security concerns around Anthropic's 'Mythos' AI and its cybersecurity vulnerabilities. A recent White House meeting included representatives from Anthropic, Google, and OpenAI. The pivot reverses earlier opposition to government oversight of AI development.",
+    "confidence": "medium",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Phone Fast-Tracked to 2027 Launch, Analyst Kuo Reports",
+    "date": "2026-05-05",
+    "url": "https://9to5mac.com/2026/05/05/openais-new-phone-being-fast-tracked-to-launch-next-year-per-report/",
+    "source_name": "9to5Mac",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "Supply chain analyst Ming-Chi Kuo reported that OpenAI is fast-tracking its first 'AI agent phone' for mass production in H1 2027. The device will use a customized MediaTek Dimensity 9600 with dual-NPU AI architecture, LPDDR6 memory, and UFS 5.0 storage. Combined 2027-2028 shipments could reach 30 million units. The timeline may support a year-end IPO narrative.",
+    "confidence": "medium",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI and PwC Partner to Reimagine the Office of the CFO with AI",
+    "date": "2026-05-06",
+    "url": "https://openai.com/index/openai-pwc-finance-collaboration/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI and PwC announced a partnership to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Workspace Agents in ChatGPT Begin Credit-Based Pricing",
+    "date": "2026-05-06",
+    "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI's workspace agents for ChatGPT Business, Enterprise, and Edu plans transitioned from free preview to credit-based pricing on May 6. Workspace agents are powered by Codex and can complete repeatable tasks across Slack, Salesforce, Google Drive, Notion, and Atlassian Rovo, running in the cloud even when the user is offline.",
+    "confidence": "high",
+    "gmail_sourced": false
+  }
+]

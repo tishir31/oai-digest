@@ -1,0 +1,68 @@
+[
+  {
+    "headline": "OpenAI Acquires Tomoro, Adds ~150 Forward-Deployed Engineers to Deployment Company",
+    "date": "2026-05-04",
+    "url": "https://thenextweb.com/news/openai-deployco-finalized-10-billion-joint-venture",
+    "source_name": "The Information / TNW",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI acquired Tomoro, an applied AI consulting and engineering firm, as part of launching The Deployment Company. The acquisition brings approximately 150 forward-deployed engineers to the new $10B joint venture, which will embed OpenAI engineers directly inside client organizations to help them build and deploy AI systems.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Allows Employees to Sell Up to $30 Million in Shares Each in Secondary Sale",
+    "date": "2026-05-09",
+    "url": "https://www.cnbc.com/2026/05/04/open-ai-executive-leaves-thrive-capital.html",
+    "source_name": "TLDR / CNBC",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI recently allowed employees to sell up to $30 million worth of shares each in a secondary sale. The transaction offers a glimpse into the wealth creation ahead of OpenAI's expected IPO. The newfound wealth among OpenAI employees is reportedly driving up rental prices in San Francisco and sparking concerns about a growing class divide.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Brockman's $30 Billion OpenAI Stake and Personal Investments Revealed at Trial",
+    "date": "2026-05-05",
+    "url": "https://fortune.com/2026/05/05/musk-court-fight-openai/",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Under cross-examination in Musk v. Altman, Brockman confirmed his OpenAI equity is worth ~$30 billion. Musk's lawyer revealed Brockman's journal passage asking 'financially what will take me to $1B?' and questioned why he didn't donate the additional $29B to the nonprofit. Brockman disclosed personal investments: Stripe ($471M), Cerebras ($2.8M), CoreWeave ($817K), Helion ($434K), Astral ($166K), and Scale AI.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Former Columbia Law Dean Testifies OpenAI Nonprofit Should Hold 'a Lot More' Than $200 Billion",
+    "date": "2026-05-08",
+    "url": "https://techcrunch.com/2026/05/07/elon-musks-lawsuit-is-putting-openais-safety-record-under-the-microscope/",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "David Schizer, former dean of Columbia Law School, testified for Musk that OpenAI's reliance on Microsoft investment rather than charitable donations forced it to give up technology rights and future profits. He argued the charitable arm should hold 'a lot more' than the approximately $200 billion it currently has, suggesting the for-profit conversion shortchanged the nonprofit mission.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Projects $655 Billion in AI Compute Spending Through 2030",
+    "date": "2026-05-11",
+    "url": "https://opentools.ai/news/openai-50-billion-compute-spending-2026",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "The Information reported that OpenAI has projected it will spend $655 billion on running and training its AI between now and 2030. Such spending is unprecedented in the software industry. The company is also using Gimlet Labs to optimize models for Cerebras chips (for Codex-Spark), diversifying its compute beyond Nvidia as part of this spending strategy.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Ex-OpenAI Researcher Jerry Tworek's Core Automation Raising $300-500M at $4B Valuation",
+    "date": "2026-05-11",
+    "url": "https://www.theinformation.com/articles/openais-international-conundrum",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Key Hires / Departures",
+    "raw_snippet": "Core Automation, a neolab founded by former senior OpenAI researcher Jerry Tworek, is in talks with investors to raise between $300 million and $500 million at a valuation of around $4 billion. The fundraise comes just weeks after the company raised $100 million at a $1 billion valuation — a 4x valuation jump in weeks. Tworek's departure continues the pattern of senior OpenAI researchers founding well-funded startups.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  }
+]

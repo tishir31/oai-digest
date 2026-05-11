@@ -415,5 +415,83 @@
         "high_total": 15
       }
     }
+  },
+  {
+    "run_id": "run_20260511T162803",
+    "run_date": "2026-05-11T16:28:03.757615",
+    "steps": {
+      "reporter": {
+        "items_produced": 29,
+        "confidence_breakdown": {
+          "high": 23,
+          "medium": 6,
+          "low": 0
+        },
+        "source_type_counts": {
+          "tech_press": 17,
+          "official_blog": 10,
+          "developer_docs": 1,
+          "wire_service": 1
+        },
+        "gmail_sourced_count": 3
+      },
+      "curator": {
+        "items_in": 29,
+        "items_kept": 20,
+        "items_cut": 12,
+        "cut_reasons": {
+          "Clustered with Deployment Company JV (primary). Tomoro acquisition is a sub-event.": 1,
+          "Duplicate of GPT-5.5 Instant (OpenAI blog as primary).": 1,
+          "Duplicate of OpenAI Phone (9to5Mac as primary).": 1,
+          "Duplicate of Deployment Company JV (Bloomberg as primary).": 1,
+          "Duplicate of Dyett departure (CNBC as primary).": 1,
+          "Clustered with Musk v. Altman trial (TechCrunch as primary). Detail folded into cluster.": 4,
+          "Duplicate of Musk v. Altman trial coverage (TechCrunch as primary).": 1,
+          "Minor pricing transition for existing feature; lower significance vs other Product items this week.": 1,
+          "Minor community/CSR program; low significance for IB audience.": 1
+        },
+        "source_diversity_warning": null,
+        "items_with_corroboration_2plus": 2
+      },
+      "coverage_auditor": {
+        "verdict": "sufficient",
+        "curated_count": 20,
+        "coverage_floor": 7,
+        "empty_categories": [],
+        "thin_categories": [
+          "Technical Research / Model Releases"
+        ]
+      },
+      "backfill_reporter": {
+        "ran": false,
+        "items_found": 0,
+        "backfill_sourced_count": 0
+      },
+      "fact_checker": {
+        "items_in": 20,
+        "items_verified": 20,
+        "items_rejected": 2,
+        "rejection_reasons": [
+          "Post-check: likely continuation of older story. Contains 'finalizes'; Contains 'finalized'",
+          "Post-check: duplicate URL"
+        ],
+        "url_200_count": 0,
+        "url_403_count": 20,
+        "url_other_count": 0
+      },
+      "editor_in_chief": {
+        "items_in_digest": 20,
+        "historical_dedup_check_run": true
+      },
+      "gap_checker": {
+        "ran": true,
+        "items_found": 3
+      },
+      "confidence_calibration": {
+        "ran": true,
+        "well_calibrated": false,
+        "high_total": 23
+      }
+    }
   }
 ]
