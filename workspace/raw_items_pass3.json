@@ -1,0 +1,46 @@
+[
+  {
+    "headline": "OpenAI-Apple Partnership Frays as OpenAI Explores Legal Options Over Siri Integration",
+    "date": "2026-05-14",
+    "url": "https://www.bloomberg.com/news/articles/2026-05-14/openai-apple-partnership-frays-setting-up-possible-legal-fight",
+    "source_name": "Bloomberg (via The Information coverage)",
+    "source_type": "wire_service",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "The Information reported OpenAI 'is jumping up and down about its unhappiness with Apple' over the Siri-ChatGPT integration, which failed to deliver expected subscribers and prominence. OpenAI hired outside counsel to explore options including a breach-of-contract notice. Apple has its own grievances including concerns about OpenAI's privacy standards and hardware ambitions.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Musk v. OpenAI Trial Closing Arguments Center on AGI Definition and Charitable Trust",
+    "date": "2026-05-14",
+    "url": "https://www.cnbc.com/2026/05/14/closing-arguments-jury-openai-musk-altman.html",
+    "source_name": "The Information / CNBC",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "The Information's AI Agenda newsletter highlighted that AGI is the 'elephant in the Musk v. OpenAI courtroom' — the core dispute centers on whether OpenAI's transition to for-profit breached its charitable trust. Musk's lawyer argued OpenAI executives sought personal gain through stock grants; OpenAI countered that Musk's $38M donations carried no specific strings.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Cerebras IPO Pops 68% on First Day; OpenAI Inference Chip Deal Underpins Growth Story",
+    "date": "2026-05-14",
+    "url": "https://www.theinformation.com/articles/the-risks-in-cerebras-sweet-openai-deal",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "Cerebras shares jumped 68% on its first day of trading to a ~$94B valuation. The Information reported that OpenAI's master relationship agreement with Cerebras, committing billions for inference chips, was signed Christmas Eve 2025. Cerebras' heavy reliance on OpenAI revenue was flagged as a risk factor in the IPO filing. The deal diversifies OpenAI's chip supply away from sole dependence on Nvidia.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Anthropic in Talks to Acquire Stainless, an OpenAI SDK Supplier",
+    "date": "2026-05-13",
+    "url": "https://www.theinformation.com/articles/how-anthropic-could-take-an-openai-supplier-off-the-table",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "Anthropic is in talks to acquire Stainless, a company that builds SDK toolkits used by OpenAI, Google, and Anthropic. If Anthropic completes the acquisition, OpenAI and Google would likely need to find alternative SDK suppliers or rebuild their own. OpenAI had previously built its own SDKs before becoming a Stainless customer but found them difficult to maintain.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  }
+]

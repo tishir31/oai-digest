@@ -1,222 +1,466 @@
 [
   {
-    "headline": "OpenAI Closes Record $122 Billion Funding Round at $852 Billion Valuation",
-    "date": "2026-03-31",
-    "url": "https://openai.com/index/accelerating-the-next-phase-ai/",
-    "source_name": "OpenAI",
-    "source_type": "official_blog",
-    "category": "Earnings / Financials / Fundraising",
-    "raw_snippet": "OpenAI closed its largest-ever funding round, raising $122 billion at an $852 billion post-money valuation. The round was anchored by Amazon ($50B), Nvidia and SoftBank ($30B each), with participation from a16z, D. E. Shaw Ventures, MGX, TPG, T. Rowe Price, and Microsoft. $35B of Amazon's commitment is contingent on OpenAI reaching IPO or AGI.",
-    "confidence": "high",
-    "gmail_sourced": false
-  },
-  {
-    "headline": "OpenAI Raises $3 Billion From Retail Investors in Largest Private Placement Ever by Major Banks",
-    "date": "2026-03-31",
-    "url": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/",
-    "source_name": "TechCrunch",
-    "source_type": "tech_press",
-    "category": "Earnings / Financials / Fundraising",
-    "raw_snippet": "As part of the $122B round, OpenAI raised $3 billion from individual investors via private placements through JP Morgan, Morgan Stanley, and Goldman Sachs — tripling its original $1B retail target and marking the largest private placement ever handled by those banks. OpenAI shares will be added to several ARK Invest ETFs, blurring the line between private and public fundraising ahead of an expected 2026 IPO.",
-    "confidence": "high",
-    "gmail_sourced": false
-  },
-  {
-    "headline": "OpenAI Discloses $2 Billion Monthly Revenue Run Rate and 900 Million Weekly Active Users",
-    "date": "2026-03-31",
-    "url": "https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html",
+    "headline": "Jury Unanimously Rules Against Elon Musk in OpenAI Lawsuit, Dismisses All Claims as Time-Barred",
+    "date": "2026-05-18",
+    "url": "https://www.cnbc.com/2026/05/18/musk-altman-openai-trial-verdict.html",
     "source_name": "CNBC",
     "source_type": "tech_press",
-    "category": "Earnings / Financials / Fundraising",
-    "raw_snippet": "Alongside the record funding round, OpenAI disclosed it is generating $2 billion in monthly revenue with more than 900 million ChatGPT weekly active users and 50+ million paid subscribers. Enterprise now represents >40% of OpenAI's revenue and is on track to reach parity with consumer by year-end. CFO Sarah Friar said the company is growing revenue 4x faster than Alphabet and Meta at comparable stages.",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "A federal jury in Oakland unanimously ruled against Elon Musk in his lawsuit against OpenAI and Sam Altman, finding that Musk's breach-of-charitable-trust and unjust-enrichment claims were time-barred. The jury deliberated less than two hours after a three-week trial. District Judge Yvonne Gonzalez Rogers adopted the advisory verdict. Musk's legal team said they intend to appeal.",
     "confidence": "high",
-    "gmail_sourced": false
+    "gmail_sourced": false,
+    "passes_seen": [
+      1
+    ]
   },
   {
-    "headline": "OpenAI Acquires TBPN, First Media Company Acquisition, to Expand Tech-Industry Voice",
-    "date": "2026-04-02",
-    "url": "https://openai.com/index/openai-acquires-tbpn/",
-    "source_name": "OpenAI",
-    "source_type": "official_blog",
-    "category": "Partnerships & Deals",
-    "raw_snippet": "OpenAI announced the acquisition of Technology Business Programming Network (TBPN), the daily live tech talk show hosted by Jordi Hays and John Coogan, marking OpenAI's first acquisition of a media company. TBPN will maintain editorial independence but report to OpenAI's chief political operative Chris Lehane. The show is on track to pull in more than $30 million in annual revenue per the Wall Street Journal.",
-    "confidence": "high",
-    "gmail_sourced": false
-  },
-  {
-    "headline": "OpenAI Acquires TBPN, Raising IPO-Era Questions Over Media Independence",
-    "date": "2026-04-02",
-    "url": "https://techcrunch.com/2026/04/02/openai-acquires-tbpn-the-buzzy-founder-led-business-talk-show/",
+    "headline": "Elon Musk Loses OpenAI Lawsuit After Jury Finds Claims Time-Barred; Appeal Planned",
+    "date": "2026-05-18",
+    "url": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/",
     "source_name": "TechCrunch",
     "source_type": "tech_press",
-    "category": "Partnerships & Deals",
-    "raw_snippet": "OpenAI's purchase of founder-led tech talk show TBPN formalizes an unusual media-company acquisition by a frontier AI lab. TechCrunch notes the deal fits a broader pattern of OpenAI making strategic M&A moves ahead of an expected 2026 IPO, following the Astral, Statsig, and io hardware deals over the past year.",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "A federal jury in Oakland unanimously sided with OpenAI and Sam Altman, rejecting Elon Musk's breach-of-charitable-trust and unjust-enrichment claims as time-barred after less than two hours of deliberation. District Judge Yvonne Gonzalez Rogers adopted the advisory verdict. Musk's attorney Steven Molo said the team intends to appeal.",
     "confidence": "high",
-    "gmail_sourced": false
+    "gmail_sourced": false,
+    "passes_seen": [
+      2
+    ]
   },
   {
-    "headline": "OpenAI Launches Pay-As-You-Go Codex Seats for ChatGPT Business and Enterprise",
-    "date": "2026-04-02",
-    "url": "https://openai.com/index/codex-flexible-pricing-for-teams/",
+    "headline": "ChatGPT Launches Personal Finance Tools, Lets Pro Users Connect Bank Accounts via Plaid",
+    "date": "2026-05-15",
+    "url": "https://openai.com/index/personal-finance-chatgpt/",
     "source_name": "OpenAI",
     "source_type": "official_blog",
     "category": "Product Launches & Updates",
-    "raw_snippet": "OpenAI introduced Codex-only seats on pay-as-you-go pricing for ChatGPT Business and Enterprise. The new tier has no rate limits and is billed per-token via a new credit-based rate card matching API pricing. Usage on Codex within ChatGPT Business has grown 6x since January, with more than 2 million weekly Codex users overall.",
+    "raw_snippet": "OpenAI launched personal finance tools in preview for ChatGPT Pro subscribers in the U.S., allowing them to connect bank, investment, and credit accounts through Plaid across 12,000+ financial institutions including Chase, Schwab, Fidelity, and Robinhood. Users see a dashboard of portfolio performance, spending, subscriptions, and upcoming payments. ChatGPT can see balances and transactions but cannot see full account numbers or make changes. Rollout planned for Plus users next.",
     "confidence": "high",
-    "gmail_sourced": false
+    "gmail_sourced": false,
+    "passes_seen": [
+      1
+    ]
   },
   {
-    "headline": "OpenAI Cuts ChatGPT Business Annual Seat Price by $5/Month to $20",
-    "date": "2026-04-02",
-    "url": "https://winbuzzer.com/2026/04/04/openai-switches-codex-pay-as-you-go-pricing-cuts-business-seat-cost-xcxwbn/",
-    "source_name": "WinBuzzer",
-    "source_type": "tech_press",
+    "headline": "OpenAI Brings Codex Coding Agent to ChatGPT Mobile App",
+    "date": "2026-05-15",
+    "url": "https://openai.com/index/work-with-codex-from-anywhere/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
     "category": "Product Launches & Updates",
-    "raw_snippet": "OpenAI lowered the annual price of ChatGPT Business subscriptions by $5/month, bringing the per-seat price down to $20/month. The price cut comes alongside the Codex pay-as-you-go launch and is positioned as a competitive response to enterprise AI rivals.",
-    "confidence": "medium",
-    "gmail_sourced": false
-  },
-  {
-    "headline": "ChatGPT Adds Hands-Free CarPlay Voice Chat for Supported iOS Vehicles",
-    "date": "2026-04-02",
-    "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
-    "source_name": "OpenAI Help Center",
-    "source_type": "developer_docs",
-    "category": "Product Launches & Updates",
-    "raw_snippet": "OpenAI added hands-free CarPlay voice chat support, allowing users on iOS 26.4+ to start and resume ChatGPT voice conversations directly from the CarPlay interface in supported vehicles. The rollout positions ChatGPT as a direct voice competitor to in-car assistants from Apple, Google, and Amazon.",
+    "raw_snippet": "OpenAI added Codex to the ChatGPT mobile app in preview on iOS and Android across all plans including Free and Go. Users can review work, approve commands, get notifications when tasks finish, and start new coding tasks from their phone while Codex runs on their Mac. More than 4 million people now use Codex weekly. Windows support is coming later.",
     "confidence": "high",
-    "gmail_sourced": false
+    "gmail_sourced": false,
+    "passes_seen": [
+      1
+    ]
   },
   {
-    "headline": "OpenAI Completes GPT-4o Retirement, Ending Phased Sunset of Legacy Frontier Model",
-    "date": "2026-04-03",
-    "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
-    "source_name": "OpenAI Help Center",
-    "source_type": "developer_docs",
-    "category": "Technical Research / Model Releases",
-    "raw_snippet": "OpenAI completed the full retirement of GPT-4o across all ChatGPT plans on April 3, closing out a phased sunset that began February 13, 2026. The move consolidates consumer tiers on GPT-5.4 as OpenAI prepares for the forthcoming GPT-5.5 release.",
-    "confidence": "high",
-    "gmail_sourced": false
-  },
-  {
-    "headline": "OpenAI Announces Retirement of Standard Voice Mode Within 30 Days",
-    "date": "2026-04-02",
-    "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
-    "source_name": "OpenAI Help Center",
-    "source_type": "developer_docs",
-    "category": "Product Launches & Updates",
-    "raw_snippet": "OpenAI said it will retire Standard Voice Mode in 30 days, unifying all ChatGPT users onto Advanced Voice Mode. Plus users get near-unlimited access; Free users get several hours per day.",
-    "confidence": "medium",
-    "gmail_sourced": false
-  },
-  {
-    "headline": "OpenAI Product & Business Chief Fidji Simo Takes Multi-Week Medical Leave",
-    "date": "2026-04-03",
-    "url": "https://www.cnbc.com/2026/04/03/openai-fidji-simo-medical-leave-executive-changes.html",
-    "source_name": "CNBC",
-    "source_type": "tech_press",
-    "category": "Key Hires / Departures",
-    "raw_snippet": "Fidji Simo, OpenAI's CEO of Applications, told staff on Friday she is taking several weeks of medical leave to manage a worsening neuroimmune condition (POTS). President Greg Brockman will oversee product — including the new desktop super app project — in her absence.",
-    "confidence": "high",
-    "gmail_sourced": false
-  },
-  {
-    "headline": "OpenAI COO Brad Lightcap Moves to New 'Special Projects' Role Reporting to Sam Altman",
-    "date": "2026-04-03",
-    "url": "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/",
-    "source_name": "TechCrunch",
-    "source_type": "tech_press",
-    "category": "Key Hires / Departures",
-    "raw_snippet": "As part of a broader April 3 leadership reshuffle, OpenAI COO Brad Lightcap transitioned out of his operational role and into a new 'special projects' mandate focused on complex deals and investments. He now reports directly to CEO Sam Altman. Denise Dresser, former Slack CEO and OpenAI's recently hired Chief Revenue Officer, assumes most of Lightcap's former commercial responsibilities.",
-    "confidence": "high",
-    "gmail_sourced": false
-  },
-  {
-    "headline": "OpenAI CMO Kate Rouch Steps Down to Focus on Breast Cancer Recovery",
-    "date": "2026-04-03",
-    "url": "https://www.bloomberg.com/news/articles/2026-04-03/openai-coo-shifts-out-of-role-agi-ceo-taking-medical-leave",
-    "source_name": "Bloomberg",
-    "source_type": "wire_service",
-    "category": "Key Hires / Departures",
-    "raw_snippet": "OpenAI Chief Marketing Officer Kate Rouch, the company's first CMO and a former Coinbase and Meta marketing executive, stepped down from her role to focus on late-stage breast cancer recovery. She said she may return in a more narrowly scoped role. OpenAI is now searching for a new marketing head.",
-    "confidence": "high",
-    "gmail_sourced": false
-  },
-  {
-    "headline": "Former Slack CEO Denise Dresser Takes Over OpenAI Commercial Operations",
-    "date": "2026-04-03",
-    "url": "https://www.axios.com/2026/04/03/openai-fidji-simo-medical-leave-reshuffle",
-    "source_name": "Axios",
-    "source_type": "tech_press",
-    "category": "Key Hires / Departures",
-    "raw_snippet": "Denise Dresser, former Slack CEO who joined OpenAI as Chief Revenue Officer earlier this year, assumed most of Brad Lightcap's former commercial duties during the April 3 leadership reshuffle. The move puts a seasoned enterprise SaaS operator in charge of OpenAI's revenue engine as it pushes toward parity between enterprise and consumer revenue.",
-    "confidence": "medium",
-    "gmail_sourced": false
-  },
-  {
-    "headline": "OpenAI Secondary Market Demand Sinks to $765B Valuation Even as Primary Round Hits $852B",
-    "date": "2026-04-01",
-    "url": "https://www.bloomberg.com/news/articles/2026-04-01/openai-demand-sinks-on-secondary-market-as-anthropic-runs-hot",
+    "headline": "OpenAI CFO Sarah Friar Signals More Fundraising Ahead, Citing Compute Crunch",
+    "date": "2026-05-15",
+    "url": "https://www.bloomberg.com/news/articles/2026-05-15/openai-may-raise-more-money-as-compute-crunch-deepens-cfo-says",
     "source_name": "Bloomberg",
     "source_type": "wire_service",
     "category": "Earnings / Financials / Fundraising",
-    "raw_snippet": "OpenAI shares are trading on secondary markets at an implied ~$765 billion valuation — roughly a 10% discount to the $852 billion price set in the March 31 primary round — as institutional investors pivot to Anthropic. Morgan Stanley and Goldman Sachs have begun offering OpenAI shares to wealth clients without carry fees, while secondary marketplace Next Round Capital said it could not find buyers for $600 million of OpenAI shares from ~six institutions looking to sell. Anthropic is seeing record demand on Augment and Hiive.",
+    "raw_snippet": "OpenAI CFO Sarah Friar said the company may raise more capital even after the record $122 billion round, citing a 'vertical wall of demand' for AI compute. She noted there is 'not a lot of compute in 2026' and that public markets could be an attractive fundraising avenue over time because they are 'significantly bigger' than private markets.",
     "confidence": "high",
-    "gmail_sourced": true
+    "gmail_sourced": false,
+    "passes_seen": [
+      1
+    ]
   },
   {
-    "headline": "Fidji Simo Drove OpenAI to Shutter Sora, Steer Clear of Social Media Products Ahead of Medical Leave",
-    "date": "2026-04-02",
-    "url": "https://www.theinformation.com/briefings/openais-fidji-simo-pushes-company-stay-social-media",
-    "source_name": "The Information",
-    "source_type": "tech_press",
-    "category": "Partnerships & Deals",
-    "raw_snippet": "Per The Information, OpenAI's Fidji Simo spearheaded both the TBPN acquisition and the decision to shut down Sora, pushing OpenAI to avoid building consumer social media products and instead lean into media-distribution partnerships. The reporting contextualizes the TBPN deal as part of a deliberate strategic pivot away from social-first product bets.",
-    "confidence": "medium",
-    "gmail_sourced": true
-  },
-  {
-    "headline": "CFO Sarah Friar Warns 2026 IPO Timeline Too Aggressive, Reportedly at Odds with Altman",
-    "date": "2026-04-03",
-    "url": "https://www.pymnts.com/news/ipo/2026/openai-leaders-at-odds-over-ipo-plans/",
+    "headline": "OpenAI CFO Friar: Company May Raise More Capital Despite Record $122B Round",
+    "date": "2026-05-15",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-considers-raising-more-capital-meet-ai-demand/",
     "source_name": "PYMNTS",
     "source_type": "tech_press",
     "category": "Earnings / Financials / Fundraising",
-    "raw_snippet": "OpenAI CFO Sarah Friar has reportedly raised internal concerns that the company's Q4 2026 IPO timeline is too aggressive given its $600 billion in cloud capacity commitments and slowing revenue growth. Friar is reportedly at odds with CEO Sam Altman over the timing and was subsequently shifted to report to Fidji Simo instead of Altman directly.",
-    "confidence": "medium",
-    "gmail_sourced": false
+    "raw_snippet": "OpenAI CFO Sarah Friar said the company may raise additional capital after its $122 billion round, citing 'a vertical wall of demand' and scarcity of available compute in 2026. She noted public markets could be an attractive avenue because they are 'significantly bigger' than private markets, further signaling IPO preparations.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "passes_seen": [
+      2
+    ]
   },
   {
-    "headline": "OpenAI Launches Visual Product Discovery in ChatGPT via Expanded Agentic Commerce Protocol",
-    "date": "2026-04-02",
-    "url": "https://openai.com/index/powering-product-discovery-in-chatgpt/",
-    "source_name": "OpenAI",
-    "source_type": "official_blog",
+    "headline": "ChatGPT Launches Personal Finance Preview with Plaid Integration for 12,000+ Institutions",
+    "date": "2026-05-15",
+    "url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
+    "source_name": "TechCrunch",
+    "source_type": "tech_press",
     "category": "Product Launches & Updates",
-    "raw_snippet": "OpenAI launched richer visual product discovery in ChatGPT through its expanded Agentic Commerce Protocol (ACP). Users can browse products visually, compare options side-by-side with pricing and reviews, and upload images to find similar items. Retailers including Target, Sephora, Nordstrom, Best Buy, The Home Depot, and Wayfair have integrated into ACP. The feature is rolling out across all ChatGPT tiers.",
+    "raw_snippet": "OpenAI launched personal finance tools in ChatGPT for Pro users in the U.S. via Plaid, connecting to 12,000+ institutions including Chase, Schwab, Fidelity, and Robinhood. Users get dashboards showing portfolio performance, spending, and subscriptions. ChatGPT can analyze balances and transactions but cannot make account changes. Expansion to Plus users planned based on feedback.",
     "confidence": "high",
-    "gmail_sourced": false
+    "gmail_sourced": false,
+    "passes_seen": [
+      2
+    ]
   },
   {
-    "headline": "OpenAI Publishes 'Inside Our Approach to the Model Spec' Detailing AI Behavior Framework",
-    "date": "2026-03-31",
-    "url": "https://openai.com/index/our-approach-to-the-model-spec/",
+    "headline": "OpenAI Adds Codex to ChatGPT Mobile App, Now Used by 4 Million Weekly",
+    "date": "2026-05-15",
+    "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
+    "source_name": "TechCrunch",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI is bringing Codex to the ChatGPT mobile app in preview on iOS and Android across all plans. Users can monitor running tasks, approve commands, get notifications, and start new coding tasks from their phone. More than 4 million people now use Codex weekly. The mobile app loads the live state from the Mac where Codex is running.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "passes_seen": [
+      2
+    ]
+  },
+  {
+    "headline": "OpenAI Deepens Collaboration with U.S. Department of Energy via MOU",
+    "date": "2026-05-15",
+    "url": "https://openai.com/index/us-department-of-energy-collaboration/",
     "source_name": "OpenAI",
     "source_type": "official_blog",
-    "category": "Regulatory & Policy",
-    "raw_snippet": "OpenAI published a detailed explanation of its Model Spec — the public framework that defines how OpenAI's models adjudicate between obligations to users, developers, and OpenAI itself. The post details the new authority hierarchy (Root > System > Developer > User > Guideline) and updated principles for agentic actions and teen-user safety.",
-    "confidence": "high",
-    "gmail_sourced": false
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI and the U.S. Department of Energy signed a memorandum of understanding to collaborate on AI for science, including fusion energy research. OpenAI calls 2026 its 'Year of Science' and has deployed frontier reasoning models on the Venado supercomputer at Los Alamos National Laboratory. The MOU is part of DOE's broader Genesis Mission with 24 organizations advancing discovery science and energy innovation.",
+    "confidence": "medium",
+    "gmail_sourced": false,
+    "passes_seen": [
+      1
+    ]
   },
   {
-    "headline": "Federal Judge Affirms Order Requiring OpenAI to Release 20 Million Anonymized ChatGPT Logs in Copyright Case",
-    "date": "2026-04-01",
-    "url": "https://news.bloomberglaw.com/ip-law/openai-must-turn-over-20-million-chatgpt-logs-judge-affirms",
+    "headline": "ChatGPT Improves Safety in Sensitive Conversations with New Safety Summary System",
+    "date": "2026-05-14",
+    "url": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "OpenAI introduced 'safety summaries' \u2014 short, factual notes about earlier safety-relevant context created by a model trained for safety reasoning tasks. The updates improved safe-response rates by 50% in suicide/self-harm scenarios and 16% in harm-to-others cases. On GPT-5.5 Instant, improvements reached 52% for harm-to-others and 39% for suicide/self-harm. The system was developed with input from mental health professionals in OpenAI's Global Physicians Network.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "passes_seen": [
+      1
+    ]
+  },
+  {
+    "headline": "OpenAI Considers Legal Action Against Apple Over Underperforming Siri Partnership",
+    "date": "2026-05-14",
+    "url": "https://www.bloomberg.com/news/articles/2026-05-14/openai-apple-partnership-frays-setting-up-possible-legal-fight",
+    "source_name": "Bloomberg",
+    "source_type": "wire_service",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI has enlisted an outside law firm to explore legal options against Apple over a ChatGPT-Siri integration that failed to deliver expected subscribers and prominence. OpenAI expected deeper integration across Apple apps and prime placement within Siri, but the integration was reportedly buried with features hard to find and revenue nowhere close to projections. No final decision has been made, and OpenAI still hopes to resolve the dispute outside of court.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "passes_seen": [
+      1,
+      3
+    ]
+  },
+  {
+    "headline": "Class-Action Privacy Lawsuit Filed Against OpenAI for Sharing ChatGPT User Data with Meta and Google",
+    "date": "2026-05-14",
+    "url": "https://finance.yahoo.com/sectors/technology/articles/openai-faces-class-action-lawsuit-122052988.html",
+    "source_name": "Yahoo Finance",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "California resident Amargo Couture filed a class-action complaint alleging OpenAI shared ChatGPT users' chat topics, user IDs, and email addresses with Meta and Google through embedded Meta Pixel and Google Analytics tracking code without consent. The suit alleges violations of the federal Electronic Communications Privacy Act, California's Invasion of Privacy Act, and state constitutional privacy rights. The California subclass seeks up to $5,000 per violation in statutory damages.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "passes_seen": [
+      1
+    ]
+  },
+  {
+    "headline": "Closing Arguments Conclude in Musk v. OpenAI Trial After Three-Week Proceedings",
+    "date": "2026-05-14",
+    "url": "https://www.cnbc.com/2026/05/14/closing-arguments-jury-openai-musk-altman.html",
+    "source_name": "CNBC",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Attorneys for Elon Musk and OpenAI presented closing arguments to a nine-person jury in Oakland federal court. Musk's lawyer Steven Molo argued OpenAI violated its nonprofit mission for personal gain through stock grants and self-dealing. OpenAI's lawyers countered that Musk's $38 million in donations had no specific strings attached and the organization continues to pursue its mission. The jury was to begin deliberating the following Monday.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "passes_seen": [
+      1,
+      3
+    ]
+  },
+  {
+    "headline": "OpenAI Weighs Legal Action Against Apple Over Buried Siri ChatGPT Integration",
+    "date": "2026-05-14",
+    "url": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
+    "source_name": "TechCrunch",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI has hired outside counsel to explore legal options against Apple after their Siri-ChatGPT integration failed to deliver promised subscriber growth and app-level prominence. OpenAI expected deeper integration across Apple apps and prime real estate within Siri, but says the integration was buried. Apple has its own grievances, including privacy standards concerns and irritation over OpenAI's hardware push.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "passes_seen": [
+      2
+    ]
+  },
+  {
+    "headline": "Class-Action Complaint Alleges OpenAI Shared ChatGPT User Data with Meta and Google via Tracking Pixels",
+    "date": "2026-05-14",
+    "url": "https://cybersecuritynews.com/openai-chatgpt-privacy-lawsuit/",
+    "source_name": "Cybersecurity News",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "A federal class action filed in California alleges OpenAI embedded Meta Pixel and Google Analytics tracking code on ChatGPT.com that transmitted users' chat topics, user IDs, and contact details to Facebook and Google servers in real time without consent. The plaintiff seeks statutory damages of up to $5,000 per violation under CIPA and injunctive relief under ECPA.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "passes_seen": [
+      2
+    ]
+  },
+  {
+    "headline": "OpenAI Improves ChatGPT Safety in Sensitive Conversations, Cuts Unsafe Responses by 50%",
+    "date": "2026-05-14",
+    "url": "https://decrypt.co/367937/openai-new-chatgpt-safety-features-lawsuits-investigations",
+    "source_name": "Decrypt",
+    "source_type": "tech_press",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "OpenAI launched new safety features amid mounting lawsuits and investigations. The 'safety summary' system improves safe-response rates by 50% in suicide/self-harm scenarios and 52% for harm-to-others on GPT-5.5 Instant. Developed with mental health professionals, the system creates contextual notes about emerging risk that inform safer responses.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "passes_seen": [
+      2
+    ]
+  },
+  {
+    "headline": "Florida Pushes into 'Uncharted' Legal Territory with Criminal Investigation of OpenAI",
+    "date": "2026-05-14",
+    "url": "https://www.wusf.org/courts-law/2026-05-14/florida-pushes-uncharted-legal-territory-openai-probe",
+    "source_name": "WUSF / NPR",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Florida's criminal investigation of OpenAI over ChatGPT's alleged role in the FSU shooting is pushing into unprecedented legal territory according to legal experts. The Office of Statewide Prosecution has subpoenaed OpenAI for all policies and training materials regarding user threats of harm, cooperation with law enforcement, and reporting of possible crimes from March 2024 through April 2026. It is one of the first criminal probes of an AI company globally.",
+    "confidence": "medium",
+    "gmail_sourced": false,
+    "passes_seen": [
+      1
+    ]
+  },
+  {
+    "headline": "Florida Criminal Probe of OpenAI Enters 'Uncharted' Legal Territory",
+    "date": "2026-05-14",
+    "url": "https://www.wgcu.org/government-politics/2026-05-14/florida-pushes-uncharted-legal-territory-openai-probe",
+    "source_name": "WGCU / NPR",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Legal experts say Florida's criminal investigation of OpenAI over ChatGPT's role in the FSU shooting is unprecedented. The Office of Statewide Prosecution subpoenaed OpenAI for internal policies on threats of harm, cooperation with law enforcement, and crime reporting from March 2024 through April 2026, plus organizational charts and employee lists for ChatGPT teams. This is believed to be one of the first criminal probes targeting an AI company globally.",
+    "confidence": "medium",
+    "gmail_sourced": false,
+    "passes_seen": [
+      2
+    ]
+  },
+  {
+    "headline": "Cerebras IPO Pops 68% on First Day; OpenAI Inference Chip Deal Underpins Growth Story",
+    "date": "2026-05-14",
+    "url": "https://www.theinformation.com/articles/the-risks-in-cerebras-sweet-openai-deal",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "Cerebras shares jumped 68% on its first day of trading to a ~$94B valuation. The Information reported that OpenAI's master relationship agreement with Cerebras, committing billions for inference chips, was signed Christmas Eve 2025. Cerebras' heavy reliance on OpenAI revenue was flagged as a risk factor in the IPO filing. The deal diversifies OpenAI's chip supply away from sole dependence on Nvidia.",
+    "confidence": "medium",
+    "gmail_sourced": true,
+    "passes_seen": [
+      3
+    ]
+  },
+  {
+    "headline": "OpenAI Confirms Two Employee Devices Compromised in TanStack npm Supply Chain Attack",
+    "date": "2026-05-13",
+    "url": "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "OpenAI disclosed that two employee devices were impacted by the Mini Shai-Hulud supply chain attack that compromised the TanStack npm package on May 11. OpenAI found limited credential material was exfiltrated from internal source code repositories but no user data, production systems, or IP was compromised. The company is updating macOS security certificates, requiring all macOS users to update apps by June 12.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "passes_seen": [
+      1
+    ]
+  },
+  {
+    "headline": "Microsoft Has Spent Over $100 Billion on OpenAI Partnership, Executive Testifies",
+    "date": "2026-05-13",
+    "url": "https://www.bloomberg.com/news/articles/2026-05-13/microsoft-spent-over-100-billion-on-openai-partnership-to-date",
+    "source_name": "Bloomberg",
+    "source_type": "wire_service",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "Microsoft corporate development executive Michael Wetter testified during the Musk v. Altman trial that Microsoft will have spent over $100 billion on OpenAI by June 2026, including equity investments, infrastructure, and hosting costs. The figure goes well beyond Microsoft's $14 billion direct investment, encompassing years of operational costs for training and running OpenAI's models on Azure. About 45% of Microsoft's commercial remaining performance obligations were tied to OpenAI at end of 2025.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "passes_seen": [
+      1
+    ]
+  },
+  {
+    "headline": "Microsoft Feared Being Too Dependent on OpenAI, Trial Testimony Reveals",
+    "date": "2026-05-13",
+    "url": "https://www.cnbc.com/2026/05/13/microsoft-feared-openai-reliance-musk-altman-trial-testimony-reveals.html",
+    "source_name": "CNBC",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "Testimony during the Musk v. Altman trial revealed Microsoft's internal concerns about over-dependence on OpenAI. With 45% of commercial remaining performance obligations tied to OpenAI at end of 2025, Microsoft had been developing contingency strategies. The testimony provided new context for the April 2026 partnership restructuring that ended exclusivity and capped revenue-sharing at $38 billion through 2030.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "passes_seen": [
+      1
+    ]
+  },
+  {
+    "headline": "Microsoft Spent Over $100B on OpenAI; Nadella Worried About Becoming 'the Next IBM'",
+    "date": "2026-05-13",
+    "url": "https://www.geekwire.com/2026/musk-v-altman-satya-nadella-was-worried-about-microsoft-being-the-next-ibm-in-openai-deal/",
+    "source_name": "GeekWire",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "Trial testimony revealed Microsoft CEO Satya Nadella wrote in an internal 2022 email that he didn't want Microsoft to become 'the next IBM' as the company prepared to invest $10 billion more in OpenAI. A Microsoft corporate development executive separately testified the company will have spent over $100 billion on the OpenAI partnership by June 2026, including infrastructure and hosting costs beyond the $14 billion direct investment.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "passes_seen": [
+      2
+    ]
+  },
+  {
+    "headline": "OpenAI Discloses Security Breach from TanStack npm Supply Chain Attack",
+    "date": "2026-05-13",
+    "url": "https://cybersecuritynews.com/openai-confirms-security-breach/",
+    "source_name": "Cybersecurity News",
+    "source_type": "tech_press",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "OpenAI confirmed two employee devices were compromised in the TanStack npm supply chain attack (Mini Shai-Hulud) and limited credential material was exfiltrated from internal source code repositories. No user data or production systems were accessed. OpenAI is requiring all macOS users to update desktop apps by June 12, 2026, after updating security certificates.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "passes_seen": [
+      2
+    ]
+  },
+  {
+    "headline": "Anthropic in Talks to Acquire Stainless, an OpenAI SDK Supplier",
+    "date": "2026-05-13",
+    "url": "https://www.theinformation.com/articles/how-anthropic-could-take-an-openai-supplier-off-the-table",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "Anthropic is in talks to acquire Stainless, a company that builds SDK toolkits used by OpenAI, Google, and Anthropic. If Anthropic completes the acquisition, OpenAI and Google would likely need to find alternative SDK suppliers or rebuild their own. OpenAI had previously built its own SDKs before becoming a Stainless customer but found them difficult to maintain.",
+    "confidence": "medium",
+    "gmail_sourced": true,
+    "passes_seen": [
+      3
+    ]
+  },
+  {
+    "headline": "OpenAI Publishes Parameter Golf Findings: AI Coding Agents Reshape ML Research Competition",
+    "date": "2026-05-12",
+    "url": "https://openai.com/index/what-parameter-golf-taught-us/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "OpenAI published results from its Parameter Golf challenge, which drew 1,000+ participants and 2,000+ submissions to build the best language model under a 16MB constraint trained in 10 minutes on 8xH100s. The key finding was that the vast majority of submitters used AI coding agents, which made it dramatically cheaper to prototype speculative ideas. RunPod sponsored $1M in compute for the competition.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "passes_seen": [
+      1
+    ]
+  },
+  {
+    "headline": "Ten-State AG Coalition Urges SEC to Probe Altman Self-Dealing Ahead of OpenAI IPO",
+    "date": "2026-05-12",
+    "url": "https://news.bloomberglaw.com/financial-accounting/sec-should-probe-openai-public-offering-attorneys-general-say",
     "source_name": "Bloomberg Law",
     "source_type": "wire_service",
     "category": "Regulatory & Policy",
-    "raw_snippet": "US District Judge Sidney Stein affirmed a magistrate judge's order requiring OpenAI to produce 20 million anonymized ChatGPT conversation logs in the consolidated AI copyright litigation brought by The New York Times, Chicago Tribune, and other publishers. The court rejected OpenAI's privacy objections, finding the logs relevant to plaintiffs' fair-use analysis even where they do not directly reproduce copyrighted works.",
+    "raw_snippet": "Montana AG Austin Knudsen led attorneys general from 10 states in a letter to SEC Chairman Paul Atkins calling for strict scrutiny of OpenAI IPO filings. The letter alleges Sam Altman has 'a history of self-dealing and serious conflicts of interest,' pointing to undisclosed financial entanglements between Altman's personal investments and OpenAI business partners. Joined by AGs from Alabama, Florida, Idaho, Iowa, Louisiana, Nebraska, Oklahoma, and West Virginia.",
     "confidence": "high",
-    "gmail_sourced": false
+    "gmail_sourced": false,
+    "passes_seen": [
+      2
+    ]
+  },
+  {
+    "headline": "Sam Altman Takes the Stand in Musk v. OpenAI Trial, Defends Against 'Stole a Charity' Claims",
+    "date": "2026-05-12",
+    "url": "https://www.npr.org/2026/05/12/nx-s1-5811730/openai-sam-altman-testimony-elon-musk-trial",
+    "source_name": "NPR",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "OpenAI CEO Sam Altman was cross-examined by Elon Musk's lawyer Steven Molo at the federal courthouse in Oakland. Altman rejected Musk's central claim that OpenAI and Microsoft had 'stolen a charity.' Molo pressed Altman on trustworthiness concerns raised by former associates at Loopt, Anthropic CEO Dario Amodei, and former OpenAI board members. Altman responded: 'I believe I'm a truthful person.'",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "passes_seen": [
+      1
+    ]
+  },
+  {
+    "headline": "FSU Shooting Victim's Family Sues OpenAI, Alleges ChatGPT Aided Gunman",
+    "date": "2026-05-12",
+    "url": "https://www.cnn.com/2026/05/11/tech/fsu-shooter-victim-lawsuit-openai-chatgpt",
+    "source_name": "CNN",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Vandana Joshi, widow of FSU shooting victim Tiru Chabba, filed a federal lawsuit against OpenAI alleging ChatGPT helped the suspected gunman plan the April 2025 attack, including advising on weapons, timing to 'encounter the most traffic on campus,' and that attacks involving children get more media attention. The complaint alleges wrongful death, gross negligence, products liability, and failure to warn. OpenAI said ChatGPT 'is not responsible' and provided only publicly available information.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "passes_seen": [
+      1
+    ]
+  },
+  {
+    "headline": "FSU Shooting Victim's Widow Sues OpenAI, Alleging ChatGPT Provided Tactical Assistance to Gunman",
+    "date": "2026-05-12",
+    "url": "https://www.pbs.org/newshour/nation/lawsuit-accuses-chatgpt-of-helping-gunman-plan-fsu-mass-shooting",
+    "source_name": "PBS NewsHour",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Vandana Joshi filed a federal wrongful death lawsuit against OpenAI alleging ChatGPT helped the suspected FSU gunman plan the April 2025 attack by advising on weapons, timing, and target selection. The complaint cites ChatGPT responses about optimal campus timing and media impact of attacks involving children. OpenAI now faces at least 10 separate lawsuits from families alleging people harmed themselves or others after using ChatGPT.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "passes_seen": [
+      2
+    ]
+  },
+  {
+    "headline": "Ten-State Attorney General Coalition Asks SEC to Scrutinize OpenAI IPO Filings Over Altman Self-Dealing Concerns",
+    "date": "2026-05-12",
+    "url": "https://dojmt.gov/attorney-general-knudsen-asks-sec-to-strictly-scrutinize-openais-filings-to-protect-investors-ahead-of-ipo/",
+    "source_name": "Montana Department of Justice",
+    "source_type": "regulatory_filing",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Montana AG Austin Knudsen led a 10-state coalition in a letter to SEC Chairman Paul Atkins urging strict scrutiny of any OpenAI IPO filings. The letter cites evidence of self-dealing and conflicts of interest by Sam Altman, including undisclosed financial entanglements between Altman's personal portfolio and companies with which OpenAI does business. States joining include Alabama, Florida, Idaho, Iowa, Louisiana, Nebraska, Oklahoma, and West Virginia.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "passes_seen": [
+      1
+    ]
+  },
+  {
+    "headline": "DALL-E 2, DALL-E 3, and Realtime API Beta Removed from OpenAI API",
+    "date": "2026-05-12",
+    "url": "https://developers.openai.com/api/docs/deprecations",
+    "source_name": "OpenAI",
+    "source_type": "developer_docs",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI removed DALL-E 2 and DALL-E 3 model snapshots from the API on May 12, completing a deprecation announced November 2025. Developers are directed to use gpt-image-2, gpt-image-1, or gpt-image-1-mini. The Realtime API Beta was also removed the same day, with developers urged to migrate to the released Realtime API.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "passes_seen": [
+      1
+    ]
+  },
+  {
+    "headline": "DALL-E Models and Realtime API Beta Reach End of Life, Removed from OpenAI API",
+    "date": "2026-05-12",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "source_name": "OpenAI",
+    "source_type": "developer_docs",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "DALL-E 2 and DALL-E 3 were removed from the API on May 12, completing a six-month deprecation period. Developers must migrate to gpt-image-2, gpt-image-1, or gpt-image-1-mini. The Realtime API Beta was also shut down the same day, replaced by the generally available Realtime API.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "passes_seen": [
+      2
+    ]
   }
 ]

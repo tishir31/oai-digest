@@ -1,11 +1,13 @@
 {
-  "run_week": "2026-03-31 to 2026-04-05",
+  "run_week": "2026-05-12 to 2026-05-18",
   "source_type_counts": {
     "official_blog": 5,
-    "tech_press": 3,
-    "developer_docs": 3,
-    "wire_service": 2
+    "wire_service": 3,
+    "tech_press": 5,
+    "regulatory_filing": 1,
+    "developer_docs": 1
   },
-  "unique_outlets": 6,
-  "diversity_warning": null
+  "unique_outlets": 10,
+  "diversity_warning": null,
+  "analysis": "Good diversity across 15 curated items. 5 official OpenAI sources, 3 wire services (Bloomberg), 5 tech press (CNBC, Yahoo Finance, CNN, The Information), 1 regulatory filing (MT DOJ), 1 developer docs. No single source_type exceeds 60%. Official sources well represented."
 }

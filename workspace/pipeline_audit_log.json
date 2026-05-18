@@ -415,5 +415,79 @@
         "high_total": 15
       }
     }
+  },
+  {
+    "run_id": "run_20260518T203013",
+    "run_date": "2026-05-18T20:30:13.660097",
+    "steps": {
+      "reporter": {
+        "items_produced": 33,
+        "confidence_breakdown": {
+          "high": 28,
+          "medium": 5,
+          "low": 0
+        },
+        "source_type_counts": {
+          "tech_press": 20,
+          "official_blog": 6,
+          "wire_service": 4,
+          "regulatory_filing": 1,
+          "developer_docs": 2
+        },
+        "gmail_sourced_count": 2
+      },
+      "curator": {
+        "items_in": 33,
+        "items_kept": 15,
+        "items_cut": 4,
+        "cut_reasons": {
+          "Duplicate of CNBC Musk verdict \u2014 same event": 1,
+          "Primarily an Anthropic story; OpenAI impact is tangential": 1,
+          "Clustered with Musk verdict \u2014 trial proceedings subsumed by final verdict": 2
+        },
+        "source_diversity_warning": null,
+        "items_with_corroboration_2plus": 11
+      },
+      "coverage_auditor": {
+        "verdict": "sufficient",
+        "curated_count": 15,
+        "coverage_floor": 7,
+        "empty_categories": [
+          "Key Hires / Departures"
+        ],
+        "thin_categories": [
+          "Earnings / Financials / Fundraising"
+        ]
+      },
+      "backfill_reporter": {
+        "ran": false,
+        "items_found": 0,
+        "backfill_sourced_count": 0
+      },
+      "fact_checker": {
+        "items_in": 15,
+        "items_verified": 14,
+        "items_rejected": 1,
+        "rejection_reasons": [
+          "Post-check: likely continuation of older story. Origin date reference: 'announced november'"
+        ],
+        "url_200_count": 0,
+        "url_403_count": 14,
+        "url_other_count": 0
+      },
+      "editor_in_chief": {
+        "items_in_digest": 14,
+        "historical_dedup_check_run": true
+      },
+      "gap_checker": {
+        "ran": true,
+        "items_found": 0
+      },
+      "confidence_calibration": {
+        "ran": true,
+        "well_calibrated": true,
+        "high_total": 28
+      }
+    }
   }
 ]

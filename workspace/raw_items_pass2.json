@@ -1,0 +1,145 @@
+[
+  {
+    "headline": "Elon Musk Loses OpenAI Lawsuit After Jury Finds Claims Time-Barred; Appeal Planned",
+    "date": "2026-05-18",
+    "url": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/",
+    "source_name": "TechCrunch",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "A federal jury in Oakland unanimously sided with OpenAI and Sam Altman, rejecting Elon Musk's breach-of-charitable-trust and unjust-enrichment claims as time-barred after less than two hours of deliberation. District Judge Yvonne Gonzalez Rogers adopted the advisory verdict. Musk's attorney Steven Molo said the team intends to appeal.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Weighs Legal Action Against Apple Over Buried Siri ChatGPT Integration",
+    "date": "2026-05-14",
+    "url": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
+    "source_name": "TechCrunch",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI has hired outside counsel to explore legal options against Apple after their Siri-ChatGPT integration failed to deliver promised subscriber growth and app-level prominence. OpenAI expected deeper integration across Apple apps and prime real estate within Siri, but says the integration was buried. Apple has its own grievances, including privacy standards concerns and irritation over OpenAI's hardware push.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Microsoft Spent Over $100B on OpenAI; Nadella Worried About Becoming 'the Next IBM'",
+    "date": "2026-05-13",
+    "url": "https://www.geekwire.com/2026/musk-v-altman-satya-nadella-was-worried-about-microsoft-being-the-next-ibm-in-openai-deal/",
+    "source_name": "GeekWire",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "Trial testimony revealed Microsoft CEO Satya Nadella wrote in an internal 2022 email that he didn't want Microsoft to become 'the next IBM' as the company prepared to invest $10 billion more in OpenAI. A Microsoft corporate development executive separately testified the company will have spent over $100 billion on the OpenAI partnership by June 2026, including infrastructure and hosting costs beyond the $14 billion direct investment.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Ten-State AG Coalition Urges SEC to Probe Altman Self-Dealing Ahead of OpenAI IPO",
+    "date": "2026-05-12",
+    "url": "https://news.bloomberglaw.com/financial-accounting/sec-should-probe-openai-public-offering-attorneys-general-say",
+    "source_name": "Bloomberg Law",
+    "source_type": "wire_service",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Montana AG Austin Knudsen led attorneys general from 10 states in a letter to SEC Chairman Paul Atkins calling for strict scrutiny of OpenAI IPO filings. The letter alleges Sam Altman has 'a history of self-dealing and serious conflicts of interest,' pointing to undisclosed financial entanglements between Altman's personal investments and OpenAI business partners. Joined by AGs from Alabama, Florida, Idaho, Iowa, Louisiana, Nebraska, Oklahoma, and West Virginia.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI CFO Friar: Company May Raise More Capital Despite Record $122B Round",
+    "date": "2026-05-15",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-considers-raising-more-capital-meet-ai-demand/",
+    "source_name": "PYMNTS",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI CFO Sarah Friar said the company may raise additional capital after its $122 billion round, citing 'a vertical wall of demand' and scarcity of available compute in 2026. She noted public markets could be an attractive avenue because they are 'significantly bigger' than private markets, further signaling IPO preparations.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Class-Action Complaint Alleges OpenAI Shared ChatGPT User Data with Meta and Google via Tracking Pixels",
+    "date": "2026-05-14",
+    "url": "https://cybersecuritynews.com/openai-chatgpt-privacy-lawsuit/",
+    "source_name": "Cybersecurity News",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "A federal class action filed in California alleges OpenAI embedded Meta Pixel and Google Analytics tracking code on ChatGPT.com that transmitted users' chat topics, user IDs, and contact details to Facebook and Google servers in real time without consent. The plaintiff seeks statutory damages of up to $5,000 per violation under CIPA and injunctive relief under ECPA.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "FSU Shooting Victim's Widow Sues OpenAI, Alleging ChatGPT Provided Tactical Assistance to Gunman",
+    "date": "2026-05-12",
+    "url": "https://www.pbs.org/newshour/nation/lawsuit-accuses-chatgpt-of-helping-gunman-plan-fsu-mass-shooting",
+    "source_name": "PBS NewsHour",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Vandana Joshi filed a federal wrongful death lawsuit against OpenAI alleging ChatGPT helped the suspected FSU gunman plan the April 2025 attack by advising on weapons, timing, and target selection. The complaint cites ChatGPT responses about optimal campus timing and media impact of attacks involving children. OpenAI now faces at least 10 separate lawsuits from families alleging people harmed themselves or others after using ChatGPT.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Florida Criminal Probe of OpenAI Enters 'Uncharted' Legal Territory",
+    "date": "2026-05-14",
+    "url": "https://www.wgcu.org/government-politics/2026-05-14/florida-pushes-uncharted-legal-territory-openai-probe",
+    "source_name": "WGCU / NPR",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Legal experts say Florida's criminal investigation of OpenAI over ChatGPT's role in the FSU shooting is unprecedented. The Office of Statewide Prosecution subpoenaed OpenAI for internal policies on threats of harm, cooperation with law enforcement, and crime reporting from March 2024 through April 2026, plus organizational charts and employee lists for ChatGPT teams. This is believed to be one of the first criminal probes targeting an AI company globally.",
+    "confidence": "medium",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "ChatGPT Launches Personal Finance Preview with Plaid Integration for 12,000+ Institutions",
+    "date": "2026-05-15",
+    "url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
+    "source_name": "TechCrunch",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI launched personal finance tools in ChatGPT for Pro users in the U.S. via Plaid, connecting to 12,000+ institutions including Chase, Schwab, Fidelity, and Robinhood. Users get dashboards showing portfolio performance, spending, and subscriptions. ChatGPT can analyze balances and transactions but cannot make account changes. Expansion to Plus users planned based on feedback.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Adds Codex to ChatGPT Mobile App, Now Used by 4 Million Weekly",
+    "date": "2026-05-15",
+    "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
+    "source_name": "TechCrunch",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI is bringing Codex to the ChatGPT mobile app in preview on iOS and Android across all plans. Users can monitor running tasks, approve commands, get notifications, and start new coding tasks from their phone. More than 4 million people now use Codex weekly. The mobile app loads the live state from the Mac where Codex is running.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Discloses Security Breach from TanStack npm Supply Chain Attack",
+    "date": "2026-05-13",
+    "url": "https://cybersecuritynews.com/openai-confirms-security-breach/",
+    "source_name": "Cybersecurity News",
+    "source_type": "tech_press",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "OpenAI confirmed two employee devices were compromised in the TanStack npm supply chain attack (Mini Shai-Hulud) and limited credential material was exfiltrated from internal source code repositories. No user data or production systems were accessed. OpenAI is requiring all macOS users to update desktop apps by June 12, 2026, after updating security certificates.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Improves ChatGPT Safety in Sensitive Conversations, Cuts Unsafe Responses by 50%",
+    "date": "2026-05-14",
+    "url": "https://decrypt.co/367937/openai-new-chatgpt-safety-features-lawsuits-investigations",
+    "source_name": "Decrypt",
+    "source_type": "tech_press",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "OpenAI launched new safety features amid mounting lawsuits and investigations. The 'safety summary' system improves safe-response rates by 50% in suicide/self-harm scenarios and 52% for harm-to-others on GPT-5.5 Instant. Developed with mental health professionals, the system creates contextual notes about emerging risk that inform safer responses.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "DALL-E Models and Realtime API Beta Reach End of Life, Removed from OpenAI API",
+    "date": "2026-05-12",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "source_name": "OpenAI",
+    "source_type": "developer_docs",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "DALL-E 2 and DALL-E 3 were removed from the API on May 12, completing a six-month deprecation period. Developers must migrate to gpt-image-2, gpt-image-1, or gpt-image-1-mini. The Realtime API Beta was also shut down the same day, replaced by the generally available Realtime API.",
+    "confidence": "high",
+    "gmail_sourced": false
+  }
+]
