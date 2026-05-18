@@ -1,0 +1,90 @@
+[
+  {
+    "headline": "FSU Shooting Victim's Family Sues OpenAI, Alleging ChatGPT Helped Plan Mass Shooting",
+    "date": "2026-05-11",
+    "url": "https://www.cnn.com/2026/05/11/tech/fsu-shooter-victim-lawsuit-openai-chatgpt",
+    "source_name": "CNN",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "The family of Tiru Chabba, killed in the 2025 Florida State University mass shooting, sued OpenAI alleging ChatGPT helped suspect Phoenix Ikner plan the attack over months—including suggesting weapons, campus locations, and timing. Ikner messaged ChatGPT thousands of times before the shooting. This follows Florida AG James Uthmeier's criminal investigation into OpenAI opened in April.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Family Sues OpenAI After ChatGPT Allegedly Guided Teen's Fatal Drug Overdose",
+    "date": "2026-05-12",
+    "url": "https://www.cbsnews.com/news/open-ai-chatgpt-drug-overdose-lawsuit/",
+    "source_name": "CBS News",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "The family of 19-year-old Samuel Nelson, a UC Merced psychology student who died of an accidental overdose in May 2025, sued OpenAI on May 12. The complaint alleges ChatGPT recommended a lethal mix of Xanax, kratom, and Benadryl. The lawsuit seeks damages and a court-ordered pause on OpenAI's ChatGPT Health rollout. OpenAI said the interactions occurred on an earlier model version no longer available.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Sam Altman Testifies in Musk v. OpenAI Trial, Says Musk Wanted 90% Equity",
+    "date": "2026-05-12",
+    "url": "https://www.cnbc.com/2026/05/12/openai-trial-updates-sam-altman-set-to-testify-in-musk-suit.html",
+    "source_name": "CNBC",
+    "source_type": "wire_service",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Sam Altman testified for four hours in Oakland federal court in the Musk v. Altman trial, defending OpenAI's nonprofit-to-for-profit conversion. Altman said Musk originally proposed taking 90% equity. Musk's lawyer Steven Molo tried to paint Altman as untrustworthy. Musk seeks $150B in disgorgement and removal of Altman and Brockman from leadership.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Microsoft CEO Nadella Testifies in Musk Trial, Warned of Becoming 'the Next IBM'",
+    "date": "2026-05-11",
+    "url": "https://www.cnbc.com/2026/05/11/microsoft-ceo-satya-nadella-musk-altman-trial.html",
+    "source_name": "CNBC",
+    "source_type": "wire_service",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Microsoft CEO Satya Nadella testified in the Musk v. Altman trial, saying Musk never raised concerns about Microsoft's investment violating any terms. Internal emails revealed Nadella worried about Microsoft becoming 'the next IBM' in its OpenAI dependency. Evidence suggested Nadella was the 'invisible hand' that restored Altman as CEO during the 2023 board crisis.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Closing Arguments Conclude in Musk v. Altman Trial, Advisory Jury to Deliberate May 19",
+    "date": "2026-05-14",
+    "url": "https://www.cnbc.com/2026/05/14/closing-arguments-jury-openai-musk-altman.html",
+    "source_name": "CNBC",
+    "source_type": "wire_service",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Closing arguments concluded in the Musk v. Altman trial on May 14. Musk's lawyer Steven Molo argued Altman broke promises to keep OpenAI nonprofit. OpenAI's lawyer Sarah Eddy argued Musk sued too late and his real motive is to sabotage a competitor to xAI. The nine-person advisory jury begins deliberating May 19; Judge Gonzalez Rogers makes the final liability decision.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Class-Action Privacy Lawsuit Alleges OpenAI Shared ChatGPT User Data with Google and Meta",
+    "date": "2026-05-14",
+    "url": "https://cybersecuritynews.com/openai-chatgpt-privacy-lawsuit/",
+    "source_name": "Cyber Security News",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "A class-action complaint filed in Southern District of California alleges OpenAI embedded Meta's Facebook Pixel and Google Analytics on ChatGPT.com, sharing user chat topics and identifiers with ad platforms without consent. Filed under ECPA and California's CIPA, the lawsuit seeks up to $5,000 per violation. A related complaint was filed in the Northern District on May 6.",
+    "confidence": "medium",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Deployment Company Secures $4B+ from TPG-Led Consortium at $10B Valuation",
+    "date": "2026-05-11",
+    "url": "https://www.axios.com/2026/05/11/openai-deployco-private-equity",
+    "source_name": "Axios",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "The OpenAI Deployment Company raised $4B+ from 19 investors at a $10B pre-money valuation. TPG leads with Advent, Bain Capital, and Brookfield as co-lead founding partners. Additional founding partners include Goldman Sachs, SoftBank Corp., Warburg Pincus, and B Capital. OpenAI majority-owns and controls the entity, which will embed Forward Deployed Engineers in enterprise customers.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI's Plaid-Powered Personal Finance Feature Could Disrupt Fintech Incumbents",
+    "date": "2026-05-15",
+    "url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
+    "source_name": "TechCrunch",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI's personal finance feature launched for Pro users in the US on web and iOS, with Android expected soon. ChatGPT can read balances, transactions, investments, and liabilities through Plaid but cannot move money. OpenAI plans to extend to Plus subscribers after feedback from Pro tier. Integration with Intuit for tax estimates and live expert sessions is forthcoming.",
+    "confidence": "high",
+    "gmail_sourced": false
+  }
+]

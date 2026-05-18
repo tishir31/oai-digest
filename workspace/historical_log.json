@@ -634,5 +634,117 @@
     "freshness_status": "new",
     "historical_match": null,
     "verification_notes": "URL returned 200. Content matches headline keywords."
+  },
+  {
+    "headline": "OpenAI Launches Deployment Company Backed by $4B+ from 19 PE Investors, Acquires Tomoro",
+    "date": "2026-05-11",
+    "url": "https://openai.com/index/openai-launches-the-deployment-company/",
+    "source_name": "OpenAI",
+    "category": "Partnerships & Deals",
+    "digest_week": "2026-05-11 to 2026-05-17"
+  },
+  {
+    "headline": "OpenAI Considering Legal Action Against Apple Over Siri Partnership Revenue Dispute",
+    "date": "2026-05-14",
+    "url": "https://www.bloomberg.com/news/articles/2026-05-14/openai-apple-partnership-frays-setting-up-possible-legal-fight",
+    "source_name": "Bloomberg",
+    "category": "Partnerships & Deals",
+    "digest_week": "2026-05-11 to 2026-05-17"
+  },
+  {
+    "headline": "Cerebras IPO Mints Two Billionaires, Anchored by $10B+ OpenAI Inference Deal",
+    "date": "2026-05-14",
+    "url": "https://www.cnbc.com/2026/05/14/cerebras-ipo-mints-two-billionaires-sets-stage-for-potential-ai-wave.html",
+    "source_name": "CNBC",
+    "category": "Earnings / Financials / Fundraising",
+    "digest_week": "2026-05-11 to 2026-05-17"
+  },
+  {
+    "headline": "ChatGPT Launches Personal Finance Experience with Plaid, Connects 12,000+ Banks",
+    "date": "2026-05-15",
+    "url": "https://openai.com/index/personal-finance-chatgpt/",
+    "source_name": "OpenAI",
+    "category": "Product Launches & Updates",
+    "digest_week": "2026-05-11 to 2026-05-17"
+  },
+  {
+    "headline": "OpenAI Launches Daybreak Cybersecurity Initiative Using GPT-5.5 and Codex Security",
+    "date": "2026-05-11",
+    "url": "https://openai.com/daybreak/",
+    "source_name": "OpenAI",
+    "category": "Product Launches & Updates",
+    "digest_week": "2026-05-11 to 2026-05-17"
+  },
+  {
+    "headline": "OpenAI Brings Codex to ChatGPT Mobile App for iOS and Android",
+    "date": "2026-05-14",
+    "url": "https://openai.com/index/work-with-codex-from-anywhere/",
+    "source_name": "OpenAI",
+    "category": "Product Launches & Updates",
+    "digest_week": "2026-05-11 to 2026-05-17"
+  },
+  {
+    "headline": "OpenAI Improves ChatGPT Safety for Sensitive Conversations with 50% Better Response Rates",
+    "date": "2026-05-14",
+    "url": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations/",
+    "source_name": "OpenAI",
+    "category": "Product Launches & Updates",
+    "digest_week": "2026-05-11 to 2026-05-17"
+  },
+  {
+    "headline": "Musk v. Altman Trial Reaches Closing Arguments After Key Testimony from Altman and Nadella",
+    "date": "2026-05-14",
+    "url": "https://www.cnbc.com/2026/05/14/closing-arguments-jury-openai-musk-altman.html",
+    "source_name": "CNBC",
+    "category": "Regulatory & Policy",
+    "digest_week": "2026-05-11 to 2026-05-17"
+  },
+  {
+    "headline": "FSU Shooting Victim's Family Sues OpenAI, Alleging ChatGPT Helped Plan Mass Shooting",
+    "date": "2026-05-11",
+    "url": "https://www.cnn.com/2026/05/11/tech/fsu-shooter-victim-lawsuit-openai-chatgpt",
+    "source_name": "CNN",
+    "category": "Regulatory & Policy",
+    "digest_week": "2026-05-11 to 2026-05-17"
+  },
+  {
+    "headline": "Family Sues OpenAI After ChatGPT Allegedly Guided Teen's Fatal Drug Overdose",
+    "date": "2026-05-12",
+    "url": "https://www.cbsnews.com/news/open-ai-chatgpt-drug-overdose-lawsuit/",
+    "source_name": "CBS News",
+    "category": "Regulatory & Policy",
+    "digest_week": "2026-05-11 to 2026-05-17"
+  },
+  {
+    "headline": "OpenAI Discloses TanStack npm Supply Chain Breach: Two Employee Devices Compromised",
+    "date": "2026-05-13",
+    "url": "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack/",
+    "source_name": "OpenAI",
+    "category": "Regulatory & Policy",
+    "digest_week": "2026-05-11 to 2026-05-17"
+  },
+  {
+    "headline": "OpenAI Grants EU Access to GPT-5.5-Cyber Under New EU Cyber Action Plan",
+    "date": "2026-05-11",
+    "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/",
+    "source_name": "OpenAI",
+    "category": "Regulatory & Policy",
+    "digest_week": "2026-05-11 to 2026-05-17"
+  },
+  {
+    "headline": "Class-Action Privacy Lawsuit Alleges OpenAI Shared ChatGPT User Data with Google and Meta",
+    "date": "2026-05-14",
+    "url": "https://cybersecuritynews.com/openai-chatgpt-privacy-lawsuit/",
+    "source_name": "Cyber Security News",
+    "category": "Regulatory & Policy",
+    "digest_week": "2026-05-11 to 2026-05-17"
+  },
+  {
+    "headline": "OpenAI Publishes Parameter Golf Results: 1,000+ Participants in ML Challenge",
+    "date": "2026-05-12",
+    "url": "https://openai.com/index/what-parameter-golf-taught-us/",
+    "source_name": "OpenAI",
+    "category": "Technical Research / Model Releases",
+    "digest_week": "2026-05-11 to 2026-05-17"
   }
 ]

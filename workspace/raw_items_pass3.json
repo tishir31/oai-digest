@@ -1,0 +1,46 @@
+[
+  {
+    "headline": "OpenAI Considering Legal Action Against Apple Over Siri Partnership Revenue Shortfall",
+    "date": "2026-05-14",
+    "url": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
+    "source_name": "TechCrunch",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI is reportedly exploring legal action against Apple after the ChatGPT-Siri integration failed to generate expected subscription revenue. OpenAI initially projected billions annually from the deal but 'hasn't come close.' OpenAI has retained outside counsel; Apple has its own grievances about privacy standards and OpenAI's push into hardware with Jony Ive.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "The Information Reports AGI Definition Is Central Issue in Musk v. OpenAI Trial",
+    "date": "2026-05-14",
+    "url": "https://www.cnbc.com/2026/05/14/closing-arguments-jury-openai-musk-altman.html",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "The Information's AI Agenda coverage highlighted that the definition of AGI is the elephant in the Musk v. OpenAI courtroom. Whether OpenAI has achieved or is close to AGI determines whether the original nonprofit charter was breached. The advisory jury begins deliberations May 19 after three weeks of testimony including Altman, Nadella, and Brockman.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "The Information Reports Anthropic Could Acquire OpenAI Supplier",
+    "date": "2026-05-13",
+    "url": "https://www.theinformation.com/articles/how-anthropic-could-take-an-openai-supplier-off-the-table",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "The Information reported that Anthropic may acquire a supplier to OpenAI, a move that could disrupt OpenAI's supply chain. The deal, if completed, would represent a competitive move by Anthropic to constrain OpenAI's vendor relationships in the AI infrastructure space.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Cerebras IPO Mints Two Billionaires, OpenAI's $10B+ Inference Deal Fuels Valuation",
+    "date": "2026-05-14",
+    "url": "https://www.cnbc.com/2026/05/14/cerebras-ipo-mints-two-billionaires-sets-stage-for-potential-ai-wave.html",
+    "source_name": "CNBC",
+    "source_type": "wire_service",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "Cerebras went public on May 14, 2026, with its IPO minting two billionaires. The company's $10B+ multi-year inference deal with OpenAI is a cornerstone of its revenue, with OpenAI committing to 750 megawatts of Cerebras wafer-scale systems for ChatGPT inference. Cerebras replaced prior G42 concentration with OpenAI and AWS as anchor relationships.",
+    "confidence": "high",
+    "gmail_sourced": true
+  }
+]

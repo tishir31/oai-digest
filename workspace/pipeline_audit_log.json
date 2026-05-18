@@ -415,5 +415,84 @@
         "high_total": 15
       }
     }
+  },
+  {
+    "run_id": "run_20260518T161941",
+    "run_date": "2026-05-18T16:19:41.798673",
+    "steps": {
+      "reporter": {
+        "items_produced": 23,
+        "confidence_breakdown": {
+          "high": 21,
+          "medium": 2,
+          "low": 0
+        },
+        "source_type_counts": {
+          "official_blog": 10,
+          "tech_press": 7,
+          "wire_service": 5,
+          "developer_docs": 1
+        },
+        "gmail_sourced_count": 3
+      },
+      "curator": {
+        "items_in": 23,
+        "items_kept": 15,
+        "items_cut": 9,
+        "cut_reasons": {
+          "Clustered with OpenAI official Personal Finance item \u2014 same event.": 1,
+          "Clustered with Bloomberg Apple dispute item \u2014 same event.": 1,
+          "Clustered into consolidated Musk trial item.": 2,
+          "Clustered with Deployment Company item \u2014 same event.": 1,
+          "Data report with adoption metrics, not a news event. Useful context but not notable enough for IB brief.": 1,
+          "Technical developer blog post. Low IB significance.": 1,
+          "Primarily about Anthropic, not OpenAI. OpenAI mentioned tangentially.": 1,
+          "Duplicate coverage of Musk trial already captured in consolidated item.": 1
+        },
+        "source_diversity_warning": null,
+        "items_with_corroboration_2plus": 13
+      },
+      "coverage_auditor": {
+        "verdict": "sufficient",
+        "curated_count": 15,
+        "coverage_floor": 7,
+        "empty_categories": [
+          "Key Hires / Departures"
+        ],
+        "thin_categories": [
+          "Earnings / Financials / Fundraising",
+          "Technical Research / Model Releases"
+        ]
+      },
+      "backfill_reporter": {
+        "ran": false,
+        "items_found": 0,
+        "backfill_sourced_count": 0
+      },
+      "fact_checker": {
+        "items_in": 15,
+        "items_verified": 14,
+        "items_rejected": 1,
+        "rejection_reasons": [
+          "Post-check: likely continuation of older story. Contains 'announced in'; Origin date reference: 'announced in november'"
+        ],
+        "url_200_count": 0,
+        "url_403_count": 14,
+        "url_other_count": 0
+      },
+      "editor_in_chief": {
+        "items_in_digest": 14,
+        "historical_dedup_check_run": true
+      },
+      "gap_checker": {
+        "ran": true,
+        "items_found": 0
+      },
+      "confidence_calibration": {
+        "ran": true,
+        "well_calibrated": false,
+        "high_total": 21
+      }
+    }
   }
 ]

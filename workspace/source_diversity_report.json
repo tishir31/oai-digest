@@ -1,11 +1,12 @@
 {
-  "run_week": "2026-03-31 to 2026-04-05",
+  "run_week": "2026-05-11 to 2026-05-17",
   "source_type_counts": {
-    "official_blog": 5,
-    "tech_press": 3,
-    "developer_docs": 3,
-    "wire_service": 2
+    "official_blog": 8,
+    "wire_service": 3,
+    "tech_press": 4,
+    "developer_docs": 1
   },
-  "unique_outlets": 6,
-  "diversity_warning": null
+  "unique_outlets": 7,
+  "diversity_warning": null,
+  "notes": "Good source mix: 8 official, 3 wire service, 4 tech press, 1 developer docs. No single source type exceeds 60%. Official sources well represented."
 }
