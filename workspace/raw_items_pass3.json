@@ -1,0 +1,24 @@
+[
+  {
+    "headline": "OpenAI Confidentially Files IPO Prospectus Amid 'Trio of Trillion Dollar IPOs' Wave",
+    "date": "2026-05-22",
+    "url": "https://www.axios.com/2026/05/20/openai-ipo-spacex-musk",
+    "source_name": "Axios",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "The Information reported that OpenAI was planning to file its IPO prospectus within weeks, alongside SpaceX's S-1 filing, in what newsletter sources called a 'Trio of Trillion Dollar IPOs' alongside Anthropic's own planned listing. OpenAI's filing comes days after the Musk lawsuit verdict cleared a key legal obstacle. The company is valued at $852 billion by private investors and could reach $1 trillion at listing.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Ships Codex to Mobile App and Chrome Extension",
+    "date": "2026-05-23",
+    "url": "https://openai.com/index/work-with-codex-from-anywhere/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI sent a product update email on May 23 announcing Codex now works on mobile (iOS and Android) and in Chrome. Users can monitor active AI workflows, approve commands, launch tasks, and supervise coding agents remotely. The mobile app uses a secure relay layer that keeps trusted machines reachable across devices. Codex is available in preview across all plans including Free and Go tiers.",
+    "confidence": "high",
+    "gmail_sourced": true
+  }
+]

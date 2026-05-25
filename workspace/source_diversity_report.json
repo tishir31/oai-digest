@@ -1,11 +1,11 @@
 {
-  "run_week": "2026-03-31 to 2026-04-05",
+  "run_week": "2026-05-18 to 2026-05-24",
   "source_type_counts": {
-    "official_blog": 5,
+    "official_blog": 4,
     "tech_press": 3,
-    "developer_docs": 3,
-    "wire_service": 2
+    "wire_service": 1
   },
   "unique_outlets": 6,
-  "diversity_warning": null
+  "diversity_warning": null,
+  "notes": "Good diversity across official sources and tech press. Wire service coverage via NPR. No single source type exceeds 60%."
 }

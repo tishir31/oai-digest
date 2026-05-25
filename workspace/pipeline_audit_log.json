@@ -415,5 +415,80 @@
         "high_total": 15
       }
     }
+  },
+  {
+    "run_id": "run_20260525T161632",
+    "run_date": "2026-05-25T16:16:32.528026",
+    "steps": {
+      "reporter": {
+        "items_produced": 15,
+        "confidence_breakdown": {
+          "high": 13,
+          "medium": 2,
+          "low": 0
+        },
+        "source_type_counts": {
+          "official_blog": 5,
+          "tech_press": 9,
+          "wire_service": 1
+        },
+        "gmail_sourced_count": 2
+      },
+      "curator": {
+        "items_in": 15,
+        "items_kept": 8,
+        "items_cut": 6,
+        "cut_reasons": {
+          "Clustered with primary IPO filing item (CNBC). Financial details incorporated as corroborating context.": 1,
+          "Clustered with primary IPO filing item (CNBC).": 2,
+          "Clustered with primary Musk verdict item (NPR).": 1,
+          "Clustered with primary Dell partnership item (OpenAI blog).": 1,
+          "Clustered with primary math breakthrough item (OpenAI blog).": 1
+        },
+        "source_diversity_warning": null,
+        "items_with_corroboration_2plus": 5
+      },
+      "coverage_auditor": {
+        "verdict": "sufficient",
+        "curated_count": 8,
+        "coverage_floor": 7,
+        "empty_categories": [
+          "Key Hires / Departures"
+        ],
+        "thin_categories": [
+          "Partnerships & Deals",
+          "Earnings / Financials / Fundraising",
+          "Regulatory & Policy",
+          "Technical Research / Model Releases"
+        ]
+      },
+      "backfill_reporter": {
+        "ran": false,
+        "items_found": 0,
+        "backfill_sourced_count": 0
+      },
+      "fact_checker": {
+        "items_in": 8,
+        "items_verified": 8,
+        "items_rejected": 0,
+        "rejection_reasons": [],
+        "url_200_count": 0,
+        "url_403_count": 8,
+        "url_other_count": 0
+      },
+      "editor_in_chief": {
+        "items_in_digest": 8,
+        "historical_dedup_check_run": true
+      },
+      "gap_checker": {
+        "ran": true,
+        "items_found": 0
+      },
+      "confidence_calibration": {
+        "ran": true,
+        "well_calibrated": false,
+        "high_total": 13
+      }
+    }
   }
 ]
