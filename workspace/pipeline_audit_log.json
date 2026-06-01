@@ -415,5 +415,71 @@
         "high_total": 15
       }
     }
+  },
+  {
+    "run_id": "run_20260601T162234",
+    "run_date": "2026-06-01T16:22:34.263218",
+    "steps": {
+      "reporter": {
+        "items_produced": 49,
+        "confidence_breakdown": {
+          "high": 47,
+          "medium": 2,
+          "low": 0
+        },
+        "source_type_counts": {
+          "wire_service": 11,
+          "tech_press": 24,
+          "official_blog": 9,
+          "developer_docs": 3,
+          "other": 2
+        },
+        "gmail_sourced_count": 2
+      },
+      "curator": {
+        "items_in": 49,
+        "items_kept": 24,
+        "items_cut": 0,
+        "cut_reasons": {},
+        "source_diversity_warning": null,
+        "items_with_corroboration_2plus": 13
+      },
+      "coverage_auditor": {
+        "verdict": "sufficient",
+        "curated_count": 24,
+        "coverage_floor": 7,
+        "empty_categories": [],
+        "thin_categories": [
+          "Key Hires / Departures"
+        ]
+      },
+      "backfill_reporter": {
+        "ran": false,
+        "items_found": 0,
+        "backfill_sourced_count": 0
+      },
+      "fact_checker": {
+        "items_in": 24,
+        "items_verified": 24,
+        "items_rejected": 0,
+        "rejection_reasons": [],
+        "url_200_count": 0,
+        "url_403_count": 24,
+        "url_other_count": 0
+      },
+      "editor_in_chief": {
+        "items_in_digest": 24,
+        "historical_dedup_check_run": true
+      },
+      "gap_checker": {
+        "ran": true,
+        "items_found": 4
+      },
+      "confidence_calibration": {
+        "ran": true,
+        "well_calibrated": false,
+        "high_total": 47
+      }
+    }
   }
 ]

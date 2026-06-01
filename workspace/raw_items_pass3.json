@@ -1,0 +1,68 @@
+[
+  {
+    "headline": "Florida Attorney General Files First-Ever State Lawsuit Against OpenAI and Sam Altman Over AI Harms",
+    "date": "2026-05-31",
+    "url": "https://www.nbcnews.com/tech/tech-news/florida-sues-openai-sam-altman-saying-put-profit-safety-rcna347602",
+    "source_name": "NBC News",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Florida Attorney General James Uthmeier filed a civil lawsuit against OpenAI and CEO Sam Altman personally, accusing the company of prioritizing profits over user safety. The suit stems from the April 2025 Florida State University mass shooting where the perpetrator had roughly 16,000 ChatGPT interactions. The complaint alleges deceptive trade practices, negligence, product liability violations, fraudulent misrepresentation, and public nuisance — marking the first time a US state has sued OpenAI over product design and safety.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Sam Altman Says He Was 'Delighted to Be Wrong' About AI's Impact on Jobs",
+    "date": "2026-05-26",
+    "url": "https://time.com/article/2026/05/26/sam-altman-ai-job-losses-openAI-/",
+    "source_name": "Time",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "At a Commonwealth Bank of Australia conference in Sydney on May 26, OpenAI CEO Sam Altman said he was 'pretty wrong' about AI's impact on jobs, reversing earlier warnings that entry-level roles were at serious risk. 'I thought there would have been more impact on entry-level white-collar jobs being eliminated by now than has actually happened,' Altman said. The mea culpa comes as OpenAI filed confidential IPO paperwork days earlier.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Targets Small Businesses with Self-Serve ChatGPT Ad Platform and Conversion-Focused Ads",
+    "date": "2026-05-27",
+    "url": "https://winbuzzer.com/2026/05/27/openai-pushes-chatgpt-ads-to-smaller-advertisers-xcxwbn/",
+    "source_name": "Winbuzzer",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI is expanding its ChatGPT advertising platform to small businesses with self-serve ad buying, cost-per-click bidding, and conversion tracking. The company eliminated its previous $50,000 minimum commitment, now allowing performance-based spending. OpenAI targets $2.5 billion in ad revenue for 2026 and over $100 billion by 2030, courting local businesses like dry cleaners and car washes alongside major brands.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI's Revenue Chief Barnstorms for Business Customers Ahead of IPO",
+    "date": "2026-05-31",
+    "url": "https://www.theinformation.com/articles/openais-revenue-chief-barnstorms-for-business-customers",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI's revenue chief is aggressively courting enterprise and business customers ahead of the company's anticipated September IPO, per The Information. The push comes as enterprise revenue now represents over 40% of OpenAI's total and is on track to reach parity with consumer revenue by year-end.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Microsoft Positions Build Conference as 'Debutante Ball' Two Months After OpenAI Uncoupling",
+    "date": "2026-05-31",
+    "url": "https://www.theinformation.com/briefings/microsofts-ai-debutante-ball",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "Two months after Microsoft's 'conscious uncoupling' from OpenAI, Microsoft is using its annual Build developer conference to prove it can thrive as an AI provider independent of the ChatGPT maker's technology. Microsoft will unveil a suite of new homegrown AI models, including a new coding model, in what The Information describes as a 'debutante ball' for its post-OpenAI AI strategy.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Illinois Legislature Passes Landmark AI Safety Bill with OpenAI's Support",
+    "date": "2026-05-29",
+    "url": "https://www.nbcnews.com/tech/tech-news/illinois-legislature-passes-historic-ai-bill-rcna347191",
+    "source_name": "NBC News",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Illinois legislature passed SB 315, the most comprehensive AI safety bill in the US, requiring frontier AI companies to create safety plans and undergo annual independent third-party audits — a first for any AI legislation in the US. The bill passed the House 110-0 and the Senate 52-5. OpenAI and Anthropic publicly supported the bill, and Governor Pritzker plans to sign it.",
+    "confidence": "high",
+    "gmail_sourced": true
+  }
+]
