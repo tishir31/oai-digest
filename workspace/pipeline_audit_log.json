@@ -415,5 +415,85 @@
         "high_total": 15
       }
     }
+  },
+  {
+    "run_id": "run_20260608T162543",
+    "run_date": "2026-06-08T16:25:43.820787",
+    "steps": {
+      "reporter": {
+        "items_produced": 48,
+        "confidence_breakdown": {
+          "high": 35,
+          "medium": 13,
+          "low": 0
+        },
+        "source_type_counts": {
+          "wire_service": 9,
+          "tech_press": 26,
+          "official_blog": 8,
+          "developer_docs": 1,
+          "other": 1,
+          "press_release": 1,
+          "regulatory_filing": 2
+        },
+        "gmail_sourced_count": 7
+      },
+      "curator": {
+        "items_in": 48,
+        "items_kept": 27,
+        "items_cut": 6,
+        "cut_reasons": {
+          "Canvas removal \u2014 trivially minor product change for IB audience": 1,
+          "Clustered with higher-authority source or duplicate coverage": 1,
+          "Codex momentum analysis piece \u2014 not news event": 1,
+          "GPT Image deprecation already covered as separate curated item": 1,
+          "Account security mandate \u2014 trivially minor for IB audience": 1,
+          "Anthropic S-1 filing \u2014 not specifically about OpenAI": 1
+        },
+        "source_diversity_warning": null,
+        "items_with_corroboration_2plus": 12
+      },
+      "coverage_auditor": {
+        "verdict": "sufficient",
+        "curated_count": 27,
+        "coverage_floor": 7,
+        "empty_categories": [
+          "Key Hires / Departures"
+        ],
+        "thin_categories": [
+          "Technical Research / Model Releases"
+        ]
+      },
+      "backfill_reporter": {
+        "ran": false,
+        "items_found": 0,
+        "backfill_sourced_count": 0
+      },
+      "fact_checker": {
+        "items_in": 27,
+        "items_verified": 25,
+        "items_rejected": 2,
+        "rejection_reasons": [
+          "Post-check: likely continuation of older story. Origin date reference: 'announced may'",
+          "Post-check: likely continuation of older story. Contains 'concluded'"
+        ],
+        "url_200_count": 1,
+        "url_403_count": 24,
+        "url_other_count": 0
+      },
+      "editor_in_chief": {
+        "items_in_digest": 25,
+        "historical_dedup_check_run": true
+      },
+      "gap_checker": {
+        "ran": true,
+        "items_found": 0
+      },
+      "confidence_calibration": {
+        "ran": true,
+        "well_calibrated": true,
+        "high_total": 35
+      }
+    }
   }
 ]

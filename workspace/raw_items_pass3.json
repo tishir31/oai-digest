@@ -1,0 +1,134 @@
+[
+  {
+    "headline": "OpenAI's Codex Gains Momentum as Developers Switch from Claude Code, Causing Internal Infrastructure Outages",
+    "date": "2026-06-03",
+    "url": "https://www.theinformation.com/articles/the-unintended-consequences-of-codexs-comeback",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI's Codex is gaining traction as developers switch from Anthropic's Claude Code, with engineers going from 2-3 code changes per day to more than 10. The surge has overloaded OpenAI's internal continuous integration systems and GitHub account, causing outages every few weeks that block engineers from making code changes for minutes to hours.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Reaches 2 Million Business Customers, Enterprise Revenue at 40% and Growing",
+    "date": "2026-06-03",
+    "url": "https://www.theinformation.com/articles/the-unintended-consequences-of-codexs-comeback",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "At an enterprise-focused event on Tuesday, OpenAI Chief Revenue Officer Denise Dresser said the company now has over two million business customers, a figure that has doubled over the last year. She added that 40% of OpenAI's revenue comes from enterprise customers and expects that to reach 50% by year-end.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Launches Investment Banking Plugin for Codex",
+    "date": "2026-06-03",
+    "url": "https://www.theinformation.com/articles/the-unintended-consequences-of-codexs-comeback",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI announced a new investment banking plugin for Codex that allows banker users to generate pitch materials, analyze comparable companies and transactions, and turn diligence into recommendations. The plugin competes with capabilities offered by OpenAI customers like AI financial services startups Rogo and Hebbia.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Sam Altman Addresses Customer Fears Over OpenAI Competing with Its Own Clients",
+    "date": "2026-06-03",
+    "url": "https://www.theinformation.com/articles/the-unintended-consequences-of-codexs-comeback",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "At an enterprise event, CEO Sam Altman addressed fears from customers that OpenAI might build products that compete with them. 'We have no desire to compete with you on your businesses, but there's so much fear there that we need to somehow address,' he said. The same day, however, OpenAI launched an investment banking plugin for Codex that overlaps with capabilities of its own customers.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Plans to Combine Codex and ChatGPT",
+    "date": "2026-06-02",
+    "url": "https://www.theinformation.com/articles/inside-openais-decision-to-combine-codex-and-chatgpt",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "The Information reported exclusively on OpenAI's decision to combine its Codex coding agent and ChatGPT into a unified product. The move reflects OpenAI's strategy to reframe Codex from a developer-only coding agent to a more general-purpose agent for knowledge workers.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Florida Attorney General Sues OpenAI and Sam Altman Over ChatGPT Safety Concerns",
+    "date": "2026-06-02",
+    "url": "https://www.theinformation.com/articles/cognition-aims-to-be-the-switzerland-of-ai-agents",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Florida Attorney General James Uthmeier sued OpenAI and CEO Sam Altman, alleging 10 counts of negligence, liability, and other state law violations related to safety concerns over ChatGPT. Florida became the first state to sue the AI company. The 83-page complaint accuses OpenAI of an 'insatiable quest to win the AI arms race and amass large fortunes.'",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Brian Landsman Leaves Salesforce After 14 Years to Join OpenAI as VP of Global Partnerships",
+    "date": "2026-06-02",
+    "url": "https://www.theinformation.com/articles/cognition-aims-to-be-the-switzerland-of-ai-agents",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Key Hires / Departures",
+    "raw_snippet": "Brian Landsman, a 14-year Salesforce executive vice president who led its global partnerships and app store business, has joined OpenAI as vice president of global partnerships, he announced on LinkedIn.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Launches Rosalind Biodefense Program with GPT-Rosalind Life Sciences Model",
+    "date": "2026-06-01",
+    "url": "https://www.theinformation.com/articles/ai-evaluators-struggle-with-models-that-know-when-theyre-being-tested",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI launched Rosalind Biodefense, a new program to provide developers access to GPT-Rosalind, a life sciences model, for pandemic preparedness efforts. OpenAI also said it is expanding access to the model for certain government groups working on public health.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Proposes Mandatory Cybersecurity Testing Led by NIST Instead of NSA Under New Executive Order",
+    "date": "2026-06-04",
+    "url": "https://www.theinformation.com/articles/billionaire-databricks-perplexity-co-founder-pitches-ai-researchers",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "OpenAI released a policy document proposing that the Center for AI Standards and Innovation (NIST), the government's main point of contact with the AI industry, lead cybersecurity testing instead of the National Security Agency, which leads testing under the new White House executive order. OpenAI also argues that such testing should be mandatory instead of the executive order's voluntary arrangement.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Expected to Flip S-1 Public as AI Mega-IPO Wave Builds with SpaceX and Anthropic",
+    "date": "2026-06-02",
+    "url": "https://www.axios.com/pro/deals/2026/06/02/anthropic-anthology",
+    "source_name": "Axios Pro Rata",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "Axios Pro Rata reported that OpenAI is likely to have flipped its S-1 public by the time Anthropic prices its IPO, allowing investors to make comparative judgments. Both companies may benefit in a post-public SpaceX world as investors will have already seen new index inclusion rules in action. SpaceX, Anthropic, and OpenAI are all expected to go public at massive valuations in the coming months.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Microsoft and OpenAI 'Broke Up' and Are Now Ready to Fight",
+    "date": "2026-06-04",
+    "url": "https://www.theinformation.com/articles/microsoft-and-openai-broke-up-now-theyre-ready-to-fight",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "The Information published a report titled 'Microsoft and OpenAI broke up — now they're ready to fight,' signaling a new competitive dynamic between the former close partners as both companies pursue their own AI strategies independently.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Trump Signs AI Executive Order with Voluntary Cybersecurity Framework for Frontier Models",
+    "date": "2026-06-03",
+    "url": "https://www.theinformation.com/articles/the-unintended-consequences-of-codexs-comeback",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "President Trump signed the long-awaited AI executive order, ending weeks of speculation. The final version is nearly identical to an aborted May version that Trump canceled at the behest of former AI czar David Sacks. The only difference is a shortened timeline for AI developers to share frontier models with the government (up to 30 days instead of 90). Guidelines for AI companies remain voluntary and do not resemble a mandatory licensing regime.",
+    "confidence": "high",
+    "gmail_sourced": true
+  }
+]
