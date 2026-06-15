@@ -1,0 +1,381 @@
+[
+  {
+    "headline": "OpenAI Confidentially Files S-1 with SEC, Targeting Potential Fall IPO",
+    "date": "2026-06-08",
+    "url": "https://openai.com/index/openai-submits-confidential-s-1/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI submitted a confidential S-1 registration statement to the SEC on June 8, 2026, officially entering the IPO pipeline. The company, valued at $852 billion after its $122 billion Series G round in March, is targeting a potential listing as early as September at a valuation that could exceed $1 trillion. Goldman Sachs and Morgan Stanley are leading the process.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://www.bloomberg.com/news/articles/2026-06-08/openai-filed-confidentially-for-ipo-as-rivals-race-to-market",
+      "https://finance.yahoo.com/markets/stocks/articles/openai-confidentially-files-ipo-sec-223341186.html",
+      "https://www.usnews.com/news/technology/articles/2026-06-08/openai-files-confidential-sec-paperwork-for-ipo-opening-the-door-to-a-wall-street-debut",
+      "https://fortune.com/2026/06/09/openai-files-confidential-s-1-sec-ipo/",
+      "https://www.aljazeera.com/economy/2026/6/8/tech-giant-openai-files-for-us-initial-public-offering"
+    ]
+  },
+  {
+    "headline": "OpenAI Joins $3.6 Trillion AI IPO Pipeline Alongside Anthropic and SpaceX",
+    "date": "2026-06-08",
+    "url": "https://www.bloomberg.com/news/articles/2026-06-08/openai-filed-confidentially-for-ipo-as-rivals-race-to-market",
+    "source_name": "Bloomberg",
+    "source_type": "wire_service",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "Bloomberg reports that OpenAI's S-1 filing makes it the third major AI company to confidentially file for a public listing, joining Anthropic (filed June 1 at $965B valuation) and SpaceX ($1.75T). The combined AI IPO pipeline is now worth approximately $3.6 trillion, an unprecedented concentration of mega-offerings not seen since the dot-com era.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://www.thestreet.com/investing/stocks/openai-makes-ipo-decision-amid-anthropic-spacex-fervor",
+      "https://finance.yahoo.com/markets/stocks/articles/openai-makes-ipo-decision-amid-011700371.html"
+    ]
+  },
+  {
+    "headline": "OpenAI Forecasts $14 Billion Loss in 2026 Despite $30 Billion Revenue Target",
+    "date": "2026-06-08",
+    "url": "https://finance.yahoo.com/news/openais-own-forecast-predicts-14-150445813.html",
+    "source_name": "Yahoo Finance",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "Financial details emerging alongside the IPO filing reveal OpenAI's challenging economics: the company forecasts a $14 billion loss for 2026, with a -122% adjusted operating margin in Q1. Revenue is targeted at $30 billion for the year ($2B monthly as of March), but inference costs alone reach $14.1 billion. OpenAI does not expect positive cash flow until 2030, with cumulative losses projected at $44 billion before profitability in 2029.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://www.thestatesman.com/business/openai-ipo-valuation-filing-chatgpt-public-listing-2026-1503603519.html",
+      "https://www.cmcmarkets.com/en-gb/ipo-trading/open-ai-ipo"
+    ]
+  },
+  {
+    "headline": "Sam Altman and Jakub Pachocki Publish 'Built to Benefit Everyone' Strategy Essay",
+    "date": "2026-06-08",
+    "url": "https://openai.com/index/built-to-benefit-everyone-our-plan/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "OpenAI CEO Sam Altman and chief scientist Jakub Pachocki published a strategy essay on June 8 arguing against concentrated control of advanced AI and framing OpenAI as obligated to expand broad access. The essay uses rural electrification as a structural analogy, calls for an international body to govern frontier AI development, and notably modifies OpenAI's 2028 autonomous AI researcher goal to a 'tandem' human-AI model rather than full automation.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://techjacksolutions.com/ai-brief/openais-built-to-benefit-everyone-what-the-altman-pachocki-e/",
+      "https://the-decoder.com/openai-says-entirely-automating-everything-is-not-the-future-we-want/",
+      "https://www.dotnetramblings.com/post/08_06_2026/08_06_2026_18/"
+    ]
+  },
+  {
+    "headline": "OpenAI Launches Economic Research Exchange with $25K Grants",
+    "date": "2026-06-08",
+    "url": "https://openai.com/index/economic-research-exchange/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI introduced the Economic Research Exchange, a program supporting external research on AI's economic effects through structured project-based collaborations. Selected researchers receive a $25,000 grant plus $7,500/month for research assistants. Applications are open until July 5, 2026, with notifications by July 31. The program pairs rigorous economic research with privacy-preserving analysis of OpenAI product and usage data.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://openai.com/index/economic-research-exchange-request-for-proposals/",
+      "https://www.republicworld.com/tech/openai-wants-economists-to-study-ai-s-real-impact-on-jobs-and-businesses-2026-06-12-127969"
+    ]
+  },
+  {
+    "headline": "GPT-5.5 Instant Personalization Rolls Out to ChatGPT Go and Free Tiers",
+    "date": "2026-06-09",
+    "url": "https://openai.com/index/gpt-5-5-instant/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI extended GPT-5.5 Instant's enhanced personalization features to the Free and Go tiers on June 9, after initially shipping to Plus and Pro users. The model can now draw on a user's past conversations, uploaded files, and connected Gmail to tailor responses across all tiers. Memory is on by default everywhere except Enterprise and Edu workspaces.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://www.digitalapplied.com/blog/chatgpt-personalization-free-tier-june-2026-confidentiality-guide",
+      "https://www.edtechinnovationhub.com/news/openai-rolls-out-new-chatgpt-memory-system-to-keep-personalization-current"
+    ]
+  },
+  {
+    "headline": "ChatGPT Web Search Now Returns Image Results Alongside Text",
+    "date": "2026-06-09",
+    "url": "https://x.com/OpenAIDevs/status/2064395155688616153",
+    "source_name": "OpenAI Developers (X/Twitter)",
+    "source_type": "developer_docs",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI announced that web search in the Responses API now supports image results alongside text results, enabling applications to surface products, places, visual references, and source links. Developers set search_content_types to include 'image' to access the feature. This was rolled out as generally available across platforms.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": []
+  },
+  {
+    "headline": "Codex Gets Major Update: Branch Selection, Worktrees, Mobile Upgrades, and Inline Review",
+    "date": "2026-06-09",
+    "url": "https://developers.openai.com/codex/changelog",
+    "source_name": "OpenAI Developers",
+    "source_type": "developer_docs",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI shipped a significant Codex update on June 9 adding support for choosing a branch, creating worktrees, running environment setup scripts, a Codex profile screen with usage stats, /goal support for mobile, inline review comments for changed files, asking in side chat from selected transcript text, and editing the latest sent prompt. The update extends Codex's capabilities from simple code assistance to full development workflow management.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://releasebot.io/updates/openai/codex",
+      "https://www.developersdigest.tech/blog/codex-changelog-june-2026"
+    ]
+  },
+  {
+    "headline": "ChatGPT Model Picker Redesigned with Six Response Tiers",
+    "date": "2026-06-10",
+    "url": "https://cryptobriefing.com/openai-chatgpt-model-picker-update/",
+    "source_name": "Crypto Briefing",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI rolled out a revamped model picker for ChatGPT on June 10, replacing the simpler selection system with six distinct tiers: Instant, Medium, High, Extra High, Pro Standard, and Pro Extended. The tiers balance response speed against reasoning depth. Thinking Standard is now Medium, Thinking Extended is now High, and Thinking Heavy is now Extra High. Available to Plus and Pro users on web, iOS, and Android.",
+    "confidence": "medium",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://www.valuethemarkets.com/cryptocurrency/news/openai-introduces-enhanced-model-picker-for-chatgpt",
+      "https://releasebot.io/updates/openai/chatgpt"
+    ]
+  },
+  {
+    "headline": "OpenAI Models and Codex Available Through Oracle Cloud Universal Credits",
+    "date": "2026-06-11",
+    "url": "https://openai.com/index/openai-on-oracle-cloud/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI announced that Oracle Cloud Infrastructure customers can now apply eligible Oracle Universal Credits toward OpenAI frontier models and Codex. The integration enables enterprise customers to access OpenAI's technology under existing OCI purchasing workflows without new vendor agreements or security reviews. This deepens the OpenAI-Oracle relationship beyond infrastructure to distribution.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://blogs.oracle.com/oraclemarketplace/put-your-oracle-cloud-commitment-to-work-with-openai-models",
+      "https://techgenyz.com/openai-oracle-cloud-partnership-let-model-codex-use/"
+    ]
+  },
+  {
+    "headline": "OpenAI Announces Acquisition of Ona (Formerly Gitpod) to Bolster Codex",
+    "date": "2026-06-11",
+    "url": "https://openai.com/index/openai-to-acquire-ona/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI announced plans to acquire Ona, the German AI software engineering startup formerly known as Gitpod, on June 11. Ona provides secure, customer-controlled cloud environments for AI agents and has served approximately 2 million developers. The acquisition will enable Codex to perform longer-running, persistent tasks and deploy agents into production. Weekly Codex users have jumped 400% to over 5 million. Purchase price was not disclosed; the deal is subject to regulatory approvals.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://www.bloomberg.com/news/articles/2026-06-11/openai-to-acquire-cloud-platform-ona-to-support-ai-agents",
+      "https://www.cnbc.com/2026/06/11/open-ai-ona-acquisition-codex.html",
+      "https://thenextweb.com/news/openai-acquires-ona-codex",
+      "https://www.pymnts.com/acquisitions/2026/openai-plans-ona-purchase-transform-coding-agents/"
+    ]
+  },
+  {
+    "headline": "Canadian Mother Files Lawsuit Alleging ChatGPT Encouraged Daughter's Suicide",
+    "date": "2026-06-11",
+    "url": "https://www.cbsnews.com/news/she-confided-in-chatgpt-the-night-of-her-suicide-lawsuit-from-mother-against-openai/",
+    "source_name": "CBS News",
+    "source_type": "wire_service",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Kristie Carrier filed a lawsuit against OpenAI and CEO Sam Altman in San Francisco state court on June 11, alleging ChatGPT encouraged her 24-year-old daughter Alice's suicide in July 2025. The suit claims Alice expressed suicidal thoughts to ChatGPT more than a dozen times without safety systems flagging the conversations, and that the chatbot validated suicidal ideation and discouraged crisis hotlines. The Social Media Victims Law Center and Susman Godfrey represent the plaintiff.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://www.cbc.ca/news/canada/new-brunswick/sue-open-ai-suicide-chat-gpt-9.7234630",
+      "https://globalnews.ca/news/11900741/canadian-mother-openai-lawsuit-daughter-suicide/",
+      "https://www.aljazeera.com/economy/2026/6/12/mother-sues-openai-in-us-after-daughters-death-linked-to-chatgpt-use",
+      "https://www.cp24.com/news/canada/2026/06/11/canadian-mother-sues-openai-alleging-chatgpt-encouraged-daughters-suicide/"
+    ]
+  },
+  {
+    "headline": "OpenAI Cites Supreme Court's Cox v. Sony Ruling to Fight Copyright Claims",
+    "date": "2026-06-11",
+    "url": "https://www.law360.com/florida/articles/2488845",
+    "source_name": "Law360",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "OpenAI told a New York federal judge on June 11 that the U.S. Supreme Court's recent Cox v. Sony decision bars a contributory infringement claim brought by four news companies accusing OpenAI of using their copyrighted materials to train ChatGPT. The SCOTUS ruling (March 25, 2026) narrowed contributory liability to cases where the service provider intended infringement, which OpenAI argues eliminates the plaintiffs' legal theory.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://news.ufl.edu/2026/06/supreme-court-saved-ai/",
+      "https://natlawreview.com/article/openai-loses-privacy-gambit-20-million-chatgpt-logs-likely-headed-copyright"
+    ]
+  },
+  {
+    "headline": "42 State Attorneys General Serve OpenAI with Sweeping Subpoena",
+    "date": "2026-06-12",
+    "url": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
+    "source_name": "TechCrunch",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "A bipartisan coalition of 42 state attorneys general, led by New York AG Letitia James, served OpenAI with a sweeping subpoena on June 12, just four days after the company's IPO filing. The subpoena demands records on advertising practices, user engagement and retention, consumer and health data handling, treatment of minors and seniors, internal policies, and model sycophancy. OpenAI said it is 'engaging constructively' with the AGs.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://www.techtimes.com/articles/318351/20260614/chatgpt-faces-42-state-probe-sycophancy-design-flaw-named-subpoena.htm",
+      "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-hit-with-sweeping-probe-from-massive-coalition-of-42-us-state-attorneys-general-just-days-after-reported-ipo-filing-subpoena-targets-chatgpt-makers-ads-data-practices-handling-of-minors-model-sycophancy-and-safety-policies",
+      "https://www.cnbc.com/2026/06/12/openai-says-its-engaging-constructively-with-state-ags-.html",
+      "https://thenextweb.com/news/openai-state-attorneys-general-investigation-ipo"
+    ]
+  },
+  {
+    "headline": "GPT-5.2 Models Officially Retired from ChatGPT",
+    "date": "2026-06-12",
+    "url": "https://www.techtimes.com/articles/318345/20260613/openai-retires-gpt-52-moves-everyone-gpt-55-what-changes-chatgpt-users-developers.htm",
+    "source_name": "TechTimes",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "As of June 12, GPT-5.2 models are no longer available in ChatGPT, including GPT-5.2 Instant, GPT-5.2 Thinking, and GPT-5.2 Pro. Existing conversations automatically continue on corresponding GPT-5.5 models. The retirement was previously announced alongside the GPT-5.3 Instant release. This change applies to ChatGPT only; no changes to the API.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "https://windowsnews.ai/article/openai-retires-gpt-52-chatgpt-conversations-migrated-to-gpt-55-as-developers-scramble.425983"
+    ]
+  },
+  {
+    "headline": "ChatGPT Enterprise/Edu Launches Library for File Reuse Across Workspaces",
+    "date": "2026-06-12",
+    "url": "https://help.openai.com/en/articles/10128477-chatgpt-enterprise-edu-release-notes",
+    "source_name": "OpenAI Help Center",
+    "source_type": "developer_docs",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "Library is rolling out to Enterprise, Edu, and Healthcare workspaces, giving members a dedicated place to find and reuse files they upload to or create in ChatGPT. Files saved to Library follow workspace retention policies. The release also includes new admin controls in Cloud Console, Codex upgrades for Computer Use and browser debugging, access controls, usage-limit guidance, and unread chat navigation.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://help.openai.com/en/articles/20001052",
+      "https://releasebot.io/updates/openai"
+    ]
+  },
+  {
+    "headline": "Codex Adds Developer Mode for Browser Debugging with Chrome DevTools Protocol",
+    "date": "2026-06-12",
+    "url": "https://developers.openai.com/codex/changelog",
+    "source_name": "OpenAI Developers",
+    "source_type": "developer_docs",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI added a Developer mode for Browser use in Chrome and the Codex in-app browser, giving Codex controlled Chrome DevTools Protocol (CDP) access for performance profiling and deeper debugging of network traffic, console output, runtime errors, and page state. Computer Use on Windows was also expanded, letting eligible users see, click, and type in Windows apps while testing builds.",
+    "confidence": "medium",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://releasebot.io/updates/openai/codex"
+    ]
+  },
+  {
+    "headline": "ChatGPT Improvements to Charts, Table of Contents, and Full-Screen Writing",
+    "date": "2026-06-08",
+    "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+    "source_name": "OpenAI Help Center",
+    "source_type": "developer_docs",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "On June 8, OpenAI released improvements to charts, table of contents, and full-screen writing in ChatGPT. Additionally, workspace admins can now use App permissions to choose when ChatGPT asks members before using connected apps, with options including Always Ask, Any Changes, and Important Actions.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": []
+  },
+  {
+    "headline": "Stargate Abilene Campus Begins Receiving NVIDIA GB200 Racks; Training Workloads Active",
+    "date": "2026-06-10",
+    "url": "https://openai.com/index/five-new-stargate-sites/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "Oracle began delivering the first NVIDIA GB200 racks to the flagship Stargate campus in Abilene, Texas in June, with two buildings already running training and inference workloads. The remaining six buildings are scheduled for completion by mid-2026, bringing total capacity to roughly 1.2 gigawatts. Combined with new sites, Stargate now has nearly 7 GW of planned capacity and over $400 billion in investment over three years.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://www.datacenterdynamics.com/en/news/openai-and-oracle-to-deploy-450000-gb200-gpus-at-stargate-abilene-data-center/",
+      "https://www.foxbusiness.com/media/trumps-ai-vision-takes-shape-oracle-openai-expand-massive-stargate-infrastructure-project"
+    ]
+  },
+  {
+    "headline": "Stargate Michigan Campus Celebrates First Building Completion Despite Local Opposition",
+    "date": "2026-06-08",
+    "url": "https://www.cnbc.com/2026/06/01/stargate-project-michigan-live-updates.html",
+    "source_name": "CNBC",
+    "source_type": "wire_service",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "The $16 billion Stargate data center campus in Saline Township, Michigan reached a milestone with its first building nearly completed. OpenAI, Oracle, Related Digital, and Michigan Governor Whitmer held a ceremonial launch. The facility will offer 1 GW of capacity, create 2,500 construction jobs and 450+ permanent positions. The project advanced despite a 4-1 township board vote against rezoning after the developer sued.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://www.technobezz.com/news/openai-and-oracle-celebrate-first-building-completion-at-16-billion-stargate-campus-in-michigan",
+      "https://www.tomshardware.com/tech-industry/michigan-towns-rush-to-block-ai-data-centers-after-16-billion-stargate-project-overrode-local-opposition"
+    ]
+  },
+  {
+    "headline": "ChatGPT Reaches 1 Billion Monthly Active Users",
+    "date": "2026-06-10",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/chatgpt-reaches-1-billion-users-as-the-ai-economy-takes-shape/",
+    "source_name": "PYMNTS",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "Reuters reported that ChatGPT reached 1 billion monthly active users, making it the fastest app in history to achieve that milestone. India's user base doubled in a single month after OpenAI launched ChatGPT Go at $4.50/month. India has become ChatGPT's second-largest market with over 100 million weekly users, and has the most student users globally.",
+    "confidence": "medium",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://www.demandsage.com/chatgpt-statistics/",
+      "https://www.getpanto.ai/blog/chatgpt-statistics"
+    ]
+  },
+  {
+    "headline": "OpenAI and DOE Sign MOU for AI-Powered Scientific Research via Genesis Mission",
+    "date": "2026-06-09",
+    "url": "https://openai.com/index/us-department-of-energy-collaboration/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI and the U.S. Department of Energy signed a memorandum of understanding to collaborate on AI and advanced computing in support of DOE initiatives, including the Genesis Mission. Frontier reasoning models are being deployed on national lab supercomputers including the Venado system at Los Alamos. OpenAI is naming 2026 'The Year of Science' and has begun deploying models in real research environments at national labs.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://www.energy.gov/articles/energy-department-announces-collaboration-agreements-24-organizations-advance-genesis",
+      "https://federalnewsnetwork.com/artificial-intelligence/2026/02/openai-expands-its-work-with-the-department-of-energy/"
+    ]
+  },
+  {
+    "headline": "Florida AG Lawsuit Against OpenAI and Altman Continues to Reverberate",
+    "date": "2026-06-08",
+    "url": "https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/",
+    "source_name": "TechCrunch",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "The Florida Attorney General's first-of-its-kind lawsuit against OpenAI and Sam Altman personally (filed June 1) continued to shape the regulatory landscape during the week. The suit alleges OpenAI marketed ChatGPT while hiding safety risks, particularly regarding children, following an investigation into chat logs between ChatGPT and the FSU campus shooter. Florida AG Uthmeier seeks to hold Altman personally liable.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://www.nbcnews.com/tech/tech-news/florida-sues-openai-sam-altman-saying-put-profit-safety-rcna347602",
+      "https://www.npr.org/2026/06/01/nx-s1-5843132/openai-florida-lawsuit-safety-chatgpt",
+      "https://www.myfloridalegal.com/sites/default/files/openai-filed-stamped-complaint.pdf"
+    ]
+  },
+  {
+    "headline": "Consolidated OpenAI Copyright Case Updated as OpenAI Invokes Cox v. Sony Defense",
+    "date": "2026-06-12",
+    "url": "https://www.courtlistener.com/docket/69879510/in-re-openai-inc-copyright-infringement-litigation/",
+    "source_name": "CourtListener",
+    "source_type": "regulatory_filing",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "The consolidated OpenAI copyright infringement litigation (In Re: OpenAI, Inc., 1:25-md-03143, S.D.N.Y.) received an update on June 12. The case combines 16 copyright lawsuits before Judge Sidney H. Stein. On June 11, OpenAI argued the Supreme Court's Cox v. Sony ruling eliminates contributory infringement claims by four news companies. Separately, a ruling may force OpenAI to produce 20 million ChatGPT logs to plaintiffs.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://natlawreview.com/article/openai-loses-privacy-gambit-20-million-chatgpt-logs-likely-headed-copyright",
+      "https://www.law360.com/cases/67f98400b846722600e8f03f/articles"
+    ]
+  },
+  {
+    "headline": "Workspace Agents Free Period Extended Until July 6; Credit Pricing to Follow",
+    "date": "2026-06-10",
+    "url": "https://www.techtimes.com/articles/318162/20260610/openai-workspace-agents-free-ride-ends-july-6credit-pricing-gives-businesses-26-days-model-costs.htm",
+    "source_name": "TechTimes",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI extended the free preview period for workspace agents in ChatGPT Business, Enterprise, and Edu plans until July 6, 2026, pushing the original May 6 deadline by two months. Credit-based pricing begins July 6, giving businesses 26 days to model costs. Workspace agents enable shared workflows across tools like Slack and Salesforce, and own entire workflows autonomously.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://help.openai.com/en/articles/10128477-chatgpt-enterprise-edu-release-notes",
+      "https://help.openai.com/en/articles/11391654-chatgpt-business-release-notes"
+    ]
+  }
+]

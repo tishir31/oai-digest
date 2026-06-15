@@ -1,0 +1,79 @@
+[
+  {
+    "headline": "OpenAI Files Confidentially for IPO as AI Investment Race Intensifies",
+    "date": "2026-06-09",
+    "url": "https://www.bloomberg.com/news/articles/2026-06-09/openai-files-confidentially-for-ipo-as-rivals-compete-for-cash",
+    "source_name": "Bloomberg",
+    "source_type": "wire_service",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI filed confidentially for an IPO, joining SpaceX and Anthropic in a wave of mega AI listings. The filing comes as Wall Street rushes to fund the AI bonanza, with Goldman Sachs estimating a flood of new equity supply from the trio of AI mega-IPOs.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI in Talks to Lease 10 Gigawatt Ohio Data Center with Backing From Nvidia",
+    "date": "2026-06-10",
+    "url": "https://www.theinformation.com/articles/openai-in-talks-to-lease-10-gigawatt-ohio-data-center-with-backing-from-nvidia",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI is in talks to lease a massive 10 gigawatt data center in Ohio with financial backing from Nvidia, according to The Information. The deal would represent a significant expansion of OpenAI's compute infrastructure as the company scales up its AI model training and inference capabilities.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "SoftBank Attempt to Get $6 Billion OpenAI Margin Loan Stalls",
+    "date": "2026-06-10",
+    "url": "https://www.bloomberg.com/news/articles/2026-06-10/softbank-attempt-to-get-6-billion-openai-margin-loan-stalls",
+    "source_name": "Bloomberg",
+    "source_type": "wire_service",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "SoftBank's attempt to secure a $6 billion margin loan backed by its OpenAI stake has stalled, according to Bloomberg. The loan would have been one of the largest margin facilities tied to a private company stake, highlighting both the enormous valuations in AI and the challenges of financing against illiquid holdings.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "S&P 500 Considers Fast-Tracking OpenAI and Other AI IPOs Into Index",
+    "date": "2026-06-08",
+    "url": "https://www.bloomberg.com/news/articles/2026-06-08/sp-500-index-considers-fast-tracking-ai-ipos",
+    "source_name": "Bloomberg",
+    "source_type": "wire_service",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "S&P Dow Jones published a consultation about waiving some of its usual requirements so that big AI companies including OpenAI, SpaceX, and Anthropic could join the S&P 500 index within six months of listing and before they are profitable, rather than waiting the typical year-plus. Index investors want exposure to the mega AI companies, but critics worry about forcing allocations to high-valuation, unprofitable firms.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Sen. Bernie Sanders Proposes Bill to Tax AI Companies Including OpenAI at 50% and Create Sovereign Wealth Fund",
+    "date": "2026-06-08",
+    "url": "https://www.bloomberg.com/news/articles/2026-06-08/bernie-sanders-proposes-ai-company-tax-sovereign-wealth-fund",
+    "source_name": "Bloomberg",
+    "source_type": "wire_service",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Sen. Bernie Sanders called for the U.S. government to acquire 50 percent equity stakes in AI companies and tax at 50% the stock of OpenAI, Anthropic, xAI and other AI firms, with the proceeds placed in a sovereign wealth fund for the public. The proposal reflects growing bipartisan concern about ensuring the public benefits from AI's economic disruption.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Sam Altman Discusses AI-Driven Universal Basic Income Concept with Trump Administration",
+    "date": "2026-06-08",
+    "url": "https://www.bloomberg.com/news/articles/2026-06-08/sam-altman-discusses-ai-ubi-with-trump-administration",
+    "source_name": "Bloomberg",
+    "source_type": "wire_service",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Sam Altman, the CEO of OpenAI, has discussed the idea of AI-driven universal basic income with senior Trump administration officials periodically since the president began his second term, according to sources. Altman first pitched the concept directly to President Donald Trump in early 2025 and has continued the discussions, reflecting growing attention to how AI's economic impacts should be distributed.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Anthropic, OpenAI Stoke Brisk Pace of VC Fundraising",
+    "date": "2026-06-09",
+    "url": "https://www.theinformation.com/articles/anthropic-openai-stoke-brisk-pace-of-vc-fundraising",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI and Anthropic are driving a brisk pace of venture capital fundraising, with Wall Street rushing to fund the AI bonanza in every conceivable way. The listing plans of SpaceX, Anthropic and OpenAI come as existing Big Tech groups look to multibillion-dollar share sales to fund vast AI spending, in a reversal of decades of share buybacks.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  }
+]

@@ -1,11 +1,17 @@
 {
-  "run_week": "2026-03-31 to 2026-04-05",
+  "run_week": "2026-06-08 to 2026-06-14",
   "source_type_counts": {
-    "official_blog": 5,
-    "tech_press": 3,
-    "developer_docs": 3,
-    "wire_service": 2
+    "official_blog": 7,
+    "tech_press": 11,
+    "wire_service": 5,
+    "press_release": 1,
+    "developer_docs": 1,
+    "other": 1,
+    "regulatory_filing": 0,
+    "research_preprint": 0,
+    "social_media": 0
   },
-  "unique_outlets": 6,
-  "diversity_warning": null
+  "unique_outlets": 18,
+  "diversity_warning": null,
+  "notes": "Good diversity. 7 official sources, 5 wire services, 11 tech press. 18 unique outlets. No single source_type exceeds 60%. Official sources well-represented."
 }

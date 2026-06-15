@@ -1,0 +1,18 @@
+{
+  "pass_counts": {
+    "1": 25,
+    "2": 26,
+    "3": 7
+  },
+  "total_before_dedup": 58,
+  "total_after_dedup": 55,
+  "merged_groups": 3,
+  "pass_overlap": {
+    "pass_1_total": 24,
+    "pass_1_unique_to_this_pass": 22,
+    "pass_2_total": 26,
+    "pass_2_unique_to_this_pass": 24,
+    "pass_3_total": 7,
+    "pass_3_unique_to_this_pass": 7
+  }
+}
