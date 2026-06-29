@@ -1,11 +1,28 @@
 {
-  "run_week": "2026-03-31 to 2026-04-05",
   "source_type_counts": {
-    "official_blog": 5,
-    "tech_press": 3,
-    "developer_docs": 3,
-    "wire_service": 2
+    "official_blog": 6,
+    "wire_service": 3,
+    "tech_press": 7,
+    "other": 1,
+    "press_release": 1
   },
-  "unique_outlets": 6,
-  "diversity_warning": null
+  "unique_outlets": 13,
+  "unique_outlet_names": [
+    "Ad Age",
+    "CNBC",
+    "Euronews",
+    "Getty Images",
+    "Kingy.ai",
+    "NPR",
+    "New Jersey Globe",
+    "OpenAI",
+    "TechCrunch",
+    "TechTimes",
+    "The Information",
+    "Variety",
+    "WinBuzzer"
+  ],
+  "diversity_warning": null,
+  "total_curated": 18,
+  "total_cut": 35
 }

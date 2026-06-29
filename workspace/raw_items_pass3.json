@@ -1,0 +1,134 @@
+[
+  {
+    "headline": "Trump Administration Asks OpenAI to Stagger Release of GPT-5.6 Over Security Concerns",
+    "date": "2026-06-25",
+    "url": "https://www.theinformation.com/articles/trump-administration-asks-openai-stagger-release-new-model-security-concerns",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "The Trump administration asked OpenAI to stagger the release of its latest model, GPT-5.6, over security concerns. CEO Sam Altman informed staff that the government would approve access 'customer by customer' during the preview period. This marks the first time the U.S. government has preemptively asked an American AI company to restrict the launch of a model before release.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Execs Tout Ad Business Progress at Cannes Lions, 20% of ChatGPT Queries Have Commercial Intent",
+    "date": "2026-06-24",
+    "url": "https://adage.com/events-awards/cannes-lions/aa-openai-chatgpt-ads-business-david-dugan/",
+    "source_name": "Ad Age",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI's ad chief Dave Dugan said at Cannes Lions that around 20% of ChatGPT queries have 'direct commercial intent.' OpenAI CRO Denise Dresser declared 'we are clearly in the advertising business now.' The company has expanded from CPM-based ads to cost-per-click and action-based campaigns, with travel, retail, health/beauty and financial services performing best. OpenAI also expanded ad markets to Japan and South Korea during the festival.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Signs Major Enterprise Deal with Samsung for ChatGPT Enterprise and Codex in Korea",
+    "date": "2026-06-22",
+    "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI announced it will provide ChatGPT Enterprise and Codex to all Samsung Electronics employees in Korea and to the Device eXperience (DX) division globally, in one of its largest enterprise contracts. The deal reverses Samsung's 2023 company-wide ban on generative AI tools after engineers accidentally uploaded proprietary code to ChatGPT.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Launches 'Patch the Planet' Initiative and GPT-5.5-Cyber for Open Source Security",
+    "date": "2026-06-22",
+    "url": "https://openai.com/index/patch-the-planet/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI expanded its Daybreak cybersecurity initiative with GPT-5.5-Cyber, a security-specialized model, and 'Patch the Planet,' a program partnering with Trail of Bits to use AI to discover and patch vulnerabilities in open source software. More than 30 open-source projects including cURL, Go, Python, and Sigstore have committed to participate. GPT-5.5-Cyber achieves state-of-the-art results on cybersecurity benchmarks.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Noam Shazeer, Transformer Co-Inventor and Gemini Co-Lead, Leaves Google to Join OpenAI",
+    "date": "2026-06-18",
+    "url": "https://www.cnbc.com/2026/06/18/google-gemini-co-lead-noam-shazeer-leaves-for-openai.html",
+    "source_name": "CNBC",
+    "source_type": "tech_press",
+    "category": "Key Hires / Departures",
+    "raw_snippet": "Noam Shazeer, co-author of the seminal 2017 'Attention Is All You Need' paper and co-lead of Google's Gemini AI models, announced he is leaving Google to join OpenAI as Lead for AI Architecture Research. CEO Sam Altman called Shazeer 'one of the people I have most wanted to work with since the very beginning of OpenAI.' The move came less than two years after Google brought Shazeer back from his startup Character.AI.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Reportedly Leaning Toward Delaying IPO to 2027 After SpaceX Stock Decline",
+    "date": "2026-06-25",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/openai-delay-ipo-sam-altman-103507298.html",
+    "source_name": "Yahoo Finance / NYT",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI is reportedly 'leaning toward holding off' going public until 2027, citing SpaceX's stock decline after its June 11 IPO and choppy market conditions from the Iran conflict. CFO Sarah Friar has urged waiting until 2027, citing massive cash burn and compute infrastructure commitments, creating tension with CEO Sam Altman who favored a quicker timeline. OpenAI confidentially filed its draft S-1 with the SEC on May 22.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Amazon MGM Studios Drops Nearly Complete Sam Altman Film 'Artificial' Amid OpenAI Business Deal",
+    "date": "2026-06-22",
+    "url": "https://variety.com/2026/film/global/luca-guadagnino-sam-altman-movie-artificial-dropped-amazon-1236785830/",
+    "source_name": "Variety",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "Amazon MGM Studios dropped Luca Guadagnino's nearly complete film 'Artificial' about OpenAI CEO Sam Altman, starring Andrew Garfield. The decision came months after Amazon announced a $50 billion investment in OpenAI. The film, depicting Altman's 2023 firing and rehiring, is reportedly not wholly flattering. Netflix, A24, and other studios have passed on picking it up.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI's Web of Business Relationships Could Complicate Its IPO Prospectus",
+    "date": "2026-06-23",
+    "url": "https://www.theinformation.com/articles/openais-light-balance-sheet-face-hard-look-ipo",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "The Information reported that OpenAI's web of interconnected business relationships -- including Microsoft's $13B+ investment and 20% revenue share, the $500B Stargate infrastructure project with SoftBank and Oracle, and Amazon's recent $50B investment -- will face hard scrutiny in an IPO prospectus. The complex related-party transactions and revenue-sharing arrangements are more complicated than typical tech IPOs.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Bernie Sanders Introduces $7 Trillion AI Sovereign Wealth Fund Bill Targeting OpenAI and Other AI Companies",
+    "date": "2026-06-19",
+    "url": "https://www.sanders.senate.gov/press-releases/news-sanders-introduces-legislation-to-create-7-trillion-ai-sovereign-wealth-fund/",
+    "source_name": "U.S. Senate",
+    "source_type": "regulatory_filing",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Sen. Bernie Sanders introduced the American AI Sovereign Wealth Fund Act, proposing a one-time 50% tax on AI company stock to create an estimated $7 trillion fund providing $1,000+ annual dividends to every American. Sanders met with OpenAI CEO Sam Altman to discuss the proposal; Altman reportedly agreed the public should have AI equity but couldn't support a 50% stake. President Trump has also expressed interest in government AI company stakes.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Vaudit Audit Finds $1.7 Million in Errant Overcharges from Anthropic and OpenAI Enterprise Bills",
+    "date": "2026-06-25",
+    "url": "https://www.theinformation.com/newsletters/applied-ai/anthropic-customers-find-errant-charges-auditing-startup-says",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "Startup Vaudit audited $34 million in AI bills from 60 companies and found about $1.7 million in mistaken overcharges from Anthropic and OpenAI products. Common issues included billing for newer models when older ones were used and charging for failed requests. About 80% of overcharges were credited back after appeals. An OpenAI spokesperson said the company has no evidence these issues are happening among its customers.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Open Source AI Models Boom as Businesses Cut OpenAI and Anthropic Costs; Together AI Raises Revenue Projections",
+    "date": "2026-06-23",
+    "url": "https://www.theinformation.com/articles/ai-customers-lowering-anthropic-openai-bills",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "Together AI raised its annual revenue projections at least three times in recent months as open source model usage surged. Tokens processed through its cloud soared to 400 trillion this month from 30 billion a year ago. Companies are using model routers and open-source alternatives to cut costs on OpenAI and Anthropic usage, with firms like Cisco and Adobe using routers to save 20-40%. OpenAI and Anthropic say new models' prices are justified by their capabilities.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "SpaceX's 74-Day IPO Timeline Sets Pace for OpenAI and Anthropic Public Offerings",
+    "date": "2026-06-22",
+    "url": "https://www.theinformation.com/articles/openais-light-balance-sheet-face-hard-look-ipo",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "SpaceX went from initial confidential filing to listing in just 74 days, much faster than recent tech IPOs. Both OpenAI and Anthropic have confidentially filed their IPO prospectuses. Assuming the SEC moves as quickly, they could make prospectuses public by mid to late July, suggesting a mid-August timeframe is possible though they would likely avoid investors' August vacations.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  }
+]

@@ -415,5 +415,108 @@
         "high_total": 15
       }
     }
+  },
+  {
+    "run_id": "run_20260629T162342",
+    "run_date": "2026-06-29T16:23:42.582521",
+    "steps": {
+      "reporter": {
+        "items_produced": 53,
+        "confidence_breakdown": {
+          "high": 42,
+          "medium": 11,
+          "low": 0
+        },
+        "source_type_counts": {
+          "wire_service": 9,
+          "official_blog": 15,
+          "press_release": 5,
+          "tech_press": 19,
+          "developer_docs": 1,
+          "other": 2,
+          "research_preprint": 1,
+          "regulatory_filing": 1
+        },
+        "gmail_sourced_count": 10
+      },
+      "curator": {
+        "items_in": 53,
+        "items_kept": 18,
+        "items_cut": 35,
+        "cut_reasons": {
+          "Not about OpenAI; Anthropic is the primary subject": 1,
+          "Clustered with METR reward-hacking story; used as corroborating": 1,
+          "Minor enterprise product update; role-specific plugins announcement": 1,
+          "Clustered with Codex enterprise blog; minor product update": 1,
+          "Routine model lifecycle event (GPT-4.5 retirement); minor for IB audience": 1,
+          "Minor UI change (model picker simplification); not notable for IB": 1,
+          "Clustered with GPT-5.6 preview primary (openai.com); URL used as corroborating": 1,
+          "Clustered with TechCrunch government restriction story": 3,
+          "Minor product update (Computer Use for Enterprise)": 1,
+          "Clustered with TechCrunch June 26 compliance story": 1,
+          "Academic paper covering same data as Agents blog post; used as corroborating": 1,
+          "Minor product update (Active Sessions security feature)": 1,
+          "Clustered with CNBC IPO delay story": 1,
+          "Minor single-source story; billing audit not material for IB": 1,
+          "Marketing case study; not news": 1,
+          "Minor model update (conversational quality improvement)": 1,
+          "Clustered with Jalapeno chip primary (openai.com); used as corroborating": 1,
+          "Clustered with NPR AI PAC spending story": 1,
+          "Not specifically about OpenAI; broader AI industry cost-cutting story": 1,
+          "Minor developer guide/whitepaper": 1,
+          "Clustered with Daybreak primary; used as corroborating": 2,
+          "Announced June 11; no new developments this week": 1,
+          "Clustered under 42-state AG investigation umbrella; Florida lawsuit filed June 1": 1,
+          "Clustered under 42-state AG investigation; stale (June 11 filing)": 2,
+          "Clustered with Daybreak primary": 1,
+          "Clustered with IPO delay story; used as corroborating": 1,
+          "Stale; CNBC article from June 5 with no new developments": 1,
+          "Clustered under 42-state AG investigation; stale (June 1 filing)": 1,
+          "Clustered with Euronews 42-state AG story": 1,
+          "Date outside target week (June 19)": 1,
+          "Date outside target week (June 18)": 1
+        },
+        "source_diversity_warning": null,
+        "items_with_corroboration_2plus": 9
+      },
+      "coverage_auditor": {
+        "verdict": "sufficient",
+        "curated_count": 18,
+        "coverage_floor": 7,
+        "empty_categories": [],
+        "thin_categories": [
+          "Key Hires / Departures"
+        ]
+      },
+      "backfill_reporter": {
+        "ran": false,
+        "items_found": 0,
+        "backfill_sourced_count": 0
+      },
+      "fact_checker": {
+        "items_in": 18,
+        "items_verified": 17,
+        "items_rejected": 1,
+        "rejection_reasons": [
+          "Post-check: likely continuation of older story. Origin date reference: 'since november'"
+        ],
+        "url_200_count": 0,
+        "url_403_count": 17,
+        "url_other_count": 0
+      },
+      "editor_in_chief": {
+        "items_in_digest": 17,
+        "historical_dedup_check_run": true
+      },
+      "gap_checker": {
+        "ran": true,
+        "items_found": 0
+      },
+      "confidence_calibration": {
+        "ran": true,
+        "well_calibrated": true,
+        "high_total": 42
+      }
+    }
   }
 ]
