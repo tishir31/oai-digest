@@ -415,5 +415,79 @@
         "high_total": 15
       }
     }
+  },
+  {
+    "run_id": "run_20260713T163430",
+    "run_date": "2026-07-13T16:34:30.644652",
+    "steps": {
+      "reporter": {
+        "items_produced": 41,
+        "confidence_breakdown": {
+          "high": 34,
+          "medium": 7,
+          "low": 0
+        },
+        "source_type_counts": {
+          "wire_service": 6,
+          "tech_press": 21,
+          "official_blog": 9,
+          "developer_docs": 2,
+          "other": 1,
+          "press_release": 1,
+          "research_preprint": 1
+        },
+        "gmail_sourced_count": 5
+      },
+      "curator": {
+        "items_in": 41,
+        "items_kept": 28,
+        "items_cut": 13,
+        "cut_reasons": {
+          "Clustered: same event covered by primary source": 7,
+          "Opinion/social media commentary: Musk-Altman X exchange is reaction, not independently newsworthy": 1,
+          "Trivially minor: group chats feature removal, not notable for IB audience": 1,
+          "Trivially minor: speech-to-text dictation improvement, routine product update": 1,
+          "Clustered with GPT-Live launch \u2014 system card is a sub-detail of the product launch": 1,
+          "Not specifically about OpenAI \u2014 story is about Chinese AI market share broadly": 1,
+          "Trivially minor: fallback model update, not notable for IB audience": 1
+        },
+        "source_diversity_warning": null,
+        "items_with_corroboration_2plus": 6
+      },
+      "coverage_auditor": {
+        "verdict": "sufficient",
+        "curated_count": 28,
+        "coverage_floor": 7,
+        "empty_categories": [],
+        "thin_categories": []
+      },
+      "backfill_reporter": {
+        "ran": false,
+        "items_found": 0,
+        "backfill_sourced_count": 0
+      },
+      "fact_checker": {
+        "items_in": 28,
+        "items_verified": 28,
+        "items_rejected": 0,
+        "rejection_reasons": [],
+        "url_200_count": 0,
+        "url_403_count": 28,
+        "url_other_count": 0
+      },
+      "editor_in_chief": {
+        "items_in_digest": 28,
+        "historical_dedup_check_run": true
+      },
+      "gap_checker": {
+        "ran": true,
+        "items_found": 0
+      },
+      "confidence_calibration": {
+        "ran": true,
+        "well_calibrated": true,
+        "high_total": 34
+      }
+    }
   }
 ]

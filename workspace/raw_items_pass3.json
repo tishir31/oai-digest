@@ -1,0 +1,79 @@
+[
+  {
+    "headline": "OpenAI Publicly Launches GPT-5.6 Family of Models (Sol, Terra, Luna)",
+    "date": "2026-07-09",
+    "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "OpenAI publicly released the GPT-5.6 family of models on July 9, including three variants ranked by capability: Luna, Terra, and Sol. CEO Sam Altman noted that Sol is 54% more token-efficient for AI coding tasks. OpenAI describes GPT-5.6 as its 'strongest cybersecurity model yet,' supporting threat modeling, code review, patching, and blue teaming.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Launches ChatGPT Work Agent for Workplace Automation",
+    "date": "2026-07-09",
+    "url": "https://www.bloomberg.com/news/articles/2026-07-09/openai-unveils-chatgpt-work-agent-to-field-tasks-for-hours",
+    "source_name": "Bloomberg",
+    "source_type": "wire_service",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI unveiled ChatGPT Work, an agentic tool powered by GPT-5.6 that can gather context from apps, files, and workflows to create finished documents, spreadsheets, presentations, and websites. It launched for Pro, Enterprise, and Edu users first, with Plus and Business users following. The agent can stay with complex projects for hours, breaking them into smaller steps.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Apple Files Federal Trade Secret Lawsuit Against OpenAI and io Products",
+    "date": "2026-07-10",
+    "url": "https://www.reuters.com/legal/litigation/apple-sues-openai-alleging-misappropriation-trade-secrets-court-records-show-2026-07-10/",
+    "source_name": "Reuters",
+    "source_type": "wire_service",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Apple filed a federal lawsuit against OpenAI, its hardware subsidiary io Products, and two former Apple employees (Chang Liu and Tang Tan, OpenAI's Chief Hardware Officer), alleging a coordinated effort to misappropriate Apple's hardware, manufacturing, and supply-chain trade secrets. Apple seeks damages and an injunction. OpenAI stated it has 'no interest in other companies' trade secrets.' Apple noted its existing ChatGPT integration agreement is not part of the dispute.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Researcher Says GPT-5.6 Is Better at AI Research Than Most Human Interns",
+    "date": "2026-07-08",
+    "url": "https://www.theinformation.com/newsletters/ai-agenda/openai-researcher-says-gpt-5-6-better-ai-research-human-interns",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "Senior OpenAI researcher Noam Brown said at ICML in Seoul that he would choose GPT-5.6 over a human research intern for most tasks. CEO Sam Altman had previously said OpenAI would have an automated AI research intern by September 2026. Another researcher, Yash Pande, suggested one way to measure progress would be changes in the number of AI chips researchers allocate to the AI coding tool Codex for research tasks.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "GPT-5.6 Sol Ultra Produces Proof of 50-Year-Old Cycle Double Cover Conjecture",
+    "date": "2026-07-10",
+    "url": "https://the-decoder.com/openais-gpt-5-6-sol-ultra-reportedly-solves-a-50-year-old-math-problem-in-under-an-hour/",
+    "source_name": "The Decoder",
+    "source_type": "tech_press",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "OpenAI's GPT-5.6 Sol Ultra produced a proof of the Cycle Double Cover Conjecture, a graph theory problem posed independently by George Szekeres (1973) and Paul Seymour (1979), using 64 parallel subagents in under one hour. The proof was published as a PDF on OpenAI's CDN. Graph theorists are expected to spend weeks stress-testing the argument; the proof has not yet been peer-reviewed.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Microsoft Replaces OpenAI and Anthropic Models with Own MAI AI in Excel and Outlook",
+    "date": "2026-07-07",
+    "url": "https://www.bloomberg.com/news/articles/2026-07-07/microsoft-replaces-openai-anthropic-with-own-ai-in-some-apps",
+    "source_name": "Bloomberg",
+    "source_type": "wire_service",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "Microsoft is replacing OpenAI and Anthropic models with its internally built MAI models in Excel and Outlook, with tens of thousands of AI prompts being completed weekly by MAI. AI model chief Mustafa Suleyman said the company was trying to 'reduce and ultimately eliminate' Anthropic spending by using more MAI models. OpenAI and Anthropic still handle most Copilot traffic, but Microsoft is steadily reducing its dependence.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Chinese AI Models Gaining Ground with US Companies as OpenAI and Anthropic Costs Surge",
+    "date": "2026-07-07",
+    "url": "https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html",
+    "source_name": "CNBC",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "Chinese AI models from DeepSeek and Z.ai are gaining significant market share among US companies, with their share of tokens on OpenRouter sitting above 30% weekly since February (up from 4.5% in H1 2025). Open-source Chinese models can be 60-90% cheaper than leading Anthropic and OpenAI models. Z.ai's GLM 5.2 saw the fastest adoption of any model tracked by Vercel in 2026.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  }
+]
