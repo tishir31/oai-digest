@@ -1,11 +1,13 @@
 {
-  "run_week": "2026-03-31 to 2026-04-05",
-  "source_type_counts": {
-    "official_blog": 5,
-    "tech_press": 3,
-    "developer_docs": 3,
-    "wire_service": 2
+  "source_type_distribution": {
+    "wire_service": 4,
+    "tech_press": 10,
+    "official_blog": 7,
+    "press_release": 1
   },
-  "unique_outlets": 6,
+  "dominant_source_type": "tech_press",
+  "dominant_share_pct": 45.5,
+  "official_sources_present": true,
+  "unique_outlets": 14,
   "diversity_warning": null
 }

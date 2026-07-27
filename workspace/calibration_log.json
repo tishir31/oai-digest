@@ -118,5 +118,29 @@
       }
     },
     "well_calibrated": true
+  },
+  {
+    "run_date": "2026-07-27T16:47:09.141478",
+    "raw_count": 47,
+    "curated_count": 22,
+    "verified_count": 23,
+    "confidence_stats": {
+      "high": {
+        "total": 42,
+        "survived_curation": 20,
+        "survived_verification": 19
+      },
+      "medium": {
+        "total": 5,
+        "survived_curation": 2,
+        "survived_verification": 2
+      },
+      "low": {
+        "total": 0,
+        "survived_curation": 0,
+        "survived_verification": 0
+      }
+    },
+    "well_calibrated": false
   }
 ]

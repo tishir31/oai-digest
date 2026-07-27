@@ -415,5 +415,95 @@
         "high_total": 15
       }
     }
+  },
+  {
+    "run_id": "run_20260727T164709",
+    "run_date": "2026-07-27T16:47:09.777698",
+    "steps": {
+      "reporter": {
+        "items_produced": 47,
+        "confidence_breakdown": {
+          "high": 42,
+          "medium": 5,
+          "low": 0
+        },
+        "source_type_counts": {
+          "wire_service": 6,
+          "tech_press": 31,
+          "official_blog": 8,
+          "press_release": 1,
+          "developer_docs": 1
+        },
+        "gmail_sourced_count": 5
+      },
+      "curator": {
+        "items_in": 47,
+        "items_kept": 22,
+        "items_cut": 25,
+        "cut_reasons": {
+          "Analysis/opinion piece about general AI safety gaps. Not OpenAI-specific news.": 1,
+          "Clustered with Bloomberg government briefing coverage (idx 35). Axios details on model preview and China open-weight debate preserved as corroborating URL on primary item.": 1,
+          "Primarily about Hugging Face CEO's response and policy recommendations. OpenAI is central to the incident but the story focus is Hugging Face's position.": 1,
+          "Expert commentary/opinion piece. No new factual developments about OpenAI; Bengio's warnings are editorial reaction.": 1,
+          "Duplicate: same WSJ investigation on bioweapon risk already covered by TechTimes item (idx 4) with more complete sourcing. Preserved as corroborating URL.": 1,
+          "Duplicate: Hugging Face breach already covered by OpenAI's official disclosure (idx 32). Time's investigation adds narrative detail but same core event. Preserved as corroborating URL.": 1,
+          "Duplicate: same Tsimerman hire covered by Quanta Magazine (idx 17) with stronger source authority for mathematics coverage.": 1,
+          "Reaction piece: industry executives demanding transparency is not a new factual development about OpenAI.": 1,
+          "Duplicate: same ChatGPT Health launch covered by OpenAI official blog (idx 14). Preserved as corroborating URL.": 1,
+          "Analysis/opinion: technical commentary attributing breach to RL methodology. Not a factual development; interpretive piece.": 1,
+          "PR/content marketing piece showcasing news organization AI use cases. No new business development or partnership announcement. Trivially minor for IB audience.": 1,
+          "Duplicate: same $750B spending story covered by WSJ (idx 23) with wire service authority. TechCrunch adds CFO Friar revenue risk detail and 57:1 commitment-to-revenue gap -- preserved as corroborating URL.": 1,
+          "Duplicate: same Presence platform launch covered by OpenAI official blog (idx 21). Preserved as corroborating URL.": 1,
+          "Duplicate: Hugging Face breach covered by OpenAI's official disclosure (idx 32). The Information adds employee reaction detail -- preserved as corroborating URL.": 1,
+          "Duplicate: same Georgia/Savannah data center covered by Quartz (idx 25) with more complete detail on Project Camellia. Preserved as corroborating URL.": 1,
+          "Duplicate: board appointments covered by OpenAI official blog (idx 33). Preserved as corroborating URL.": 2,
+          "Duplicate: Hugging Face breach covered by OpenAI's official disclosure (idx 32). Preserved as corroborating URL.": 2,
+          "Story covers both OpenAI and Anthropic lobbying equally; less directly actionable than other regulatory items this week. OpenAI-specific data ($1.2M Q2 spend) is notable but lower priority.": 1,
+          "Individual litigation case from less authoritative source (Daily Caller). Pastor lawsuit (CBS News, idx 16) retained as representative of the ChatGPT harm litigation pattern.": 1,
+          "Duplicate: same Small Business program covered by OpenAI official blog (idx 34). Preserved as corroborating URL.": 1,
+          "Stale: Apple trade secrets lawsuit was filed July 10 -- outside this week's news window. This July 20 article is continued analysis/commentary, not a new development.": 1,
+          "Duplicate: same safety paper/post-mortem covered by OpenAI official blog (idx 42). Preserved as corroborating URL.": 1,
+          "Trivially minor: developer platform tooling update (hard spend limits for API). Not material for IB audience.": 1
+        },
+        "source_diversity_warning": null,
+        "items_with_corroboration_2plus": 11
+      },
+      "coverage_auditor": {
+        "verdict": "sufficient",
+        "curated_count": 22,
+        "coverage_floor": 7,
+        "empty_categories": [],
+        "thin_categories": []
+      },
+      "backfill_reporter": {
+        "ran": false,
+        "items_found": 0,
+        "backfill_sourced_count": 0
+      },
+      "fact_checker": {
+        "items_in": 22,
+        "items_verified": 23,
+        "items_rejected": 1,
+        "rejection_reasons": [
+          "Post-check: likely continuation of older story. Origin date reference: 'since july'"
+        ],
+        "url_200_count": 0,
+        "url_403_count": 23,
+        "url_other_count": 0
+      },
+      "editor_in_chief": {
+        "items_in_digest": 23,
+        "historical_dedup_check_run": true
+      },
+      "gap_checker": {
+        "ran": true,
+        "items_found": 3
+      },
+      "confidence_calibration": {
+        "ran": true,
+        "well_calibrated": false,
+        "high_total": 42
+      }
+    }
   }
 ]

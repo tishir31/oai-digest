@@ -1,0 +1,32 @@
+[
+  {
+    "headline": "Altman Declares 'We Are Now in the Singularity' on Podcast",
+    "date": "2026-07-25",
+    "url": "https://tech.yahoo.com/ai/articles/sam-altman-says-singularity-moment-180054442.html",
+    "source_name": "Yahoo Tech / Relentless Podcast",
+    "category": "Regulatory & Policy",
+    "why_missed": "CEO statement on a podcast, not a formal company announcement — easy to miss in product/deal-focused searches",
+    "confidence": "high",
+    "gap_check_sourced": true
+  },
+  {
+    "headline": "ChatGPT Voice Mode Launches on Desktop App for Agent and Computer Control",
+    "date": "2026-07-24",
+    "url": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/",
+    "source_name": "TechCrunch",
+    "category": "Product Launches & Updates",
+    "why_missed": "Product feature update overshadowed by larger Presence and Health launches the same week",
+    "confidence": "medium",
+    "gap_check_sourced": true
+  },
+  {
+    "headline": "18 Legacy API Models Shut Down in Major Deprecation Wave",
+    "date": "2026-07-23",
+    "url": "https://ecorpit.com/openai-model-shutdowns-23-july-2026-migration-map/",
+    "source_name": "Ecorpit / OpenAI Deprecations Page",
+    "category": "Product Launches & Updates",
+    "why_missed": "Deprecation notice was from April; the actual shutdown date (July 23) is an operational event rather than a new announcement",
+    "confidence": "low",
+    "gap_check_sourced": true
+  }
+]
