@@ -1,11 +1,19 @@
 {
-  "run_week": "2026-03-31 to 2026-04-05",
+  "run_week": "2026-07-27 to 2026-08-02",
   "source_type_counts": {
-    "official_blog": 5,
-    "tech_press": 3,
-    "developer_docs": 3,
-    "wire_service": 2
+    "official_blog": 7,
+    "wire_service": 4,
+    "tech_press": 8,
+    "developer_docs": 1,
+    "press_release": 0,
+    "regulatory_filing": 0,
+    "research_preprint": 0,
+    "social_media": 0,
+    "other": 0
   },
-  "unique_outlets": 6,
-  "diversity_warning": null
+  "unique_outlets": 13,
+  "diversity_warning": null,
+  "curated_count": 20,
+  "cut_count": 36,
+  "notes": "Good source diversity: 7 official OpenAI blog posts, 4 wire services (Reuters, Bloomberg, CP24), 8 tech press outlets (CNBC, TechCrunch, Quartz, Bloomberg, The Information). No single source_type exceeds 40%. Official sources well represented."
 }

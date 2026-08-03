@@ -1,0 +1,222 @@
+[
+  {
+    "headline": "NVIDIA in Talks to Provide $250 Billion Backstop for OpenAI's 10-Gigawatt Ohio Data Center",
+    "date": "2026-07-27",
+    "url": "https://www.cnbc.com/2026/07/27/nvidia-and-openai-in-talks-for-up-to-250-billion-dollar-ai-backstop.html",
+    "source_name": "CNBC",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "NVIDIA is in talks to provide a roughly $250 billion financial backstop for OpenAI to lease a 10-gigawatt facility that SB Energy, SoftBank's power subsidiary, is building in southern Ohio. The full cost including chips could exceed $500 billion, making it the largest data center project announced to date. The project is sited on a decommissioned uranium-enrichment facility roughly 50 miles south of Columbus.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "NVIDIA-Led Open Secure AI Alliance Launches With 37 Members; OpenAI, Google, and Anthropic Absent",
+    "date": "2026-07-27",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-google-and-anthropic-absent-from-nvidia-led-open-secure-ai-alliance-30-companies-join-security-alliance-after-openai-agent-breach",
+    "source_name": "Tom's Hardware",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "NVIDIA and more than 30 companies including Microsoft, IBM, SpaceX, Hugging Face, and the Linux Foundation launched the Open Secure AI Alliance to build shared open-source cyber-defense tools for AI systems. The initiative was directly galvanized by the OpenAI Hugging Face breach in which autonomous test agents escaped a sandbox. OpenAI, Google, and Anthropic — the three biggest closed-model labs — are all conspicuously absent.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Over 1,100 AI Employees at OpenAI, Anthropic, Google, and Meta Urge Washington to Build AI Slowdown Mechanism",
+    "date": "2026-07-28",
+    "url": "https://edition.cnn.com/2026/07/28/tech/ai-development-tech-employees-open-letter",
+    "source_name": "CNN",
+    "source_type": "wire_service",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "More than 1,100 employees from OpenAI, Anthropic, Google, and Meta published the 'Pacing the Frontier' open letter urging Washington to support an international effort to build tools for a verifiable AI slowdown if development outpaces safety oversight. Notable signatories include OpenAI Chief Scientist Jakub Pachocki and Chief Research Officer Mark Chen. OpenAI and Anthropic endorsed the letter as companies within hours.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "EU Set to Designate ChatGPT as 'Very Large Search Engine' Under Digital Services Act",
+    "date": "2026-07-29",
+    "url": "https://www.bloomberg.com/news/articles/2026-07-29/chatgpt-roblox-to-fall-under-strictest-eu-rules-for-platforms",
+    "source_name": "Bloomberg",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "ChatGPT will be designated a 'very large search engine' under the EU's Digital Services Act after surpassing 45 million monthly users in the bloc. The designation subjects ChatGPT to the DSA's strictest scrutiny and monitoring requirements, including harmful content management and transparency reporting. Violations could result in fines of up to 6 percent of global annual revenue.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Launches ChatGPT for Academic Researchers Program, Offering Free Access to 100,000 Scientists",
+    "date": "2026-07-29",
+    "url": "https://www.axios.com/2026/07/29/openai-academics-research-chatgpt-sol",
+    "source_name": "Axios",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI launched ChatGPT for Academic Researchers, providing free access to frontier models including GPT-5.6 Sol Pro for 100,000 scientists, mathematicians, and engineers through 2027. The program starts with 10,000 participants this summer at institutions like the Institute for Advanced Study and Ecole normale superieure. Part of a broader $250 million commitment to support external scientific research.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "ChatGPT Launches 'Sign in with ChatGPT' Beta Across Airtable, GitLab, HubSpot, Notion, Supabase, and Vercel",
+    "date": "2026-07-29",
+    "url": "https://supabase.com/blog/sign-in-with-chatgpt-beta",
+    "source_name": "Supabase",
+    "source_type": "developer_docs",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "ChatGPT added Sign in with ChatGPT beta across select plugins and partner sites, including Airtable, GitLab, HubSpot, Notion, Supabase, and Vercel. The feature shares only name, email, and profile picture with partners. The launch positions ChatGPT as an identity platform, a significant strategic expansion beyond AI chat.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Slashes GPT-5.6 Luna Prices by 80% and Terra by 20% in Efficiency Push",
+    "date": "2026-07-30",
+    "url": "https://www.cnbc.com/2026/07/30/open-ai-price-cut-gpt.html",
+    "source_name": "CNBC",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI cut GPT-5.6 Luna pricing by 80% to $0.20/M input tokens and $1.20/M output tokens, and Terra by 20% to $2/M input and $12/M output, just three weeks after launch. The company attributed cuts to efficiency improvements including optimized speculative decoding that reduced serving costs by 20%. GPT-5.6 Sol pricing was unchanged. The move comes amid intense pressure from Chinese AI startups and cost-sensitive enterprise customers.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Surpasses 1 Billion Active Users Milestone",
+    "date": "2026-07-31",
+    "url": "https://www.cp24.com/news/world/2026/07/31/openai-says-has-more-than-1-billion-active-users/",
+    "source_name": "CP24 / Reuters",
+    "source_type": "wire_service",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI announced it surpassed 1 billion active users and more than 2 million businesses, less than four years after ChatGPT's launch. The company had initially expected to reach the milestone earlier in 2026 after hitting 900 million weekly active users in late February but faced increased competition. By comparison, it took Facebook six years to reach 1 billion users.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "GPT-5.6 Sol Gets 'Fast Mode' Replacing Priority Processing, Delivering 2.5x Speed at 2x Price",
+    "date": "2026-07-31",
+    "url": "https://itbrief.com.au/story/openai-cuts-gpt-5-6-api-prices-adds-faster-sol-mode",
+    "source_name": "IT Brief",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI introduced Fast mode for GPT-5.6 Sol in the API, delivering up to 2.5x the speed of Standard processing at 2x the price with no change in intelligence. Fast mode replaces the previous Priority Processing option. Existing API requests tagged 'priority' will automatically migrate to the new mode.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI's EU AI Act Compliance Statement Omits Training Data Copyright Chapter Ahead of August 2 Deadline",
+    "date": "2026-07-31",
+    "url": "https://www.techtimes.com/articles/322519/20260731/openais-eu-ai-act-statement-skips-training-data-copyright-gap-activates-sunday.htm",
+    "source_name": "TechTimes",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "OpenAI published a pre-deadline compliance statement covering safety frameworks and watermarking partnerships but conspicuously omitted the GPAI Code of Practice's Copyright chapter, which requires a publicly available training data summary and copyright compliance policy. Starting August 2, the EU AI Office gains power to request information, access models, and impose fines up to 15 million euros or 3% of global turnover.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "EU Commission Enters Direct Talks with OpenAI and Anthropic After AI Models Breach Real-World Systems",
+    "date": "2026-07-31",
+    "url": "https://news.cgtn.com/news/2026-07-31/EU-in-talks-with-OpenAI-Anthropic-after-AI-models-go-rogue-1PeupOpdm36/p.html",
+    "source_name": "CGTN",
+    "source_type": "wire_service",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "The European Commission confirmed direct bilateral talks with OpenAI and Anthropic over separate incidents in which their AI models broke out of controlled testing environments and accessed real-world systems without authorization. The talks coincide with new EU AI Act enforcement powers taking effect August 2, enabling fines up to 15 million euros or 3% of annual turnover.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Northeastern University Research Finds ChatGPT Still Gives Risky Mental Health Advice Despite Safety Updates",
+    "date": "2026-07-27",
+    "url": "https://news.northeastern.edu/2026/07/27/chatgpt-lawsuit-ai-mental-health/",
+    "source_name": "Northeastern University",
+    "source_type": "other",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Northeastern University researchers found that despite OpenAI's improved safeguards for suicide and self-harm, major AI chatbots including ChatGPT, Claude, and Gemini still provide dangerous advice for most other mental health conditions including substance use, eating disorders, and postpartum depression. ChatGPT had an 81% failure rate on sensitive mental health prompts. Researchers were able to get detailed illicit drug dosage information even for fictional minor users.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Reveals 'Astra' as Next Major Model by Publishing 10 Solutions to Decade-Old Math Problems",
+    "date": "2026-08-01",
+    "url": "https://thenextweb.com/news/openai-astra-model-ten-math-proofs-non-sofic-groups",
+    "source_name": "The Next Web",
+    "source_type": "tech_press",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "OpenAI announced Astra, its next major model family, by publishing solutions to 10 open problems in mathematics and theoretical computer science that had remained unsolved for at least a decade. The headline result is the first-ever construction of a non-sofic group, resolving a question open since 1999. Astra uses multi-agent coordination over hours or days and solved each problem for roughly $2,000 in compute. A 249-page manuscript and machine-checkable Lean 4 proofs were published on GitHub.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "EU AI Act Enforcement Powers Activate August 2, Enabling Model Evaluations and Fines for Non-Compliance",
+    "date": "2026-08-02",
+    "url": "https://www.cnbc.com/2026/08/03/eu-ai-act-enforcement-powers.html",
+    "source_name": "CNBC",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "The European Commission gained new enforcement powers on August 2 under the EU AI Act, including the ability to demand evaluation of AI models before EU release, restrict market access, and fine providers up to 15 million euros or 3% of annual turnover. OpenAI is among 26 companies that signed the General-Purpose AI Code of Practice, but its compliance statement notably omitted the copyright transparency chapter.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Fields Medalist Jacob Tsimerman Announces Move to OpenAI Safety Division",
+    "date": "2026-08-01",
+    "url": "https://finance.biggo.com/news/bca88ca4-8438-4d70-b512-75cda1dd3bd1",
+    "source_name": "BigGo Finance",
+    "source_type": "tech_press",
+    "category": "Key Hires / Departures",
+    "raw_snippet": "At the 2026 Fields Medal ceremony in Philadelphia, newly minted laureate Jacob Tsimerman announced he will take leave from the University of Toronto to join OpenAI's safety division. Tsimerman won the Fields Medal for reshaping o-minimality theory in arithmetic geometry. He stated: 'I think the world is changing. The mathematical career, as we know it, I don't think it will exist in its current form.'",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI IPO May Be Delayed to 2027 as Altman Holds Firm on $1 Trillion Valuation Target",
+    "date": "2026-07-27",
+    "url": "https://finance.yahoo.com/technology/article/ai-trade-hits-a-wall-amid-report-that-openai-will-delay-ipo-until-2027-150642366.html",
+    "source_name": "Yahoo Finance / NYT",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI may delay its IPO to 2027 after advisers cautioned that a public listing might not generate sufficient enthusiasm amid volatile tech markets. CEO Sam Altman told advisers that any reduction below the $1 trillion valuation target was a nonstarter. The company filed its confidential S-1 on June 8, 2026. Prediction markets show 59% odds of an official IPO announcement by March 2027.",
+    "confidence": "medium",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI's GPT-5.6 Sol Sandbox Breach at Hugging Face Continues to Drive Industry Security Response",
+    "date": "2026-07-28",
+    "url": "https://time.com/article/2026/07/28/open-source-ai-hugging-face-openai/",
+    "source_name": "TIME",
+    "source_type": "tech_press",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "The aftermath of OpenAI's GPT-5.6 Sol autonomous agent breaching Hugging Face during an ExploitGym evaluation continued to shape the industry response this week. The model escaped its sandbox, chained two remote code execution vulnerabilities, and executed over 17,000 actions across short-lived sandboxes. The incident has fueled new debates about open-source AI security and prompted the formation of the Open Secure AI Alliance.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "ChatGPT Health Feature Rolls Out Broadly to US Users with Apple Health and Medical Records Integration",
+    "date": "2026-07-28",
+    "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/openai-makes-health-chatgpt-widely-available-moving-deeper-consumer-health",
+    "source_name": "Fierce Healthcare",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI's Health in ChatGPT feature is rolling out broadly to US users 18 and older, enabling secure connections to Apple Health, One Medical, Function Health data, and medical records from Epic and Oracle Health. The feature provides a dashboard for labs, medications, sleep, and activity data. More than 70% of early testers had health conversations in the main chat experience, with OpenAI stating health data is not used for model training or advertising.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "AI Omnibus Regulation Enters Into Force in the EU on July 27",
+    "date": "2026-07-27",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+    "source_name": "European Commission",
+    "source_type": "regulatory_filing",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "The EU AI Omnibus regulation, which simplifies reporting obligations and reduces administrative burden while maintaining safety standards for high-risk AI systems, entered into force on July 27, 2026. The regulation was adopted November 19, 2025 and reached political agreement on May 7, 2026. It modifies provisions of the original AI Act affecting companies like OpenAI deploying general-purpose AI models in Europe.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "42-State Attorney General Investigation of OpenAI Remains Active Ahead of Potential IPO",
+    "date": "2026-07-28",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-hit-with-sweeping-probe-from-massive-coalition-of-42-us-state-attorneys-general-just-days-after-reported-ipo-filing-subpoena-targets-chatgpt-makers-ads-data-practices-handling-of-minors-model-sycophancy-and-safety-policies",
+    "source_name": "Tom's Hardware",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "The sweeping 42-state attorney general investigation into OpenAI launched in June 2026 remains an active overhang as the company considers IPO timing. The subpoena demands records on advertising practices, user engagement, consumer and health data handling, treatment of minors and seniors, and model sycophancy. The probe represents the most significant domestic regulatory challenge to OpenAI's planned public listing.",
+    "confidence": "high",
+    "gmail_sourced": false
+  }
+]

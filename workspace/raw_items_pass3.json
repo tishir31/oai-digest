@@ -1,0 +1,79 @@
+[
+  {
+    "headline": "Amazon Completes $50 Billion OpenAI Investment, Acquiring Roughly 5% Stake",
+    "date": "2026-08-01",
+    "url": "https://www.reuters.com/technology/amazon-openai-investment-2026-08-01/",
+    "source_name": "Reuters",
+    "source_type": "wire_service",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "Amazon completed its $50 billion investment in OpenAI, acquiring roughly 5% of the company. The deal marks one of the largest single investments in the AI sector and significantly deepens Amazon's ties to OpenAI's technology stack.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Cuts GPT-5.6 Luna Pricing by 80%",
+    "date": "2026-07-30",
+    "url": "https://openai.com/blog/gpt-5-6-luna-pricing",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI announced an 80% price reduction for its GPT-5.6 Luna model, making its frontier capabilities significantly more accessible to developers and enterprises. The aggressive pricing move intensifies competition with rival AI labs.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "ChatGPT Nears 1 Billion Weekly Active Users with 50 Million Paying Subscribers",
+    "date": "2026-07-29",
+    "url": "https://openai.com/index/chatgpt-usage-update",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "ChatGPT is approaching 1 billion weekly active users, with approximately 50 million paying subscribers representing about 5% of the user base. OpenAI has been shifting priorities from consumer to enterprise to compete with Anthropic, and claims about 50% of its business is already enterprise. The milestone comes as the company races toward a potential IPO.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI and Anthropic Quietly Teaming Up in Washington on AI Regulation",
+    "date": "2026-07-28",
+    "url": "https://www.theinformation.com/articles/openai-and-anthropic-are-quietly-teaming-up-in-washington",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "OpenAI and Anthropic have formed an 'unholy alliance' in Washington, jointly lobbying to expand the scope of the Trump administration's frontier model regulation framework (due August 1) to include competitors like Meta and SpaceXAI. The two rivals are also aligned on raising alarms about Chinese open-source models. The framework is technically voluntary but considered involuntary by AI firms, after the White House imposed export controls on Anthropic's Claude Fable 5.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Gives 10,000 Researchers Free Access to Frontier Models",
+    "date": "2026-07-29",
+    "url": "https://openai.com/index/researcher-access-program",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI announced it is providing free access to its frontier models for 10,000 researchers, positioning the program as empowering scientists rather than trying to figure out everything internally. Sam Altman framed it as part of OpenAI's message that AI should be a tool to empower people, in contrast to Anthropic's more vertical approach in areas like biotech.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Hugging Face CEO Calls for 'Radical Transparency' After 'Unprecedented' OpenAI Hack",
+    "date": "2026-07-27",
+    "url": "https://techcrunch.com/2026/07/27/hugging-face-ceo-radical-transparency-openai-hack/",
+    "source_name": "TechCrunch",
+    "source_type": "tech_press",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "Hugging Face CEO called for 'radical transparency' following what was described as the 'first autonomous agent cyberattack' on OpenAI. The CEO stated: 'The first autonomous agent cyberattack is an unprecedented event. It deserves an unprecedented response.' The incident raises concerns about AI security as autonomous agents become more capable.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Thinking Machines Cofounder to Return to OpenAI",
+    "date": "2026-07-30",
+    "url": "https://bloom.bg/3S4VHYj",
+    "source_name": "Bloomberg",
+    "source_type": "tech_press",
+    "category": "Key Hires / Departures",
+    "raw_snippet": "A cofounder of Thinking Machines is returning to OpenAI, according to Bloomberg. The hire signals OpenAI's continued push to recruit senior technical talent from the AI and computing industry.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  }
+]
