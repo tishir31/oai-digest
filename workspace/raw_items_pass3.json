@@ -1,0 +1,68 @@
+[
+  {
+    "headline": "OpenAI Acquires Presentation Startup NextSlide",
+    "date": "2026-08-09",
+    "url": "https://techcrunch.com/2026/08/09/openai-acquires-presentation-startup-nextslide/",
+    "source_name": "TechCrunch",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI has acquired NextSlide, a presentation startup. The deal signals OpenAI's continued expansion into productivity tools and workplace applications beyond its core AI model business.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "SoftBank Borrows $10 Billion Using OpenAI Stake as Collateral",
+    "date": "2026-08-06",
+    "url": "https://www.theinformation.com/articles/softbanks-openai-loan",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "SoftBank disclosed that it borrowed $10 billion this week using its OpenAI stake as collateral, as part of its $54.6 billion total investment in OpenAI shares. SoftBank has committed to putting a further $10 billion into OpenAI in October, which it may finance similarly. SoftBank estimates its OpenAI stake had gained $45 billion in value as of June 30.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Acquired Patents from Altman-Backed AI Chip Startup Rain AI After Failed Acquisition",
+    "date": "2026-08-06",
+    "url": "https://www.theinformation.com/articles/openai-acquired-patents-from-altman-backed-ai-chip-startup-following-failed-acquisition",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI acquired a number of patents from defunct AI chip startup Rain AI, in which CEO Sam Altman was an investor. Rain AI had previously explored a full sale to OpenAI, but OpenAI declined the acquisition and the company's IP, only to later purchase patents after Rain laid off nearly all employees. The patents focused on doing AI computations closer to a chip's memory.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Apple Files for Preliminary Injunction Against OpenAI's Hardware Program in Trade-Secret Lawsuit",
+    "date": "2026-08-03",
+    "url": "https://www.reuters.com/legal/litigation/apple-seeks-preliminary-injunction-against-openai-trade-secrets-case-2026-08-04/",
+    "source_name": "Reuters",
+    "source_type": "wire_service",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Apple asked the Northern District of California to preliminarily bar OpenAI, io Products (OpenAI's hardware subsidiary), and two former Apple employees from accessing, acquiring, using or disclosing Apple's alleged trade secrets. Apple also requested expedited discovery including document production and depositions.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Files Motion to Dismiss Apple's Trade-Secret Lawsuit",
+    "date": "2026-08-05",
+    "url": "https://www.reuters.com/world/openai-asks-us-judge-dismiss-apples-trade-secrets-case-2026-08-06/",
+    "source_name": "Reuters",
+    "source_type": "wire_service",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "OpenAI filed a 31-page motion to dismiss Apple's four federal trade-secret claims, arguing Apple has not plausibly alleged misappropriation. OpenAI stated it has 'no use, need or desire' for Apple's trade secrets and is building something 'entirely new and different from anything at Apple.' Both motions are set for an October 1 hearing before Judge Edward J. Davila.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Nvidia's $250 Billion OpenAI Revenue Backstop Turns 'Circular Financing' into Recognized Revenue",
+    "date": "2026-08-07",
+    "url": "https://michaelparekh.substack.com/p/ai-nvidia-the-kingmaker-now-uber",
+    "source_name": "AI-RTZ / Michael Parekh",
+    "source_type": "other",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "Nvidia has reportedly committed to a $250 billion revenue backstop for OpenAI as part of $750 billion in new deals, effectively converting what critics called 'circular financing' arrangements into recognized revenues. This deepens the financial ties between the two AI leaders.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  }
+]
