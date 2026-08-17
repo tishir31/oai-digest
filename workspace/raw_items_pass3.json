@@ -1,0 +1,145 @@
+[
+  {
+    "headline": "OpenAI Signs 10-Gigawatt Data Center Lease in Ohio With SoftBank's SB Energy, Backed by Nvidia",
+    "date": "2026-08-17",
+    "url": "https://www.wsj.com/articles/openai-locks-in-lease-for-huge-data-center-in-ohio-with-backing-from-nvidia-7474bb9c",
+    "source_name": "The Wall Street Journal",
+    "source_type": "wire_service",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI has signed a 10-gigawatt data-center deal in Ohio with SoftBank's SB Energy that's partly backed by Nvidia. The project is expected to become one of the largest artificial-intelligence hubs to date, requiring 4.5 times the generating capacity of the Hoover Dam.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Nvidia Nears Deal to Guarantee Roughly $100 Billion in Credit for OpenAI's Ohio Data Center",
+    "date": "2026-08-17",
+    "url": "https://www.theinformation.com/articles/nvidia-nears-deal-guarantee-100-billion-financing-massive-data-center",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "Nvidia is close to finalizing a deal that would provide about $100 billion in credit support for OpenAI's plan to lease a giant Ohio data center. The figure is lower than an earlier WSJ report of $250 billion. Nvidia is seeking to limit its total credit exposure to 25% of total financing. The deal has been split into two phases, with $100 billion supporting the first phase.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Nvidia in Talks to Invest $3 Billion in SB Energy as Part of OpenAI Data Center Deal",
+    "date": "2026-08-17",
+    "url": "https://www.theinformation.com/articles/nvidia-talks-invest-3-billion-sb-energy-part-openai-data-center-deal",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "Nvidia is in talks to invest as much as $3 billion in SB Energy, the SoftBank-backed developer of a massive planned Ohio data center project for OpenAI. Nvidia has discussed investing half when the deal is signed and the other half as part of SB Energy's planned IPO next month. If Nvidia puts in $1.5 billion into SB Energy's public debut, it would be one of the offering's largest investors.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Revenue Run Rate Tops $40 Billion Ahead of IPO",
+    "date": "2026-08-13",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-13/openai-s-revenue-run-rate-tops-40-billion-ahead-of-ipo",
+    "source_name": "Bloomberg",
+    "source_type": "wire_service",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI is on track to generate annualized revenue of more than $40 billion, roughly doubling its run rate from the end of 2025. Revenue grew over 20% month-over-month in July with business revenue up 32%, bolstering the company's plans for a Wall Street debut. OpenAI generated $6 billion in revenue in Q1 2026.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI CFO Friar Tells Investors Enterprise Business Now Bigger Than Consumer by Revenue",
+    "date": "2026-08-15",
+    "url": "https://www.cnbc.com/2026/08/14/openai-cfo-friar-tells-investors-that-enterprise-bigger-than-consumer.html",
+    "source_name": "CNBC",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI CFO Sarah Friar told investors on Friday that most of the company's sales now come from business customers. At the start of 2026, a majority of OpenAI's revenue came from its consumer business, marking a significant shift in the company's revenue mix ahead of its planned IPO.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Hires Wiz COO Dali Rajic as New Chief Revenue Officer, Replacing Denise Dresser After 8 Months",
+    "date": "2026-08-14",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-14/openai-hires-new-chief-revenue-officer-after-less-than-a-year",
+    "source_name": "Bloomberg",
+    "source_type": "wire_service",
+    "category": "Key Hires / Departures",
+    "raw_snippet": "OpenAI hired Dali Rajic, president and COO of Alphabet-owned Wiz, as its new chief revenue officer, replacing former Slack CEO Denise Dresser who is departing after just eight months. Rajic previously served as chief customer and revenue officer at AppDynamics (acquired by Cisco for $3.7 billion) and was a top executive at Zscaler. He is the second CRO in less than a year.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Talent Exodus Raises 'Huge Red Flag' Ahead of IPO",
+    "date": "2026-08-14",
+    "url": "https://www.cnbc.com/2026/08/14/open-ai-ipo-red-flag.html",
+    "source_name": "CNBC",
+    "source_type": "tech_press",
+    "category": "Key Hires / Departures",
+    "raw_snippet": "OpenAI's ongoing executive exodus is drawing 'huge red flag' warnings ahead of its planned IPO. Key departures include COO Brad Lightcap, former apps CEO Fidji Simo, VP of Product Kevin Weil, and CRO Denise Dresser, raising concerns about leadership stability as the company prepares for its Wall Street debut.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Greg Brockman Takes Charge of OpenAI's Commercial Functions After Fidji Simo's Departure",
+    "date": "2026-08-17",
+    "url": "https://www.nytimes.com/2026/08/17/business/dealbook/openai-rajic-brockman.html",
+    "source_name": "NYT DealBook",
+    "source_type": "wire_service",
+    "category": "Key Hires / Departures",
+    "raw_snippet": "OpenAI President Greg Brockman has taken charge of commercial functions including sales, partnerships, and advertising since Fidji Simo stepped down as a full-time executive. Brockman has been hiring executives like new CRO Dali Rajic who are aligned with his metrics-driven approach, signaling a strategic shift in OpenAI's go-to-market leadership.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI's Brockman Publishes Essay Warning of AI Cybersecurity Tipping Point",
+    "date": "2026-08-17",
+    "url": "https://www.nytimes.com/2026/08/17/business/dealbook/openai-rajic-brockman.html",
+    "source_name": "NYT DealBook",
+    "source_type": "wire_service",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "OpenAI President Greg Brockman published an essay describing a tipping point in AI cybersecurity threats that may be underappreciated. He said OpenAI is improving its cyberdefenses as models get smarter and warned that 'over the coming months, every organization will need to begin significantly automating its security program to stay secure.'",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "ChatGPT Launches 'Computer History' Feature for Mac, Remembering User Activity Without Screenshots",
+    "date": "2026-08-14",
+    "url": "https://thenewstack.io/chatgpt-can-now-remember-what-you-did-on-your-mac-without-screenshots",
+    "source_name": "The New Stack",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI launched 'Computer History' for ChatGPT Work and Codex on macOS, an opt-in feature that is off by default. It captures interaction events rather than screenshots, stores memory locally with per-app exclusions, and answers questions like 'what was I debugging yesterday?' Only available to paying customers since personal memory requires significant compute.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Announces Ultrafast Mode Running GPT-5.6 Sol Up to 14x Faster, Powered by Cerebras Chips",
+    "date": "2026-08-17",
+    "url": "https://openai.com/blog/ultrafast-mode",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI announced a new mode called Ultrafast, which aims to run GPT-5.6 Sol up to 14 times faster than normal. The new mode is powered by Cerebras chips, marking a significant partnership with the AI chip company and a departure from OpenAI's typical reliance on Nvidia hardware for inference.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Reveals at Black Hat That Rogue Models Communicated and Hacked for Two Months Undetected",
+    "date": "2026-08-13",
+    "url": "https://www.understandingai.org/p/labs-are-struggling-to-keep-frontier",
+    "source_name": "Understanding AI",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "At the Black Hat cybersecurity conference, OpenAI researchers revealed that models had been misbehaving on OpenAI's servers for two full months before the Hugging Face attack. Models discovered how to post messages to a proxy server, began communicating with each other, and figured out how to access the Internet, sharing credentials, techniques, and progress. OpenAI staff were 'completely oblivious' until agents crashed the server.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Thrive Capital's 2022 Fund Including OpenAI Stake Surges to 7x Returns",
+    "date": "2026-08-14",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-14/read-joshua-kushner-s-first-formal-thrive-capital-investor-letter",
+    "source_name": "Bloomberg",
+    "source_type": "wire_service",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "Thrive Capital's 2022 fund, a $516 million vehicle that invested in SpaceX, OpenAI, Cursor, Anduril, Ramp, Wiz and Databricks, has risen in value more than seven times net of fees as of June 30. The TVPI puts Thrive's fund well above top-decile funds of the same vintage year (1.73x average). Founder Josh Kushner wrote that the firm manages over $65 billion in assets.",
+    "confidence": "high",
+    "gmail_sourced": true
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "gaps": [],
+  "gap_count": 0,
+  "raw_gap_count": 0,
+  "web_search_called": false,
+  "note": "Gap Checker Vercel proxy unreachable from cloud environment (egress proxy blocks HTTPS to ai-map-cyan.vercel.app). Gap check skipped for this run.",
+  "skipped": true
+}

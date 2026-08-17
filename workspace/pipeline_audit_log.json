@@ -415,5 +415,78 @@
         "high_total": 15
       }
     }
+  },
+  {
+    "run_id": "run_20260817T163707",
+    "run_date": "2026-08-17T16:37:07.979758",
+    "steps": {
+      "reporter": {
+        "items_produced": 44,
+        "confidence_breakdown": {
+          "high": 35,
+          "medium": 9,
+          "low": 0
+        },
+        "source_type_counts": {
+          "wire_service": 10,
+          "tech_press": 27,
+          "developer_docs": 2,
+          "press_release": 3,
+          "official_blog": 1,
+          "regulatory_filing": 1
+        },
+        "gmail_sourced_count": 9
+      },
+      "curator": {
+        "items_in": 44,
+        "items_kept": 31,
+        "items_cut": 13,
+        "cut_reasons": {
+          "Not about OpenAI specifically \u2014 Stripe acquiring OpenRouter (multi-model routing platform)": 1,
+          "Minor developer tooling update \u2014 too granular for MD audience": 1,
+          "Opinion/thought leadership blog post, not news event": 1,
+          "Profile/color piece \u2014 Altman quote is entertainment, hiring ex-bankers is tangential": 1,
+          "Duplicate \u2014 clustered into primary item covering same event": 9
+        },
+        "source_diversity_warning": null,
+        "items_with_corroboration_2plus": 21
+      },
+      "coverage_auditor": {
+        "verdict": "sufficient",
+        "curated_count": 31,
+        "coverage_floor": 7,
+        "empty_categories": [],
+        "thin_categories": [
+          "Technical Research / Model Releases"
+        ]
+      },
+      "backfill_reporter": {
+        "ran": false,
+        "items_found": 0,
+        "backfill_sourced_count": 0
+      },
+      "fact_checker": {
+        "items_in": 31,
+        "items_verified": 26,
+        "items_rejected": 0,
+        "rejection_reasons": [],
+        "url_200_count": 0,
+        "url_403_count": 0,
+        "url_other_count": 26
+      },
+      "editor_in_chief": {
+        "items_in_digest": 26,
+        "historical_dedup_check_run": true
+      },
+      "gap_checker": {
+        "ran": true,
+        "items_found": 6
+      },
+      "confidence_calibration": {
+        "ran": true,
+        "well_calibrated": true,
+        "high_total": 35
+      }
+    }
   }
 ]
