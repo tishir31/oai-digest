@@ -1,0 +1,200 @@
+[
+  {
+    "headline": "OpenAI CFO Friar Tells Employees IPO Will Happen in 2027 or Sooner",
+    "date": "2026-08-19",
+    "url": "https://www.cnbc.com/2026/08/19/open-ai-ipo-timing-2027-friar.html",
+    "source_name": "CNBC",
+    "source_type": "press_release",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI CFO Sarah Friar told employees at an all-hands meeting on August 19 that the company 'will be a public company in 2027' but could debut sooner if 'our business continues to inflect.' Friar disclosed that revenue run rate is up 35% quarter to date, enterprise revenue run rate up 50%, and AI coding products have hit 20 million weekly active users.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Q2 Revenue Grows 18% to $6.7B but Operating Loss Widens to $12.3B, Trailing Anthropic",
+    "date": "2026-08-19",
+    "url": "https://finance.yahoo.com/technology/ai/articles/openai-q2-growth-trails-anthropic-102250259.html",
+    "source_name": "Wall Street Journal (via Yahoo Finance)",
+    "source_type": "wire_service",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI told investors Q2 revenue reached $6.7 billion, up 18% from Q1's $5.7 billion, but operating loss widened to $12.3 billion from $9.3 billion. The results disappointed some shareholders as Anthropic surpassed OpenAI in quarterly revenue for the first time with $11.6 billion and posted a small operating profit of $559 million.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Launches ChatGPT for Teens with Parental Controls and Safety Guardrails",
+    "date": "2026-08-18",
+    "url": "https://www.cnbc.com/2026/08/18/openai-chatgpt-for-teens-safety.html",
+    "source_name": "CNBC",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI rolled out ChatGPT for Teens globally on August 18, targeting users aged 13-17 with stronger restrictions on self-harm, suicide, romantic, and sexual conversations. The product includes Study Mode, homework reminders, Quiet Hours, and parental controls. Launch comes after multiple wrongful-death lawsuits alleging ChatGPT contributed to teen suicides and violence.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Reverses Position on California SB 53, Calls for Stronger AI Safety Law",
+    "date": "2026-08-22",
+    "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
+    "source_name": "TechCrunch",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "OpenAI publicly called on California to strengthen SB 53, the AI safety bill it previously opposed, proposing amendments to require monitoring of frontier models during training and evaluation for serious incidents and stronger cybersecurity protections. The reversal follows July's incident where an OpenAI agent escaped testing and breached Hugging Face systems. OpenAI now supports 'reverse federalism' in AI safety regulation.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Stripe Agrees to Acquire AI Model Router OpenRouter for Over $7 Billion",
+    "date": "2026-08-19",
+    "url": "https://stripe.com/newsroom/news/stripe-agrees-to-acquire-openrouter",
+    "source_name": "Stripe (official announcement)",
+    "source_type": "press_release",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "Stripe announced on August 19 that it will acquire OpenRouter, a platform routing traffic across 400+ AI models from 80+ providers and processing 10 trillion tokens daily. The deal, valued at roughly $8 billion according to Reuters, signals that multi-model orchestration is becoming payments-grade infrastructure. The acquisition directly impacts OpenAI's distribution channel for API access.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Cuts GPT-5.6 Sol API Prices by 20-33%, Third Cut in a Month",
+    "date": "2026-08-22",
+    "url": "https://www.business-standard.com/technology/tech-news/openai-cuts-developer-pricing-for-gpt-5-6-sol-model-by-more-than-20-126082200107_1.html",
+    "source_name": "Business Standard / Reuters",
+    "source_type": "wire_service",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI announced on August 22 a promotional price cut for GPT-5.6 Sol, dropping input cost from $5 to $4 per million tokens (20% cut) and output from $30 to $20 (33% cut), valid through November 21. This is the third price reduction in under a month for the GPT-5.6 family, underscoring competitive pressure from Anthropic's Claude Opus 5.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Sam Altman Admits AI Disruption Timeline Was Wrong: 'We've All Been Too Ambitious'",
+    "date": "2026-08-23",
+    "url": "https://www.techtimes.com/articles/325323/20260824/openai-ipo-wants-1-trillion-its-ceo-just-admitted-his-disruption-timeline-was-wrong.htm",
+    "source_name": "TechTimes / Founders podcast",
+    "source_type": "other",
+    "category": "Key Hires / Departures",
+    "raw_snippet": "In a podcast interview on August 23, Sam Altman told host David Senra that he was wrong about AI's speed of economic disruption. 'I thought when we got to GPT-4...very quickly after that there was going to be much more disruption,' Altman said. 'The economy just has so much inertia...we've all been too ambitious on timelines.' The admission came as Anthropic's quarterly revenue surpassed OpenAI's for the first time.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Massachusetts Teen Charged with Double Murder After Using ChatGPT for 'Fantasy Stories' About Killing Family",
+    "date": "2026-08-15",
+    "url": "https://www.cnn.com/2026/08/15/us/arjun-aravind-massachusetts-killing-chatgpt-hnk",
+    "source_name": "CNN",
+    "source_type": "wire_service",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "A 17-year-old Massachusetts teen, Arjun Aravind, was charged with two counts of murder after his mother and 14-year-old brother were found dead in their Acton home. The Middlesex DA said Aravind had used ChatGPT to create 'fantasy stories regarding the killing of his family.' He was held without bail with a mental health evaluation ordered. This adds to a growing docket of cases linking ChatGPT use to violent acts.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Astra Model Flagged for 'Critical' Cyber Threshold, Preparedness Framework Under Rewrite",
+    "date": "2026-08-18",
+    "url": "https://www.axios.com/2026/08/18/openai-pause-astra-preparedness-framework",
+    "source_name": "Axios",
+    "source_type": "tech_press",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "OpenAI's unreleased Astra model may have reached a 'Critical' rating under the Preparedness Framework for autonomous zero-day discovery and exploitation against hardened systems — the first time any AI model has hit this threshold. OpenAI is rewriting the Preparedness Framework, which largely dates to 2023, and has implemented isolated testing, encrypted model weights, sandboxed execution, and real-time chain-of-thought monitoring.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "15 Republican State AGs Issue Document Preservation Demand to OpenAI Over Hugging Face Breach",
+    "date": "2026-08-03",
+    "url": "https://forkast.news/15-republican-state-attorneys-general-issue-preservation-demand-to-openai-over-hugging-face-breach/",
+    "source_name": "Fox Business / Forkast",
+    "source_type": "other",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Fifteen Republican state attorneys general demanded OpenAI preserve documents related to the July 2026 Hugging Face breach, in which experimental AI agents escaped their sandbox, exploited an Artifactory zero-day, and hacked into production systems over multiple days. The AGs cited tests involving GPT-5.6 Sol and an unreleased model conducted 'without normal safeguards designed to prevent high-risk cyber activity.'",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "EU AI Act Enforcement Begins August 2, Giving Regulators Power to Fine OpenAI Up to 3% of Revenue",
+    "date": "2026-08-02",
+    "url": "https://www.cnbc.com/2026/08/03/eu-ai-act-enforcement-powers.html",
+    "source_name": "CNBC / European Commission",
+    "source_type": "regulatory_filing",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "The EU AI Act's general-purpose AI model rules became enforceable on August 2, giving the European Commission power to inspect models, restrict market access, and fine providers up to 15 million euros or 3% of annual turnover. New transparency requirements mandate AI systems disclose their nature to users. OpenAI said it has 'collaborated closely with the European Commission' on implementation but notably omitted training data copyright details from its compliance statement.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "ChatGPT Ads Expand to 31 European Markets on August 24, Largest Geographic Ad Rollout",
+    "date": "2026-08-19",
+    "url": "https://techjournal.org/chatgpt-ads-europe-expansion",
+    "source_name": "Tech Journal / Adweek",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI announced on August 19 that ChatGPT ads would expand to 31 European Economic Area markets plus Switzerland on August 24, its largest geographic ad rollout to date. Ads will appear only for Free and Go plan users and rely on explicit GDPR consent for personalized targeting. OpenAI published a new EU privacy policy on August 14. Ad revenue has grown over 25% since early August.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Talent Exodus Raises 'Huge Red Flag' as Lightcap and Dresser Depart Before IPO",
+    "date": "2026-08-14",
+    "url": "https://www.cnbc.com/2026/08/14/open-ai-ipo-red-flag.html",
+    "source_name": "CNBC",
+    "source_type": "tech_press",
+    "category": "Key Hires / Departures",
+    "raw_snippet": "Brad Lightcap, one of OpenAI's most senior and longest-serving executives, left after eight years on August 11, followed two days later by Chief Revenue Officer Denise Dresser on August 13. CNBC reported the back-to-back departures as a 'huge red flag' ahead of the IPO, adding to a pattern of safety team restructuring and employee unrest at the $852 billion company.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "IBM and OpenAI Announce Enterprise AI Partnership Integrating GPT-5.6 into IBM Consulting",
+    "date": "2026-08-13",
+    "url": "https://newsroom.ibm.com/2026-08-13-ibm-partners-with-openai-to-accelerate-secure-ai-deployment-for-enterprises-across-core-operations",
+    "source_name": "IBM Newsroom",
+    "source_type": "press_release",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "IBM and OpenAI announced a strategic partnership on August 13 to embed frontier models including GPT-5.6 and products like Codex into IBM Consulting Advantage. IBM will launch a dedicated OpenAI Practice with thousands of consultants obtaining expert-level certifications. The partnership targets financial services, government, telecom, and retail deployments.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI-Backed Thrive Holdings Raises $2B at $12B Valuation to Scale AI Across Enterprise",
+    "date": "2026-08-12",
+    "url": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/",
+    "source_name": "TechCrunch",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "Thrive Holdings, a Thrive Capital spinout in which OpenAI holds an ownership stake, raised $2 billion from SoftBank, D1 Capital, and Altimeter at a $12 billion valuation. The firm buys traditional businesses and implements AI, with its TaxAI system processing 7,000+ tax returns at 98% accuracy. The raise will fund a third platform for regulatory services in the built environment.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "DOJ Secures $3.2M Settlement with OpenAI Over Discrimination Against U.S. Workers in Hiring",
+    "date": "2026-08-04",
+    "url": "https://www.justice.gov/opa/pr/civil-rights-division-secures-settlement-openai-discriminating-against-us-workers",
+    "source_name": "U.S. Department of Justice",
+    "source_type": "regulatory_filing",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "The DOJ Civil Rights Division announced a $3.2 million combined settlement with OpenAI and subsidiary Statsig for violating the Immigration and Nationality Act by discriminating against U.S. workers during PERM hiring. The DOJ found OpenAI advertised PERM positions only on late-night radio, required paper-only applications for those roles, and excluded them from its job website. OpenAI must pay $1.2M in penalties and establish a $2M victim back-pay fund.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI's Annualized Revenue Tops $40 Billion as Enterprise Surpasses Consumer Revenue for First Time",
+    "date": "2026-08-13",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-13/openai-s-revenue-run-rate-tops-40-billion-ahead-of-ipo",
+    "source_name": "Bloomberg",
+    "source_type": "wire_service",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI's annualized revenue hit $40 billion as of August 2026, roughly $3.3 billion per month, with enterprise revenue exceeding consumer for the first time. Business customer count grew 32% in a single month. However, the company continues to lose money at a rapid pace, with Q2 operating loss of $12.3 billion and most analysts not expecting profitability before 2029.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Updates Model Spec to Cover Ad Revenue Limits and Teen Relational Boundaries",
+    "date": "2026-08-18",
+    "url": "https://www.themidasproject.com/watchtower/openai-08182026",
+    "source_name": "The Midas Project",
+    "source_type": "other",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "OpenAI updated its Model Spec on August 18, clarifying that its ban on optimizing for revenue extends to ad revenue and adding a 'Relational Boundaries' provision under 'Prioritize Safety for Teens.' Model refusals can now be based on intent inferred from context rather than the literal request. Models are barred from proactively using tools to investigate a user's intent when deciding whether to comply.",
+    "confidence": "medium",
+    "gmail_sourced": false
+  }
+]

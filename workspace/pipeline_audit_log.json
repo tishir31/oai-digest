@@ -415,5 +415,99 @@
         "high_total": 15
       }
     }
+  },
+  {
+    "run_id": "run_20260824T163938",
+    "run_date": "2026-08-24T16:39:38.574283",
+    "steps": {
+      "reporter": {
+        "items_produced": 51,
+        "confidence_breakdown": {
+          "high": 42,
+          "medium": 9,
+          "low": 0
+        },
+        "source_type_counts": {
+          "developer_docs": 2,
+          "other": 3,
+          "wire_service": 6,
+          "tech_press": 22,
+          "official_blog": 13,
+          "press_release": 4,
+          "regulatory_filing": 1
+        },
+        "gmail_sourced_count": 14
+      },
+      "curator": {
+        "items_in": 51,
+        "items_kept": 23,
+        "items_cut": 28,
+        "cut_reasons": {
+          "Outside target week \u2014 date is August 26, after the Aug 17-23 window": 1,
+          "Duplicate \u2014 same price cut covered by Business Standard/Reuters with better sourcing": 1,
+          "Duplicate \u2014 same AI Futures blog launch covered by openai.com/index version with more detail": 1,
+          "Stale \u2014 URL is from June 2026; subsumed by Aug 19 CFO Friar IPO 2027 item with fresh quotes": 1,
+          "Duplicate \u2014 same Apple opposition covered by 9to5Mac with far more detail (32-page brief, 400+ employees, Oct 1 hearing)": 1,
+          "Duplicate \u2014 same Q2 revenue figures covered by Yahoo Finance/WSJ primary item with same data points": 1,
+          "Duplicate \u2014 RL pause and Astra safety covered by OpenAI official blog post as primary with more technical detail": 1,
+          "Subsumed \u2014 privacy-preserving safety monitoring already covered by Zero Data Retention official announcement with more specifics": 1,
+          "Duplicate \u2014 same ChatGPT Ads Europe expansion; official blog URL used as primary in Earnings category": 1,
+          "Subsumed \u2014 Model Spec teen protections covered as part of ChatGPT for Teens primary item; age prediction detail included there": 1,
+          "Duplicate \u2014 ChatGPT for Teens covered by OpenAI official blog as primary": 2,
+          "Duplicate \u2014 Astra Critical threshold covered by OpenAI official blog as primary": 1,
+          "Not OpenAI-specific \u2014 multi-company story about OpenAI, Anthropic, Microsoft, Amazon, and Google FDE investments": 1,
+          "Subsumed \u2014 Model Spec updates for ad revenue and teens covered by ChatGPT for Teens and ChatGPT Ads primary items; low incremental value": 1,
+          "Not OpenAI-specific \u2014 story is about Thrive Capital's fund performance across multiple portfolio companies (SpaceX, Cursor, Anduril, etc.)": 1,
+          "Outside target week \u2014 August 15 precedes the Aug 17-23 window. Context captured in ChatGPT for Teens item.": 1,
+          "Outside target week \u2014 August 14 precedes Aug 17-23 window. Data subsumed into Q2 revenue primary item.": 1,
+          "Outside target week \u2014 August 14. Exodus narrative subsumed into CRO Dresser/Rajic primary item with corroborating URL.": 1,
+          "Outside target week \u2014 August 13. This is the preview version; in-window corroboration used as primary.": 1,
+          "Outside target week \u2014 August 13 precedes Aug 17-23 window": 1,
+          "Outside target week and duplicate \u2014 same CRO change covered by The Information as primary with Aug 17 date": 1,
+          "Outside target week \u2014 August 12 precedes Aug 17-23 window": 1,
+          "Outside target week \u2014 August 11. Departure context subsumed into CRO item and CNBC 'red flag' corroborating URL.": 1,
+          "Outside target week \u2014 August 10 precedes Aug 17-23 window": 1,
+          "Outside target week \u2014 August 4 precedes Aug 17-23 window": 1,
+          "Outside target week \u2014 August 3 precedes Aug 17-23 window": 1,
+          "Outside target week \u2014 August 2 precedes Aug 17-23 window": 1
+        },
+        "source_diversity_warning": null,
+        "items_with_corroboration_2plus": 10
+      },
+      "coverage_auditor": {
+        "verdict": "sufficient",
+        "curated_count": 23,
+        "coverage_floor": 7,
+        "empty_categories": [],
+        "thin_categories": []
+      },
+      "backfill_reporter": {
+        "ran": false,
+        "items_found": 0,
+        "backfill_sourced_count": 0
+      },
+      "fact_checker": {
+        "items_in": 23,
+        "items_verified": 23,
+        "items_rejected": 0,
+        "rejection_reasons": [],
+        "url_200_count": 0,
+        "url_403_count": 0,
+        "url_other_count": 23
+      },
+      "editor_in_chief": {
+        "items_in_digest": 23,
+        "historical_dedup_check_run": true
+      },
+      "gap_checker": {
+        "ran": true,
+        "items_found": 0
+      },
+      "confidence_calibration": {
+        "ran": true,
+        "well_calibrated": true,
+        "high_total": 42
+      }
+    }
   }
 ]

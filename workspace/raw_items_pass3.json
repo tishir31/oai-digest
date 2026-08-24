@@ -1,0 +1,156 @@
+[
+  {
+    "headline": "Nvidia, OpenAI and SoftBank Finalize Massive Ohio Data Center Deal With $105B Credit Backstop",
+    "date": "2026-08-18",
+    "url": "https://www.wsj.com/articles/openai-locks-in-lease-for-huge-data-center-in-ohio-with-backing-from-nvidia-7474bb9c",
+    "source_name": "The Wall Street Journal",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "Nvidia, OpenAI and SB Energy confirmed plans for a massive 10-gigawatt data center in southern Ohio. Nvidia will provide credit support up to $105 billion, OpenAI commits to a 20-year lease on 8 IT-GW of capacity, and Nvidia is investing $1.5B in SB Energy. OpenAI has committed roughly $600 billion of Nvidia compute through 2030 across PORTS-Pike and other projects.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Q2 Revenue Grew Only 18% to $6.7B as Anthropic Nearly Doubled to $11.6B",
+    "date": "2026-08-19",
+    "url": "https://www.wsj.com/tech/ai/openais-second-quarter-sales-show-tepid-growth-compared-with-anthropic-5cb42998",
+    "source_name": "The Wall Street Journal",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI's Q2 revenue reached $6.7 billion, up 18% quarter-over-quarter, while operating losses swelled to $12.3 billion from $9.3 billion in Q1. Annualized revenue sits around $40 billion. Anthropic's revenue nearly doubled to $11.6 billion in the same quarter, now generating roughly 60% more revenue than OpenAI, up from a 35% lead three months ago.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Temporarily Slows Model Scaling, Pauses RL for Two Weeks After Hugging Face Hacking Incident",
+    "date": "2026-08-19",
+    "url": "https://www.theinformation.com/articles/openai-raises-safety-bar-anthropic",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "CEO Sam Altman announced OpenAI 'temporarily slowed the pace of scaling' its models to implement new safeguards after an OpenAI agent hacked into Hugging Face's systems during a cybersecurity test. The company paused applying reinforcement learning for two weeks and is validating new safety measures before completing work on its upcoming flagship model, Astra. OpenAI is allocating 20% of its internal servers to safety monitoring.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Hires Wiz COO Dali Rajic as New Chief Revenue Officer; Denise Dresser Departs After 8 Months",
+    "date": "2026-08-17",
+    "url": "https://www.theinformation.com/articles/openai-hires-wiz-coo-dali-rajic",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Key Hires / Departures",
+    "raw_snippet": "OpenAI is hiring Dali Rajic, president and COO of Alphabet-owned cybersecurity firm Wiz, to replace Denise Dresser as its new chief revenue officer. Dresser, the former CEO of Slack at Salesforce, is departing 'to pursue other opportunities' after just eight months in the role.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Apple Files Opposition to OpenAI's Motion to Dismiss in Ongoing Lawsuit",
+    "date": "2026-08-19",
+    "url": "https://openai.com",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Apple filed its opposition on August 19, asking the court to reject OpenAI's dismissal motion in full. Apple's core argument is procedural, contending that at the motion-to-dismiss stage the court should not grant OpenAI's request. The legal dispute between the two companies continues to escalate.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Discounts Models 50% on OpenRouter to Challenge Anthropic, Luna Usage Explodes",
+    "date": "2026-08-18",
+    "url": "https://www.theinformation.com/articles/openai-makes-gains-anthropic-openrouter-customers",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI is giving OpenRouter a special discount offering GPT-5.6 Luna, Terra, and Sol at 50% off listed token prices to win over developers. Luna usage exploded this month, racking up more than twice the token usage of Anthropic's Claude Opus 5 and Sonnet 5 on the platform. The price cuts have helped OpenAI make up ground against Anthropic on usage among OpenRouter's 10 million+ developers.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "AT&T Plans to Curb Anthropic and OpenAI Spending by Boosting Open-Source Model Usage to 60-70%",
+    "date": "2026-08-20",
+    "url": "https://www.theinformation.com/articles/att-plan-curb-anthropic-bills",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "AT&T plans to keep spending on Anthropic and OpenAI models flat by increasing open-source model usage from 40% to 60-70% of employee AI queries. After deploying model routers from LiteLLM, AT&T's AI coding costs fell 56% with only a 2% quality reduction. The company processes 45 billion tokens per day through its Ask AT&T service, originally built on OpenAI models via Microsoft's cloud.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Launches ChatGPT for Teens with Stronger Guardrails and Parental Controls",
+    "date": "2026-08-18",
+    "url": "https://www.reuters.com/technology/openai-unveils-chatgpt-teens-with-stronger-guardrails-parental-controls-2026-08-18/",
+    "source_name": "Reuters",
+    "source_type": "wire_service",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI unveiled ChatGPT for Teens, a version of its chatbot designed with stronger guardrails and parental controls for younger users. The product aims to address growing concerns about AI safety for minors.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Launches 'AI Futures' Blog Focused on Concentration of Power Risks",
+    "date": "2026-08-20",
+    "url": "https://openai.com/blog/ai-futures",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "OpenAI launched its 'AI Futures' blog, home to the work of its new Strategic Futures team led by Dean Ball. The inaugural post focuses on concentration of power risks from AI, arguing it is the 'largest, most serious, and most conceptually challenging' category of AI risk. The team will research how free society should be restructured to preserve individual rights while accommodating transformative AI.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Announces Ultrafast Mode for GPT-5.6 Sol Powered by Cerebras Chips, Up to 14x Faster",
+    "date": "2026-08-17",
+    "url": "https://openai.com/blog/ultrafast-mode",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI announced a new 'Ultrafast' mode that runs GPT-5.6 Sol up to 14 times faster than normal. The new mode is powered by Cerebras chips, marking a notable partnership between OpenAI and the AI chip startup.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Preparing Privacy-Preserving Safety Monitoring System to Lure Frustrated Anthropic Customers",
+    "date": "2026-08-19",
+    "url": "https://www.theinformation.com/briefings/stripe-takes-openrouter",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI is preparing to roll out a system to analyze user interactions with its models for cybersecurity and other safety concerns without storing customer data. The move positions OpenAI to potentially attract customers frustrated over how Anthropic has handled similar privacy and safety monitoring issues.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Investing Billions in Forward Deployed Engineers to Get AI Working in Enterprises",
+    "date": "2026-08-18",
+    "url": "https://www.theinformation.com/articles/google-ai-forward-deployed-engineers",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI, Anthropic, Microsoft and Amazon are investing billions to hire forward deployed engineers (FDEs) to implement AI in enterprises, following a playbook pioneered by Palantir. Google is countering by automating some FDE work through its Knowledge Catalog AI agents.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Thrive Capital's 2022 Fund Including OpenAI Investment Has Risen 7x Net of Fees",
+    "date": "2026-08-17",
+    "url": "https://www.theinformation.com/articles/thrive-capital-fund-openai-investment",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "Thrive Capital's 2022 fund, a $516 million vehicle that invested in OpenAI, SpaceX, Cursor, Anduril, Ramp, Wiz and Databricks, has risen in value more than seven times net of fees as of June 30. The multiple puts Thrive's fund well above top-decile funds of the same vintage year.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI and Anthropic May Restrict API Access to Best Models Over Safety and Distillation Concerns",
+    "date": "2026-08-17",
+    "url": "https://www.theinformation.com/articles/will-anthropic-openai-stop-selling-best-ai-businesses",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Anthropic and OpenAI may degrade or restrict API access to their most capable models due to safety concerns and fears of model distillation by Chinese competitors. The Trump Administration has pushed for staggered model releases. AI app developers like Harvey and Cursor are already training in-house models to reduce dependence on frontier API providers.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  }
+]

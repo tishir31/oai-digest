@@ -1,11 +1,18 @@
 {
-  "run_week": "2026-03-31 to 2026-04-05",
+  "run_week": "2026-08-17 to 2026-08-23",
   "source_type_counts": {
-    "official_blog": 5,
-    "tech_press": 3,
-    "developer_docs": 3,
-    "wire_service": 2
+    "official_blog": 7,
+    "press_release": 2,
+    "wire_service": 2,
+    "tech_press": 9,
+    "developer_docs": 1,
+    "other": 1,
+    "regulatory_filing": 0,
+    "research_preprint": 0,
+    "social_media": 0
   },
-  "unique_outlets": 6,
-  "diversity_warning": null
+  "unique_outlets": 14,
+  "curated_item_count": 23,
+  "diversity_warning": null,
+  "notes": "Good source diversity: 7 official blog posts (30%), 9 tech press (39%), plus wire services, press releases, and developer docs. No single source_type exceeds 60%. Official sources well-represented. 14 unique outlet names across curated items."
 }
