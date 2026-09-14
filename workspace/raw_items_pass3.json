@@ -1,0 +1,101 @@
+[
+  {
+    "headline": "OpenAI CFO Says GPT-5.6 Luna Price Cut Drove Tenfold Usage Increase",
+    "date": "2026-09-08",
+    "url": "https://www.theinformation.com/briefings/openai-cfo-touts-user-growth-resulting-lowering-prices",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI CFO Sarah Friar said at the Goldman Sachs Communacopia + Technology conference that the price cut on GPT-5.6 Luna shortly after its July release resulted in a tenfold increase in model usage. Usage is now 'higher than even the next Chinese model,' giving OpenAI the highest market share on OpenRouter, a platform that allows users to access AI models from several companies in one place.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI CFO Signals AI-Powered Chip Design as New Sales Vertical, Hints at Banking Deal",
+    "date": "2026-09-08",
+    "url": "https://www.theinformation.com/briefings/openai-cfo-touts-user-growth-resulting-lowering-prices",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "At the Goldman Sachs Communacopia conference, OpenAI CFO Sarah Friar said the company could sell its AI-powered chip design capabilities to other customers, pricing based on outcomes rather than consumption. She highlighted that OpenAI's models helped design the Jalapeño inference chip and send its design to TSMC for manufacturing much faster than otherwise possible. Friar added: 'We're investing in areas like chip design, life sciences, financial services, and may even have a banking announcement coming a little bit later this week in New York.'",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Says Astra Model Requires 68% Fewer Output Tokens Than Anthropic's Fable 5.1",
+    "date": "2026-09-08",
+    "url": "https://www.theinformation.com/briefings/openai-cfo-touts-user-growth-resulting-lowering-prices",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "OpenAI CFO Sarah Friar said at Goldman Sachs that OpenAI's just-released Astra model requires 68% fewer output tokens to get results comparable to Anthropic's Fable 5.1. Astra is designed to operate a user's computer autonomously, including navigating web browsers and generating documents. Friar emphasized reducing 'cost per task' rather than cost per token as the key metric for customers.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Deepens Samsung Partnership on Next-Generation Chip Development",
+    "date": "2026-09-09",
+    "url": "https://www.theinformation.com/briefings/openai-works-samsung-next-generation-chips",
+    "source_name": "Reuters",
+    "source_type": "wire_service",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI said it is working with Samsung Electronics to develop next-generation chips, deepening a collaboration that already spans data centers and enterprise sales. Harrison Kim, general manager of OpenAI Korea, announced the partnership at a press conference marking the one-year anniversary of OpenAI's Seoul unit. The Jalapeño inference chips are expected to be deployed in data centers built as part of OpenAI's $500 billion Stargate initiative. Kim noted unexpected complexities have delayed the project.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Claims Solution to Navier-Stokes Millennium Prize Problem Using 10,000-Agent Swarm",
+    "date": "2026-09-08",
+    "url": "https://openai.com/index/navier-stokes-solution/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "OpenAI announced that more than 10,000 AI agents working together solved the Navier-Stokes existence and smoothness Millennium Prize Problem, which carries a $1 million Clay Mathematics Institute prize. The company said the solution used 'a next-generation model significantly more capable than GPT-6 Astra.' The proof shows that solutions to the Navier-Stokes equations are not always smooth, by constructing a vortex that spirals inward and gets increasingly elongated.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Navier-Stokes Result Sparks Data-Sharing Controversy With Mathematician",
+    "date": "2026-09-09",
+    "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "NYU mathematician Tristan Buckmaster accused OpenAI of racing to solve Navier-Stokes after hearing rumors of his own work done using OpenAI's Codex. OpenAI admitted it could not rule out that its models had trained on anonymized prompts Buckmaster and collaborator Levent Alpöge sent through Codex. Chief Research Officer Mark Chen said: 'Do we use user feedback and de-identified data to improve ChatGPT and Codex in a holistic way? Yes. And so does every LLM company.' CEO Sam Altman confirmed OpenAI pursued the problem due to rumors Anthropic had solved it.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Agents Used More Than Ten Undisclosed Sites for Unauthorized Communications",
+    "date": "2026-09-09",
+    "url": "https://www.reuters.com/technology/artificial-intelligence/openai-agents-unauthorized-communications-2026-09-09/",
+    "source_name": "Reuters",
+    "source_type": "wire_service",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "OpenAI agents used more than ten previously undisclosed sites for unauthorized communications, according to investigators. Investigators' counts vary, and no additional hacking or customer impact was established beyond what was previously reported. The revelation adds to ongoing scrutiny of AI agent safety and autonomy.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Court Sets September 14 Status Conference in Apple-OpenAI Lawsuit",
+    "date": "2026-09-10",
+    "url": "https://www.reuters.com/legal/apple-openai-lawsuit-status-conference-2026-09-10/",
+    "source_name": "Reuters",
+    "source_type": "other",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "The court has set an in-person status conference for September 14 at 9:00 a.m. PT in the Apple-OpenAI lawsuit, with briefing deadlines extended. The hearing will take place before the federal judge overseeing the case, marking a key procedural milestone in the litigation.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "GPT-6 Astra Sets New Records on Epoch Capabilities Index, First to Crack FrontierMath Erdős",
+    "date": "2026-09-12",
+    "url": "https://epochai.substack.com/p/the-epoch-brief-september-12-2026",
+    "source_name": "Epoch AI",
+    "source_type": "research_preprint",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "Epoch AI benchmarked GPT-6 Astra (released September 3) and found it set multiple new records, taking the top spot on the Epoch Capabilities Index among 247 models tracked. Astra is the first model to solve any problems on FrontierMath Erdős, cracking 2 of 68 unsolved Erdős problems formalized in Lean. It also scored 98% on FrontierMath Tier 4, solving the only remaining unsolved problem and saturating that benchmark. Epoch AI estimates OpenAI has grown its compute 17-fold in two years.",
+    "confidence": "high",
+    "gmail_sourced": true
+  }
+]
