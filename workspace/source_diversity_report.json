@@ -1,11 +1,29 @@
 {
-  "run_week": "2026-03-31 to 2026-04-05",
+  "run_week": "2026-09-14 to 2026-09-20",
   "source_type_counts": {
-    "official_blog": 5,
-    "tech_press": 3,
-    "developer_docs": 3,
-    "wire_service": 2
+    "official_blog": 4,
+    "wire_service": 6,
+    "tech_press": 7,
+    "press_release": 2,
+    "other": 1
   },
-  "unique_outlets": 6,
-  "diversity_warning": null
+  "unique_outlets": 14,
+  "unique_outlet_names": [
+    "OpenAI",
+    "Bloomberg",
+    "Fortune",
+    "Bloomberg Law",
+    "CNBC",
+    "TechCrunch",
+    "Washington Post",
+    "TechTimes / heise online",
+    "The Information",
+    "Gizmochina",
+    "Help Net Security",
+    "AWS",
+    "HubSpot",
+    "FedScoop"
+  ],
+  "diversity_warning": null,
+  "diversity_notes": "Good diversity across 14 outlets and 5 source types. Official sources present (4 items from openai.com). No single source type exceeds 60% threshold (tech_press is highest at 35%). Wire services well represented (Bloomberg, Fortune, Bloomberg Law, CNBC, WaPo). Press releases from AWS and HubSpot add first-party corporate perspective."
 }
