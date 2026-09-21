@@ -415,5 +415,112 @@
         "high_total": 15
       }
     }
+  },
+  {
+    "run_id": "run_20260921T164043",
+    "run_date": "2026-09-21T16:40:43.955016",
+    "steps": {
+      "reporter": {
+        "items_produced": 57,
+        "confidence_breakdown": {
+          "high": 47,
+          "medium": 10,
+          "low": 0
+        },
+        "source_type_counts": {
+          "wire_service": 11,
+          "other": 5,
+          "official_blog": 9,
+          "tech_press": 25,
+          "regulatory_filing": 2,
+          "press_release": 3,
+          "developer_docs": 1,
+          "social_media": 1
+        },
+        "gmail_sourced_count": 13
+      },
+      "curator": {
+        "items_in": 57,
+        "items_kept": 20,
+        "items_cut": 37,
+        "cut_reasons": {
+          "Reaction/commentary to the misalignment framework disclosure (already curated via OpenAI official source). Microsoft AI CEO's quote captured as corroborating source on the primary item.": 1,
+          "Duplicate \u2014 same antitrust lawsuit covered by Bloomberg Law with more legal detail (Sherman Act, Clayton Act specifics).": 1,
+          "Operational noise \u2014 routine service disruptions without disclosed material business impact. Not the kind of story an MD needs at 7am Monday.": 1,
+          "Policy framework \u2014 not market-moving for IB audience. Australia teen safety measures are important for compliance but not a Monday morning priority.": 1,
+          "Minor feature update \u2014 Chrome extension support in desktop app is an incremental improvement, not a market-moving product launch.": 1,
+          "External commentary \u2014 open letter from researchers is advocacy, not an OpenAI action or event. Not directly market-moving.": 1,
+          "Duplicate \u2014 same Apple v. OpenAI case covered via OpenAI's official response (primary). This Reuters item captured as corroborating source.": 1,
+          "Tangential \u2014 primarily about FTC policy posture, not a specific OpenAI development. Used as corroborating context for the antitrust lawsuit item.": 1,
+          "Minor incremental updates to Codex \u2014 voice, task management, Touch ID are feature iterations, not market-moving launches.": 1,
+          "Duplicate \u2014 same Australian Youth Safety Blueprint covered by OpenAI official blog. Both cut as not market-moving for IB audience.": 1,
+          "Duplicate \u2014 same misalignment framework announcement covered by the Sep 16 OpenAI post with more incident detail. This URL appears to be a companion/follow-up post.": 1,
+          "Duplicate \u2014 same Sponsored Agents announcement covered by the Sep 16 OpenAI post (reimagining-advertising) with fuller detail on launch partners and revenue metrics.": 1,
+          "Duplicate \u2014 same unsealed NYT filings covered by TechCrunch with identical substance.": 1,
+          "Not an OpenAI action or development \u2014 protest coverage that mentions OpenAI as a target alongside Anthropic. Not directly market-moving.": 1,
+          "Duplicate \u2014 $40B revenue figure covered by Bloomberg with earlier and more detailed reporting. Anthropic comparison ($65B) noted in curator notes on Bloomberg item.": 1,
+          "Minor admin guidance \u2014 blog post about analytics console features. Not a product launch or market-moving news.": 1,
+          "Duplicate \u2014 same funding round story covered by Bloomberg (earlier, Sep 15). Forbes captured as corroborating URL on primary item.": 1,
+          "Duplicate \u2014 same funding round covered by Bloomberg. CNBC adds that talks were investor-initiated.": 1,
+          "Duplicate \u2014 same misalignment framework and six incidents covered by OpenAI official source. CNBC version captured as corroborating URL.": 1,
+          "Duplicate \u2014 same Sponsored Agents launch covered by OpenAI official blog post. Yahoo Finance captured as corroborating URL.": 1,
+          "Duplicate \u2014 same funding round covered by Bloomberg. FT/Information version captured as corroborating URL.": 1,
+          "Duplicate \u2014 IPO delay covered by Fortune (Sep 14) with more detail (S-1 filed, Goldman/Morgan Stanley as underwriters). Captured as corroborating URL.": 1,
+          "Macro story \u2014 primarily about the Fed and AI sector broadly. OpenAI mentioned in passing as one example. The $170B burn projection is notable context but not new this week.": 1,
+          "Part of broader safety pacing narrative (covered by antitrust lawsuit item). No concrete commitments \u2014 no evaluators named, no timeline, no terms.": 1,
+          "Duplicate \u2014 same $1B ad ARR milestone covered by CNBC with earlier and more authoritative reporting.": 1,
+          "Event announcement \u2014 conference logistics are not a product launch or market-moving news. DevDay itself may produce news when it happens Sep 29.": 1,
+          "Philanthropic activity \u2014 OpenAI Foundation grant program, not a business deal. $125M comes from the nonprofit foundation, not the company's P&L.": 1,
+          "Early-stage discussions \u2014 no concrete outcome, timeline, or structure. Part of broader safety narrative already covered by antitrust/misalignment items.": 1,
+          "Minor developer feature \u2014 API key governance is an incremental enterprise security improvement, not news an MD needs.": 1,
+          "Part of broader safety pacing narrative already covered by the antitrust lawsuit item. Social media post, not a formal corporate action.": 1,
+          "Duplicate and outside target week (Sep 12, target is Sep 14-20). Same IPO delay covered by Fortune Sep 14 item with more detail.": 1,
+          "Part of broader safety pacing narrative. Altman's statements here are the precursor to the antitrust lawsuit (already curated). Not standalone news.": 1,
+          "Not a new development \u2014 reporting on a compliance deadline, not a new filing or action. The underlying investigation predates this week.": 1,
+          "Aside from lawsuit proceedings \u2014 hardware timeline comment is notable but came incidentally during a status conference. Captured in Apple lawsuit item's corroborating URLs and curator notes.": 1,
+          "Duplicate \u2014 same Apple v. OpenAI case covered by OpenAI's official response (primary). The Next Web version captured as corroborating URL.": 1,
+          "Duplicate \u2014 same Plugin4Shell vulnerability covered by Help Net Security with broader context. Captured as corroborating URL.": 1,
+          "Duplicate \u2014 same Plugin4Shell vulnerability covered by Help Net Security. Category correction: should be Technical Research / Model Releases, not Product Launches & Updates.": 1
+        },
+        "source_diversity_warning": null,
+        "items_with_corroboration_2plus": 10
+      },
+      "coverage_auditor": {
+        "verdict": "sufficient",
+        "curated_count": 20,
+        "coverage_floor": 7,
+        "empty_categories": [
+          "Key Hires / Departures"
+        ],
+        "thin_categories": []
+      },
+      "backfill_reporter": {
+        "ran": false,
+        "items_found": 0,
+        "backfill_sourced_count": 0
+      },
+      "fact_checker": {
+        "items_in": 20,
+        "items_verified": 20,
+        "items_rejected": 0,
+        "rejection_reasons": [],
+        "url_200_count": 0,
+        "url_403_count": 0,
+        "url_other_count": 20
+      },
+      "editor_in_chief": {
+        "items_in_digest": 20,
+        "historical_dedup_check_run": true
+      },
+      "gap_checker": {
+        "ran": false,
+        "items_found": 0
+      },
+      "confidence_calibration": {
+        "ran": true,
+        "well_calibrated": true,
+        "high_total": 47
+      }
+    }
   }
 ]
