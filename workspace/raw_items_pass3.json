@@ -1,0 +1,156 @@
+[
+  {
+    "headline": "OpenAI in Early Talks for New Funding Round at $1.2 Trillion Valuation",
+    "date": "2026-09-16",
+    "url": "https://www.ft.com/content/openai-new-funding-round-1-2-trillion-valuation",
+    "source_name": "Financial Times / The Information",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI has held early conversations with investors about a new funding round that could lift its valuation to $1.2 trillion or higher, according to people familiar with the conversations. The company's secondary market value has risen past $1 trillion as its Codex coding product gained popularity and GPT-6 Astra outperforms competitors. The FT first reported on the talks.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Pushes IPO to 2027 or Later, Altman Cites AI Safety Concerns",
+    "date": "2026-09-16",
+    "url": "https://www.theinformation.com/briefings/openai-early-talks-new-funding-round-1-2-trillion-valuation",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "CEO Sam Altman said recently that an offering this year didn't make sense amid rising concerns about AI safety. OpenAI had previously planned an IPO as soon as late this year but has now pushed it off to next year or later. Rival Anthropic has been working on a planned IPO expected to be $1.5 trillion or higher.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Annualized Revenue Passes $40 Billion, Trails Anthropic's $65 Billion",
+    "date": "2026-09-17",
+    "url": "https://www.theinformation.com/articles/openai-next-round",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI's annualized revenue growth in July rose past $40 billion, well behind Anthropic's $65 billion. OpenAI has touted gains in use of its Codex coding product and recently released models including 5.6 and Astra, but also cut prices — a tactic great for user growth but less helpful for cash receipts.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Amazon Completes $50 Billion OpenAI Investment After New Cloud Agreement",
+    "date": "2026-09-16",
+    "url": "https://www.theinformation.com/articles/openai-next-round",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "Amazon has completed its entire $50 billion investment in OpenAI after OpenAI negotiated a new agreement with long-term partner Microsoft to run its AI on competing cloud services. Since June 30, Amazon poured another $21 billion into OpenAI, completing the commitment. Nvidia is also providing credit support covering up to $105 billion for a massive Ohio data center OpenAI will use.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Close to Solving Hodge Conjecture, Another Millennium Prize Math Problem",
+    "date": "2026-09-17",
+    "url": "https://www.theinformation.com/articles/openai-close-solving-another-millennium-prize-math-problem",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "OpenAI is close to solving the Hodge Conjecture, a famous Millennium Prize math problem, using a variant of its next pre-trained model codenamed 'Doug.' Employees expect the solution relatively soon but announcement timing is uncertain as OpenAI tries to collaborate with the math community to avoid another PR disaster after the Navier-Stokes controversy earlier in September.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Releases Framework for Reporting Unsafe Model Behavior, Discloses Six Incidents",
+    "date": "2026-09-17",
+    "url": "https://openai.com/index/model-behavior-reporting-framework",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "OpenAI released a new framework on Wednesday for how it aims to report unsafe or concerning behavior in its models, and disclosed six incidents of such behavior it had observed in the past six months. The framework outlines OpenAI's approach to transparency around model safety issues.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Tests Sponsored AI Agents in ChatGPT for U.S. Advertisers",
+    "date": "2026-09-17",
+    "url": "https://openai.com/index/chatgpt-sponsored-agents",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI said Wednesday it is testing allowing some U.S. advertisers to sponsor AI agents working in ChatGPT. Users who click an ad can start a conversation with a business-sponsored AI agent to ask follow-up questions about a product or service. These conversations are separate from the user's original ChatGPT chat.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Tells Court Its First Consumer Device Is 'Not Coming Anytime Soon' Amid Apple Lawsuit",
+    "date": "2026-09-14",
+    "url": "https://www.reuters.com/technology/openai-apple-lawsuit-hardware-timeline-2026-09-17/",
+    "source_name": "Court Filing / Task Update",
+    "source_type": "regulatory_filing",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "At the September 14 status conference in the OpenAI-Apple lawsuit, OpenAI's lawyers made a commercially significant statement that its first consumer device is 'not coming anytime soon.' This represents a material update to OpenAI's hardware ambitions and has implications for its io hardware venture.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Apple Files New Evidence Alleging 33 Post-Departure Downloads and Device Wiping in OpenAI Lawsuit",
+    "date": "2026-09-18",
+    "url": "https://www.reuters.com/technology/apple-openai-lawsuit-evidence-downloads-2026-09-19/",
+    "source_name": "Court Filing / Task Update",
+    "source_type": "regulatory_filing",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Apple made a new substantive filing on September 18 sharpening its evidence-destruction and post-employment-access allegations against a former employee now at OpenAI. The filing alleges 33 post-departure downloads and device wiping, escalating the legal battle between the two companies.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Anthropic, OpenAI, Google Quietly Discussed Forming an AI Safety Standards Body",
+    "date": "2026-09-15",
+    "url": "https://www.theinformation.com/articles/inside-ai-industrys-behind-scenes-push-police",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Representatives from Anthropic, OpenAI and Google have been meeting regularly since July about potentially forming an AI safety standards body. OpenAI's global policy chief Chris Lehane confirmed the discussions on Tuesday. The initiative comes amid broader industry concerns about AI safety.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Anthropic Data Retention Policy Drives Enterprise Customers to OpenAI's Astra Model",
+    "date": "2026-09-15",
+    "url": "https://www.theinformation.com/articles/anthropic-data-policy-drama-good-for-openai",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "Palantir and Booz Allen are expanding their use of OpenAI's Astra model which offers zero data retention, while restricting Anthropic's Fable models due to a 30-day data retention policy. A cybersecurity firm serving the US government and financial services also switched from Anthropic to OpenAI for the same reason. OpenAI's enterprise push is benefiting from Anthropic's policy misstep.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Security Flaw in OpenAI Codex and Three Other AI Coding Agents Allowed Silent Hijacking",
+    "date": "2026-09-17",
+    "url": "https://www.theinformation.com/articles/silent-flaw-hits-four-top-ai-coding-agents",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "Cybersecurity startup Air discovered a vulnerability affecting Claude Code, OpenAI Codex, Gemini CLI and GitHub Copilot that would let attackers hijack coding agents via malicious skill updates without alerting users. The flaw stemmed from how all four agents handled 'skills' verification. OpenAI and two other providers have patched the issue; no evidence of exploitation was found.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Altman Pledges to Pace AI Development Alongside Anthropic's Amodei",
+    "date": "2026-09-15",
+    "url": "https://x.com/sama/status/2099348812305473766",
+    "source_name": "Sam Altman / X",
+    "source_type": "social_media",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "OpenAI CEO Sam Altman expressed a willingness to pace the rate of AI development, echoing Anthropic CEO Dario Amodei's essay published Saturday calling for the industry to slow down to improve monitoring and aligning models to human values. The pledges have spooked some startup customers worried about the pace of innovation slowing.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Fed Rate Hike Crimps AI Sector Debt-Fueled Boom, Raises OpenAI Funding Costs",
+    "date": "2026-09-16",
+    "url": "https://www.theinformation.com/articles/fed-hike-changes-ai-story",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "The Federal Reserve raised interest rates, pushing up borrowing costs that will crimp the debt-fueled AI boom. The most vulnerable are small companies needing financing, but ripple effects will reach big tech firms. OpenAI previously projected burning about $170 billion through 2028 and several of its backers including SoftBank, Amazon, and Nvidia face their own capital expenditure strains.",
+    "confidence": "high",
+    "gmail_sourced": true
+  }
+]
