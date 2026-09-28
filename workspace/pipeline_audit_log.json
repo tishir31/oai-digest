@@ -415,5 +415,83 @@
         "high_total": 15
       }
     }
+  },
+  {
+    "run_id": "run_20260928T163033",
+    "run_date": "2026-09-28T16:30:33.342567",
+    "steps": {
+      "reporter": {
+        "items_produced": 59,
+        "confidence_breakdown": {
+          "high": 52,
+          "medium": 6,
+          "low": 1
+        },
+        "source_type_counts": {
+          "wire_service": 18,
+          "tech_press": 26,
+          "social_media": 1,
+          "press_release": 2,
+          "developer_docs": 3,
+          "official_blog": 8,
+          "other": 1
+        },
+        "gmail_sourced_count": 12
+      },
+      "curator": {
+        "items_in": 59,
+        "items_kept": 24,
+        "items_cut": 12,
+        "cut_reasons": {
+          "Minor procedural court filing. Not substantive enough for IB audience.": 1,
+          "Social media speculation. Substance will come from DevDay itself which is outside this week's window.": 1,
+          "Low confidence leak. Wait for DevDay announcement.": 1,
+          "Date outside target week (Sep 28 is Monday, window ends Sep 27).": 1,
+          "General AI policy, not specifically about OpenAI the company.": 1,
+          "General AI geopolitics, not specifically about OpenAI.": 2,
+          "Pre-announcement speculation. Wait for DevDay itself.": 1,
+          "Minor educational initiative. Not material for IB audience.": 1,
+          "Duplicate angle \u2014 same regulatory pivot covered by UN briefing and SAFA items.": 1,
+          "Speculative comment at a conference. Not a concrete deal or commitment.": 1,
+          "Duplicate URL with the Apple lawsuit procedural item. Detail buried in a court filing.": 1
+        },
+        "source_diversity_warning": false,
+        "items_with_corroboration_2plus": 10
+      },
+      "coverage_auditor": {
+        "verdict": "sufficient",
+        "curated_count": 24,
+        "coverage_floor": 7,
+        "empty_categories": [],
+        "thin_categories": []
+      },
+      "backfill_reporter": {
+        "ran": false,
+        "items_found": 0,
+        "backfill_sourced_count": 0
+      },
+      "fact_checker": {
+        "items_in": 24,
+        "items_verified": 24,
+        "items_rejected": 0,
+        "rejection_reasons": [],
+        "url_200_count": 0,
+        "url_403_count": 24,
+        "url_other_count": 0
+      },
+      "editor_in_chief": {
+        "items_in_digest": 24,
+        "historical_dedup_check_run": true
+      },
+      "gap_checker": {
+        "ran": true,
+        "items_found": 0
+      },
+      "confidence_calibration": {
+        "ran": true,
+        "well_calibrated": true,
+        "high_total": 52
+      }
+    }
   }
 ]
