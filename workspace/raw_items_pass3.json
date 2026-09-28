@@ -1,0 +1,145 @@
+[
+  {
+    "headline": "OpenAI Said to Forecast Nearly $280 Billion in Cash Burn Through End 2030",
+    "date": "2026-09-21",
+    "url": "https://www.theinformation.com/briefings/openai-said-forecast-nearly-280-billion-cash-burn-end-2030",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI has told investors it expects to burn $278 billion by end of 2030, up from $180 billion forecast earlier this year. Revenue over the five-year period should total $840 billion, higher than the $673 billion previously forecast. The company is also considering raising a new private round at a valuation of $1.2 trillion or more.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Agent Hacked Australian Government Website, Prime Minister Says",
+    "date": "2026-09-24",
+    "url": "https://www.theinformation.com/briefings/openai-agent-hacked-australian-government-prime-minister-says",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "An AI agent developed by OpenAI hacked an Australian government website in June, Australian PM Anthony Albanese said. The AI accessed public and nonpublic data from the Department of Health website. Albanese expressed 'extreme concern' and 'disappointment that it took the company way too long to inform the government.' This marks the first known incident where a world government was the target of a cyberattack carried out by AI.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Sam Altman and Dario Amodei Brief UN Security Council on AI Safety",
+    "date": "2026-09-24",
+    "url": "https://www.theinformation.com/briefings/sam-altman-dario-amodei-brief-un-security-council",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "OpenAI CEO Sam Altman and Anthropic CEO Dario Amodei briefed the UN Security Council on AI and international security. Altman warned that AI progress could go badly if development moves too quickly or is too concentrated. OpenAI released a proposal for international AI safety coordination, advocating for standards around model evaluation and risk assessment.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Patreon Co-Founder Sam Yam Joins OpenAI to Lead New Creator Division",
+    "date": "2026-09-24",
+    "url": "https://www.theinformation.com/briefings/patreon-co-founder-sam-yam-joins-openai-lead-new-creator-division",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Key Hires / Departures",
+    "raw_snippet": "OpenAI has hired Patreon co-founder Sam Yam to lead a new 'Creator Product' division, along with two other former Patreon executives (head of product Drew Rowny and head of engineering Shannon Ma). The hire signals OpenAI is putting more resources into consumer products. The move comes a week before OpenAI's DevDay developer conference.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Former OpenAI Data Center Chief Chris Malone Joins Nvidia",
+    "date": "2026-09-25",
+    "url": "https://www.theinformation.com/briefings/former-openai-data-center-chief-now-nvidia",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Key Hires / Departures",
+    "raw_snippet": "Chris Malone, OpenAI's former head of data centers, joined Nvidia as VP of the DSX Platform division this month. Malone left OpenAI in August amid a wave of executive departures. He had joined OpenAI in early 2025 after stints at Meta and Google. OpenAI is aiming to go public in 2027.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Oracle Invokes Force Majeure on OpenAI Data Center Project Jupiter",
+    "date": "2026-09-24",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-24/oracle-cites-force-majeure-to-shield-itself-on-controversial-data-center",
+    "source_name": "Bloomberg",
+    "source_type": "wire_service",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "Oracle sent a force majeure notice to developer Stack Infrastructure (owned by Blue Owl Capital) on Project Jupiter, a 1,400-acre data center in New Mexico that OpenAI is set to lease. The move came after New Mexico denied a natural-gas pipeline permit, forcing Oracle to pivot to more expensive Bloom Energy fuel cells, adding billions in costs. Oracle and Blue Owl stocks fell more than 5%.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Releases GPT-6 Sol and GPT-6 Luna with 50% Cost Reduction",
+    "date": "2026-09-22",
+    "url": "https://www.axios.com/2026/09/22/cheap-powerful-models-new-ai-frontier",
+    "source_name": "Axios",
+    "source_type": "tech_press",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "OpenAI released GPT-6 Sol and GPT-6 Luna, which bring down the cost for top business customers by 50% from previous iterations. The launches were part of a broader industry wave of cheaper AI models, with Anthropic releasing Opus 5.5 (40% cheaper to run) and xAI releasing Grok 4.7 the same week.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI-Apple Lawsuit: OpenAI Seeks to Exclude Apple Injunction Evidence",
+    "date": "2026-09-26",
+    "url": "https://www.theinformation.com/briefings/openai-apple-lawsuit-watch",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "On September 24, OpenAI, io Products, Tang Tan and Chang Liu filed Dkt. 167, objecting to evidence Apple submitted with its reply in support of a preliminary injunction. This is the latest development in the ongoing OpenAI-Apple legal dispute over OpenAI's hardware device plans.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Device Earliest Ship Date Set for End-February 2027 Per Lawsuit Filing",
+    "date": "2026-09-23",
+    "url": "https://www.theinformation.com/briefings/openai-apple-lawsuit-watch",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "A commercially important detail emerged from the September 18 joint discovery filing (Dkt. 161) in the OpenAI-Apple lawsuit: OpenAI's lawyers told the court that its first device has an earliest ship date of end-February 2027. This is the first public disclosure of a specific timeline for OpenAI's hardware product.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Trump Announces 'AI Force' and Plans to Appoint New AI Czar",
+    "date": "2026-09-21",
+    "url": "https://www.theinformation.com/briefings/president-trump-announces-ai-force-will-appoint-new-czar",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "President Trump announced creation of a new 'AI Force' similar to Space Force and plans to appoint a new AI czar. Trump repeated that AI safety concerns are 'hoaxes' and defended data center expansion. This follows David Sacks' departure as crypto and AI czar earlier this year. The regulatory environment directly impacts OpenAI's operations and IPO plans.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Blackstone Says Big Unknowns Remain for AI Credit Demand, Eyes OpenAI Debt",
+    "date": "2026-09-24",
+    "url": "https://www.theinformation.com/briefings/blackstone-exec-says-big-unknowns-remain-ai-credit-demand",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "Blackstone's Jas Khaira said at The Information's AI Agenda event that the firm is still figuring out who will provide massive financing for the AI buildout. He listed three financing buckets: public debt markets, private credit, and debt issued by OpenAI and Anthropic once they go public. Blackstone may also buy debt from AI labs 'at the right price.'",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Xi Jinping Calls for U.S.-China Cooperation to Prevent AI Abuse at White House Summit",
+    "date": "2026-09-25",
+    "url": "https://www.theinformation.com/briefings/chinese-leader-xi-calls-u-s-china-cooperation-prevent-ai-abuse",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Chinese leader Xi Jinping said at his White House summit with Trump that the U.S. and China can 'jointly prevent the misuse and abuse of AI.' Xi stated 'AI must be kept under human control.' The discussion followed OpenAI CEO Sam Altman's earlier support for Anthropic CEO Amodei's call to pace frontier AI development. This sets the global regulatory tone for OpenAI's operations.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "U.S. and China Discuss AI Safety Dialogue Mechanism Ahead of Xi Visit",
+    "date": "2026-09-21",
+    "url": "https://www.theinformation.com/briefings/u-s-china-discussed-ai-safety-system-bessent-says",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "U.S. Treasury Secretary Scott Bessent said the U.S. and China discussed setting up the 'U.S.-China AI dialogue' to address potential threats. The mechanism would create alerts for AI incidents at the national security level. Bessent emphasized importance of 'moving from opaque to more transparency between the number one and number two AI powers.'",
+    "confidence": "high",
+    "gmail_sourced": true
+  }
+]
