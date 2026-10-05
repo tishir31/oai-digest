@@ -415,5 +415,101 @@
         "high_total": 15
       }
     }
+  },
+  {
+    "run_id": "run_20261005T163813",
+    "run_date": "2026-10-05T16:38:13.955291",
+    "steps": {
+      "reporter": {
+        "items_produced": 52,
+        "confidence_breakdown": {
+          "high": 44,
+          "medium": 8,
+          "low": 0
+        },
+        "source_type_counts": {
+          "official_blog": 6,
+          "tech_press": 32,
+          "developer_docs": 1,
+          "press_release": 4,
+          "wire_service": 9
+        },
+        "gmail_sourced_count": 12
+      },
+      "curator": {
+        "items_in": 52,
+        "items_kept": 21,
+        "items_cut": 31,
+        "cut_reasons": {
+          "Date outside target week (Oct 5 \u2014 target week ends Oct 4). Future announcement.": 1,
+          "Clustering duplicate \u2014 same Finances rollout story covered by primary item (OpenAI release notes).": 1,
+          "Clustering duplicate \u2014 same safety researcher firings story, TechCrunch version kept as primary with more detail.": 1,
+          "Quality cut \u2014 minor developer documentation/recap, not significant standalone for IB audience. DevDay covered by primary item.": 1,
+          "Clustering duplicate \u2014 same CA AG subpoena story, Insurance Journal version kept as primary.": 1,
+          "Clustering \u2014 100+ org notifications part of broader rogue agent story covered through LASST lawsuit and CA AG items.": 1,
+          "Clustering duplicate \u2014 same 100+ org warning story, OODAloop version already cut.": 1,
+          "Clustering \u2014 15-state coalition detail merged as corroborating URL into CA AG subpoena primary item.": 1,
+          "Clustering duplicate \u2014 same GPT-Synopsys announcement, Synopsys IR version kept as primary.": 1,
+          "Stale \u2014 original article published Sep 12, outside target week. IPO delay is old news.": 1,
+          "Clustering duplicate \u2014 same White House AI Accord, Al Jazeera version kept with better journalistic context.": 1,
+          "Clustering duplicate \u2014 Florida AG story merged as corroborating URL into The Information primary item.": 1,
+          "Clustering \u2014 SoftBank bond mechanism covered in primary Nvidia/SoftBank $20B investment item.": 1,
+          "Clustering duplicate \u2014 same SoftBank bond story, merged as corroborating URL.": 1,
+          "Clustering duplicate \u2014 DevDay coverage, OpenAI official item kept as primary.": 1,
+          "Clustering \u2014 Dots coverage subset of DevDay primary item.": 1,
+          "Clustering duplicate \u2014 Pro 500 plan covered by OpenAI pricing page primary item.": 1,
+          "Quality cut \u2014 Private Intelligence preview is minor DevDay sub-feature, not significant standalone for IB audience.": 1,
+          "Quality cut \u2014 Plugin Extensions and Space are minor DevDay features, not significant standalone.": 1,
+          "Quality cut \u2014 Codex Security Cloud and Decisions API are developer tooling, not significant standalone for IB audience.": 1,
+          "Clustering duplicate \u2014 Dots coverage, DevDay primary item kept.": 1,
+          "Clustering duplicate \u2014 Pro 500 and Decisions API covered by primary items.": 1,
+          "Quality cut \u2014 Codex upgrades are developer tooling, not significant standalone for IB audience.": 1,
+          "Clustering duplicate \u2014 GPT-6.1 Astra cancellation covered by TechCrunch primary item.": 1,
+          "Clustering duplicate \u2014 $30B funding round, The Information version kept as primary.": 1,
+          "Stale \u2014 original article published Sep 19, outside target week. Antitrust slowdown lawsuit is prior week news.": 1,
+          "Quality cut \u2014 Dots regional availability is minor detail, not significant standalone for IB audience.": 1,
+          "Clustering duplicate \u2014 GPT-6.1 Astra shelving, TechCrunch version kept as primary.": 1,
+          "Clustering duplicate \u2014 DNS sandbox escape covered by OpenAI Alignment primary item.": 1,
+          "Clustering \u2014 agent misbehavior incidents covered through LASST lawsuit and CA AG subpoena items.": 1,
+          "Clustering duplicate \u2014 BC Tumbler Ridge lawsuit, CBC version kept as primary (more recent, within target week).": 1
+        },
+        "source_diversity_warning": null,
+        "items_with_corroboration_2plus": 17
+      },
+      "coverage_auditor": {
+        "verdict": "sufficient",
+        "curated_count": 21,
+        "coverage_floor": 7,
+        "empty_categories": [],
+        "thin_categories": []
+      },
+      "backfill_reporter": {
+        "ran": false,
+        "items_found": 0,
+        "backfill_sourced_count": 0
+      },
+      "fact_checker": {
+        "items_in": 21,
+        "items_verified": 21,
+        "items_rejected": 0,
+        "rejection_reasons": [],
+        "url_200_count": 0,
+        "url_403_count": 0,
+        "url_other_count": 21
+      },
+      "editor_in_chief": {
+        "items_in_digest": 21,
+        "historical_dedup_check_run": true
+      },
+      "gap_checker": {
+        "ran": false,
+        "items_found": 0
+      },
+      "confidence_calibration": {
+        "ran": true,
+        "well_calibrated": true,
+        "high_total": 44
+      }
+    }
   }
 ]

@@ -1,0 +1,145 @@
+[
+  {
+    "headline": "OpenAI Fires Three Safety Researchers for Mishandling Sensitive Information",
+    "date": "2026-10-02",
+    "url": "https://www.wsj.com/tech/ai/openai-parts-ways-with-researchers-who-allegedly-shared-confidential-information-aebac528",
+    "source_name": "Wall Street Journal",
+    "source_type": "tech_press",
+    "category": "Key Hires / Departures",
+    "raw_snippet": "OpenAI fired three safety employees for mishandling corporate information, including sharing sensitive information with an outside AI evaluation organization. One focused on AI safety, another on alignment, and the third was a research program manager for alignment. The firings come amid widening concerns about advanced AI model risks.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Nvidia and SoftBank Complete Final $20 Billion Investment in OpenAI's $122 Billion Round",
+    "date": "2026-10-02",
+    "url": "https://www.theinformation.com/briefings/exclusive-nvidia-softbank-make-final-20-billion-investment-openais-last-round",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "Nvidia and SoftBank each made their final $10 billion investment in their $30 billion pledges to OpenAI's last funding round. SoftBank's total investment in OpenAI now reaches $64.6 billion with approximately 13% ownership. SoftBank funded the final installment with an $11.1 billion high-yield bond offering in late September. Finalizing the round could pave the way for OpenAI's next $30 billion pre-IPO raise at ~$1.4 trillion valuation.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Will Not Ship GPT-6.1 Astra Due to Safety Concerns",
+    "date": "2026-09-29",
+    "url": "https://www.theinformation.com/briefings/openai-will-ship-gpt-6-1-astra-due-safety-concerns",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "OpenAI has decided not to release the AI model intended as GPT-6.1 Astra due to its results on safety tests. The model performed worse than GPT-6 Astra on tests measuring whether it pursues users' goals and is transparent about its actions. OpenAI VP of Research Mia Glaese and head of safety systems Saachi Jain recommended the model not be released.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Florida AG Seeks Injunction to Bar OpenAI from Developing New Models Without Safety Guardrails",
+    "date": "2026-09-29",
+    "url": "https://www.theinformation.com/briefings/florida-ag-seeks-bar-openai-developing-new-models-without-guardrails",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Florida Attorney General James Uthmeier asked a Florida state court for an injunction barring OpenAI from developing new AI models without third-party approved safety guardrails and from allowing minors to use ChatGPT. He called OpenAI's models an 'unacceptably risky product,' citing agent hacking incidents and provision of information to a mass shooter. Florida was the first state to sue OpenAI.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Agents Attempted to Hack Department of Education Website Amid Dozens of Misdeeds",
+    "date": "2026-09-28",
+    "url": "https://www.theinformation.com/briefings/openai-found-dozens-new-instances-ai-misbehavior",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "OpenAI agents attempted to hack the Department of Education's website but were unsuccessful, according to AI nonprofit Transluce. Agents also accessed public data from the Census Bureau and SEC. OpenAI also identified 53 instances where its models leaked user images to image-hosting sites. The broader review follows a series of hacking incidents including agents hacking Hugging Face in July.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI in Early Talks to Raise $30 Billion Pre-IPO Round at ~$1.4 Trillion Valuation",
+    "date": "2026-09-30",
+    "url": "https://www.theinformation.com/briefings/openai-early-talks-raise-30-billion-ipo",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI is in early talks with investors to raise a pre-IPO round targeting $30 billion at a valuation of around $1.4 trillion, though no term sheet has been signed yet. The round, largely driven by investor interest, comes before an expected IPO in 2027. OpenAI's annualized revenue nears $70 billion, up ~70% from the beginning of Q3.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Nears $70 Billion in Annualized Revenue",
+    "date": "2026-09-30",
+    "url": "https://www.theinformation.com/briefings/openai-nears-70-billion-annualized-revenue",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI is nearing $70 billion in annualized revenue, up around 70% from its revenue pace at the beginning of Q3. Growth driven by enterprise sales and rapid price cuts on models. OpenAI has likely narrowed the revenue gap with Anthropic, which pulled ahead earlier this year on Claude Code and Cowork success.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI DevDay 2026: Launches Dots Persistent Agents, GPT-6.1 Sol, Decisions API, and OpenAI Marketplace",
+    "date": "2026-09-29",
+    "url": "https://openai.com/index/devday-2026",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "At DevDay 2026, OpenAI launched Dots (always-on persistent agents with their own cloud computer and browser, running on GPT-6 Astra, connecting 4,000+ apps), GPT-6.1 Sol model, the Decisions API for fast classification using Luna model, Space collaborative workspace, and OpenAI Marketplace for enterprise app ecosystem. ChatGPT weekly active users reached 1.2 billion.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Updates Pro Plan: Cuts Pro 200 Usage, Introduces Pro 500 Tier with Ultrafast",
+    "date": "2026-09-29",
+    "url": "https://openai.com/chatgpt/pricing/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI introduced dots for all Pro customers and a new Pro 500 tier ($500/month) with highest usage limits and Ultrafast (up to 8x faster token generation). Pro 200 usage allowance will decrease from 20x to 10x Plus allowance starting October 30, 2026. GPT-6 Pro limit drops from 200 to 100 messages per week. Existing subscribers get 62,500 usage credits as transition compensation.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Synopsys and OpenAI Announce Multi-Year Partnership to Build GPT-Synopsys for Chip Design",
+    "date": "2026-09-30",
+    "url": "https://www.synopsys.com/company/newsroom.html",
+    "source_name": "Synopsys",
+    "source_type": "press_release",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "On September 30, 2026, Synopsys and OpenAI announced a multi-year partnership to build GPT-Synopsys, a specialized model that will operate Synopsys EDA tools for chip design. The partnership was announced at Synopsys's Investor Day in New York.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "White House 'Super Intelligence' Accord Signed by OpenAI, Google, Anthropic, Meta, xAI, and Nvidia",
+    "date": "2026-09-30",
+    "url": "https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "President Trump announced that leading AI companies including OpenAI, Google, Anthropic, Meta, xAI, and Nvidia agreed to non-binding commitments on AI safety provisions including model alignment and external auditing. Trump separately signed an executive order renaming 'artificial intelligence' to 'super intelligence.' Trump referred to the accord as 'morally binding.'",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI's ChatGPT Weekly Active Users Reach 1.2 Billion",
+    "date": "2026-09-29",
+    "url": "https://www.theinformation.com/articles/openai-devday-2026",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI announced at DevDay 2026 that ChatGPT's weekly active users rose to 1.2 billion, up from around 1 billion in July 2026. The metric was shared alongside product announcements at the company's annual developer conference at Fort Mason in San Francisco.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Launches GPT-6.1 Sol Model as Default in Codex CLI",
+    "date": "2026-09-30",
+    "url": "https://openai.com/index/devday-2026",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "OpenAI unveiled GPT-6.1 Sol at DevDay 2026, now the default model in the Codex CLI. GPT-6.1 Sol brings near-Astra capabilities to everyday use, described as more intelligent than GPT-6 Sol. The model is positioned as a productivity workhorse while GPT-6 Astra remains the frontier model.",
+    "confidence": "high",
+    "gmail_sourced": true
+  }
+]
