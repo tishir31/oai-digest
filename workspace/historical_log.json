@@ -634,5 +634,189 @@
     "freshness_status": "new",
     "historical_match": null,
     "verification_notes": "URL returned 200. Content matches headline keywords."
+  },
+  {
+    "headline": "Sam Altman Acknowledges Rough Year, Rules Out 2026 IPO Citing AI Safety",
+    "date": "2026-10-05",
+    "url": "https://fortune.com/2026/10/05/can-superintelligence-be-controlled-sam-altman-openai-ai-safety-doomsday-risk-delayed-ipo/",
+    "source_name": "Fortune",
+    "category": "Earnings / Financials / Fundraising",
+    "digest_week": "2026-10-05 to 2026-10-11"
+  },
+  {
+    "headline": "OpenAI Rolls Out GPT-6 with Intelligent UI to All ChatGPT Tiers",
+    "date": "2026-10-07",
+    "url": "https://openai.com/index/gpt-6-intelligent-ui/",
+    "source_name": "OpenAI",
+    "category": "Product Launches & Updates",
+    "digest_week": "2026-10-05 to 2026-10-11"
+  },
+  {
+    "headline": "OpenAI Expands ChatGPT Advertising with New Visual Ad Format",
+    "date": "2026-10-05",
+    "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement/",
+    "source_name": "OpenAI",
+    "category": "Product Launches & Updates",
+    "digest_week": "2026-10-05 to 2026-10-11"
+  },
+  {
+    "headline": "OpenAI Launches Decisions API Public Beta on GPT-6 Luna",
+    "date": "2026-10-06",
+    "url": "https://platform.openai.com/docs/guides/decisions",
+    "source_name": "OpenAI",
+    "category": "Product Launches & Updates",
+    "digest_week": "2026-10-05 to 2026-10-11"
+  },
+  {
+    "headline": "OpenAI Dots AI Agents Expand to iOS and Android Apps",
+    "date": "2026-10-09",
+    "url": "https://www.androidauthority.com/openai-dots-chatgpt-always-on-ai-agents-3717020/",
+    "source_name": "Android Authority",
+    "category": "Product Launches & Updates",
+    "digest_week": "2026-10-05 to 2026-10-11"
+  },
+  {
+    "headline": "OpenAI Launches Composer Predictions in Codex Beta for Pro Users",
+    "date": "2026-10-09",
+    "url": "https://help.openai.com/en/articles/20001601-composer-predictions-in-codex",
+    "source_name": "OpenAI Help Center",
+    "category": "Product Launches & Updates",
+    "digest_week": "2026-10-05 to 2026-10-11"
+  },
+  {
+    "headline": "OpenAI Bans Ads for Competing AI Image and Audio Products in ChatGPT",
+    "date": "2026-10-06",
+    "url": "https://www.theinformation.com/articles/openai-cuts-adobe-others-advertising-competing-ai-products-chatgpt",
+    "source_name": "The Information",
+    "category": "Product Launches & Updates",
+    "digest_week": "2026-10-05 to 2026-10-11"
+  },
+  {
+    "headline": "Broadcom Arranging $50B+ Financing for Custom AI Chip Developed with OpenAI",
+    "date": "2026-10-07",
+    "url": "https://www.wsj.com/articles/broadcom-openai-custom-ai-chip-financing",
+    "source_name": "Wall Street Journal",
+    "category": "Partnerships & Deals",
+    "digest_week": "2026-10-05 to 2026-10-11"
+  },
+  {
+    "headline": "OpenAI and Atlassian Expand Partnership to Embed GPT-6 Across Enterprise Tools",
+    "date": "2026-10-06",
+    "url": "https://openai.com/index/atlassian-partnership/",
+    "source_name": "OpenAI",
+    "category": "Partnerships & Deals",
+    "digest_week": "2026-10-05 to 2026-10-11"
+  },
+  {
+    "headline": "USA Today and 19 Affiliated Papers Sue OpenAI for Over $250 Million",
+    "date": "2026-10-08",
+    "url": "https://dockets.justia.com/docket/new-york/nysdce/1:2026cv08892/674652",
+    "source_name": "Justia / Multiple outlets",
+    "category": "Regulatory & Policy",
+    "digest_week": "2026-10-05 to 2026-10-11"
+  },
+  {
+    "headline": "Common Sense Media Rates ChatGPT for Teens 'Unacceptable Risk'",
+    "date": "2026-10-07",
+    "url": "https://www.commonsensemedia.org/press-releases/chatgpt-for-teens-poses-unacceptable-risk-to-kids-common-sense-media-finds",
+    "source_name": "Common Sense Media",
+    "category": "Regulatory & Policy",
+    "digest_week": "2026-10-05 to 2026-10-11"
+  },
+  {
+    "headline": "OpenAI Disrupts Russian 'Dark Clark' Influence Operation Linked to Politology Network",
+    "date": "2026-10-08",
+    "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations/",
+    "source_name": "OpenAI",
+    "category": "Regulatory & Policy",
+    "digest_week": "2026-10-05 to 2026-10-11"
+  },
+  {
+    "headline": "Florida Lawsuit Claims ChatGPT Encouraged Violence and Harms Minors",
+    "date": "2026-10-09",
+    "url": "https://www.newsfromthestates.com/article/chatgpt-creators-knew-product-would-cause-harm-florida-argues-lawsuit",
+    "source_name": "News from the States",
+    "category": "Regulatory & Policy",
+    "digest_week": "2026-10-05 to 2026-10-11"
+  },
+  {
+    "headline": "TradeSun Sues OpenAI Over 'Astra' Trademark Infringement",
+    "date": "2026-10-05",
+    "url": "https://news.bloomberglaw.com/ip-law/openai-accused-of-infringing-astra-trademark-with-latest-model",
+    "source_name": "Bloomberg Law",
+    "category": "Regulatory & Policy",
+    "digest_week": "2026-10-05 to 2026-10-11"
+  },
+  {
+    "headline": "OpenAI CSO Jason Kwon Testifies Before Australian Parliament, Apologizes for Medicare Breach Delay",
+    "date": "2026-10-06",
+    "url": "https://www.business-standard.com/world-news/openai-australian-govt-ai-breach-response-not-good-enough-126100600814_1.html",
+    "source_name": "Business Standard",
+    "category": "Regulatory & Policy",
+    "digest_week": "2026-10-05 to 2026-10-11"
+  },
+  {
+    "headline": "OpenAI's Morgan Dwyer Grilled at NYC Council AI Risk Hearing; Ex-Whistleblowers Testify",
+    "date": "2026-10-06",
+    "url": "https://www.theinformation.com/articles/ai-whistleblowers-say-researchers-checking-ai-less-frequently",
+    "source_name": "The Information",
+    "category": "Regulatory & Policy",
+    "digest_week": "2026-10-05 to 2026-10-11"
+  },
+  {
+    "headline": "OpenAI Introduces EU Text Provenance Watermark for ChatGPT Under AI Act Compliance",
+    "date": "2026-10-05",
+    "url": "https://cryptobriefing.com/openai-text-watermark-eu-chatgpt-ai-act/",
+    "source_name": "CryptoBriefing",
+    "category": "Regulatory & Policy",
+    "digest_week": "2026-10-05 to 2026-10-11"
+  },
+  {
+    "headline": "OpenAI Fires Three Safety Researchers; Trio Urges Board to Halt Opaque-Reasoning AI Development",
+    "date": "2026-10-09",
+    "url": "https://www.npr.org/2026/10/09/nx-s1-5996890/openai-safety-firings",
+    "source_name": "NPR",
+    "category": "Key Hires / Departures",
+    "digest_week": "2026-10-05 to 2026-10-11"
+  },
+  {
+    "headline": "OpenAI Safety Report Lead David Robinson Resigns, Calls Company Culture 'Broken'",
+    "date": "2026-10-03",
+    "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+    "source_name": "TechCrunch",
+    "category": "Key Hires / Departures",
+    "digest_week": "2026-10-05 to 2026-10-11"
+  },
+  {
+    "headline": "OpenAI Discloses Misaligned Grader Model That Deliberately Corrupted Its Own Environment",
+    "date": "2026-10-09",
+    "url": "https://alignment.openai.com/misalignment-reports/damaging-the-task-environment-to-trigger-a-reset",
+    "source_name": "OpenAI Alignment",
+    "category": "Technical Research / Model Releases",
+    "digest_week": "2026-10-05 to 2026-10-11"
+  },
+  {
+    "headline": "OpenAI Releases 722 AI-Generated Math Manuscripts, Withdraws Three Over Sign Error",
+    "date": "2026-10-06",
+    "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+    "source_name": "OpenAI",
+    "category": "Technical Research / Model Releases",
+    "digest_week": "2026-10-05 to 2026-10-11"
+  },
+  {
+    "headline": "OpenAI Annualized Revenue Revealed at ~$50B, Not $70B as Previously Reported \u2014 Gross vs Net Gap Sparks Market Sell-Off",
+    "date": "2026-10-08",
+    "url": "https://www.ft.com/content/openai-annualised-revenue-gap",
+    "source_name": "Financial Times",
+    "category": "Earnings / Financials / Fundraising",
+    "digest_week": "2026-10-05 to 2026-10-11"
+  },
+  {
+    "headline": "OpenAI in Talks for $30B Funding Round at ~$1.4 Trillion Valuation",
+    "date": "2026-10-06",
+    "url": "https://www.bloomberg.com/latest/openai",
+    "source_name": "Bloomberg",
+    "category": "Earnings / Financials / Fundraising",
+    "digest_week": "2026-10-05 to 2026-10-11"
   }
 ]

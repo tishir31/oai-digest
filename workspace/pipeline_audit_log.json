@@ -415,5 +415,86 @@
         "high_total": 15
       }
     }
+  },
+  {
+    "run_id": "run_20261012T163508",
+    "run_date": "2026-10-12T16:35:08.663794",
+    "steps": {
+      "reporter": {
+        "items_produced": 58,
+        "confidence_breakdown": {
+          "high": 44,
+          "medium": 13,
+          "low": 1
+        },
+        "source_type_counts": {
+          "official_blog": 7,
+          "wire_service": 8,
+          "tech_press": 33,
+          "developer_docs": 3,
+          "other": 5,
+          "regulatory_filing": 2
+        },
+        "gmail_sourced_count": 12
+      },
+      "curator": {
+        "items_in": 58,
+        "items_kept": 23,
+        "items_cut": 15,
+        "cut_reasons": {
+          "Clustered into the 722 math papers item above. Reaction story, not standalone news event.": 1,
+          "Routine safety update document accompanying GPT-6 launch. Detail subsumed into GPT-6 main story.": 1,
+          "Stale story from March 2026 resurfacing with no new October developments.": 1,
+          "No October developments. Event from May 2026.": 1,
+          "No specific Oct 5-11 development. Ongoing case without new milestone this week.": 1,
+          "No specific Oct 5-11 milestone. Ongoing probe without new development this week.": 1,
+          "Pre-week announcement (Sept 30). Outside target week.": 1,
+          "Pre-week (Sept 30). No specific Oct 5-11 development.": 1,
+          "Pre-week (Oct 1). Context provided by Australian Parliament and NYC Council items this week.": 1,
+          "Pre-week (Oct 1). Outside target week boundary.": 1,
+          "Hearing is Oct 14 (outside target week). No substantive Oct 5-11 development beyond scheduling.": 1,
+          "Tangential. Story is about Microsoft/Anthropic, not directly OpenAI.": 1,
+          "Commentary/interview. No concrete news event. Key factual points (IPO delay, safety acknowledgment) captured in Fortune interview item.": 1,
+          "Minor feature update from changelog tracker only. No MD-level significance.": 1,
+          "Clustered with NYC Council hearing/Dwyer grilling item. Same event context.": 1
+        },
+        "source_diversity_warning": null,
+        "items_with_corroboration_2plus": 20
+      },
+      "coverage_auditor": {
+        "verdict": "sufficient",
+        "curated_count": 23,
+        "coverage_floor": 7,
+        "empty_categories": [],
+        "thin_categories": []
+      },
+      "backfill_reporter": {
+        "ran": false,
+        "items_found": 0,
+        "backfill_sourced_count": 0
+      },
+      "fact_checker": {
+        "items_in": 23,
+        "items_verified": 23,
+        "items_rejected": 0,
+        "rejection_reasons": [],
+        "url_200_count": 0,
+        "url_403_count": 0,
+        "url_other_count": 23
+      },
+      "editor_in_chief": {
+        "items_in_digest": 23,
+        "historical_dedup_check_run": true
+      },
+      "gap_checker": {
+        "ran": false,
+        "items_found": 0
+      },
+      "confidence_calibration": {
+        "ran": true,
+        "well_calibrated": true,
+        "high_total": 44
+      }
+    }
   }
 ]

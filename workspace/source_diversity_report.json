@@ -1,0 +1,16 @@
+{
+  "total_curated": 23,
+  "source_type_distribution": {
+    "wire_service": 4,
+    "tech_press": 9,
+    "official_blog": 6,
+    "developer_docs": 2,
+    "regulatory_filing": 1,
+    "other": 1
+  },
+  "dominant_source_type": "tech_press",
+  "dominant_source_pct": 39.1,
+  "has_official_sources": true,
+  "warnings": [],
+  "verdict": "diverse"
+}
