@@ -1,0 +1,145 @@
+[
+  {
+    "headline": "OpenAI Annualized Revenue Revealed at ~$50B, Not $70B as Previously Reported — Gross vs Net Gap Sparks Market Sell-Off",
+    "date": "2026-10-08",
+    "url": "https://www.ft.com/content/openai-annualised-revenue-gap",
+    "source_name": "Financial Times",
+    "source_type": "wire_service",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "New financial documents shared with OpenAI investors show annualized revenues are about $20B less than the company previously signaled. OpenAI's ~$50B September ARR vs the previously reported ~$70B reflects the difference between gross and net revenue, with Anthropic including cloud partner sales while OpenAI does not. US tech stocks fell sharply, with the Nasdaq 100 closing down 1.4%, Nvidia falling 2.9%, and Oracle dropping 5.5%.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Releases 722 AI-Generated Math Research Papers Spanning 4,000 Problems",
+    "date": "2026-10-06",
+    "url": "https://openai.com/index/math-research-release",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "OpenAI released 722 math manuscripts spanning 372 result families and roughly 4,000 problems from its internal frontier model on October 6. The papers demonstrated AI's ability to solve ultra-difficult math problems through brute force computation and stamina, with AI models handling lots of parameters simultaneously that would take human mathematicians years to process.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Launches 'Intelligent UI' — New Visual Interface for ChatGPT with Graphics, Buttons, Forms and Charts",
+    "date": "2026-10-07",
+    "url": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface",
+    "source_name": "TechCrunch",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI announced Intelligent UI, a new interface for ChatGPT that will integrate more visuals into users' experiences, including graphics, tappable buttons, forms, charts and more. The new interface represents a significant evolution of the ChatGPT user experience beyond text-based interactions.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Three Fired OpenAI Safety Researchers Challenge Dismissal, Say They Were Punished for Raising Safety Concerns",
+    "date": "2026-10-08",
+    "url": "https://www.theinformation.com/articles/fired-openai-researchers-ask-company-preserve-visibility-ai-reasoning",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Key Hires / Departures",
+    "raw_snippet": "The three safety researchers whom OpenAI fired last week challenged OpenAI's decision, saying on Thursday they were punished for raising safety concerns. The fired researchers asked OpenAI to preserve visibility into AI reasoning, escalating a dispute over safety practices at the AI company.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Sends Letter to NYC Council Recommending AI Safeguards, Offers Daybreak Cybersecurity Tools",
+    "date": "2026-10-06",
+    "url": "https://www.theinformation.com/briefings/openai-sent-letter-new-york-city-council-recommending-safeguards-ai-risk",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "OpenAI wrote to the New York City Council recommending that the city put safeguards in place to prevent against the risks of advanced AI. OpenAI's head of U.S. & Canada policy Chan Park wrote that the company wanted to work with New York City cyber defenders to provide tools through its Daybreak cybersecurity program, and said OpenAI is already working with New York state on cybersecurity efforts.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Expands Visual Ads in ChatGPT Image Generation, Partners with Measurement Firms",
+    "date": "2026-10-06",
+    "url": "https://www.theinformation.com/briefings/openai-expands-visual-ads-chatgpt-moves-help-advertisers-measure-impact",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI announced it will test a new visual ad format that uses images to show how products and services could fit into people's lives. The ads will first appear while users generate images in ChatGPT, labeled and kept separate from the image being created. OpenAI is also expanding measurement tools and partnerships with ad services firms including Hightouch, Tealium, LiveRamp, and attribution firms AppsFlyer, Adjust and Airbridge.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Broadcom Arranging $50B+ Financing for Custom AI Chip Developed with OpenAI",
+    "date": "2026-10-08",
+    "url": "https://www.wsj.com/articles/broadcom-openai-custom-ai-chip-financing",
+    "source_name": "Wall Street Journal",
+    "source_type": "wire_service",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "Broadcom has been working in recent weeks to arrange more than $50 billion in financing for a custom AI chip it is developing with OpenAI, with Apollo Global Management and Blackstone among the lenders it has approached, the Wall Street Journal reported.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI's Morgan Dwyer Grilled at NYC Council AI Risk Hearing; Ex-OpenAI Whistleblowers Testify",
+    "date": "2026-10-06",
+    "url": "https://www.theinformation.com/articles/ai-whistleblowers-say-researchers-checking-ai-less-frequently",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "OpenAI's Morgan Dwyer, head of policy development and operations, was grilled by NYC Council members at a hearing on AI risks. When asked to estimate the probability of AI causing a catastrophic event, Dwyer said 'I don't know' and 'it doesn't matter whether it's 1% or 10%,' drawing criticism from Council speaker Julie Menin who called it 'flippant.' Former OpenAI researcher Daniel Kokotajlo testified alongside other AI whistleblowers.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Safety Report Lead David Robinson Resigns, Says OpenAI's 'Culture Is Broken'",
+    "date": "2026-10-08",
+    "url": "https://www.theinformation.com/articles/openai-safety-report-lead-robinson-resigns-culture-broken",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Key Hires / Departures",
+    "raw_snippet": "David Robinson, the OpenAI employee who led the writing of the company's safety reports, resigned and wrote in an essay that OpenAI's 'culture is broken.' He argued that OpenAI's trial-and-error approach to safety (which it calls 'iterative deployment') 'by its very nature, guarantees periodic failures—and the scale of those failures is growing as systems get more capable.'",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Sam Altman Discusses Astra Pause, Rogue-Agent Incidents and 'Superintelligence' Rebrand on Politico Podcast",
+    "date": "2026-10-05",
+    "url": "https://www.politico.com/podcasts/decoded",
+    "source_name": "Politico",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI CEO Sam Altman appeared on Politico's Decoded Podcast discussing the White House AI Accord, the 'Superintelligence' rebrand, rogue-agent incidents, the Astra pause, and where OpenAI splits from Anthropic. The interview was recorded during a week of heightened AI policy activity in Washington.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Bans Ads for Competing AI Image and Audio Products in ChatGPT",
+    "date": "2026-10-06",
+    "url": "https://www.theinformation.com/articles/openai-cuts-adobe-others-advertising-competing-ai-products-chatgpt",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI notified some business partners that it will no longer accept advertising in ChatGPT for image- and audio-generating products, which compete with its own features. The move was disclosed alongside the launch of OpenAI's new visual ad format within ChatGPT's image generation experience.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Will Begin Watermarking AI Output for EU Users to Comply with EU AI Act",
+    "date": "2026-10-06",
+    "url": "https://www.theinformation.com/briefings/openai-expands-visual-ads-chatgpt-moves-help-advertisers-measure-impact",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "OpenAI announced it will begin watermarking its AI output for users in the EU to comply with the EU AI Act. The compliance move was disclosed alongside the company's expansion of visual ads and measurement tools in ChatGPT.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Microsoft Slashes Internal Claude (Anthropic) Spending by a Third — Potential Implications for OpenAI Partnership",
+    "date": "2026-10-06",
+    "url": "https://www.theinformation.com/articles/microsoft-slashes-internal-claude-spending-by-third",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "Microsoft has cut its internal spending on Anthropic's Claude by a third, per The Information's exclusive reporting. The move is notable in the context of Microsoft's primary AI partnership with OpenAI and the competitive dynamics between frontier AI labs.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  }
+]
