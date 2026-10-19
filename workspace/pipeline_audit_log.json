@@ -496,5 +496,85 @@
         "high_total": 44
       }
     }
+  },
+  {
+    "run_id": "run_20261019T163158",
+    "run_date": "2026-10-19T16:31:58.421926",
+    "steps": {
+      "reporter": {
+        "items_produced": 39,
+        "confidence_breakdown": {
+          "high": 22,
+          "medium": 16,
+          "low": 1
+        },
+        "source_type_counts": {
+          "regulatory_filing": 2,
+          "wire_service": 5,
+          "tech_press": 24,
+          "other": 2,
+          "developer_docs": 1,
+          "official_blog": 2,
+          "press_release": 3
+        },
+        "gmail_sourced_count": 9
+      },
+      "curator": {
+        "items_in": 39,
+        "items_kept": 24,
+        "items_cut": 14,
+        "cut_reasons": {
+          "Duplicate of 'OpenAI Cuts ChatGPT Ad Prices and Hires From Meta' \u2014 same story from same outlet, different URL": 1,
+          "Duplicate of 'OpenAI Cuts ChatGPT Ad Prices' \u2014 secondary aggregator coverage of The Information original": 1,
+          "Duplicate of humanoid robot story \u2014 Yahoo/Fortune version is higher authority": 1,
+          "Duplicate of ChatGPT Slides story \u2014 official OpenAI release notes kept as primary source": 1,
+          "Not about OpenAI \u2014 breach was at OpenCode, not OpenAI. OpenAI mentioned only as API provider whose keys were among those exposed.": 1,
+          "Date (Oct 7) is outside the target week window (Oct 12-18). Already covered in prior week's digest.": 1,
+          "Stale \u2014 original article is from Sep 29 TechCrunch. No new development this week. Already known from prior week's coverage of $30B round talks.": 1,
+          "Trivially minor for IB audience \u2014 routine partner network addition with no financial terms disclosed": 1,
+          "Meta-coverage \u2014 counts complaints already covered by the 8-state AG suit and children's class action items. Used as corroboration for AG suit.": 1,
+          "Duplicate of 8-state AG suit story \u2014 WaPo deep dive on same event. Used as corroboration for CNBC primary.": 1,
+          "Duplicate of children's class action story \u2014 Bloomberg Law version kept as higher authority source": 1,
+          "Duplicate of FBI/Alfozan arrest story \u2014 DOJ press release kept as primary source": 1,
+          "Duplicate of Katti departure/Ruddarraju promotion story \u2014 CNBC version kept as primary": 2
+        },
+        "source_diversity_warning": "tech_press accounts for 61% of curated items (14/23). Just above the 60% threshold. Official sources are present (1 official_blog, 1 developer_docs, 1 regulatory_filing). Acceptable given the heavy regulatory/legal week \u2014 most court/enforcement actions are reported by tech press rather than filed as official releases.",
+        "items_with_corroboration_2plus": 11
+      },
+      "coverage_auditor": {
+        "verdict": "sufficient",
+        "curated_count": 24,
+        "coverage_floor": 7,
+        "empty_categories": [],
+        "thin_categories": []
+      },
+      "backfill_reporter": {
+        "ran": false,
+        "items_found": 0,
+        "backfill_sourced_count": 0
+      },
+      "fact_checker": {
+        "items_in": 24,
+        "items_verified": 24,
+        "items_rejected": 0,
+        "rejection_reasons": [],
+        "url_200_count": 24,
+        "url_403_count": 0,
+        "url_other_count": 0
+      },
+      "editor_in_chief": {
+        "items_in_digest": 24,
+        "historical_dedup_check_run": true
+      },
+      "gap_checker": {
+        "ran": true,
+        "items_found": 0
+      },
+      "confidence_calibration": {
+        "ran": true,
+        "well_calibrated": true,
+        "high_total": 22
+      }
+    }
   }
 ]

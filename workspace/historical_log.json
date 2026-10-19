@@ -818,5 +818,245 @@
     "source_name": "Bloomberg",
     "category": "Earnings / Financials / Fundraising",
     "digest_week": "2026-10-05 to 2026-10-11"
+  },
+  {
+    "headline": "OpenAI Cuts ChatGPT Ad Prices and Hires From Meta to Court Smaller Advertisers",
+    "date": "2026-10-15",
+    "url": "https://www.theinformation.com/briefings/openai-launches-new-chatgpt-ads-featuring-specific-products?rc=eqfxgk",
+    "source_name": "The Information",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "The Information reported that OpenAI has cut published ChatGPT ad rates and is hiring from Meta to court small and midsize advertisers. This follows the company's earlier move from per-impression to c",
+    "confidence": "medium",
+    "digest_week": "2026-10-12 to 2026-10-18"
+  },
+  {
+    "headline": "OpenAI CFO Sarah Friar Details $122B Q1 Fundraise and Model Capabilities",
+    "date": "2026-10-14",
+    "url": "https://www.theinformation.com/articles/openai-cfo-sarah-friar-122b-fundraise",
+    "source_name": "The Information / TMTB Podcast",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "In a podcast interview, OpenAI CFO Sarah Friar discussed the company's $122 billion Q1 fundraise and revealed that OpenAI held back a model that had proved a solution to the Navier-Stokes existence an",
+    "confidence": "medium",
+    "digest_week": "2026-10-12 to 2026-10-18"
+  },
+  {
+    "headline": "Sam Altman Confirms OpenAI Will Build Humanoid Robot, Targets 2027 Demo",
+    "date": "2026-10-17",
+    "url": "https://tech.yahoo.com/ai/articles/sam-altmans-openai-wants-humanoid-130101831.html",
+    "source_name": "Yahoo Tech / Fortune",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "Sam Altman confirmed in a Fortune interview that OpenAI will build a humanoid robot and expects a demo in 2027. Altman said the software 'brain' is harder than the physical body and argued a human-lik",
+    "confidence": "high",
+    "digest_week": "2026-10-12 to 2026-10-18"
+  },
+  {
+    "headline": "OpenAI Launches ChatGPT Slides for Pro, Business, and Enterprise Users",
+    "date": "2026-10-16",
+    "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+    "source_name": "OpenAI",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI began rolling out Slides to eligible Pro, Business, and Enterprise users with Space access on web and desktop on October 16. The feature allows users to ask ChatGPT in the Work interface to cre",
+    "confidence": "medium",
+    "digest_week": "2026-10-12 to 2026-10-18"
+  },
+  {
+    "headline": "ChatGPT Chrome Extension Gains 'Work' Mode for Browser Tab Control and Computer Use",
+    "date": "2026-10-15",
+    "url": "https://www.ibtimes.co.uk/openai-chatgpt-browser-tab-task-integration-1826106",
+    "source_name": "International Business Times",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI updated the ChatGPT Chrome extension to split into Chat and Work modes. Work mode can act on browser tabs \u2014 filling forms, sending messages, downloading files, and grouping tabs. Chat mode read",
+    "confidence": "high",
+    "digest_week": "2026-10-12 to 2026-10-18"
+  },
+  {
+    "headline": "OpenAI Rolls Out GPT-Live-1.1 with 13 New Voices Across Six Languages",
+    "date": "2026-10-15",
+    "url": "https://notebookcheck.net/ChatGPT-Voice-GPT-Live-1-1-brings-new-voices-for-six-languages.1425810.0.html",
+    "source_name": "Notebookcheck",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI rolled out GPT-Live-1.1 on October 15 to all ChatGPT Voice, Codex, and Dots users. The update adds 13 new voices \u2014 two each in French, German, Hindi, Japanese, Korean, and Mexican Spanish, plus",
+    "confidence": "high",
+    "digest_week": "2026-10-12 to 2026-10-18"
+  },
+  {
+    "headline": "Rockefeller Foundation and OpenAI Foundation Announce $50 Million 'Cities Deliver' Partnership",
+    "date": "2026-10-14",
+    "url": "https://www.rockefellerfoundation.org/news/rockefeller-openai-50-million-partnership-cities-improve-public-services-ai/",
+    "source_name": "Rockefeller Foundation",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "The Rockefeller Foundation and OpenAI Foundation launched 'Cities Deliver,' a $50 million initiative funding nonprofits that help cities use AI for public services. Grants range from $500,000 to $2 mi",
+    "confidence": "high",
+    "digest_week": "2026-10-12 to 2026-10-18"
+  },
+  {
+    "headline": "OpenAI, Anthropic, and Simons Foundation Launch $15 Million Initiative to Support Mathematicians Using AI",
+    "date": "2026-10-15",
+    "url": "https://www.simonsfoundation.org/?p=61382",
+    "source_name": "Simons Foundation",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "The Simons Foundation, OpenAI, and Anthropic announced a $15 million initiative to help mathematicians evaluate and use AI tools. OpenAI is contributing $5 million. The foundation will manage the mone",
+    "confidence": "high",
+    "digest_week": "2026-10-12 to 2026-10-18"
+  },
+  {
+    "headline": "OpenAI Introduces Rosalind Academic Plan Offering Free GPT-Rosalind Access to University Labs",
+    "date": "2026-10-15",
+    "url": "https://openai.com/index/introducing-the-rosalind-academic-plan/",
+    "source_name": "OpenAI",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI launched the Rosalind Academic Plan providing eligible U.S. university life-sciences labs with up to 30 free Business Standard seats and access to GPT-Rosalind for up to 12 months. A principal ",
+    "confidence": "high",
+    "digest_week": "2026-10-12 to 2026-10-18"
+  },
+  {
+    "headline": "Replit CEO Says Company Dropped Anthropic for OpenAI, but Insiders Dispute the Claim",
+    "date": "2026-10-16",
+    "url": "https://aiweekly.co/alerts/replit-ceo-says-company-dropped-anthropic-for-openai-but-insiders-dispute-the",
+    "source_name": "AI Weekly / TechCrunch",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "Replit CEO Amjad Masad said at TechCrunch Disrupt that Replit is no longer working with Anthropic, citing cost and OpenAI's superior benchmark performance. However, a source familiar with the deal tol",
+    "confidence": "medium",
+    "digest_week": "2026-10-12 to 2026-10-18"
+  },
+  {
+    "headline": "OpenAI Eyes Acquisition of Cybersecurity Startup Trail of Bits",
+    "date": "2026-10-14",
+    "url": "https://www.theinformation.com/articles/openai-trail-of-bits-acquisition",
+    "source_name": "The Information",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI is in talks to acquire Trail of Bits, a well-regarded cybersecurity firm specializing in smart contract auditing and software assurance. The deal would bolster OpenAI's security capabilities as",
+    "confidence": "medium",
+    "digest_week": "2026-10-12 to 2026-10-18"
+  },
+  {
+    "headline": "Eight U.S. State Attorneys General Sue OpenAI Over Child Safety Violations",
+    "date": "2026-10-14",
+    "url": "https://www.cnbc.com/2026/10/14/openai-sued-by-8-states-over-chatgpt-safety-concerns-.html",
+    "source_name": "CNBC",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Attorneys general from Arkansas, Arizona, Idaho, Montana, Iowa, Kansas, West Virginia, and Nebraska filed individual lawsuits against OpenAI, alleging ChatGPT endangers children and teens. Montana AG ",
+    "confidence": "high",
+    "digest_week": "2026-10-12 to 2026-10-18"
+  },
+  {
+    "headline": "FTC Sends Civil Subpoenas to OpenAI and Anthropic Over AI Safety and Consumer Harms",
+    "date": "2026-10-15",
+    "url": "https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation",
+    "source_name": "Axios",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "The FTC escalated its consumer-protection probe by sending civil subpoenas to OpenAI and Anthropic seeking documents on safety incidents, security measures, privacy policies, and marketing materials. ",
+    "confidence": "high",
+    "digest_week": "2026-10-12 to 2026-10-18"
+  },
+  {
+    "headline": "OpenAI Discloses Four More Rogue AI Agent Incidents Involving Financial, Medical, and Government Data",
+    "date": "2026-10-16",
+    "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
+    "source_name": "Fortune",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Fortune reported that OpenAI added four more misbehaving-agent cases to its disclosures page, bringing the total to 19. The incidents occurred in June but OpenAI was unaware of three until August or S",
+    "confidence": "high",
+    "digest_week": "2026-10-12 to 2026-10-18"
+  },
+  {
+    "headline": "EU AI Office Sends First Formal Information Requests to OpenAI and Anthropic Under AI Act",
+    "date": "2026-10-14",
+    "url": "https://www.euronews.com/2026/10/14/eus-ai-rules-face-first-enforcement-test-over-lab-incidents",
+    "source_name": "Euronews",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "The European Commission's AI Office sent formal information requests to OpenAI and Anthropic on October 14 over summer incidents involving their AI models, marking the first enforcement actions under ",
+    "confidence": "high",
+    "digest_week": "2026-10-12 to 2026-10-18"
+  },
+  {
+    "headline": "404 Media Reveals ChatGPT Ads Target Users by Email, Phone Number, and Prompt Content",
+    "date": "2026-10-15",
+    "url": "https://404media.co/how-chatgpt-targets-ads-to-you-based-on-your-prompts-phone-number-and-email",
+    "source_name": "404 Media",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "404 Media's Joseph Cox reported that advertisers can target ChatGPT's roughly 1 billion users using hashed email addresses, phone numbers, or phone advertising IDs, with a minimum audience of 25,000. ",
+    "confidence": "high",
+    "digest_week": "2026-10-12 to 2026-10-18"
+  },
+  {
+    "headline": "Children's Data Class Action Filed Against OpenAI Alleging Unlawful Collection Without Parental Consent",
+    "date": "2026-10-13",
+    "url": "https://news.bloomberglaw.com/litigation/openai-accused-of-taking-minors-data-without-parental-consent",
+    "source_name": "Bloomberg Law",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "A Hawaii family filed a proposed class action in U.S. District Court for the Northern District of California on October 13, alleging OpenAI used minors' sensitive data to train ChatGPT without valid p",
+    "confidence": "high",
+    "digest_week": "2026-10-12 to 2026-10-18"
+  },
+  {
+    "headline": "Apple Gains Expedited Access to OpenAI Hiring Materials in Trade Secrets Lawsuit",
+    "date": "2026-10-16",
+    "url": "https://www.theinformation.com/articles/apple-openai-hiring-materials-lawsuit",
+    "source_name": "The Information",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "A federal court ordered OpenAI to provide Apple with expedited access to hiring-related materials as part of Apple's trade secrets lawsuit against OpenAI. The case centers on allegations that OpenAI s",
+    "confidence": "high",
+    "digest_week": "2026-10-12 to 2026-10-18"
+  },
+  {
+    "headline": "FBI Arrests OpenAI Engineer for Planting Recording Device in Executive Conference Room",
+    "date": "2026-10-13",
+    "url": "https://www.justice.gov/opa/pr/saudi-national-arrested-installing-surreptitious-audio-recording-device-openai",
+    "source_name": "DOJ",
+    "category": "Key Hires / Departures",
+    "raw_snippet": "Abdulrahman Alfozan, 35, a Saudi national and OpenAI engineer, was arrested by the FBI on October 9 for allegedly planting a thumb-sized listening device in an executive conference room. Prosecutors a",
+    "confidence": "high",
+    "digest_week": "2026-10-12 to 2026-10-18"
+  },
+  {
+    "headline": "OpenAI Engineer Alfozan Seeks Bail, Denies Planning to Flee to Saudi Arabia",
+    "date": "2026-10-17",
+    "url": "https://www.cnbc.com/2026/10/14/openai-alfozan-recording-raed-ventures.html",
+    "source_name": "CNBC",
+    "category": "Key Hires / Departures",
+    "raw_snippet": "Abdulrahman Alfozan's defense attorneys argued on October 17 that the former OpenAI engineer should be released on bail, denying prosecutors' claims that he planned to flee to Saudi Arabia. Prosecutor",
+    "confidence": "high",
+    "digest_week": "2026-10-12 to 2026-10-18"
+  },
+  {
+    "headline": "OpenAI Infrastructure Chief Sachin Katti to Depart in November",
+    "date": "2026-10-14",
+    "url": "https://www.cnbc.com/2026/10/14/openais-sachin-katti-to-leave-infrastructure-role-stay-on-as-advisor.html",
+    "source_name": "CNBC",
+    "category": "Key Hires / Departures",
+    "raw_snippet": "The Wall Street Journal reported that Sachin Katti, OpenAI's head of computing capacity, will leave on November 15, 2026. Katti joined in late 2025 and said on LinkedIn he decided to move on to build ",
+    "confidence": "high",
+    "digest_week": "2026-10-12 to 2026-10-18"
+  },
+  {
+    "headline": "Greg Brockman and Wife Withdraw Planned $25 Million Donation to AI Advocacy Super PAC",
+    "date": "2026-10-13",
+    "url": "https://thenextweb.com/news/greg-brockman-leading-the-future-super-pac-second-25m",
+    "source_name": "The Next Web",
+    "category": "Key Hires / Departures",
+    "raw_snippet": "OpenAI co-founder Greg Brockman and his wife Anna pulled out of a second $25 million donation to Leading the Future, a super PAC that backs pro-AI candidates for Congress. Brockman called the PAC a 'd",
+    "confidence": "high",
+    "digest_week": "2026-10-12 to 2026-10-18"
+  },
+  {
+    "headline": "OpenAI's Internal Math Breakthroughs Rattle Cryptography Leaders",
+    "date": "2026-10-14",
+    "url": "https://www.theinformation.com/articles/openai-math-breakthroughs-cryptography-concerns",
+    "source_name": "The Information",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "OpenAI disclosed over 300 novel mathematical results from an internal model, sparking alarm among cryptography experts who warn the advances could threaten current encryption standards. The findings, ",
+    "confidence": "medium",
+    "digest_week": "2026-10-12 to 2026-10-18"
+  },
+  {
+    "headline": "OpenAI Scrambles to Fix Safety Issues Before Shipping Next Flagship Model",
+    "date": "2026-10-14",
+    "url": "https://www.theinformation.com/articles/openai-safety-issues-next-flagship-model",
+    "source_name": "The Information",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "OpenAI engineers are racing to address safety vulnerabilities identified in internal testing of the company's next flagship model before a planned release. The issues include unexpected behaviors in a",
+    "confidence": "medium",
+    "digest_week": "2026-10-12 to 2026-10-18"
   }
 ]

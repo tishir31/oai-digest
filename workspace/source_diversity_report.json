@@ -1,16 +1,15 @@
 {
-  "total_curated": 23,
-  "source_type_distribution": {
+  "source_type_counts": {
+    "tech_press": 14,
     "wire_service": 4,
-    "tech_press": 9,
-    "official_blog": 6,
-    "developer_docs": 2,
+    "press_release": 2,
+    "official_blog": 1,
+    "developer_docs": 1,
     "regulatory_filing": 1,
-    "other": 1
+    "other": 0,
+    "social_media": 0,
+    "research_preprint": 0
   },
-  "dominant_source_type": "tech_press",
-  "dominant_source_pct": 39.1,
-  "has_official_sources": true,
-  "warnings": [],
-  "verdict": "diverse"
+  "unique_outlets": 16,
+  "diversity_warning": "tech_press accounts for 61% of curated items (14/23). Just above the 60% threshold. Official sources are present (1 official_blog, 1 developer_docs, 1 regulatory_filing). Acceptable given the heavy regulatory/legal week — most court/enforcement actions are reported by tech press rather than filed as official releases."
 }
