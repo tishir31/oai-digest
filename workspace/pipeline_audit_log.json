@@ -496,5 +496,83 @@
         "high_total": 44
       }
     }
+  },
+  {
+    "run_id": "run_20261026T162827",
+    "run_date": "2026-10-26T16:28:27.135598",
+    "steps": {
+      "reporter": {
+        "items_produced": 35,
+        "confidence_breakdown": {
+          "high": 24,
+          "medium": 10,
+          "low": 1
+        },
+        "source_type_counts": {
+          "tech_press": 20,
+          "official_blog": 7,
+          "wire_service": 6,
+          "press_release": 1,
+          "regulatory_filing": 1
+        },
+        "gmail_sourced_count": 6
+      },
+      "curator": {
+        "items_in": 35,
+        "items_kept": 18,
+        "items_cut": 17,
+        "cut_reasons": {
+          "Clustering: same event as CNBC funding round primary item, URL added to corroborating_urls": 2,
+          "Clustering: same event as Decisions API GA item, URL added to corroborating_urls": 1,
+          "Clustering: same event as TechCrunch frontier training item, URL added to corroborating_urls": 1,
+          "Clustering: same event as frontier training offline story, URL added to corroborating_urls": 1,
+          "Clustering: same event as OpenAI/Google Cloud official blog item, URL added to corroborating_urls": 1,
+          "Clustering: same event as ChatGPT ads expansion Reuters item, URL added to corroborating_urls": 1,
+          "Clustering: same event as Orchestra Bio official blog item, URL added to corroborating_urls": 2,
+          "Quality: non-binding agreement with no budget, timeline, or deliverables. Not MD-relevant.": 1,
+          "Date outside target week (Oct 17, window is Oct 19-25)": 1,
+          "Date outside target week (Oct 15, window is Oct 19-25)": 1,
+          "Date outside target week (Oct 14, window is Oct 19-25)": 2,
+          "Date outside target week (Oct 13, window is Oct 19-25)": 2,
+          "Date outside target week (Oct 3, window is Oct 19-25)": 1
+        },
+        "source_diversity_warning": null,
+        "items_with_corroboration_2plus": 6
+      },
+      "coverage_auditor": {
+        "verdict": "sufficient",
+        "curated_count": 18,
+        "coverage_floor": 7,
+        "empty_categories": [],
+        "thin_categories": []
+      },
+      "backfill_reporter": {
+        "ran": false,
+        "items_found": 0,
+        "backfill_sourced_count": 0
+      },
+      "fact_checker": {
+        "items_in": 18,
+        "items_verified": 18,
+        "items_rejected": 0,
+        "rejection_reasons": [],
+        "url_200_count": 0,
+        "url_403_count": 0,
+        "url_other_count": 18
+      },
+      "editor_in_chief": {
+        "items_in_digest": 18,
+        "historical_dedup_check_run": true
+      },
+      "gap_checker": {
+        "ran": true,
+        "items_found": 0
+      },
+      "confidence_calibration": {
+        "ran": true,
+        "well_calibrated": true,
+        "high_total": 24
+      }
+    }
   }
 ]

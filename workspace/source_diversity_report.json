@@ -1,16 +1,11 @@
 {
-  "total_curated": 23,
+  "total_curated": 18,
   "source_type_distribution": {
-    "wire_service": 4,
-    "tech_press": 9,
-    "official_blog": 6,
-    "developer_docs": 2,
-    "regulatory_filing": 1,
-    "other": 1
+    "wire_service": 2,
+    "tech_press": 10,
+    "official_blog": 6
   },
-  "dominant_source_type": "tech_press",
-  "dominant_source_pct": 39.1,
-  "has_official_sources": true,
-  "warnings": [],
-  "verdict": "diverse"
+  "unique_outlets": 14,
+  "diversity_warning": null,
+  "notes": "Good source diversity. 6 official blog items (OpenAI blog + Deployment Safety Hub), 2 wire services (CNBC, Reuters), 10 tech press across WSJ, TechCrunch, BleepingComputer, StateScoop, The Information, Unite.AI, Benzinga, CryptoBriefing. No single source_type exceeds 60%. Official sources well-represented."
 }
