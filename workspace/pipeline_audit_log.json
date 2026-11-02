@@ -496,5 +496,78 @@
         "high_total": 44
       }
     }
+  },
+  {
+    "run_id": "run_20261102T170233",
+    "run_date": "2026-11-02T17:02:33.498681",
+    "steps": {
+      "reporter": {
+        "items_produced": 39,
+        "confidence_breakdown": {
+          "high": 24,
+          "medium": 14,
+          "low": 1
+        },
+        "source_type_counts": {
+          "wire_service": 8,
+          "tech_press": 17,
+          "official_blog": 9,
+          "other": 2,
+          "press_release": 3
+        },
+        "gmail_sourced_count": 7
+      },
+      "curator": {
+        "items_in": 39,
+        "items_kept": 25,
+        "items_cut": 6,
+        "cut_reasons": {
+          "Date (Oct 22) falls outside target week of Oct 26-Nov 1": 1,
+          "Stale \u2014 original story from September 30. Superseded by FTC testimony demands item (Oct 26).": 1,
+          "Stale \u2014 lawsuits filed October 14, outside target week.": 1,
+          "Stale \u2014 motion filed in late September. No new development this week.": 1,
+          "Low confidence, minor sub-story. Fair use blog item covers copyright litigation angle more directly.": 1,
+          "Opinion/interview \u2014 not actionable news. Vision statement rather than concrete announcement.": 1
+        },
+        "source_diversity_warning": null,
+        "items_with_corroboration_2plus": 8
+      },
+      "coverage_auditor": {
+        "verdict": "sufficient",
+        "curated_count": 25,
+        "coverage_floor": 7,
+        "empty_categories": [
+          "Key Hires / Departures"
+        ],
+        "thin_categories": []
+      },
+      "backfill_reporter": {
+        "ran": false,
+        "items_found": 0,
+        "backfill_sourced_count": 0
+      },
+      "fact_checker": {
+        "items_in": 25,
+        "items_verified": 25,
+        "items_rejected": 0,
+        "rejection_reasons": [],
+        "url_200_count": 0,
+        "url_403_count": 25,
+        "url_other_count": 0
+      },
+      "editor_in_chief": {
+        "items_in_digest": 25,
+        "historical_dedup_check_run": true
+      },
+      "gap_checker": {
+        "ran": true,
+        "items_found": 0
+      },
+      "confidence_calibration": {
+        "ran": true,
+        "well_calibrated": true,
+        "high_total": 24
+      }
+    }
   }
 ]

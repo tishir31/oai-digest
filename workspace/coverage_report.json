@@ -1,22 +1,23 @@
 {
   "verdict": "sufficient",
-  "curated_count": 23,
+  "curated_count": 25,
   "coverage_floor": 7,
-  "categories_covered": 6,
+  "categories_covered": 5,
   "category_counts": {
-    "Earnings / Financials / Fundraising": 3,
-    "Product Launches & Updates": 6,
-    "Partnerships & Deals": 2,
-    "Regulatory & Policy": 8,
-    "Key Hires / Departures": 2,
-    "Technical Research / Model Releases": 2
+    "Earnings / Financials / Fundraising": 4,
+    "Product Launches & Updates": 4,
+    "Partnerships & Deals": 6,
+    "Regulatory & Policy": 7,
+    "Technical Research / Model Releases": 4
   },
-  "empty_categories": [],
+  "empty_categories": [
+    "Key Hires / Departures"
+  ],
   "thin_categories": [],
   "cut_summary": {
-    "clustering": 2,
-    "quality": 1,
-    "other": 12
+    "clustering": 0,
+    "quality": 3,
+    "other": 3
   },
   "backfill_instructions": null
 }

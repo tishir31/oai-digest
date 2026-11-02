@@ -1,16 +1,12 @@
 {
-  "total_curated": 23,
-  "source_type_distribution": {
-    "wire_service": 4,
-    "tech_press": 9,
-    "official_blog": 6,
-    "developer_docs": 2,
-    "regulatory_filing": 1,
-    "other": 1
+  "total_curated": 25,
+  "source_type_counts": {
+    "official_blog": 7,
+    "wire_service": 7,
+    "tech_press": 10,
+    "press_release": 1
   },
-  "dominant_source_type": "tech_press",
-  "dominant_source_pct": 39.1,
-  "has_official_sources": true,
-  "warnings": [],
-  "verdict": "diverse"
+  "unique_outlets": 18,
+  "diversity_warning": null,
+  "notes": "Good source diversity. 25 curated items from 18 distinct outlets across 4 source types. No single type exceeds 60%. Official sources well represented (7 items from openai.com). Wire services (Bloomberg, CNBC, Reuters) provide strong corroboration."
 }
