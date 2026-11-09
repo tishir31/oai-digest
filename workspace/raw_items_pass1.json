@@ -1,0 +1,302 @@
+[
+  {
+    "headline": "OpenAI Closes $11 Billion First Tranche at $1.25 Trillion Valuation",
+    "date": "2026-11-06",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-06/openai-completes-11-billion-portion-of-funding-at-1-25-trillion-value",
+    "source_name": "Bloomberg",
+    "source_type": "wire_service",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI has closed the first $11 billion tranche of a funding round that values the company at $1.25 trillion pre-money. The full round could grow to about $20 billion, with a second tranche of up to $9 billion still open. The valuation is roughly 50% above the March 2026 round but below the $1.4 trillion OpenAI had initially targeted.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "https://finance.yahoo.com/news/openai-secures-11bn-funding-round-095750139.html",
+      "https://money.usnews.com/investing/news/articles/2026-11-06/openai-secures-11-billion-funding-at-1-25-trillion-valuation-bloomberg-news-reports"
+    ]
+  },
+  {
+    "headline": "Brockman Says Q3 Revenue Grew 70% QoQ, Enterprise Now Over Half of Revenue",
+    "date": "2026-11-04",
+    "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+    "source_name": "TechCrunch",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "At the WSJ Tech conference on November 4, OpenAI President Greg Brockman said annualized revenue rose about 70% quarter-over-quarter in Q3 2026, driven by a roughly doubling of enterprise revenue which now exceeds 50% of total revenue. He called H1 2026 'pretty rough' and credited the turnaround to agentic coding tools, GPT-5.6 Sol, and ChatGPT Work.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://aiweekly.co/alerts/brockman-openai-q3-annualized-revenue-grew-70-after-rough-h1",
+      "https://www.unite.ai/openais-enterprise-sales-take-majority-as-brockman-sees-ipo-readiness/"
+    ]
+  },
+  {
+    "headline": "Brockman Says OpenAI Could Be IPO-Ready in 2027",
+    "date": "2026-11-04",
+    "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+    "source_name": "TechCrunch",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "Asked at the WSJ Tech conference whether OpenAI would be ready to go public in 2027, President Greg Brockman said 'I think so.' Goldman Sachs and Morgan Stanley are the lead underwriters. OpenAI filed a confidential S-1 with the SEC in June 2026.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://invezz.com/ca/news/2026/11/05/openai-ready-for-2027-ipo-as-president-brockman-says-enterprise-revenue-surging/"
+    ]
+  },
+  {
+    "headline": "OpenAI Launches GPT-6 Cyber for Vulnerability Research",
+    "date": "2026-11-05",
+    "url": "https://openai.com/index/introducing-gpt-6-cyber/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "OpenAI released GPT-6 Cyber, a cybersecurity-focused model restricted to vetted Daybreak Red customers. It scores 48.5% on ExploitGym (up from 32.1% for GPT-5.6 Cyber) and avoided out-of-scope exploits in 99.93% of cases without safety prompts. Classified as 'Critical' under OpenAI's Preparedness Framework. The fourth cyber-specific model released this year.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://siliconangle.com/2026/11/05/openai-launches-gpt-6-cyber-a-gpt-6-astra-model-built-to-keep-vulnerability-research-in-scope/",
+      "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+      "https://www.theregister.com/security/2026/11/05/openai-releases-gpt-6-cyber-and-promises-this-one-stays-within-rules-of-engagement/5307855"
+    ]
+  },
+  {
+    "headline": "OpenAI Autonomous Pipeline Finds and Patches 948 Linux Kernel Privilege-Escalation Flaws",
+    "date": "2026-11-04",
+    "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "OpenAI published 'A Thousand Fewer Paths to Root,' describing an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel. The run cost approximately $1.2 million. 304 critical cases have already reached maintainers with candidate patches. Researchers also used the pipeline to find 81 high-severity Firefox vulnerabilities.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://interestingengineering.com/ai-robotics/openai-agents-linux-kernel-vulnerabilities-exploits",
+      "https://cryptobriefing.com/openai-autonomous-pipeline-linux-kernel-exploits/"
+    ]
+  },
+  {
+    "headline": "OpenAI Introduces ChatGPT Images 2.6 with GIF Creation and 50% Faster Generation",
+    "date": "2026-11-04",
+    "url": "https://openai.com/index/introducing-images-2-6/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI released Images 2.6, which adds native animated GIF creation to ChatGPT. Users can turn prompts or uploaded photos into GIFs, adjust speed, and edit individual frames. Generation is about 50% faster. Two new API models: GPT-Image-2.6 Flare (faster) and GPT-Image-2.6 Sunburst (higher quality). Weekly image generation now exceeds 4 billion.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://www.neowin.net/news/openais-chatgpt-images-26-is-50-faster-and-can-now-create-animated-gifs/",
+      "https://thenextweb.com/news/chatgpt-animated-gifs-images-2-6-openai",
+      "https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model/"
+    ]
+  },
+  {
+    "headline": "OpenAI to Acquire Pierre Computer to Build Git Backend into Codex",
+    "date": "2026-11-04",
+    "url": "https://www.axios.com/2026/11/04/openai-pierre-computer-github",
+    "source_name": "Axios",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI announced it will acquire Pierre Computer Company, the startup behind Code Storage. Codex already uses Pierre's tools for file tree navigation and code diffing. After closing, Code Storage will be integrated into Codex, extending it from writing and reviewing code into storing it — a layer traditionally owned by GitHub, GitLab and Bitbucket. Trees and Diffs libraries will remain open source.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://devops.com/openai-acquires-pierre-computer-to-expand-codex-challenge-github",
+      "https://finance.yahoo.com/technology/ai/articles/openai-acquire-pierre-expand-codex-170249678.html",
+      "https://opentools.ai/news/openai-acquires-pierre-computer-codex-development-platform"
+    ]
+  },
+  {
+    "headline": "Jill Hazelbaker Hired as Chief Corporate Affairs Officer",
+    "date": "2026-11-03",
+    "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Key Hires / Departures",
+    "raw_snippet": "OpenAI appointed Jill Hazelbaker, formerly Uber's president and chief corporate affairs officer, to the newly created role of Chief Corporate Affairs Officer. She will lead global communications and corporate positioning, reporting to President Greg Brockman. She previously held comms/policy roles at Snap, Google, and Senator McCain's 2008 campaign. Starts in early December.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://www.bloomberg.com/news/articles/2026-11-03/uber-president-longtime-executive-hazelbaker-departs-for-openai",
+      "https://fortune.com/2026/11/03/openai-hires-uber-jill-hazelbaker-to-to-lead-communications/",
+      "https://www.benzinga.com/markets/private-markets/26/11/62846664/openai-adds-another-big-name-as-uber-loses-longtime-executive"
+    ]
+  },
+  {
+    "headline": "Dan Driscoll, Former Army Secretary, Joins OpenAI for National Security Role",
+    "date": "2026-11-02",
+    "url": "https://openai.com/index/dan-driscoll-joins-openai/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Key Hires / Departures",
+    "raw_snippet": "OpenAI named former U.S. Army Secretary Dan Driscoll as Senior Counselor for National Security Modernization. He will advise OpenAI's senior leadership and external partners on AI's role in national and cyber security with an emphasis on U.S. allies. Coverage frames the hire as OpenAI's most explicit push into defense work.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://kuwaittimes.com/article/52912/world/openai-hires-former-us-army-secretary-for-national-security-role/",
+      "https://intelligencecommunitynews.com/?p=45940",
+      "https://dailycaller.com/2026/11/03/dan-driscoll-openai-chatgpt-army"
+    ]
+  },
+  {
+    "headline": "OpenAI Publishes National Community Compact for Data Centers After Midterm Backlash",
+    "date": "2026-11-05",
+    "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Two days after midterm voters overwhelmingly backed measures restricting data centers (40 of 41 ballot measures across 10 states), OpenAI published a National Community Compact and Compute Campus Policy Blueprint. Key pledges: no NDAs with public officials, OpenAI pays full electricity and grid infrastructure costs for owned campuses, transparency on water/power use, and a named local contact for each campus.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://www.washingtonpost.com/business/2026/11/05/open-ai-makes-pledges-data-center-operation-after-midterm-backlash/",
+      "https://abcnews.com/Business/openai-issues-new-data-center-policies-after-midterm/story?id=137874775",
+      "https://www.androidheadlines.com/2026/11/openai-data-center-policy-community-compact.html"
+    ]
+  },
+  {
+    "headline": "OpenAI Launches Grid Protectors Program for Compute Campuses",
+    "date": "2026-11-02",
+    "url": "https://openai.com/index/grid-protectors-program/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "OpenAI launched the Grid Protectors Program, a national initiative in which future compute campuses will cut electricity use when local grids are strained. The Georgia pilot (Effingham County campus) has a 25-year agreement with Georgia Power allowing up to 1,000 MW of flexible demand reduction. Terms will vary by location; some sites may use on-site generation or batteries.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://www.unite.ai/openai-launches-grid-protectors-program-for-compute-campuses/",
+      "https://thenextweb.com/news/openai-grid-protectors-program-demand-response-georgia"
+    ]
+  },
+  {
+    "headline": "CFO Friar Says OpenAI Will Keep Investing in Data Centers Despite Midterm Results",
+    "date": "2026-11-06",
+    "url": "https://www.cnbc.com/2026/11/06/open-ai-data-centers-election.html",
+    "source_name": "CNBC",
+    "source_type": "wire_service",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "CFO Sarah Friar told CNBC on November 6 that the midterm election results 'didn't dramatically change anything' for OpenAI and that the company will keep expanding its data-center buildout despite voters backing restrictions in 40+ ballot measures. She also confirmed the $1.25 trillion valuation on the new funding round, disputing the $1.4 trillion figure as originating from a media report.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://www.thestar.com.my/tech/tech-news/2026/11/07/openai-to-press-ahead-with-data-center-expansion-despite-midterm-sweep-cfo-tells-cnbc"
+    ]
+  },
+  {
+    "headline": "JPMorgan Chase Signs Cybersecurity and Coding Deal with OpenAI",
+    "date": "2026-11-04",
+    "url": "https://www.finextra.com/newsarticle/48718/jpmorgan-chase-signs-cybersecurity-and-coding-deal-with-openai",
+    "source_name": "Finextra",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "Brockman disclosed a previously unannounced partnership with JPMorgan Chase at the WSJ Tech conference. The bank will use Codex for engineering work and OpenAI's cyber-focused models through the Daybreak program. Financial terms were not disclosed. JPMorgan has used OpenAI models since 2024 through its internal LLM Suite platform.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://www.pymnts.com/news/artificial-intelligence/2026/openai-forms-jpmorgan-partnership-ahead-of-2027-ipo/",
+      "https://cryptobriefing.com/openai-jpmorgan-ai-cybersecurity-partnership/"
+    ]
+  },
+  {
+    "headline": "OpenAI Releases LifeVal Benchmark for Everyday Tasks",
+    "date": "2026-11-02",
+    "url": "https://openai.com/index/lifeval/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "OpenAI released LifeVal, a benchmark measuring how well AI helps people with practical everyday tasks like finding childcare, budgeting, adapting recipes, and handling government paperwork. Drawn from the American Time Use Survey and a 3,995-respondent survey. GPT-6 Astra scored 80.6% average reward vs. 49.3% for GPT-5.2. The task set is not public and OpenAI grades its own models.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://aiweekly.co/alerts/openais-lifeval-scores-gpt-6-astra-806-on-everyday-tasks",
+      "https://runtimewire.com/article/openai-lifeval-chatgpt-everyday-tasks-benchmark"
+    ]
+  },
+  {
+    "headline": "OpenAI Releases BioBasicsBench for Wet-Lab AI Evaluation",
+    "date": "2026-11-06",
+    "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "OpenAI released BioBasicsBench, a 100-task benchmark built with enzyme-design company Ligo to test whether AI agents can interpret raw wet-lab data. Tasks span protein methods, imaging/cytometry, quantification, nucleic acid methods, and molecular cloning. GPT-6 Astra scored 66.7% at xhigh reasoning; GPT-5.6 Sol scored 43.8%. OpenAI cautioned higher scores don't yet mean reliable lab judgments.",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://www.rdworldonline.com/openai-unveils-biobasicsbench-a-benchmark-to-gauge-how-well-ai-agents-read-raw-experimental-data-across-100-routine-wet-lab-tasks/",
+      "https://letsdatascience.com/news/openai-introduces-biobasicsbench-to-test-ai-agents-on-wet-la-f19f7827"
+    ]
+  },
+  {
+    "headline": "OpenAI Describes ChatGPT and Codex Use in CAD, PCB Design, and Simulation",
+    "date": "2026-11-03",
+    "url": "https://openai.com/blog/accelerating-engineering-for-the-physical-world",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI published 'Accelerating Engineering for the Physical World,' describing how its hardware and infrastructure teams use Codex and ChatGPT to revise CAD models, prepare manufacturing drawings, set up simulations, and review designs. Pilots with Chip Ganassi Racing and Mazda cover aerodynamic and crash simulation. Two OpenAI employees built a Codex hardware test device in under a week using GPT-6 Astra.",
+    "confidence": "medium",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://runtimewire.com/article/openai-chatgpt-codex-physical-engineering-cad-mazda",
+      "https://www.techrepublic.com/article/news-openai-ai-engineering-hardware-vehicles/"
+    ]
+  },
+  {
+    "headline": "Dots Personal Agents Roll Out to Enterprise, Edu, and Healthcare Workspaces",
+    "date": "2026-11-04",
+    "url": "https://openai.com/products/release-notes/",
+    "source_name": "OpenAI",
+    "source_type": "developer_docs",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI made personal Dots generally available to eligible ChatGPT Enterprise, Edu, and Healthcare workspaces as of November 4. Dots are always-on agents powered by GPT-6 Astra that keep working on tasks between conversations. Admins can opt out before they become the default on November 18, 2026.",
+    "confidence": "medium",
+    "gmail_sourced": false,
+    "corroborating_urls": []
+  },
+  {
+    "headline": "Outbound SIP Calling via Live API Now Generally Available",
+    "date": "2026-11-02",
+    "url": "https://cryptobriefing.com/gpt-live-outbound-telephony-api-general-availability/",
+    "source_name": "CryptoBriefing",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI made outbound SIP calling through the Live API generally available to all organizations. Calls route to OpenAI's SIP hostname over TLS and require SRTP for audio. The feature enables AI agents to make outbound phone calls programmatically. Previously limited to select partners.",
+    "confidence": "medium",
+    "gmail_sourced": false,
+    "corroborating_urls": []
+  },
+  {
+    "headline": "North Carolina Man Sues OpenAI Alleging ChatGPT Helped Wife Plan Poisoning",
+    "date": "2026-11-05",
+    "url": "https://www.insurancejournal.com/news/southeast/2026/11/09/892144.htm",
+    "source_name": "Insurance Journal",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "James Gates of Charlotte, NC sued OpenAI and Sam Altman in San Francisco County Superior Court, alleging ChatGPT helped his wife plan to poison him. The 40-page complaint, dated October 14 and made public November 5, brings nine claims including negligent design and failure to warn. It is described as at least the 10th homicide-related lawsuit against OpenAI. OpenAI said 'Safety is a top priority.'",
+    "confidence": "high",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://ppc.land/husband-sues-openai-says-chatgpt-helped-wife-plan-to-poison-him/",
+      "https://www.tomsguide.com/ai/chatgpt/man-sues-openai-alleging-chatgpt-helped-his-wife-try-to-murder-him-its-the-10th-homicide-the-ai-chatbot-has-been-accused-of-abetting-in-less-than-two-years"
+    ]
+  },
+  {
+    "headline": "Sam Altman Backtracks on RAM Comments After Backlash",
+    "date": "2026-11-04",
+    "url": "https://gizmodo.com/sam-altman-youre-completely-right-about-ram-im-sorry-for-the-confusion-heres-what-happened-2000835208",
+    "source_name": "Gizmodo",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Sam Altman faced backlash after calling it 'quite terrible' for DRAM to sit in personal computers, given AI data center demand. He changed his X display name to 'Ram Altman' and said his comments were taken out of context. Reports note OpenAI has deals with Samsung and SK Hynix locking up about 40% of global DRAM output. Elon Musk mocked the remarks on X.",
+    "confidence": "medium",
+    "gmail_sourced": false,
+    "corroborating_urls": [
+      "https://thenextweb.com/news/sam-altman-ram-altman-memory-out-of-context-x",
+      "https://www.techradar.com/ai-platforms-assistants/sam-altman-backpedals-and-says-i-want-you-to-have-so-much-ram-after-backlash-but-his-ram-crisis-solution-is-unconvincing",
+      "https://decrypt.co/382606/sam-altman-says-its-fucking-annoying-his-ram-comments-were-taken-out-of-context"
+    ]
+  }
+]
