@@ -1,0 +1,61 @@
+{
+  "week": "2026-11-02 to 2026-11-08",
+  "total_raw_items": 41,
+  "total_curated": 18,
+  "total_cut": 23,
+  "cut_breakdown": {
+    "clustering_cuts": 14,
+    "quality_cuts": 9
+  },
+  "source_diversity": {
+    "source_type_counts": {
+      "official_blog": 7,
+      "tech_press": 7,
+      "wire_service": 3,
+      "developer_docs": 1
+    },
+    "source_type_percentages": {
+      "official_blog": 38.9,
+      "tech_press": 38.9,
+      "wire_service": 16.7,
+      "developer_docs": 5.6
+    },
+    "unique_outlets": 11,
+    "unique_outlet_names": [
+      "Bloomberg",
+      "NYT DealBook",
+      "TechCrunch",
+      "OpenAI",
+      "Yahoo Finance",
+      "Finextra",
+      "Boston Globe",
+      "CNBC",
+      "WSB-TV",
+      "CBS News",
+      "The Information"
+    ],
+    "diversity_warning": null,
+    "notes": "Good diversity: no single source_type exceeds 60%. Official OpenAI sources well represented (7 items, 39%). 11 unique outlets across wire services, tech press, and official sources."
+  },
+  "category_distribution": {
+    "Earnings / Financials / Fundraising": 3,
+    "Product Launches & Updates": 3,
+    "Partnerships & Deals": 2,
+    "Regulatory & Policy": 5,
+    "Key Hires / Departures": 2,
+    "Technical Research / Model Releases": 3
+  },
+  "empty_categories": [],
+  "items_with_3plus_corroboration": [
+    "OpenAI Closes $11 Billion First Tranche at $1.25 Trillion Valuation (4)",
+    "Brockman Says Q3 Revenue Grew 70% QoQ (5)",
+    "OpenAI Introduces ChatGPT Images 2.6 (5)",
+    "OpenAI to Acquire Pierre Computer (7)",
+    "JPMorgan Chase Signs Deal with OpenAI (3)",
+    "National Community Compact (6)",
+    "Jill Hazelbaker Hired (5)",
+    "Dan Driscoll Joins OpenAI (5)",
+    "GPT-6 Cyber Launch (5)",
+    "Linux Kernel 948 Exploits (3)"
+  ]
+}

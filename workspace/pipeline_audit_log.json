@@ -496,5 +496,92 @@
         "high_total": 44
       }
     }
+  },
+  {
+    "run_id": "run_20261109T163327",
+    "run_date": "2026-11-09T16:33:27.245276",
+    "steps": {
+      "reporter": {
+        "items_produced": 41,
+        "confidence_breakdown": {
+          "high": 29,
+          "medium": 12,
+          "low": 0
+        },
+        "source_type_counts": {
+          "official_blog": 11,
+          "wire_service": 4,
+          "tech_press": 22,
+          "research_preprint": 1,
+          "developer_docs": 3
+        },
+        "gmail_sourced_count": 9
+      },
+      "curator": {
+        "items_in": 41,
+        "items_kept": 18,
+        "items_cut": 23,
+        "cut_reasons": {
+          "Clustering cut \u2014 same underlying event (Brockman WSJ Tech conference) covered by TechCrunch primary with more detail": 1,
+          "Clustering cut \u2014 same underlying event (Brockman WSJ Tech conference) covered by TechCrunch primary": 1,
+          "Clustering cut \u2014 same event (National Community Compact) covered by OpenAI official blog primary": 1,
+          "Clustering cut \u2014 community pledges are part of National Community Compact response, merged into OpenAI official blog primary": 1,
+          "Clustering cut \u2014 same event (GPT-6 Cyber launch) covered by OpenAI official blog primary": 1,
+          "Clustering cut \u2014 less detailed duplicate of BioBasicsBench entry from OpenAI blog (generic research index URL)": 1,
+          "Clustering cut \u2014 same event (Images 2.6 launch) covered by OpenAI official blog primary": 1,
+          "Clustering cut \u2014 same event (JPMorgan Chase deal) covered by Finextra primary": 1,
+          "Clustering cut \u2014 same event (Hazelbaker hire) covered by OpenAI official blog primary": 2,
+          "Clustering cut \u2014 same event (Driscoll/defense hires) covered by OpenAI official blog primary. Esper and other names merged into primary's corroborating notes.": 1,
+          "Clustering cut \u2014 same event (Pierre acquisition) covered by Axios primary. OpenAI blog URL added as corroboration.": 1,
+          "Clustering cut \u2014 same event (Pierre acquisition) covered by Axios primary. The Information URL added as corroboration.": 1,
+          "Clustering cut \u2014 same event (Dots rollout) covered by OpenAI release notes primary": 1,
+          "Quality cut \u2014 PR dust-up and social media controversy, not material for IB audience. No policy or financial implications.": 1,
+          "Quality cut \u2014 minor pricing/plan restructuring, not significant enough for MD-level digest": 1,
+          "Quality cut \u2014 case study blog post about internal engineering use, not a product launch or material news event": 1,
+          "Quality cut \u2014 minor API feature GA, not significant enough for MD-level digest": 1,
+          "Quality cut \u2014 academic benchmark release, low IB relevance. No direct revenue or competitive implications for investment analysis.": 1,
+          "Quality cut \u2014 academic benchmark release with self-graded results, low IB relevance": 1,
+          "Quality cut \u2014 forward-looking rumor with medium confidence. GPT-6 Cyber already launched (covered separately). Speculative timeline that may or may not materialize.": 1,
+          "Quality cut \u2014 secondary to National Community Compact as data center policy response. Operational infrastructure detail, less significant for IB audience than the broader policy overhaul.": 1,
+          "Quality cut \u2014 individual lawsuit, one of many in an ongoing pattern. Less material than FTC subpoenas or RICO lawsuit for IB audience. Complaint was filed October 14, only made public this week.": 1
+        },
+        "source_diversity_warning": null,
+        "items_with_corroboration_2plus": 12
+      },
+      "coverage_auditor": {
+        "verdict": "sufficient",
+        "curated_count": 18,
+        "coverage_floor": 7,
+        "empty_categories": [],
+        "thin_categories": []
+      },
+      "backfill_reporter": {
+        "ran": false,
+        "items_found": 0,
+        "backfill_sourced_count": 0
+      },
+      "fact_checker": {
+        "items_in": 18,
+        "items_verified": 18,
+        "items_rejected": 0,
+        "rejection_reasons": [],
+        "url_200_count": 0,
+        "url_403_count": 18,
+        "url_other_count": 0
+      },
+      "editor_in_chief": {
+        "items_in_digest": 18,
+        "historical_dedup_check_run": true
+      },
+      "gap_checker": {
+        "ran": true,
+        "items_found": 0
+      },
+      "confidence_calibration": {
+        "ran": true,
+        "well_calibrated": true,
+        "high_total": 29
+      }
+    }
   }
 ]
