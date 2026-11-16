@@ -1,0 +1,12 @@
+{
+  "source_type_counts": {
+    "tech_press": 8,
+    "wire_service": 2,
+    "official_blog": 2,
+    "developer_docs": 1,
+    "press_release": 1
+  },
+  "unique_outlets": 11,
+  "diversity_warning": null,
+  "notes": "Good diversity across source types. tech_press at 57% (below 60% threshold). Official sources represented via OpenAI product releases. Wire services (Reuters, CNBC/Bloomberg) represented. 11 unique outlets across 14 curated items."
+}

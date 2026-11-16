@@ -1,0 +1,156 @@
+[
+  {
+    "headline": "OpenAI Q3 Revenue Hits $10 Billion, Enterprise Now Majority of Revenue",
+    "date": "2026-11-11",
+    "url": "https://www.wsj.com/tech/ai/openai-revenue-10-billion-q3-2026",
+    "source_name": "Wall Street Journal",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI's Q3 2026 revenue reached approximately $10 billion, a ~50% jump quarter-over-quarter, with enterprise now the majority revenue driver. The company has roughly 100 million paying users and 1.2 billion weekly active users. Ad revenue has reached $1 billion annualized. Operating losses remain near $11 billion.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Raises $15 Billion at $1.25 Trillion Valuation",
+    "date": "2026-11-13",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-valuation-hits-1-25-trillion-in-new-funding-round/",
+    "source_name": "CNBC / Bloomberg",
+    "source_type": "wire_service",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI's latest funding round totals $15 billion at a $1.25 trillion pre-money valuation, according to CNBC reporting. An initial $11 billion tranche closed on November 6, with additional commitments bringing the total higher. The round was originally targeted at $1.4 trillion but was cut. OpenAI is preparing for a possible 2027 IPO.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI CFO Sarah Friar Discloses 70% QoQ Growth at Citi TMT Conference",
+    "date": "2026-11-09",
+    "url": "https://www.cnbc.com/2026/11/09/openai-cfo-sarah-friar-citi-tmt-conference.html",
+    "source_name": "CNBC",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI CFO Sarah Friar disclosed 70% quarter-over-quarter growth at the Citi TMT Conference, noting enterprise revenue has doubled. She highlighted GPT-6 Cyber's launch, a first-party chip program, and new AWS/GCP resale channels for enterprise distribution.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "SoftBank Writes Off $3.7 Billion on Data Center Projects Linked to OpenAI",
+    "date": "2026-11-11",
+    "url": "https://www.theinformation.com/articles/softbank-writes-off-data-center-openai",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "SoftBank wrote off $3.7 billion on data center projects, including an Ohio facility tied to OpenAI infrastructure with Nvidia financing. SoftBank had borrowed against its OpenAI stake to fund the projects. The write-off raises questions about the economics of massive AI infrastructure investments.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Launches Businesses in ChatGPT with Verified Business Agents",
+    "date": "2026-11-10",
+    "url": "https://openai.com/news/product-releases/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI launched Businesses in ChatGPT in beta, giving companies tools to claim and update their profiles, view aggregated engagement insights, and build customer-facing Business Agents. Agents are now available to eligible U.S. ecommerce and online service businesses. Businesses can see how often ChatGPT references their website and how many people clicked through.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Launches ChatGPT Wallet for Agent-Assisted Purchases",
+    "date": "2026-11-13",
+    "url": "https://artificiallyintimidating.com/p/ai-brief-november-15-2026",
+    "source_name": "OpenAI Product Releases",
+    "source_type": "official_blog",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI launched ChatGPT Wallet for eligible US Pro subscribers, enabling AI agents ('dots') to shop and complete purchases on behalf of users. Users approve transactions with biometrics after reviewing merchant, items, and total. A substitute payment credential keeps actual card details hidden. Works with Visa, Mastercard, and American Express.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Retiring Advanced and Standard Voice Models on December 11",
+    "date": "2026-11-10",
+    "url": "https://releasebot.io/updates/openai/chatgpt",
+    "source_name": "OpenAI Changelog",
+    "source_type": "developer_docs",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI announced it will retire Advanced Voice and Standard Voice on December 11, 2026, consolidating around GPT-Live as the primary voice model. Live video and screen-sharing will remain on Advanced Voice until GPT-Live supports them.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "ChatGPT Enterprise Now Available on AWS Marketplace",
+    "date": "2026-11-09",
+    "url": "https://openai.com/news/product-releases/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "Organizations can now purchase ChatGPT Enterprise through AWS Marketplace and apply eligible spending toward their AWS commitments. The listing expands OpenAI's enterprise distribution channels alongside direct sales and the GCP resale channel.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Acquires AI Travel Startup Odessia",
+    "date": "2026-11-10",
+    "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+    "source_name": "TechCrunch",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI acquired Odessia, an AI-powered travel agent platform created by former Sonder CEO Francis Davidson, who is joining OpenAI. Odessia had raised a $6M seed round from Sequoia Capital. The service was shut down post-acquisition, signaling an acqui-hire. OpenAI now has infrastructure to build a booking layer inside ChatGPT.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Expands Enterprise Partnership with Parloa for AI Customer Service Agents",
+    "date": "2026-11-11",
+    "url": "https://www.parloa.com/parloa-in-the-press/parloa-open-ai-expand-partnership/",
+    "source_name": "Parloa",
+    "source_type": "press_release",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI and Parloa announced an expanded partnership including joint on-site engineering sessions, joint enterprise customer pursuit in North America, Parloa joining OpenAI's Alpha Model Testing Program, and plans to list Parloa on the OpenAI Marketplace. Parloa ($3B valuation after $350M Series D) will integrate Codex into its engineering work.",
+    "confidence": "medium",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Disbands Stand-Alone Robotics Team as General-Purpose Models Run Robots",
+    "date": "2026-11-13",
+    "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+    "source_name": "Fortune",
+    "source_type": "tech_press",
+    "category": "Key Hires / Departures",
+    "raw_snippet": "OpenAI disbanded its stand-alone robotics team, reassigning researchers to other parts of the company. The company says the move is meant to speed up robotics work, as its general-purpose frontier models including GPT-6 Astra have shown they can be directly applied to robotics without a dedicated team.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Nonprofits Sue OpenAI, Google, Anthropic, Meta, SpaceX to Halt Frontier AI Development",
+    "date": "2026-11-12",
+    "url": "https://www.insurancejournal.com/news/national/2026/11/13/892500.htm",
+    "source_name": "Insurance Journal / Reuters",
+    "source_type": "wire_service",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Four nonprofits — Public Citizen, Heat Initiative, Irreplaceable Education Fund, and Alliance for Secure AI — filed a 63-page complaint in San Francisco Superior Court against OpenAI, Anthropic, Google, Meta, and SpaceX's AI entities. They seek an injunction to prevent companies from building systems more capable than their current strongest models. The case relies on California's Unfair Competition Law and public nuisance theory.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Node SDK Adds Typed Async Function Tools",
+    "date": "2026-11-12",
+    "url": "https://releases.sh/openai",
+    "source_name": "OpenAI Release Notes",
+    "source_type": "developer_docs",
+    "category": "Technical Research / Model Releases",
+    "raw_snippet": "OpenAI released typed async function tools in the Node SDK and breaking changes in Live Decision types for Go and Python users. The update improves developer experience for building agent-based applications with the Agents API.",
+    "confidence": "medium",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Admin Console Adds User Email Change for Global Admins",
+    "date": "2026-11-12",
+    "url": "https://openai.com/news/product-releases/",
+    "source_name": "OpenAI",
+    "source_type": "official_blog",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI's Admin Console now lets global administrators change certain users' email addresses, improving enterprise user management capabilities for ChatGPT Enterprise and Team deployments.",
+    "confidence": "medium",
+    "gmail_sourced": false
+  }
+]

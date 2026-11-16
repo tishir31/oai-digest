@@ -496,5 +496,155 @@
         "high_total": 44
       }
     }
+  },
+  {
+    "run_id": "run_20261116T163027",
+    "run_date": "2026-11-16T16:30:27.527298",
+    "steps": {
+      "reporter": {
+        "items_produced": 20,
+        "confidence_breakdown": {
+          "high": 16,
+          "medium": 4,
+          "low": 0
+        },
+        "source_type_counts": {
+          "official_blog": 2,
+          "wire_service": 4,
+          "tech_press": 10,
+          "developer_docs": 3,
+          "press_release": 1
+        },
+        "gmail_sourced_count": 2
+      },
+      "curator": {
+        "items_in": 20,
+        "items_kept": 14,
+        "items_cut": 6,
+        "cut_reasons": {
+          "clustering \u2014 duplicate of $15B raise item, merged as corroborating source": 1,
+          "clustering \u2014 duplicate of nonprofit lawsuit item, merged as corroborating source": 1,
+          "clustering \u2014 duplicate of TechCrunch Odessia acquisition, merged as corroborating source": 1,
+          "clustering \u2014 duplicate of OpenAI official Businesses in ChatGPT item, merged as corroborating source": 1,
+          "quality \u2014 trivially minor SDK developer tooling update, no material business impact for IB audience": 1,
+          "quality \u2014 developer platform deprecation notices too granular for IB audience": 1
+        },
+        "source_diversity_warning": null,
+        "items_with_corroboration_2plus": 9
+      },
+      "coverage_auditor": {
+        "verdict": "sufficient",
+        "curated_count": 14,
+        "coverage_floor": 7,
+        "empty_categories": [
+          "Technical Research / Model Releases"
+        ],
+        "thin_categories": [
+          "Key Hires / Departures"
+        ]
+      },
+      "backfill_reporter": {
+        "ran": false,
+        "items_found": 0,
+        "backfill_sourced_count": 0
+      },
+      "fact_checker": {
+        "items_in": 14,
+        "items_verified": 14,
+        "items_rejected": 0,
+        "rejection_reasons": [],
+        "url_200_count": 0,
+        "url_403_count": 0,
+        "url_other_count": 14
+      },
+      "editor_in_chief": {
+        "items_in_digest": 14,
+        "historical_dedup_check_run": true
+      },
+      "gap_checker": {
+        "ran": true,
+        "items_found": 0
+      },
+      "confidence_calibration": {
+        "ran": true,
+        "well_calibrated": false,
+        "high_total": 16
+      }
+    }
+  },
+  {
+    "run_id": "run_20261116T163034",
+    "run_date": "2026-11-16T16:30:34.360579",
+    "steps": {
+      "reporter": {
+        "items_produced": 20,
+        "confidence_breakdown": {
+          "high": 16,
+          "medium": 4,
+          "low": 0
+        },
+        "source_type_counts": {
+          "official_blog": 2,
+          "wire_service": 4,
+          "tech_press": 10,
+          "developer_docs": 3,
+          "press_release": 1
+        },
+        "gmail_sourced_count": 2
+      },
+      "curator": {
+        "items_in": 20,
+        "items_kept": 14,
+        "items_cut": 6,
+        "cut_reasons": {
+          "clustering \u2014 duplicate of $15B raise item, merged as corroborating source": 1,
+          "clustering \u2014 duplicate of nonprofit lawsuit item, merged as corroborating source": 1,
+          "clustering \u2014 duplicate of TechCrunch Odessia acquisition, merged as corroborating source": 1,
+          "clustering \u2014 duplicate of OpenAI official Businesses in ChatGPT item, merged as corroborating source": 1,
+          "quality \u2014 trivially minor SDK developer tooling update, no material business impact for IB audience": 1,
+          "quality \u2014 developer platform deprecation notices too granular for IB audience": 1
+        },
+        "source_diversity_warning": null,
+        "items_with_corroboration_2plus": 9
+      },
+      "coverage_auditor": {
+        "verdict": "sufficient",
+        "curated_count": 14,
+        "coverage_floor": 7,
+        "empty_categories": [
+          "Technical Research / Model Releases"
+        ],
+        "thin_categories": [
+          "Key Hires / Departures"
+        ]
+      },
+      "backfill_reporter": {
+        "ran": false,
+        "items_found": 0,
+        "backfill_sourced_count": 0
+      },
+      "fact_checker": {
+        "items_in": 14,
+        "items_verified": 14,
+        "items_rejected": 0,
+        "rejection_reasons": [],
+        "url_200_count": 0,
+        "url_403_count": 0,
+        "url_other_count": 14
+      },
+      "editor_in_chief": {
+        "items_in_digest": 14,
+        "historical_dedup_check_run": true
+      },
+      "gap_checker": {
+        "ran": true,
+        "items_found": 0
+      },
+      "confidence_calibration": {
+        "ran": true,
+        "well_calibrated": false,
+        "high_total": 16
+      }
+    }
   }
 ]

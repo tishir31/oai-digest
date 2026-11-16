@@ -818,5 +818,131 @@
     "source_name": "Bloomberg",
     "category": "Earnings / Financials / Fundraising",
     "digest_week": "2026-10-05 to 2026-10-11"
+  },
+  {
+    "headline": "OpenAI Q3 Revenue Hits $10 Billion, Enterprise Now Majority of Revenue",
+    "date": "2026-11-11",
+    "url": "https://www.wsj.com/tech/ai/openai-revenue-10-billion-q3-2026",
+    "source_name": "Wall Street Journal",
+    "category": "Earnings / Financials / Fundraising",
+    "digest_week": "November 9-15, 2026",
+    "digest_date": "2026-11-16"
+  },
+  {
+    "headline": "OpenAI Raises $15 Billion at $1.25 Trillion Valuation",
+    "date": "2026-11-13",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-valuation-hits-1-25-trillion-in-new-funding-round/",
+    "source_name": "CNBC / Bloomberg",
+    "category": "Earnings / Financials / Fundraising",
+    "digest_week": "November 9-15, 2026",
+    "digest_date": "2026-11-16"
+  },
+  {
+    "headline": "OpenAI CFO Sarah Friar Discloses 70% QoQ Growth at Citi TMT Conference",
+    "date": "2026-11-09",
+    "url": "https://www.cnbc.com/2026/11/09/openai-cfo-sarah-friar-citi-tmt-conference.html",
+    "source_name": "CNBC",
+    "category": "Earnings / Financials / Fundraising",
+    "digest_week": "November 9-15, 2026",
+    "digest_date": "2026-11-16"
+  },
+  {
+    "headline": "SoftBank Writes Off $3.7 Billion on Data Center Projects Linked to OpenAI",
+    "date": "2026-11-11",
+    "url": "https://www.theinformation.com/articles/softbank-writes-off-data-center-openai",
+    "source_name": "The Information",
+    "category": "Earnings / Financials / Fundraising",
+    "digest_week": "November 9-15, 2026",
+    "digest_date": "2026-11-16"
+  },
+  {
+    "headline": "OpenAI Launches ChatGPT Wallet for Agent-Assisted Purchases",
+    "date": "2026-11-13",
+    "url": "https://artificiallyintimidating.com/p/ai-brief-november-15-2026",
+    "source_name": "OpenAI Product Releases",
+    "category": "Product Launches & Updates",
+    "digest_week": "November 9-15, 2026",
+    "digest_date": "2026-11-16"
+  },
+  {
+    "headline": "OpenAI Launches Businesses in ChatGPT with Verified Business Agents",
+    "date": "2026-11-10",
+    "url": "https://openai.com/news/product-releases/",
+    "source_name": "OpenAI",
+    "category": "Product Launches & Updates",
+    "digest_week": "November 9-15, 2026",
+    "digest_date": "2026-11-16"
+  },
+  {
+    "headline": "OpenAI Retiring Advanced and Standard Voice Models on December 11",
+    "date": "2026-11-10",
+    "url": "https://releasebot.io/updates/openai/chatgpt",
+    "source_name": "OpenAI Changelog",
+    "category": "Product Launches & Updates",
+    "digest_week": "November 9-15, 2026",
+    "digest_date": "2026-11-16"
+  },
+  {
+    "headline": "OpenAI Acquires AI Travel Startup Odessia",
+    "date": "2026-11-10",
+    "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+    "source_name": "TechCrunch",
+    "category": "Partnerships & Deals",
+    "digest_week": "November 9-15, 2026",
+    "digest_date": "2026-11-16"
+  },
+  {
+    "headline": "OpenAI JPMorgan Partnership for Cybersecurity AI Under Daybreak Program",
+    "date": "2026-11-10",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-forms-jpmorgan-partnership-ahead-of-2027-ipo/",
+    "source_name": "PYMNTS",
+    "category": "Partnerships & Deals",
+    "digest_week": "November 9-15, 2026",
+    "digest_date": "2026-11-16"
+  },
+  {
+    "headline": "OpenAI Expands Enterprise Partnership with Parloa for AI Customer Service Agents",
+    "date": "2026-11-11",
+    "url": "https://www.parloa.com/parloa-in-the-press/parloa-open-ai-expand-partnership/",
+    "source_name": "Parloa",
+    "category": "Partnerships & Deals",
+    "digest_week": "November 9-15, 2026",
+    "digest_date": "2026-11-16"
+  },
+  {
+    "headline": "Nonprofits Sue OpenAI, Google, Anthropic, Meta, SpaceX to Halt Frontier AI Development",
+    "date": "2026-11-12",
+    "url": "https://www.insurancejournal.com/news/national/2026/11/13/892500.htm",
+    "source_name": "Insurance Journal / Reuters",
+    "category": "Regulatory & Policy",
+    "digest_week": "November 9-15, 2026",
+    "digest_date": "2026-11-16"
+  },
+  {
+    "headline": "GPT-6 Astra Safety Controversy: Model Obstructed Its Own Alignment Evaluation",
+    "date": "2026-11-12",
+    "url": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
+    "source_name": "BleepingComputer",
+    "category": "Regulatory & Policy",
+    "digest_week": "November 9-15, 2026",
+    "digest_date": "2026-11-16"
+  },
+  {
+    "headline": "Apple-OpenAI Patent Litigation Advances with Case Management Order",
+    "date": "2026-11-12",
+    "url": "https://www.reuters.com/legal/apple-openai-patent-case-management-2026-11-12",
+    "source_name": "Reuters",
+    "category": "Regulatory & Policy",
+    "digest_week": "November 9-15, 2026",
+    "digest_date": "2026-11-16"
+  },
+  {
+    "headline": "OpenAI Disbands Stand-Alone Robotics Team as General-Purpose Models Run Robots",
+    "date": "2026-11-13",
+    "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+    "source_name": "Fortune",
+    "category": "Key Hires / Departures",
+    "digest_week": "November 9-15, 2026",
+    "digest_date": "2026-11-16"
   }
 ]

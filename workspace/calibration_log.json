@@ -142,5 +142,53 @@
       }
     },
     "well_calibrated": true
+  },
+  {
+    "run_date": "2026-11-16T16:30:20.047446",
+    "raw_count": 20,
+    "curated_count": 14,
+    "verified_count": 14,
+    "confidence_stats": {
+      "high": {
+        "total": 16,
+        "survived_curation": 11,
+        "survived_verification": 10
+      },
+      "medium": {
+        "total": 4,
+        "survived_curation": 3,
+        "survived_verification": 3
+      },
+      "low": {
+        "total": 0,
+        "survived_curation": 0,
+        "survived_verification": 0
+      }
+    },
+    "well_calibrated": false
+  },
+  {
+    "run_date": "2026-11-16T16:30:26.236433",
+    "raw_count": 20,
+    "curated_count": 14,
+    "verified_count": 14,
+    "confidence_stats": {
+      "high": {
+        "total": 16,
+        "survived_curation": 11,
+        "survived_verification": 10
+      },
+      "medium": {
+        "total": 4,
+        "survived_curation": 3,
+        "survived_verification": 3
+      },
+      "low": {
+        "total": 0,
+        "survived_curation": 0,
+        "survived_verification": 0
+      }
+    },
+    "well_calibrated": false
   }
 ]
