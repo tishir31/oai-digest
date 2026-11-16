@@ -1,0 +1,68 @@
+[
+  {
+    "headline": "OpenAI Acquires AI Travel Agent Startup Odessia",
+    "date": "2026-11-11",
+    "url": "https://www.theinformation.com/articles/openai-acquires-ai-travel-agent-odessia",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI acquired Odessia, an AI-powered travel agent platform, with founder Francis Davidson joining OpenAI. Odessia had raised a $6M seed round from Sequoia Capital. The acquisition signals OpenAI's push into vertical AI agent applications.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Q3 Revenue Hits $10 Billion as Enterprise Becomes Majority",
+    "date": "2026-11-11",
+    "url": "https://www.wsj.com/tech/ai/openai-revenue-10-billion-q3-2026",
+    "source_name": "Wall Street Journal / The Information",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI's Q3 revenue jumped roughly 50% quarter-over-quarter to $10 billion, with enterprise now the majority revenue driver. The company has approximately 100 million paying users and 1.2 billion weekly active users. Ad revenue has reached $1 billion annualized, though operating losses remain near $11 billion. OpenAI is raising at a $1.25 trillion valuation.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI CFO Sarah Friar Details Growth Strategy at Citi TMT Conference",
+    "date": "2026-11-09",
+    "url": "https://www.cnbc.com/2026/11/09/openai-cfo-sarah-friar-citi-tmt-conference.html",
+    "source_name": "CNBC / TMT Breakout",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI CFO Sarah Friar disclosed 70% quarter-over-quarter growth at the Citi TMT Conference, noting enterprise revenue has doubled. She highlighted GPT-6 Cyber's launch, a first-party chip program, and new AWS/GCP resale channels for enterprise distribution.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "OpenAI Launches Verified Business Agents in ChatGPT",
+    "date": "2026-11-11",
+    "url": "https://www.theverge.com/2026/11/11/openai-chatgpt-verified-business-agents",
+    "source_name": "The Verge",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI introduced verified AI 'Business Agents' within ChatGPT, allowing enterprises to deploy branded, authenticated AI agents that can interact with users on their behalf. The feature marks a significant expansion of ChatGPT's enterprise capabilities.",
+    "confidence": "high",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "Apple-OpenAI Patent Litigation Advances with Case Management Order",
+    "date": "2026-11-12",
+    "url": "https://www.reuters.com/legal/apple-openai-patent-case-management-2026-11-12",
+    "source_name": "Reuters",
+    "source_type": "wire_service",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "A case management order was issued in the Apple Inc. v. Liu patent litigation matter involving OpenAI technology. The order sets timelines for discovery and potential trial scheduling in a case with implications for AI intellectual property rights.",
+    "confidence": "medium",
+    "gmail_sourced": true
+  },
+  {
+    "headline": "SoftBank Writes Off $3.7 Billion on Data Center Projects Linked to OpenAI",
+    "date": "2026-11-11",
+    "url": "https://www.theinformation.com/articles/softbank-writes-off-data-center-openai",
+    "source_name": "The Information",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "SoftBank wrote off $3.7 billion on data center projects, including an Ohio facility tied to OpenAI infrastructure with Nvidia financing. SoftBank had borrowed against its OpenAI stake to fund the projects. The write-off raises questions about the economics of massive AI infrastructure investments.",
+    "confidence": "high",
+    "gmail_sourced": true
+  }
+]

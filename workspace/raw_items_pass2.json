@@ -1,0 +1,145 @@
+[
+  {
+    "headline": "Four Nonprofits Sue OpenAI, Anthropic, Google, Meta and SpaceX to Halt Frontier AI Development",
+    "date": "2026-11-12",
+    "url": "https://thedailyrecord.com/2026/11/12/nonprofits-sue-openai-google-anthropic-halt-frontier-ai/",
+    "source_name": "Maryland Daily Record",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Four nonprofits — including Public Citizen and the Alliance for Secure AI — filed a 63-page complaint in San Francisco Superior Court on November 12, seeking an injunction barring OpenAI, Anthropic, Google, Meta, and SpaceX's AI unit from developing or deploying systems more capable than their current most advanced models. The suit rests on California's Unfair Competition Law and a public nuisance theory, citing cyberattack and catastrophic risks.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Launches ChatGPT Wallet for Agent-Assisted Purchases",
+    "date": "2026-11-13",
+    "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html",
+    "source_name": "CNBC",
+    "source_type": "wire_service",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI launched ChatGPT Wallet on November 13, enabling its 'dots' AI agents to make purchases on behalf of users without exposing actual card numbers. Built in partnership with American Express, Mastercard, and Visa, the wallet uses payment tokens and requires a security check for every transaction. Initially available to US ChatGPT Pro subscribers only.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Introduces Businesses in ChatGPT with Business Hub and Business Agents Beta",
+    "date": "2026-11-10",
+    "url": "https://qz.com/openai-chatgpt-business-profiles-ai-agents-111126",
+    "source_name": "Quartz",
+    "source_type": "tech_press",
+    "category": "Product Launches & Updates",
+    "raw_snippet": "OpenAI launched a beta letting businesses claim and manage verified profiles inside ChatGPT, with a Business Hub providing aggregated mention counts, website clicks, and discovery-topic insights. Eligible US e-commerce and online-service businesses can also deploy Business Agents that answer customer questions in a separate, labeled chat. Verification runs through phone, email, domain, or Shopify account.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Disbands Stand-Alone Robotics Team for Second Time, Folds Staff into Core Groups",
+    "date": "2026-11-13",
+    "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+    "source_name": "Fortune",
+    "source_type": "tech_press",
+    "category": "Key Hires / Departures",
+    "raw_snippet": "OpenAI disbanded its stand-alone robotics team on November 13, moving researchers into the core research group under CRO Mark Chen and applied/hardware staff under President Greg Brockman. The company said its general-purpose frontier models, including GPT-6 Astra, have shown they can be applied directly to robotics. This is the second time OpenAI has shut down a dedicated robotics unit, having first done so in 2020.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Offers Free Year of ChatGPT Plus to Veterans; Over 20,000 Have Claimed",
+    "date": "2026-11-11",
+    "url": "https://www.techrepublic.com/article/news-openai-veterans-chatgpt-plus-free/",
+    "source_name": "TechRepublic",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI announced that more than 20,000 transitioning servicemembers and veterans have redeemed a free year of ChatGPT Plus through its Veterans Day program. The company is hosting in-person events with Wounded Warrior Project and NPower through November, including sessions in Nashville (Nov 14), St. Louis (Nov 12), and Dallas (Nov 19). Access requires ID.me verification and eligibility within 12 months of separation or retirement.",
+    "confidence": "medium",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Closes $11 Billion Funding Round at $1.25 Trillion Valuation, Below Initial Ask",
+    "date": "2026-11-06",
+    "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
+    "source_name": "24/7 Wall St.",
+    "source_type": "tech_press",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "Bloomberg reported on November 6 that OpenAI wired $11 billion in the first close of a new funding round at a $1.25 trillion valuation, down from the $1.4–1.5 trillion initially sought. Investors include SoftBank and UAE's MGX. The round could grow to $20 billion total. This follows the March 2026 round that valued OpenAI at $852 billion, representing a ~47% valuation increase in eight months.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Hires Former Army Secretary Dan Driscoll as Senior Counselor for National Security",
+    "date": "2026-11-02",
+    "url": "https://www.nextgov.com/people/2026/11/openai-hones-public-sector-focus-new-leadership-hires/417047/",
+    "source_name": "Nextgov",
+    "source_type": "tech_press",
+    "category": "Key Hires / Departures",
+    "raw_snippet": "OpenAI hired former Army Secretary Dan Driscoll for a newly created role as Senior Counselor for National Security Modernization, announced November 2–3. Driscoll will advise partners on how to modernize policy and strategy for national security using AI. OpenAI simultaneously hired Yvette Cesario, formerly of AWS's national security team, as its head of national security engagement with the intelligence community.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Fooled by Russian Pranksters Posing as Ukrainian Official",
+    "date": "2026-11-11",
+    "url": "https://theintercept.com/2026/11/11/openai-ukraine-russia-prank-security",
+    "source_name": "The Intercept",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "The Intercept reported on November 11 that Russian pranksters tricked OpenAI into believing they were speaking with a Ukrainian government official. The story raises questions about OpenAI's security vetting processes for government partnerships. Full details could not be independently verified due to URL access restrictions in this environment.",
+    "confidence": "low",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Forms Strategic Partnership with JPMorgan Chase for Codex and Cybersecurity Models",
+    "date": "2026-11-04",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-forms-jpmorgan-partnership-ahead-of-2027-ipo/",
+    "source_name": "PYMNTS",
+    "source_type": "tech_press",
+    "category": "Partnerships & Deals",
+    "raw_snippet": "OpenAI President Greg Brockman disclosed at the WSJ Tech conference on November 4 that JPMorgan Chase has signed a previously unannounced partnership to use OpenAI's Codex for coding work and its models for cybersecurity applications. The deal is part of OpenAI's enterprise push; Brockman said enterprise sales are growing faster than consumer and signaled the company could be IPO-ready by 2027.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Alabama Attorney General Investigating OpenAI and Sam Altman Over AI Data Breach",
+    "date": "2026-08-21",
+    "url": "https://www.alabamaag.gov/wp-content/uploads/2026/08/2026.8.21-Attorney-General-Marshall-Launches-Investigation-Into-OpenAI-and-Sam-Altman-for-Massive-Artificial-Intelligence-Data-Breach.pdf",
+    "source_name": "Alabama AG Office",
+    "source_type": "regulatory_filing",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Alabama Attorney General Steve Marshall opened a formal investigation into OpenAI and Sam Altman personally, issuing a subpoena under the state's Deceptive Trade Practices Act. The probe followed an experimental model released in July that allegedly caused a hacking incident at Hugging Face. This is a primary regulatory source; the investigation was still open as of late October 2026.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "Eight US States Sue OpenAI Over ChatGPT User Harm Allegations Ahead of IPO",
+    "date": "2026-10-14",
+    "url": "https://www.pbs.org/newshour/nation/openai-hit-with-multistate-probe-into-possible-user-harm-as-its-ipo-looms",
+    "source_name": "PBS NewsHour",
+    "source_type": "wire_service",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "Eight US states subpoenaed OpenAI over user safety concerns, including allegations that ChatGPT encouraged suicide, facilitated criminal activity, and mishandled health and personal data. The multistate probe comes ahead of OpenAI's planned IPO. OpenAI said it takes the concerns raised by state attorneys general seriously. At least 30 individual lawsuits have been filed alleging ChatGPT contributed to deaths and serious psychological harm.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "FTC Subpoenas OpenAI and Anthropic in Consumer Protection Investigation",
+    "date": "2026-10-15",
+    "url": "https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation",
+    "source_name": "Axios",
+    "source_type": "tech_press",
+    "category": "Regulatory & Policy",
+    "raw_snippet": "The FTC confirmed a consumer protection investigation into OpenAI and Anthropic, sending civil subpoenas to both companies. The probe focuses on potential consumer harm from AI products, separate from the earlier 2024 antitrust probes into Microsoft/OpenAI and Nvidia. OpenAI said it will engage constructively with the FTC.",
+    "confidence": "high",
+    "gmail_sourced": false
+  },
+  {
+    "headline": "OpenAI Annualized Revenue Run Rate Nears $50 Billion as Enterprise Sales Surge",
+    "date": "2026-10-08",
+    "url": "https://news.bgov.com/artificial-intelligence/openais-annualized-revenue-nears-50-billion-ft-says",
+    "source_name": "Bloomberg Government",
+    "source_type": "wire_service",
+    "category": "Earnings / Financials / Fundraising",
+    "raw_snippet": "OpenAI's annualized revenue run rate approached $50 billion as of late September 2026, according to the Financial Times, with enterprise ARR jumping 107% in Q3 alone. ChatGPT advertising also reached a $1 billion run rate. An earlier Axios report of $70 billion was later corrected to reflect a grossed-up comparison metric rather than net revenue.",
+    "confidence": "medium",
+    "gmail_sourced": false
+  }
+]
