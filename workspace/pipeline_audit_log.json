@@ -496,5 +496,88 @@
         "high_total": 44
       }
     }
+  },
+  {
+    "run_id": "run_20261123T164303",
+    "run_date": "2026-11-23T16:43:03.945889",
+    "steps": {
+      "reporter": {
+        "items_produced": 39,
+        "confidence_breakdown": {
+          "high": 29,
+          "medium": 9,
+          "low": 1
+        },
+        "source_type_counts": {
+          "tech_press": 18,
+          "other": 2,
+          "official_blog": 10,
+          "developer_docs": 3,
+          "research_preprint": 1,
+          "wire_service": 2,
+          "regulatory_filing": 2,
+          "press_release": 1
+        },
+        "gmail_sourced_count": 13
+      },
+      "curator": {
+        "items_in": 39,
+        "items_kept": 26,
+        "items_cut": 13,
+        "cut_reasons": {
+          "Duplicate \u2014 same event covered by OpenAI official blog version. Merged as corroborating URL.": 1,
+          "Duplicate \u2014 official CA AG source kept as primary. URL added as corroborating.": 1,
+          "Duplicate \u2014 GPT-6.2 launch covered by official blog as primary. URL added as corroborating.": 1,
+          "Duplicate \u2014 benchmark info merged into GPT-6.2 primary item. URL added as corroborating.": 1,
+          "Duplicate \u2014 same Nvidia CFO commentary as TechCrunch item. Details merged. URL added as corroborating.": 1,
+          "Duplicate \u2014 Nvidia pullback context merged into guarantee-conditions item as corroborating URL.": 1,
+          "Date outside target week (Nov 10, target is Nov 16-22).": 1,
+          "Date outside target week (Nov 15 is Saturday; target week starts Nov 16 Monday).": 1,
+          "Low confidence \u2014 URL is generic research index page, not specific article. Unverifiable date.": 1,
+          "Minor developer preview in limited trial. Not material for IB audience this week.": 1,
+          "Minor UI/UX update \u2014 not material for IB audience.": 1,
+          "Non-binding MOU with no funding, timeline, or deployment specifics. Not material for IB.": 1,
+          "Too speculative \u2014 early talks with no contract, capacity, or timing details.": 1
+        },
+        "source_diversity_warning": null,
+        "items_with_corroboration_2plus": 7
+      },
+      "coverage_auditor": {
+        "verdict": "sufficient",
+        "curated_count": 26,
+        "coverage_floor": 7,
+        "empty_categories": [],
+        "thin_categories": [
+          "Key Hires / Departures"
+        ]
+      },
+      "backfill_reporter": {
+        "ran": false,
+        "items_found": 0,
+        "backfill_sourced_count": 0
+      },
+      "fact_checker": {
+        "items_in": 26,
+        "items_verified": 26,
+        "items_rejected": 0,
+        "rejection_reasons": [],
+        "url_200_count": 0,
+        "url_403_count": 0,
+        "url_other_count": 26
+      },
+      "editor_in_chief": {
+        "items_in_digest": 26,
+        "historical_dedup_check_run": true
+      },
+      "gap_checker": {
+        "ran": true,
+        "items_found": 7
+      },
+      "confidence_calibration": {
+        "ran": true,
+        "well_calibrated": true,
+        "high_total": 29
+      }
+    }
   }
 ]

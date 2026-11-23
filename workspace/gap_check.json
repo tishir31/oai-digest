@@ -1,0 +1,9 @@
+{
+  "status": "skipped",
+  "reason": "Vercel proxy (ai-map-cyan.vercel.app) blocked by cloud session network policy. Gap Checker could not run.",
+  "timestamp": "2026-11-23T16:00:00Z",
+  "week_start": "2026-11-16",
+  "week_end": "2026-11-22",
+  "gaps_found": [],
+  "items_added": 0
+}
